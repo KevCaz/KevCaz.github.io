@@ -1,0 +1,125 @@
+- given_name: Bernard
+  family_name: Cazelles
+  website: http://www.biologie.ens.fr
+  github: https://github.com/cazelles
+  institution:
+    - name: Ecole Normale Supérieure
+      city: Paris
+      country: France
+      lon: 2.34382
+      lat: 48.84202
+      osmlink: http://www.openstreetmap.org/#map=18/48.84203/2.34418
+
+- given_name: Camille
+  family_name: Albouy
+  website: http://albouycamille.free.fr/
+  institution:
+  - name: IFREMER
+    city: Nantes
+    country: France
+    lon: -1.54783
+    lat: 47.24712
+    osmlink: http://www.openstreetmap.org/#map=17/47.24712/-1.54783
+
+
+- given_name: Pelissier
+  family_name: Loïc
+  website: http://www.landecology.ethz.ch/people/loic-pellissier.html
+  institution:
+  - name: Swiss Federal institution of Technology in Zurich
+    city: Zürich
+    country: Suisse
+    lon: 8.54839
+    lat: 47.37953
+    osmlink: http://www.openstreetmap.org/#map=18/47.37953/8.54839
+
+
+- given_name: David
+  family_name: Beauchesne
+  website:
+  github: https://github.com/david-beauchesne
+  institution:
+  - name: Université de Laval
+    city: Québec
+    country: Canada
+    lon: -71.27729
+    lat: 46.78012
+    osmlink: http://www.openstreetmap.org/#map=18/46.78012/-71.27729
+
+
+- given_name: Dominique
+  family_name: Gravel
+  website: http://qcbs.ca/fr/membres/les-chercheurs/?profile=89
+  institution:
+  - name: Université de Sherbrooke
+    city: Sherbrooke
+    lon: 50
+    lat: 50
+    osmlink: http://www.openstreetmap.org/#map=19/48.84202/2.34382
+
+- given_name: Kevin
+  family_name: Solarik
+  website: http://www.kevinsolarik.com/
+  institution:
+  - name: Université du Québec à Montréal
+    city: Montréal
+    country: Canada
+    lon: -73.56894
+    lat: 45.51019
+    osmlink: http://www.openstreetmap.org/#map=18/45.51019/-73.56894
+
+- given_name: Nicolas
+  family_name: Casajus
+  website: http://www.uqar.ca/specialistes/equipe/casajus-nicolas/), Université
+  institution:
+  - name: Québec à Rimouski
+    city: Rimouski
+    country: Canada
+    lon: -68.512790
+    lat: 48.452900
+    osmlink: http://www.openstreetmap.org/#map=19/48.84202/2.34382
+
+- given_name: Nicolas
+  family_name: Mouquet
+  website: http://nicolasmouquet.free.fr
+  institution:
+  - name: Université de Montpellier
+    city: Montpellier
+    country: France
+    lon: 3.86731
+    lat: 43.63139
+    osmlink: http://www.openstreetmap.org/#map=19/48.84202/2.34382
+
+- given_name: Sonia
+  family_name: Kéfi
+  website: http://sonia.kefi.fr
+  institution:
+  - name: Université de Montpellier
+    city: Montpellier
+    country: France
+    lon: 3.86731
+    lat: 43.63139
+    osmlink: http://www.openstreetmap.org/#map=17/43.63234/3.86709
+
+- given_name: Steve
+  family_name: Vissault
+  website: http://steveviss.github.io
+  github: https://github.com/SteveViss
+  institution:
+  - name: Université de Sherbrooke
+    city: Sherbrooke
+    country: Canada
+    lon: -71.9282
+    lat: 45.3799
+    osmlink: http://www.openstreetmap.org/#map=15/45.3799/-71.9282
+
+# - given_name: Timothée
+#   family_name: Poisot
+#   website: http://poisotlab.io
+#   institution: Université de Montréal
+#     city: Montréal
+#     country: Canada
+#     corrdinates:
+#     lon:
+#     lat:
+#     osmlink: http://www.openstreetmap.org/#map=19/48.84202/2.34382
