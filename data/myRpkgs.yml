@@ -1,0 +1,20 @@
+- namepkg: graphicsutils
+  description:
+  github: KevCaz/graphicsutils
+  travis:
+  appveyor:
+  codecov:
+
+- namepkg: graphicsutils
+  description:
+  github: KevCaz/graphicsutils
+  travis:
+  appveyor:
+  codecov:
+
+- namepkg: graphicsutils
+  description:
+  github: KevCaz/graphicsutils
+  travis:
+  appveyor:
+  codecov:

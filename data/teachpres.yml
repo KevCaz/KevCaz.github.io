@@ -1,0 +1,17 @@
+- name: Gérer et formater sa bibliographie
+  author: Casajus N., Vissault S. et Cazelles K.
+  year: 2015
+  lang: fr
+  download: pres_biblio.zip
+  URL: pres_biblio/index.html
+  hosted: true
+  category: teaching
+
+- name: Utiliser R Markdown pour créer des documents dynamiques
+  author: Cazelles K.
+  year: 2014
+  lang: fr
+  download: pres_Rmarkdown.zip
+  URL: pres_Rmdown/index.html
+  hosted: true
+  category: teaching

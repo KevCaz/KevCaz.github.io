@@ -1,0 +1,321 @@
+- nameplt: Scatter chart
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category: Relationship
+
+
+- nameplt: Bubble Chart
+  text: "three variable X / Y and the size of the bubble"
+  base: http://www.statmethods.net/graphs/pie.html
+  basecode: "use `pie` function"
+  ggplot: "ggeom_point(aes(size=size_var)) +scale_size_continuous(range=c(2,15))"
+  other:
+  packages:
+  blogpost: http://www.r-bloggers.com/bubble-chart-by-using-ggplot2-2/
+  category: Relationship
+
+
+
+- nameplt: Density plot
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category: Distribution
+
+- nameplt: Barchart
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category: Comparaison
+
+- nameplt: Boxplot
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: Dotchart
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: Piechart
+  text:
+  base: http://www.statmethods.net/graphs/pie.html
+  ggplot: http://www.r-chart.com/2010/07/pie-charts-in-ggplot2.html
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: Scatterplot
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: Biplot
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: Line chart
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: Balloon plot
+  text:
+  base:
+  ggplot:
+  other:
+  package: gplots
+  blogpost:
+  category:
+
+- nameplt: Mosaicplot
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: Bubbleplot
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: Sunflower plot
+  text:
+  base:
+  ggplot:
+  other:
+  package: jiter
+  blogpost:
+  category:
+
+- nameplt: Time-line chart
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: Heatmap
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: Boxplot
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: Sparkline
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: Cartogram
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: Map
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: Tree map
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: Network
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: Cumulated curve
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: Polar plot
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: Radar plot
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: Streamgraph
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: Trellis
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: Scatter matrix
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: Stem-and-leaf plot
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: Scatter-3D
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: Parallel coordinates
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: QQ-Plot
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: ACF plot
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: Surface/contour
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+- nameplt: Dendrogram
+  text:
+  base:
+  ggplot:
+  other:
+  package:
+  blogpost:
+  category:
+
+
+    # http://www.r-bloggers.com/3d-plots-in-r/
