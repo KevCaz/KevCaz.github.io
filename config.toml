@@ -1,10 +1,11 @@
 baseurl = "https://kevincazelles.fr"
 title = "KevCaz Home Page"
-copyright = "&copy; 2017 Kevin Cazelles"
+copyright = "&copy; 2017 Kevin Cazelles. "
 favicon = "panda.png"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
+
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = "kevincazellesfr"
@@ -21,14 +22,14 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "Kevin Cazelles"
-  role = "PhD in theoretical ecology"
-  organization = "Université du Québec à Rimouski"
-  organization_url = "http://www.uqar.ca"
-  avatar = "kevcaz.png"
-  email = "kevin.cazelles@gmail.com"
-  address = "Université du Québec à Rimouski, 300, allée des Ursulines, G5L 3A1 Rimouski, Qc, Canada."
+  role = "Post-doctoral fellow in theoretical ecology"
+  organization = "Integrated Biology, University of Guelph"
+  organization_url = "https://www.uoguelph.ca/ib/"
+  avatar = "kevcazava.jpg"
+  email = "kcazelle@uoguelph.ca"
+  address = "Department of Integrative Biology, Summerlee Science Complex, University of Guelph, Guelph, ON N1G 2W1"
   office_hours = "Send me an email for appointment"
-  phone = "+1 418 723-1986 (1569)"
+  phone = "+1 519 824 4120 (ext. 56861)"
   skype = "diazthc"
   telegram = ""
 
@@ -89,14 +90,18 @@ defaultContentLanguageInSubdir = false
   custom_css = [
     "perso.css",
     "leaflet.css",
-    "leaflet.awesome-markers.css"
+    "leaflet.awesome-markers.css",
+    "creativecommons.css",
+    "flag-icon.css"
   ]
   custom_js  = [
+    "customzoom.js",
+    "customfooter.js",
     "leaflet.js",
     "leaflet.awesome-markers.min.js",
-    "yaml.min.js",
-    "customzoom.js",
-    "mapoffice.js"
+    "mapoffice.js",
+    "twitter.js",
+    "yaml.min.js"
   ]
 
   # Publication types.
@@ -108,7 +113,7 @@ defaultContentLanguageInSubdir = false
   publication_types = [
     'Uncategorized',  # 0
     'Conference proceedings',  # 1
-    'Journal',  # 2
+    'Journal article',  # 2
     'Work in progress',  # 3
     'Technical report',  # 4
     'Book',  # 5
@@ -168,18 +173,18 @@ defaultContentLanguageInSubdir = false
     icon_pack = "ai"
     link = "http://orcid.org/0000-0001-6619-9874"
 
-# KC added a cv section
+
+# KC: added a cv section
 
   [[params.cv]]
-    lang = "English"
+    lang = "gb"
     pdf = "CV_KevCaz_eng.pdf"
     zip = "CV_KevCaz_eng.zip"
 
   [[params.cv]]
-    lang = "French"
+    lang = "fr"
     pdf = "CV_KevCaz_fr.pdf"
     zip = "CV_KevCaz_fr.zip"
-
 
 
 
@@ -208,10 +213,10 @@ defaultContentLanguageInSubdir = false
   url = "#projects"
   weight = 4
 
-[[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
-  weight = 5
+# [[menu.main]]
+#   name = "Teaching"
+#   url = "#teaching"
+#   weight = 5
 
 [[menu.main]]
   name = "Contact"

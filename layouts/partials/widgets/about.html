@@ -41,7 +41,7 @@
         {{ range $.Site.Params.cv }}
         {{ $pack := or .icon_pack "fa" }}
         <li>
-          {{.lang}} &nbsp; <a href="{{ "/pdf/" | relURL }}{{.pdf}}" target="_blank">
+          <i style='font-size:.9em' class="flag-icon flag-icon-{{.lang}}"></i> &nbsp; <a href="{{ "/pdf/" | relURL }}{{.pdf}}" target="_blank">
             <i class="{{ $pack }} fa-file-pdf-o" aria-hidden="true"></i>
           </a>
           <a href="{{ "/zip/" | relURL }}{{.zip}}" target="_blank">

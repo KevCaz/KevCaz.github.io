@@ -1,5 +1,15 @@
-themes
+## Makefile contains id to connect to the server it is hosted I therefore cannot
+## include it to the gh-repo
+makefile
+
+## No need to make the repo bigger including this
 static/pdf/*
+static/zip/*
 static/img/*
-content
+
+## This is the site it-self hugo generates
+public/
+
+## When using GUI in mac, it generates .DS_store to keep track of icons layout
+## in fodlers
 .DS_Store
