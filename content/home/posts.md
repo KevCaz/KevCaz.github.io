@@ -6,6 +6,7 @@
 #draft = false
 
 title = "Blog Posts"
+
 #subtitle = ""
 #widget = "posts"
 
@@ -20,7 +21,9 @@ weight = 40
 
 +++
 
+## LetiR blog &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://letir.github.io/docs/indexPosts.html"><i style="text-align:right" class='fa fa-external-link fa-1x' aria-hidden='true'></i></a>
+
 
 Since early 2017, I have started writing a blog with a couple of colleagues/friends
 with whom I share similar interests: ecology (at large), open-science, open-data,
-coding. If you think you may be interested in such topic you better check the [LetiR blog](https://letir.github.io/docs/) out!
+coding. If you think you may be interested in such topic you better check the blog hosted on the [LetiR website](https://letir.github.io/docs/) out!

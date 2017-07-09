@@ -22,4 +22,6 @@ detailed_list = false
 
 
 
-## To be added very soon :)
+## To be added very soon
+
+### Meanwhile, simply check one of my research profile:
