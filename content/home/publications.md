@@ -5,7 +5,7 @@
 date = "2016-04-20T00:00:00"
 draft = false
 
-title = "Recent Publications"
+title = "Publications"
 subtitle = ""
 # widget = "publications"
 
@@ -22,6 +22,12 @@ detailed_list = false
 
 
 
-## To be added very soon
+## To be added soon; meanwhile, please check out one of my research profile:
 
-### Meanwhile, simply check one of my research profile:
+#### <i class="ai ai-google-scholar-square ai-1x"></i> [Google Scholar](https://scholar.google.ca/citations?user=xzvcu7cAAAAJ&hl=en)
+
+#### <i class="ai ai-mendeley-square ai-1x"></i> [Mendeley](https://www.mendeley.com/profiles/kevin-cazelles/)
+
+#### <i class="ai ai-orcid-square ai-1x"></i> [ResearchGate](http://orcid.org/0000-0001-6619-9874)
+
+#### <i class="ai ai-researchgate-square ai-1x"></i> [ResearchGate](https://www.researchgate.net/profile/Kevin_Cazelles)

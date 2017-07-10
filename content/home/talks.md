@@ -19,4 +19,4 @@ detailed_list = false
 
 +++
 
-## To be added
+## Coming soon

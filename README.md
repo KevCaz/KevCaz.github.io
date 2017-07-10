@@ -23,9 +23,12 @@ specified. A few notes about licence of the tools I am using:
   - [flag-icon-css](http://flag-icon-css.lip.is/) is licensed under the MIT License.
 
 
+
 ## Todo
 
-1. [ ] add selected publications and a full list of publications
-2. [ ] add selected talks => add also a link to a full list render using YAML (by date)
-3. [ ] add a news section => same only the last news / feed Twitter
-4. [ ] add teaching related stuff.
+1. [ ] news => 3 first en main page + lien full to list using yaml-js
+2. [ ] add publications => yaml-js lien full list
+3. [ ] add selected talks => yaml-js lien full list
+4. [ ] add project with TOML (alien R as a showcase)
+5. [ ] add poster ==> apercu + pdf link
+6. [ ] add teaching => need to think

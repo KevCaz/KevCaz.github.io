@@ -66,6 +66,6 @@ in which I am involved and I hope to be able to tell you about very
 soon!
 
 Last thing I should mention about me is that I am a code-enthusiast (currently
-spending most of my coding-time on R and C++ but I enjoy coding in many
+spending most of my coding-time on R and C/C++ but I enjoy coding in many
 programming langages, see my CV) and a graphics-lover (I should probably say
 data-visualisation-lover as it sounds fancier nowadays).

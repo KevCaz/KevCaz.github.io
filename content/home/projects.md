@@ -35,4 +35,4 @@ view = 1
 
 +++
 
-## To be added
+## Coming soon

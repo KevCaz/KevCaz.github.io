@@ -16,19 +16,23 @@ weight = 5
 
 ### New website
 
-**July, 9 2017** I Launch this website
+**July, 9 2017** I've launched this website!
 
 ------
 
 ### New Post-doc positon
 
-**June, 1 2017** I have started my new post-doc [\@McCann Lab](https://www.mccannlab.org)
+**June, 1 2017** I have started my new post-doc position @ [McCann Lab](https://www.mccannlab.org)
 
 ------
 
-**December, 13 2017** PhD ==> DONE !!
+### PhD defense
+
+**December, 13 2017** PhD <i class="fa fa-long-arrow-right" aria-hidden="true"></i> DONE !!
 
 ------
+
+<br/>
 
 <a class="twitter-timeline"
   href="https://twitter.com/KCazelles"

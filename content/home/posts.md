@@ -26,4 +26,4 @@ weight = 40
 
 Since early 2017, I have started writing a blog with a couple of colleagues/friends
 with whom I share similar interests: ecology (at large), open-science, open-data,
-coding. If you think you may be interested in such topic you better check the blog hosted on the [LetiR website](https://letir.github.io/docs/) out!
+coding. If you think you may be interested in such topic you better check out the blog hosted on the [LetiR website](https://letir.github.io/docs/) !
