@@ -1,0 +1,17 @@
+- title: New website
+  date: July, 9 2017
+  text: "I've launched this website!"
+  icon: fa-comments
+  categ: Communication
+
+- title: New post-doc position
+  date: June, 1 2017
+  text: "I have started my new post-doc position @ [McCann Lab](https://www.mccannlab.org)"
+  icon: ion-university
+  categ: Academic
+
+- title: PhD
+  date: December, 13 2017
+  text: "I have successfully submitted my PhD!"
+  icon: ion-university
+  categ: Academic

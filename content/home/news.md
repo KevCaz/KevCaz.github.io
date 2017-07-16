@@ -9,14 +9,14 @@ subtitle = ""
 widget = "custom"
 
 # Order that this section will appear in.
-weight = 5
+weight = 3
 
 +++
 
 
 ### New website
 
-**July, 9 2017** I've launched this website!
+**July, 9 2017** I've launched this website! :smile:
 
 ------
 
@@ -39,6 +39,7 @@ weight = 5
   data-height="600"
   data-chrome="nofooter"
   theme="dark"
+  tweet-limit="10"
   data-link-color="#0095eb"
   data-border-color="#323232">
 Tweets by @KCazelles

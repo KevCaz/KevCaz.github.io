@@ -10,7 +10,7 @@ subtitle = ""
 # widget = "publications"
 
 # Order that this section will appear in.
-weight = 20
+weight = 7
 
 # Number of publications to list.
 count = 5
@@ -28,6 +28,6 @@ detailed_list = false
 
 #### <i class="ai ai-mendeley-square ai-1x"></i> [Mendeley](https://www.mendeley.com/profiles/kevin-cazelles/)
 
-#### <i class="ai ai-orcid-square ai-1x"></i> [ResearchGate](http://orcid.org/0000-0001-6619-9874)
+#### <i class="ai ai-orcid-square ai-1x"></i> [ORCID](http://orcid.org/0000-0001-6619-9874)
 
 #### <i class="ai ai-researchgate-square ai-1x"></i> [ResearchGate](https://www.researchgate.net/profile/Kevin_Cazelles)

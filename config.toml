@@ -22,7 +22,7 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "Kevin Cazelles"
-  role = "Post-doctoral fellow in theoretical ecology"
+  role = "Post-doctoral fellow in theoretical and computational ecology"
   organization = "Integrated Biology, University of Guelph"
   organization_url = "https://www.uoguelph.ca/ib/"
   avatar = "kevcazava.jpg"
@@ -211,29 +211,31 @@ defaultContentLanguageInSubdir = false
   weight = 3
 
 [[menu.main]]
-  name = "Publications"
-  url = "#publications"
+  name = "Projects"
+  url = "#projects"
   weight = 4
 
 [[menu.main]]
-  name = "Posters"
-  url = "#poster"
+  name = "Publications"
+  url = "#publications"
   weight = 5
+
+[[menu.main]]
+  name = "Posters"
+  url = "#posters"
+  weight = 6
 
 [[menu.main]]
   name = "Talks"
   url = "#talks"
-  weight = 6
-
-[[menu.main]]
-  name = "Posts"
-  url = "#posts"
   weight = 7
 
 [[menu.main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 8
+  name = "Blog"
+  url = "#posts"
+  weight = 10
+
+
 
 # [[menu.main]]
 #   name = "Teaching"
