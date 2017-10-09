@@ -1,6 +1,5 @@
-## Makefile contains id to connect to the server it is hosted I therefore cannot
-## include it to the gh-repo
-makefile
+## contains id ans passwords
+pswd.md
 
 ## No need to make the repo bigger including this
 static/pdf/*

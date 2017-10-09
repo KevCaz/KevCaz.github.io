@@ -1,5 +1,5 @@
 +++
-# Contact widget.
+# News widget.
 
 date = "2016-04-20T00:00:00"
 draft = false
@@ -12,6 +12,11 @@ widget = "custom"
 weight = 3
 
 +++
+
+
+### Prize!
+
+**Spetember, 23 2017** I've received [the ACFAS prize for the best France-Québec joint PhD thesis](https://www.uqar.ca/nouvelles/uqar-info/2266-un-diplome-de-l-uqar-remporte-une-distinction-pour-sa-these-en-biogeographie) :smile:
 
 
 ### New website

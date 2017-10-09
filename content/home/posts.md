@@ -5,7 +5,7 @@
 #date = "2016-04-20T00:00:00"
 #draft = false
 
-title = "Blog &nbsp; &nbsp; <a href='https://letir.github.io/docs/indexPosts.html'><i style='text-align:right' class='fa fa-external-link fa-1x' aria-hidden='true'></i></a>"
+title = "Blog &nbsp; &nbsp; <a href='https://insileco.github.io/post/'><i style='text-align:right' class='fa fa-external-link fa-1x' aria-hidden='true'></i></a>"
 
 #subtitle = ""
 #widget = "posts"
@@ -26,4 +26,4 @@ weight = 10
 Since early 2017, I have started writing a blog with a couple of colleagues/friends
 with whom I share similar interests: ecology (at large), open-science, open-data,
 coding. If you think you may be interested in such topics, you better check out
-our blog hosted on the [inSileco website](https://insileco.github.io/docs/)!
+our blog hosted on the [inSileco website](https://insileco.github.io)!

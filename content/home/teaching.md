@@ -27,4 +27,7 @@ I am a teaching instructor for the following courses at University X:
 - CS107: An intro to computer science -->
 
 
-## To be added
+## Mapping in R
+
+
+**Spetember, 23 2017** I've given a short tutorial on [how to use R as a GIS](http://kevcaz.github.io/mapsWithR).
