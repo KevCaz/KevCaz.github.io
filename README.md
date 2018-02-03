@@ -1,5 +1,7 @@
 # My website
 
+[![Build Status](https://travis-ci.org/KevCaz/kevcazHugoWebsite.svg?branch=dev)](https://travis-ci.org/KevCaz/kevcazHugoWebsite)
+
 This is the source for my website made with [Hugo](https://gohugo.io).
 I have used the [academic theme](https://github.com/gcushen/hugo-academic),
 all the credit for this great theme goes to [George Cushen](https://github.com/gcushen/).
