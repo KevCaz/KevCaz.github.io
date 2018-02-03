@@ -1,5 +1,5 @@
 # Found here http://schnuddelhuddel.de/deployment-of-a-hugo-site-on-github-pages/
-# and adjust
+# and adjusted by my self
 dist: trusty
 sudo: required
 python:
