@@ -28,6 +28,6 @@ deploy:
   skip_cleanup: true
   local_dir: public
   target-branch: master
-  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  github_token: $GH_TOKEN # must be set in travis-ci.org dashboard and in GH repo.
   on:
     branch: dev
