@@ -1,7 +1,6 @@
 baseurl = "https://kevincazelles.fr"
 title = "KevCaz Home Page"
 copyright = "&copy; 2017 Kevin Cazelles. "
-favicon = "panda.png"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"

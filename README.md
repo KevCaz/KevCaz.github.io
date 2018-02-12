@@ -4,7 +4,9 @@
 
 This is the source for my website made with [Hugo](https://gohugo.io).
 I have used the [academic theme](https://github.com/gcushen/hugo-academic),
-all the credit for this great theme goes to [George Cushen](https://github.com/gcushen/).
+
+I used to use the great Academic theme created by [George Cushen](https://github.com/gcushen/).
+I now [have forked](https://github.com/KevCaz/hugo-xmin) the [xmin theme by @Yihui](https://github.com/yihui/hugo-xmin).
 
 
 ## License
@@ -23,7 +25,6 @@ specified. A few notes about license of the tools I am using:
   - [Leaflet](http://leafletjs.com) is licensed under BSD 2-clause "Simplified" License;
   - [yaml.js](https://github.com/jeremyfa/yaml.js/) is licensed under the MIT License;
   - [flag-icon-css](http://flag-icon-css.lip.is/) is licensed under the MIT License.
-
 
 
 ## Todo
