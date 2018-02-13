@@ -32,8 +32,6 @@ specified. A few notes about license of the tools I am using:
 1. [ ] news => 3 first en main page + lien full to list using yaml-js
 2. [ ] add publications => yaml-js lien full list
 3. [ ] add selected talks => yaml-js lien full list
-4. [ ] add project with TOML (alien R as a showcase)
-5. [ ] add poster ==> aperçu + pdf link
 6. [ ] add teaching => need to think
 7. [ ] Press:
  - http://www.cnrs.fr/inee/communication/breves/b337.html
