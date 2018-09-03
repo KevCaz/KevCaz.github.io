@@ -1,0 +1,71 @@
+- name: Do ecological interactions impact geographic distributions of species?
+  author: Cazelles K., Mouquet N., Mouquet D. and Gravel D.
+  conf: Annual Meeeting of the Ecological Society of America
+  year: 2016
+  place: Broward County Convention Center
+  city: Fort Lauderdale
+  country: Canada
+  html: ESA_2016/presESAKC.html
+  file: ESA_2016/presESAKC.pdf
+  category: international conference
+
+- name: R Graphics.
+  author: Casajus N. and Cazelles K.
+  conf: QCBS Data Visualization workshop
+  year: 2016
+  place: Maison Gault
+  city: Mont St Hilaire
+  country: Canada
+  html: QCBSGraphsR/Rgraphics.html
+  category: formation
+
+- name: Comment les interactions écologiques affectent-elles la répartition géographique des espèces?
+  author: Cazelles K.
+  conf: Séminaire
+  year: 2016
+  place: Université du Québec à Rimouski
+  city: Rimouski
+  country: Canada
+  file: seminaire/seminaire.pdf
+  html: seminaire/seminaire.html
+  category: sémnaire
+
+- name: Do ecological interaction impact geographical distributions of species ?
+  author: Cazelles K., Mouquet N. and Gravel D.
+  conf: Quebec Center for Biodiversity Science - Annual Meeting
+  year: 2015
+  place: Hotel Westin
+  city: Montréal
+  country: Canada
+  file: CSBQ_2015.pdf
+  category: international conference
+
+- name: Integration of ecological networks in a theoretical stochastic model of biogeography.
+  author: Cazelles K., Mouquet N., Mouillot D. and Gravel D.
+  conf: Canadian Society for Ecology and Evolution - Annual Meeting
+  year: 2015
+  place: Hotel
+  city: Saskatoon
+  country: Canada
+  file: CSEE_2015.pdf
+  category: international conference
+
+- name: Integration of ecological networks in a theoretical stochastic model of biogeography.
+  author: Cazelles K., Mouquet N., Mouillot D. and Gravel D.
+  conf: British Ecological Society - Société Française d'Ecologie - Joint Annual Meeting
+  year: 2014
+  place: Palais des Congrès
+  city: Lille
+  country: France
+  file: SFEBSE_2014.pdf
+  category: international conference
+
+- name: Wavelet Clustering, a tool to integrate spatial and temporal patterns based on their dynamical properties, application to dengue in Thailand.
+  author: Cazelles K. and Cazelles B.
+  conf: Model in Population Biology
+  year: 2012
+  place: UFSM
+  city: Santa Maria
+  country: Brazil
+  file: MIPD_2012.pdf
+  category: international conference

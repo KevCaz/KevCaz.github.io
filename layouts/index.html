@@ -1,0 +1,26 @@
+{{ partial "header" . }}
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-sm-3">
+
+      <a class="twitter-timeline"  href="https://twitter.com/{{ .Site.Params.twitter }}" data-width="400" data-height="400" data-chrome="nofooter noborders hoheader"> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </a>
+
+      </div>
+
+      <div class="col-sm-8">
+
+      {{ partial "about" . }}
+
+      {{ .Content }}
+
+
+      </div>
+
+
+  </div>
+
+{{ partial "footer" . }}
