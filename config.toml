@@ -7,8 +7,6 @@ theme = "hugo-KevCaz"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 
-
-
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
 
@@ -94,17 +92,19 @@ defaultContentLanguageInSubdir = false
   ]
   custom_js  = [
     "js/customzoom.js",
-    "js/customfooter.js",
     "js/leaflet.js",
     "js/leaflet.awesome-markers.min.js",
     "js/mapoffice.js",
-    "js/twitter.js",
-    "js/yaml.min.js"
+    "js/twitter.js"
   ]
 
 
+# google font
+font = ["Changa+One"]
 
-# KC: added a cv section
+
+
+# added a cv section
 
   [[params.cv]]
     lang = "gb"
@@ -152,7 +152,7 @@ defaultContentLanguageInSubdir = false
 # icon (font-awesome)
 [[menu.icon]]
     name = "github"
-    url = "//github.com/KevCaz"
+    url = "https://www.github.com/KevCaz"
 
 
 # Taxonomies.

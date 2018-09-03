@@ -4,9 +4,9 @@
   link = "mailto:kevin.cazelles@gmail.com"
 
 [[socionetws]]
-  icon = "github"
+  icon = "linkedin"
   icon_pack = "fa"
-  link = "//github.com/KevCaz"
+  link = "https://www.linkedin.com/in/kevin-cazelles-51552283/"
 
 [[socionetws]]
   icon = "google-scholar"
@@ -22,6 +22,12 @@
   icon = "mendeley"
   icon_pack = "ai"
   link = "https://www.mendeley.com/profiles/kevin-cazelles/"
+
+[[socionetws]]
+  icon = "github"
+  icon_pack = "fa"
+  link = "//github.com/KevCaz"
+
 
 [[socionetws]]
   icon = "orcid"

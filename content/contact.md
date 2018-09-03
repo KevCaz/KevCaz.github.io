@@ -1,4 +1,8 @@
-# <i class="fa fa-address-card" aria-hidden="true"></i> Contact
+---
+title: Contact
+icon: "address-card"
+layout: regular
+---
 
 <!-- map Office -->
 <div id="map"></div>

@@ -1,3 +1,13 @@
+/* h1-h5 main */
+.main_pages, .menu a {
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+.menu, .article-meta { text-align: center; }
+.title { font-size: 1.1em; }
+
+
 
 #map {
   height: 350px;
