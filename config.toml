@@ -86,7 +86,7 @@ defaultContentLanguageInSubdir = false
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
   custom_css = [
-    "css/main.css",
+    "css/perso.css",
     "css/leaflet.css",
     "css/leaflet.awesome-markers.css",
     "css/creativecommons.css",
@@ -101,40 +101,6 @@ defaultContentLanguageInSubdir = false
     "js/twitter.js",
     "js/yaml.min.js"
   ]
-
-  # Publication types.
-  #   Used to categorize publications.
-  #   The index of the publication type in the list is used as its unique numerical identifier.
-  #   The numeric ID is used in a publication's frontmatter to categorize it.
-  #   The language can be edited below.
-  #   For multi-lingual sites, copy this block to each language section at the end of this file.
-  publication_types = [
-    'Uncategorized',  # 0
-    'Conference proceedings',  # 1
-    'Journal article',  # 2
-    'Work in progress',  # 3
-    'Technical report',  # 4
-    'Book',  # 5
-    'Book chapter'  # 6
-  ]
-
-  # Social/Academic Networking
-  #
-  # Icon pack "fa" includes the following social network icons:
-  #
-  #   twitter, weibo, linkedin, github, facebook, pinterest, google-plus,
-  #   youtube, instagram, soundcloud
-  #
-  #   For email icon, use "fa" icon pack, "envelope" icon, and
-  #   "mailto:your@email.com" as the link.
-  #
-  #   Full list: https://fortawesome.github.io/Font-Awesome/icons/
-  #
-  # Icon pack "ai" includes the following academic network icons:
-  #
-  #   google-scholar, arxiv, orcid, researchgate, mendeley
-  #
-  #   Full list: https://jpswalsh.github.io/academicons/
 
 
 
@@ -167,6 +133,10 @@ defaultContentLanguageInSubdir = false
     url = "/"
     weight = 1
 [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 2
+[[menu.main]]
     name = "Publications"
     url = "/publications/"
 [[menu.main]]
@@ -177,7 +147,12 @@ defaultContentLanguageInSubdir = false
     url = "/software/"
 [[menu.main]]
     name = "Perso"
-    url = "perso"
+    url = "/perso/"
+
+# icon (font-awesome)
+[[menu.icon]]
+    name = "github"
+    url = "//github.com/KevCaz"
 
 
 # Taxonomies.

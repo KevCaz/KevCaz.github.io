@@ -1,31 +1,29 @@
-+++
-[[params.social]]
+[[socionetws]]
   icon = "envelope"
   icon_pack = "fa"
   link = "mailto:kevin.cazelles@gmail.com"
 
-[[params.social]]
+[[socionetws]]
   icon = "github"
   icon_pack = "fa"
   link = "//github.com/KevCaz"
 
-[[params.social]]
+[[socionetws]]
   icon = "google-scholar"
   icon_pack = "ai"
   link = "https://scholar.google.ca/citations?user=xzvcu7cAAAAJ&hl=en"
 
-[[params.social]]
+[[socionetws]]
   icon = "researchgate-square"
   icon_pack = "ai"
   link = "https://www.researchgate.net/profile/Kevin_Cazelles"
 
-[[params.social]]
+[[socionetws]]
   icon = "mendeley"
   icon_pack = "ai"
   link = "https://www.mendeley.com/profiles/kevin-cazelles/"
 
-[[params.social]]
+[[socionetws]]
   icon = "orcid"
   icon_pack = "ai"
   link = "http://orcid.org/0000-0001-6619-9874"
-+++
