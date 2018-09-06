@@ -133,21 +133,29 @@ font = ["Changa+One"]
     url = "/"
     weight = 1
 [[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 2
+[[menu.main]]
+    name = "Teaching"
+    url = "/teaching/"
+    weight = 3
+[[menu.main]]
+    name = "Software"
+    url = "/software/"
+    weight = 4
+[[menu.main]]
     name = "Contact"
     url = "/contact/"
     weight = 2
 [[menu.main]]
-    name = "Publications"
-    url = "/publications/"
-[[menu.main]]
-    name = "Teaching"
-    url = "/teaching/"
-[[menu.main]]
-    name = "Software"
-    url = "/software/"
+    name = "Notes"
+    url = "/notes/"
+    weight = 5
 [[menu.main]]
     name = "Perso"
     url = "/perso/"
+    weight = 8
 
 # icon (font-awesome)
 [[menu.icon]]

@@ -1,5 +1,8 @@
 # My website
 
+NEW VERSION UNDER :construction:
+
+
 [![Build Status](https://travis-ci.org/KevCaz/kevcazHugoWebsite.svg?branch=dev)](https://travis-ci.org/KevCaz/kevcazHugoWebsite)
 
 This is the source for my website made with [Hugo](https://gohugo.io).
@@ -29,7 +32,6 @@ specified. A few notes about license of the tools I am using:
 
 ## Todo
 
-1. [ ] news => 3 first en main page + lien full to list using yaml-js
 2. [ ] add publications => yaml-js lien full list
 3. [ ] add selected talks => yaml-js lien full list
 6. [ ] add teaching => need to think
