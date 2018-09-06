@@ -20,7 +20,7 @@ defaultContentLanguageInSubdir = false
 [params]
   name = "Kevin Cazelles"
   role = "Post-doctoral fellow in theoretical and computational ecology"
-  organization = "Integrated Biology, University of Guelph"
+  organization = "Department of Integrated Biology, University of Guelph"
   organization_url = "https://www.uoguelph.ca/ib/"
   # avatar = "kevcazava.jpg"
   twitter = "KCazelles"
