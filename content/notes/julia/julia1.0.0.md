@@ -1,6 +1,6 @@
 ---
 title: "install Julia 1.0.0"
-data: 2018-09-06
+date: 2018-09-06
 categories: [installation]
 tags: [installation, setup, julia]
 ---
