@@ -1,12 +1,12 @@
-/* h1-h5 main */
-.main_pages, .menu a {
-  text-decoration: none;
-  padding: 5px;
-  border-radius: 5px;
+.role {
+  text-align: center;
+  color: #555;
 }
-.menu, .article-meta { text-align: center; }
-.title { font-size: 1.1em; }
 
+.date {
+  color: #555;
+  font-size: 1.6em;
+}
 
 
 #map {
@@ -26,9 +26,3 @@
    background-color:black;
    margin: 10px 10px 10px 10px;
   }
-
-
-.role {
-  text-align: center;
-  color: #555;
-}

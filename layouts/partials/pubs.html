@@ -1,3 +1,18 @@
-{{ range .Site.Data.educ.educs}}
-    {{ .year }}
-{{ end }}
+
+
+<ul>
+  {{ range .Site.Data.publi.references}}
+  <li>
+    {{ range .author}}
+      {{ .family }} {{ .given | truncate 1 ".," }}
+    {{ end }}
+    {{ .id }}
+    <b>{{ .title }}</b>
+
+
+    {{ if .DOI }}
+      DOI: <a href="{{ .URL }}">{{ .DOI }}</a>
+    {{ end }}
+  </li>
+  {{ end }}
+</ul>

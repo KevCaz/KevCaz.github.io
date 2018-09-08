@@ -1,5 +1,5 @@
 ---
-title: "install Julia 1.0.0"
+title: "Build Julia 1.0.0 from sources on Debian Testing"
 date: 2018-09-06
 categories: [installation]
 tags: [installation, setup, julia]
@@ -63,5 +63,8 @@ alias julia='~/Github/Applications/julia/julia'
 ```
 
 I like the idea of having but not integrated and different library download.
-It makes sense when verison for debian will be on a ppa (like unbuntu)
-soon have verisob 1.0.0 available for testng
+It makes sense when version for debian will be on a ppa (like unbuntu)
+soon have verison 1.0.0 available for testng
+
+
+![](/notes/julia/juliaV1.png)

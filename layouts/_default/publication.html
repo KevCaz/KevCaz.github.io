@@ -21,11 +21,15 @@
 </div>
 {{ end }}
 
+
 {{ define "main" }}
 
-<h1><i class="fa fa-{{ .Params.icon }}" aria-hidden="true"></i> {{ .Title }}</h1>
-<hr>
+  <h1><i class="fa fa-{{ .Params.icon }}" aria-hidden="true"></i> {{ .Title }}</h1>
+  <hr>
 
-{{ .Content }}
+  {{ .Content }}
+
+  {{ partial "pubs" . }}
+
 
 {{ end }}
