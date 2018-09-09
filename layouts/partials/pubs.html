@@ -1,13 +1,38 @@
 
 
 <ol>
+  {{ $letk := "Kevin" | truncate 1 "." }}
+
   {{ range .Site.Data.publi.references}}
   <li class="pubs_li">
-    {{ range .author}}
-      {{ .family }} {{ .given | truncate 1 ".," }}
+    {{ $len := len .author }}
+    {{ $len2 := sub $len 1 }}
+    {{ range $i, $e :=.author}}
+      {{ $let := .given | truncate 1 "." }}
+      {{ if (and (eq .family "Cazelles") (eq $let $letk)) }}
+        <b><span style="color: #337ab7">
+          {{ .family }} {{ $let }}</span></b>{{ if eq $len2 $i }}.{{ else }},{{ end }}
+      {{ else }}
+        {{ .family }} {{ $let }}{{ if eq $len2 $i }}.{{ else }},{{ end }}
+      {{ end }}
     {{ end }}
-    {{ .id }}
+
     <b>{{ .title }}</b>
+
+    {{ range .issued }}
+      ({{ .year }}).
+    {{ end }}
+
+    {{ if .container }}
+      {{ .container }}.
+    {{ end }}
+
+    {{ if .volume }}
+      <em>{{ .volume }}</em>{{ if .issue }}({{ .issue }}){{ end }}
+    {{ end }}
+
+
+
 
 
     {{ if .DOI }}

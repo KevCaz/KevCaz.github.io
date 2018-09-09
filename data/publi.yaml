@@ -23,7 +23,7 @@ references:
   - year: 2018
     month: 4
   title: The spatial scaling of species interaction networks
-  container-title: Nature Ecology & Evolution
+  container: Nature Ecology & Evolution
   publisher: Springer Nature
   URL: https://doi.org/10.1038%2Fs41559-018-0517-3
   DOI: 10.1038/s41559-018-0517-3
@@ -70,7 +70,7 @@ references:
     month: 3
   title: Context-dependent interactions and the regulation of species richness in
     freshwater fish
-  container-title: Nature Communications
+  container: Nature Communications
   publisher: Springer Nature
   volume: '9'
   issue: '1'
@@ -118,7 +118,7 @@ references:
   title: 'Our house is burning: Discrepancy in climate change vs. Biodiversity coverage
     in the media as compared to scientific literature'
   title-short: Our house is burning
-  container-title: Frontiers in Ecology and Evolution
+  container: Frontiers in Ecology and Evolution
   publisher: Frontiers Media SA
   volume: '5'
   URL: https://doi.org/10.3389%2Ffevo.2017.00175
@@ -144,7 +144,7 @@ references:
     month: 3
   title: Food-web structure of willow-galling sawflies and their natural enemies across
     europe
-  container-title: Ecology
+  container: Ecology
   publisher: Wiley-Blackwell
   URL: https://doi.org/10.1002%2Fecy.1832
   DOI: 10.1002/ecy.1832
@@ -169,7 +169,7 @@ references:
   issued:
   - year: 2017
   title: Island biogeography of food webs
-  container-title: 'Networks of invasion: A synthesis of concepts'
+  container: 'Networks of invasion: A synthesis of concepts'
   publisher: Elsevier BV
   page: '183-262'
   URL: https://doi.org/10.1016%2Fbs.aecr.2016.10.004
@@ -191,7 +191,7 @@ references:
     month: 1
   title: On the integration of biotic interaction and environmental constraints at
     the biogeographical scale
-  container-title: Ecography
+  container: Ecography
   publisher: Wiley-Blackwell
   page: '921-931'
   volume: '39'
@@ -214,7 +214,7 @@ references:
   - year: 2015
     month: 10
   title: A theory for species co-occurrence in interaction networks
-  container-title: Theoretical Ecology
+  container: Theoretical Ecology
   publisher: Springer Nature
   page: '39-48'
   volume: '9'
@@ -241,7 +241,7 @@ references:
   - year: 2015
     month: 9
   title: The structure of probabilistic networks
-  container-title: Methods Ecol Evol
+  container: Methods Ecol Evol
   publisher: Wiley-Blackwell
   page: n/a-n/a
   URL: http://dx.doi.org/10.1111/2041-210x.12468
@@ -290,7 +290,7 @@ references:
     month: 2
   title: Diversity of germination strategies and seed dormancy in herbaceous species
     of campo rupestre grasslands
-  container-title: Austral Ecology
+  container: Austral Ecology
   publisher: Wiley-Blackwell
   page: '537-546'
   volume: '40'
@@ -310,7 +310,7 @@ references:
     month: 4
   title: Major urban centers have weak influence on the timing of dengue epidemics
     in southeast asia
-  container-title: International Journal of Infectious Diseases
+  container: International Journal of Infectious Diseases
   publisher: Elsevier BV
   page: '217'
   volume: '21'
@@ -331,7 +331,7 @@ references:
     month: 11
   title: 'Wavelet analysis in ecology and epidemiology: Impact of statistical tests'
   title-short: Wavelet analysis in ecology and epidemiology
-  container-title: Journal of The Royal Society Interface
+  container: Journal of The Royal Society Interface
   publisher: The Royal Society
   page: '20130585-20130585'
   volume: '11'
@@ -356,7 +356,7 @@ references:
   title: 'Soil fungal dynamics: Parameterisation and sensitivity analysis of modelled
     physiological processes, soil architecture and carbon distribution'
   title-short: Soil fungal dynamics
-  container-title: Ecological Modelling
+  container: Ecological Modelling
   publisher: Elsevier BV
   page: '165-173'
   volume: '248'
