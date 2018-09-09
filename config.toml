@@ -25,12 +25,12 @@ defaultContentLanguageInSubdir = false
   # avatar = "kevcazava.jpg"
   twitter = "KCazelles"
   github = "KevCaz"
-  email = "kcazelle@uoguelph.ca"
   address = "Department of Integrative Biology, Summerlee Science Complex, University of Guelph, Guelph, ON N1G 2W1"
-  office_hours = "Send me an email for appointment"
+  office_hours = "Send me an email for setting an appointment."
+  email = "kcazelle@uoguelph.ca"
   phone = "+1 519 824 4120 (ext. 56861)"
   skype = "diazthc"
-  telegram = ""
+  skype_name = "Kevin Cazelles"
 
   # Date format (refer to Go's date format: http://flippinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
@@ -40,83 +40,45 @@ defaultContentLanguageInSubdir = false
   #   If false, you can enable it locally on a per page basis.
   math = true
 
-  # Highlight.js options
-  #   highlight
-  #     Enable global source code highlighting?  If false, you can
-  #     override it for a particular page in that page's preamble.
-  #
-  #     Example: highlight = true
-  #
-  #   highlight_languages
-  #     Add support for highlighting additional languages. Support for
-  #     languages mentioned here will be included in all pages. You
-  #     can also set this variable for a particular page in that
-  #     page's preamble.
-  #
-  #     Example: highlight_languages = ["go", "lisp", "ocaml"]
-  #
-  #   highlight_style
-  #     Choose a different CSS style for highlighting source
-  #     code. Setting this option in a page's preamble has no
-  #     effect.
-  #
-  #     Example: highlight_style = "github-gist"
-  #
-  #   highlight_version
-  #     Choose the version of highlight.js you want. Setting this
-  #     option in a page's preamble has no effect.
-  #
-  #     Example: highlight_version = "9.9.0"
-  #
-  #   For the list of supported languages, styles, and versions, see:
-  #   https://cdnjs.com/libraries/highlight.js/
-  #
-  #   For more info on the highlighting options, see:
-  #   https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/#highlighting-options
+
+  #  For more info on the highlighting options, see:   # https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/#highlighting-options
   highlight = true
   highlight_languages = []
   # highlight_style = "github"
   # highlight_version = "9.9.0"
 
-  # Enable native social sharing buttons?
-  sharing = true
+  # I follow the example given with highlightjs in academic theme to add mathjax and lealfet
+  mathjax = true
+  leaflet = true
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
   custom_css = [
-    "css/perso.css",
-    "css/leaflet.css",
-    "css/leaflet.awesome-markers.css",
-    "css/creativecommons.css",
-    "css/flag-icon.css"
+    "/css/perso.css",
+    "/css/creativecommons.css",
+    "/css/flag-icon.css"
   ]
   custom_js  = [
-    "js/customzoom.js",
-    "js/leaflet.js",
-    "js/leaflet.awesome-markers.min.js",
-    "js/mapoffice.js",
-    "js/twitter.js"
+    # "/js/customzoom.js",
+    # "/js/mapoffice.js",
+    # "/js/twitter.js"
   ]
 
 
-# google font
-font = ["Changa+One"]
-
+# google fonts
+font = ["Changa One"]
 
 
 # added a cv section
+[[params.cv]]
+  lang = "eng"
+  pdf = "CV_KevCaz_eng.pdf"
+  zip = "CV_KevCaz_eng.zip"
 
-  [[params.cv]]
-    lang = "gb"
-    pdf = "CV_KevCaz_eng.pdf"
-    zip = "CV_KevCaz_eng.zip"
-
-  [[params.cv]]
-    lang = "fr"
-    pdf = "CV_KevCaz_fr.pdf"
-    zip = "CV_KevCaz_fr.zip"
-
-
+[[params.cv]]
+  lang = "fr"
+  pdf = "CV_KevCaz_fr.pdf"
+  zip = "CV_KevCaz_fr.zip"
 
 
 

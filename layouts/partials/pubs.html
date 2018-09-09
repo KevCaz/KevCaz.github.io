@@ -1,8 +1,8 @@
 
 
-<ul>
+<ol>
   {{ range .Site.Data.publi.references}}
-  <li>
+  <li class="pubs_li">
     {{ range .author}}
       {{ .family }} {{ .given | truncate 1 ".," }}
     {{ end }}
@@ -13,6 +13,7 @@
     {{ if .DOI }}
       DOI: <a href="{{ .URL }}">{{ .DOI }}</a>
     {{ end }}
+
   </li>
   {{ end }}
-</ul>
+</ol>

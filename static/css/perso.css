@@ -5,9 +5,14 @@
 
 .date {
   color: #555;
-  font-size: 1.6em;
+  font-size: 1.2em;
 }
 
+.pubs {
+  font-size: 1em;
+  color: #198;
+  padding-top: 10px;
+}
 
 #map {
   height: 350px;
