@@ -29,7 +29,7 @@ sci_computing:
 
 
 database:
-- name: postgresql
+- name: PostgreSQL
   url: https://www.postgresql.org
   level: 50
 
@@ -83,14 +83,12 @@ docprep:
 
   - name: LibreOffice
     url: https://www.libreoffice.org/download/download/
-    level: 90
+    level: 80
 
-
-other:
-  - name: QGIS
-    url: https://qgis.org/en/site/
-    level: 40
+  - name: Pandoc
+    url: https://pandoc.org/index.html
+    level: 70
 
   - name: Inkscape
     url: https://inkscape.org/en/
-    level: 40
+    level: 50

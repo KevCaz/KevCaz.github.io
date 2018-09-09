@@ -14,9 +14,11 @@
   padding-top: 10px;
 }
 
+
+
 #map {
   height: 350px;
-  width: 98%;
+  width: 90%;
   float: center;
   display: inline-block;
   background-color:black;

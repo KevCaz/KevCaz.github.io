@@ -41,23 +41,49 @@
   Skills
 </h1><hr>
 
-The categories below used for the sake of clarity, guven the current landscpae
-As I mainly use R on day-to-day life I used many of the probagrimg
-lanage with R. For instance Rcpp bind R amd C/Cpp even though I can use standalone
-C code, R Mrkdonw to write alone I am fairly confortable with Markdown and pandoc.
-call R with See <a href="/software/">software section</a>.
-http://rsqlite.r-dbi.org
+<p>For the sake of clarity I have grouped the computational tools I utilize under four categories. These categories are somewhat superficial from a practical standpoint as I use many of them inside R.
+For instance, even though I am able to  code s standalone program in C++, I mainly call my C++ functions directly from R using <a href="http://www.rcpp.org/">Rcpp</a>.
+Also, although I am comfortable with Markdown and Pandoc, I often use <a href="https://rmarkdown.rstudio.com">R Markdown</a>. Similarly, I do most of my work with spatial data with R (see this <a href="https://insileco.github.io/2018/04/14/r-in-space---a-series/">post on inSileco</a>) but I occasionally use <a href="https://qgis.org/en/site/">QuantumGIS</a>.
+Finally, I&#39;d like to mention that I am currently working on Linux (Debian Testing) I used to work on MacOS and I have a little experience with several Linux distributions and Windows.</p>
 
-I am currently working on Linux (Debian Testing) I used to work on MacOS, I
-have a little experience with several Linux distributions and Windows.
+<h3> <i class="fa fa-bar-chart" aria-hidden="true"></i> Scientific computing</h3>
 
-<h3>Scientific computing</h3>
+Programing languages I use to perform numerical sinulations,
+data analysis, statstics and create figures. <br><br>
 
-<h3>Data base and data serialization</h3>
+{{ range .Site.Data.skills.sci_computing}}
+  {{ partial "progressbar" . }}
+{{ end }}
 
-<h3>Document prepration</h3>
+<br>
 
-<h3>Web development</h3>
+<h3> <i class="fa fa-database" aria-hidden="true"></i> Database management and data serialization</h3>
+
+On the top of the common spreasheet file formats, I use: <br><br>
+
+{{ range .Site.Data.skills.database}}
+  {{ partial "progressbar" . }}
+{{ end }}
+
+<br>
+
+<h3> <i class="fa fa-file-text-o" aria-hidden="true"></i> Document prepration</h3>
+
+To create and edit reports and manuscripts, I have to be well-equiped! <br><br>
+
+{{ range .Site.Data.skills.docprep}}
+  {{ partial "progressbar" . }}
+{{ end }}
+
+<br>
+
+<h3><i class="fa fa-globe" aria-hidden="true"></i> Web development</h3>
+
+I am not a web developer, yet I use different web laguages for blogging and retrieving on line data! <br><br>
+
+{{ range .Site.Data.skills.web}}
+  {{ partial "progressbar" . }}
+{{ end }}
 
 <br><br>
 
