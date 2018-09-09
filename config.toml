@@ -69,18 +69,6 @@ defaultContentLanguageInSubdir = false
 font = ["Changa One"]
 
 
-# added a cv section
-[[params.cv]]
-  lang = "eng"
-  pdf = "CV_KevCaz_eng.pdf"
-  zip = "CV_KevCaz_eng.zip"
-
-[[params.cv]]
-  lang = "fr"
-  pdf = "CV_KevCaz_fr.pdf"
-  zip = "CV_KevCaz_fr.zip"
-
-
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the

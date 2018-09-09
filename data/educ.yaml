@@ -1,0 +1,30 @@
+educs:
+  - course: "PhD in Ecology"
+    institution:
+      - name: UQAR,
+        url: https://www.uqar.ca/
+      - name: Université de Montpellier
+        url: https://www.umontpellier.fr/
+    year: 2016
+
+  - course: "MSc in Ecology and Evolution"
+    institution:
+      - name: "AgroParisTech"
+        url: http://www2.agroparistech.fr/
+    year: 2012
+
+  - course: "Diploma of Agricultural Engineering"
+    institution:
+      - name: "AgroParisTech"
+        url: http://www2.agroparistech.fr/
+    year: 2011
+
+
+curiculum:
+  - lang: "eng"
+    pdf: "/docs/cv/CV_KevCaz_eng.pdf"
+    zip: "/docs/cv/CV_KevCaz_eng.zip"
+
+  - lang: "fr"
+    pdf: "/docs/cv/CV_KevCaz_fr.pdf"
+    zip: "/docs/cv/CV_KevCaz_fr.zip"
