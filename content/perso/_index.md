@@ -1,5 +1,5 @@
 ---
-title: "Some personal stuff"
+title: "Personal stuff"
 icon: bath
 ---
 

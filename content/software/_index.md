@@ -4,6 +4,6 @@ layout: regular
 icon: code
 ---
 
-<span class = "huge">:construction: </span>
+<span class = "Large">:construction: 
  UNDER CONSTRUCTION
-<span class = "huge">:construction:</span>
+:construction:</span>
