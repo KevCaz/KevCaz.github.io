@@ -1,34 +1,31 @@
-    - media: la Presse
-      year: 2018
-      type: \faPencil
-      lang: FR
-      url: http://www.lapresse.ca/environnement/climat/201803/06/01-5156225-la-biodiversite-dans-lombre-des-changements-climatiques.php
-    - media: Anthropocenemagazine
-      year: 2018
-      url: http://www.anthropocenemagazine.org/2018/02/biodiversity-ignored-by-press/
-      type: \faPencil
-      lang: ENG
-    - media: Greenreport
-      year: 2018
-      url: http://www.greenreport.it/news/aree-protette-e-biodiversita/la-crisi-della-biodiversita-non-interessa-media/
-      type: \faPencil
-      lang: IT
-    - media: 20 minutes
-      year: 2018
-      url: https://www.20minutes.fr/planete/2234443-20180308-pourquoi-parle-bien-plus-changement-climatique-erosion-biodiversite
-      type: \faPencil
-      lang: FR
-    - media: RFI
-      year: 2018
-      url: http://www.rfi.fr/emission/20180218-2-chaos-climatique-financier-jouzel-larrouturou
-      type: \faMicrophone
-      lang: FR
-    - media: le Devoir
-      year: 2018
-      url: http://www.ledevoir.com/socie dpkg-reconfigure locales te/education/518374/les-deux-derniers-laureats-de-l-acfas-reviennent-sur-leur-experience
-      type: \faPencil
-      lang: FR
-
-# https://www.uqar.ca/nouvelles/uqar-info/2266-un-diplome-de-l-uqar-remporte-une-distinction-pour-sa-these-en-biogeographie
-# https://www.ledevoir.com/societe/education/518374/les-deux-derniers-laureats-de-l-acfas-reviennent-sur-leur-experience
-# https://quebec.consulfrance.org/La-recherche-en-cotutelle-vue-par-Kevin-Cazelles
+articles:
+  - media: la Presse
+    year: 2018
+    lang: fr
+    url: "http://www.lapresse.ca/environnement/climat/201803/06/01-5156225-la-biodiverite-dans-lombre-des-changements-climatiques.php"
+  - media: Anthropocenemagazine
+    year: 2018
+    url: "http://www.anthropocenemagazine.org/2018/02/biodiversity-ignored-by-press/"
+    lang: en
+  - media: Greenreport
+    year: 2018
+    url: "http://www.greenreport.it/news/aree-protette-e-biodiversita/la-crisi-della-bodiversita-non-interessa-media/"
+    type: \faPencil
+    lang: it
+  - media: 20 minutes
+    year: 2018
+    url: "https://www.20minutes.fr/planete/2234443-20180308-pourquoi-parle-bien-plus-cangement-climatique-erosion-biodiversite"
+    type: \faPencil
+    lang: fr
+  - media: le Devoir
+    year: 2018
+    url: "http://www.ledevoir.com/socie dpkg-reconfigure localeste/education/518374/les-deux-derniers-laureats-de-l-acfas-reviennent-sur-leu-experience"
+    lang: fr
+  - media: UQAR Info
+    year: 2018
+    url: "https://www.uqar.ca/nouvelles/uqar-info/2266-un-diplome-de-l-uqar-remporte-une-distinction-pour-sa-these-en-biogeographie"
+    lang: fr
+  - media: Consulat général de France à Québec
+    year: 2018
+    url: "https://quebec.consulfrance.org/La-recherche-en-cotutelle-vue-par-Kevin-Cazelles"
+    lang: fr

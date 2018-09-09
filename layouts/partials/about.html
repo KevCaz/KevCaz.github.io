@@ -51,7 +51,7 @@ Finally, I&#39;d like to mention that I am currently working on Linux (Debian Te
 Programing languages I use to perform numerical sinulations,
 data analysis, statstics and create figures. <br><br>
 
-{{ range .Site.Data.skills.sci_computing}}
+{{ range .Site.Data.skills.sci_computing }}
   {{ partial "progressbar" . }}
 {{ end }}
 
@@ -61,7 +61,7 @@ data analysis, statstics and create figures. <br><br>
 
 On the top of the common spreasheet file formats, I use: <br><br>
 
-{{ range .Site.Data.skills.database}}
+{{ range .Site.Data.skills.database }}
   {{ partial "progressbar" . }}
 {{ end }}
 
@@ -71,7 +71,7 @@ On the top of the common spreasheet file formats, I use: <br><br>
 
 To create and edit reports and manuscripts, I have to be well-equiped! <br><br>
 
-{{ range .Site.Data.skills.docprep}}
+{{ range .Site.Data.skills.docprep }}
   {{ partial "progressbar" . }}
 {{ end }}
 
@@ -81,7 +81,7 @@ To create and edit reports and manuscripts, I have to be well-equiped! <br><br>
 
 I am not a web developer, yet I use different web laguages for blogging and retrieving on line data! <br><br>
 
-{{ range .Site.Data.skills.web}}
+{{ range .Site.Data.skills.web }}
   {{ partial "progressbar" . }}
 {{ end }}
 
@@ -89,5 +89,19 @@ I am not a web developer, yet I use different web laguages for blogging and retr
 
 
 <h1><i class="fa fa-newspaper-o" aria-hidden="true"></i>
-  Press
+  Media
 </h1><hr>
+
+{{ range .Site.Data.press.articles }}
+  <h4>
+    <span class = "date"> {{ .year }}: </span>
+    <span class = "large"> {{ .media }} </span>
+    ({{ .lang }})
+    <a href="{{ .url }}">
+      <i class="fa fa-external-link" aria-hidden="true"></i>
+    </a>
+  </h4>
+{{ end }}
+
+
+<br>
