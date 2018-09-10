@@ -6,9 +6,6 @@ NEW VERSION UNDER :construction:
 [![Build Status](https://travis-ci.org/KevCaz/kevcazHugoWebsite.svg?branch=dev)](https://travis-ci.org/KevCaz/kevcazHugoWebsite)
 
 This is the source for my website made with [Hugo](https://gohugo.io).
-I have used the [academic theme](https://github.com/gcushen/hugo-academic),
-
-I used to use the great Academic theme created by [George Cushen](https://github.com/gcushen/).
 I now [have forked](https://github.com/KevCaz/hugo-xmin) the [xmin theme by @Yihui](https://github.com/yihui/hugo-xmin).
 
 
@@ -26,16 +23,11 @@ specified. A few notes about license of the tools I am using:
     - jQuery
     - isotope
   - [Leaflet](http://leafletjs.com) is licensed under BSD 2-clause "Simplified" License;
-  - [yaml.js](https://github.com/jeremyfa/yaml.js/) is licensed under the MIT License;
   - [flag-icon-css](http://flag-icon-css.lip.is/) is licensed under the MIT License.
 
 
 ## Todo
 
-2. [ ] add publications => yaml-js lien full list
-3. [ ] add selected talks => yaml-js lien full list
-6. [ ] add teaching => need to think
-7. [ ] Press:
- - http://www.cnrs.fr/inee/communication/breves/b337.html
- - http://www.ledevoir.com/societe/education/518374/les-deux-derniers-laureats-de-l-acfas-reviennent-sur-leur-experience
- - https://frontiers.altmetric.com/details/31083251
+1. [ ] add selected talks => yaml-js lien full list
+2. [ ] add teaching => need to think
+3. http://www.cnrs.fr/inee/communication/breves/b337.html

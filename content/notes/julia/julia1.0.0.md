@@ -5,16 +5,11 @@ categories: [installation]
 tags: [installation, setup, julia]
 ---
 
-Many of may already about [Julia](https://julialang.org/). Well I am not yet a regular user but performances are impressive and the langage is well-thought and I therefore pay careful attention to what's happening on Julia. Recently [version 1.0.0](https://juliacomputing.com/press/2018/08/10/Julia-1.0-Released.html) was released, and for me it was time to use Julia more.  I try it from tme to times to do. The thing is that on Debian Testing https://julialang.org/
+Many of may already about [Julia](https://julialang.org/). Well I am not yet a regular user but Julia's performances are impressive and the langage is well-thought, I therefore pay careful attention to what's happening on Julia. Recently, [version 1.0.0](https://juliacomputing.com/press/2018/08/10/Julia-1.0-Released.html) was released, so
+I decided to replace my version [v0.4.7.9 available for Stretch](https://packages.debian.org/fr/strecth/julia 0.4.7.9) I installed with `apt-get`: `sudo apt-get julia` (note that currently [v0.7.0-2 is available for Cid](https://packages.debian.org/fr/sid/julia)).
 
-> sudo apt-get julia
-
-https://packages.debian.org/fr/sid/julia 0.7.0-2
-https://packages.debian.org/fr/strecth/julia 0.4.7.9
-
-will give you
-and sid 0.7.2 but anticipated 1.0 is already here! And I wanted to work
-on the newest verison. Fortunately the project is maintained on
+I followed the guidelines available on the [Github repository]()
+Fortunately the project is maintained on
 Github and the website offers a [Generic Linux Binaries for x86](https://julialang.org/downloads/platform.html#generic-binaries) a the readme show you how to build it. I wanted to compile for my own machine. Fortunalty indication are provided on the README of the GH repo, I simply followed them.
 
 ```
@@ -49,7 +44,9 @@ Generating precompile statements... 762 generated in  37.767039 seconds
 >>> elapsed time 1h18m10s
 ```
 
-The build will automatically check for the existence of Make.user and use it if it exists. Building Julia requires 5GiB of disk space and approximately 2GiB of virtual memo
+The build will automatically check for the existence of Make.user and use it if
+it exists. Building Julia requires 5GiB of disk space and approximately 2GiB of
+virtual memo
 
 ```
 ./julia
@@ -62,9 +59,11 @@ I added an alias to make my life easier, in my `.zprofile` (available here
 alias julia='~/Github/Applications/julia/julia'
 ```
 
-I like the idea of having but not integrated and different library download.
-It makes sense when version for debian will be on a ppa (like unbuntu)
-soon have verison 1.0.0 available for testng
+Everything works fine!
 
 
 ![](/notes/julia/juliaV1.png)
+
+I like the idea of having but not integrated and different library download.
+It makes sense when version for debian will be on a ppa (like unbuntu)
+soon have verison 1.0.0 available for testng

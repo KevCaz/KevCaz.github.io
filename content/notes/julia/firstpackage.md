@@ -1,7 +1,8 @@
 ---
 title: install packages with Julia
-date: 2018-09-07
+date: 2018-09-13
 ---
+
 repl mode ]
 
 add name package
