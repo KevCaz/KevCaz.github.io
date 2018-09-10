@@ -2,8 +2,7 @@
 
 NEW VERSION UNDER :construction:
 
-
-[![Build Status](https://travis-ci.org/KevCaz/kevcazHugoWebsite.svg?branch=dev)](https://travis-ci.org/KevCaz/kevcazHugoWebsite)
+[![Build Status](https://travis-ci.org/KevCaz/KevCaz.github.io.svg?branch=dev)](https://travis-ci.org/KevCaz/KevCaz.github.io)
 
 This is the source for my website made with [Hugo](https://gohugo.io).
 I now [have forked](https://github.com/KevCaz/hugo-xmin) the [xmin theme by @Yihui](https://github.com/yihui/hugo-xmin).
