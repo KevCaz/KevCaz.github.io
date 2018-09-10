@@ -13,6 +13,20 @@
   padding-top: 10px;
 }
 
+.anchor {
+   position: relative;
+}
+
+.anchor span {
+   position: absolute;
+   top: -64px;
+}
+
+.mysticky {
+  display: block;
+  position: fixed;
+  top: 48px;
+}
 
 
 #map {

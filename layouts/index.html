@@ -5,23 +5,35 @@
     <div class="row">
 
       <div class="col-sm-3">
-
-        <img src="img/avatar.png" width=200px alt="avatar"></img>
+        <img src="img/avatar.png" width=224px alt="avatar"></img>
         <br><br>
 
         {{ partial "socio" . }}
         <br>
 
         <a class="twitter-timeline"  href="https://twitter.com/{{ .Site.Params.twitter }}" data-width="400" data-height="400" data-chrome="nofooter noborders hoheader"> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></a>
-
       </div>
 
       <div class="col-sm-8">
-
       {{ partial "about" . }}
 
-
       </div>
+
+      <div class="col-sm-1">
+        <div class="hidden-sm hidden-xs">
+          <div class="mysticky">
+            {{ range .Site.Data.navhome.menu }}
+            <h1 title="{{ .title }}">
+              &nbsp;&nbsp;
+              <a href="#{{ .anchor }}">
+               <i class="fa fa-{{ .icon }}" aria-hidden="true"></i>
+             </a>
+            </h1>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+
 
 
   </div>
