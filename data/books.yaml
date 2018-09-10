@@ -9,8 +9,22 @@
   comments: "suspense novel"
   url: "https://images-na.ssl-images-amazon.com/images/I/41-tb1ZuUFL._SX301_BO1,204,203,200_.jpg"
 
+- title: L'Etranger
+  author: Albert Camus
+  year: 2018
+
 - title: La Chute
   author: Albert Camus
+  year: 2018
+  url: "https://images-na.ssl-images-amazon.com/images/I/41F2tUWLElL._AA218_.jpg"
+
+- title: Royal
+  author: Jean-Phillipe Baril Guérard
+  year: 2018
+  url: "https://images-na.ssl-images-amazon.com/images/I/41F2tUWLElL._AA218_.jpg"
+
+- title: La petite fille qui aimait trop les alumettes
+  author: Gaétan Soucy
   year: 2018
   url: "https://images-na.ssl-images-amazon.com/images/I/41F2tUWLElL._AA218_.jpg"
 
@@ -20,3 +34,5 @@
   year: 2018
   guttenberg: "ebooks/2701"
   # https://www.gutenberg.org/ebooks/2701
+# L'Hyper puissance de l'informatique, des vertes et des pas mures
+# after Europe, les lettres de mon Moulin

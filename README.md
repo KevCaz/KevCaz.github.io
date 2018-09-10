@@ -26,5 +26,8 @@ specified. A few notes about license of the tools I am using:
 
 ## Tout doux
 
-1. [ ] add selected talks => yaml-js lien full list
-2. [ ] add teaching => need to think
+1. [ ] talks&posters section
+2. [ ] teaching section
+3. [ ] software section
+4. [ ] taxonomy tags for Notes
+5. [ ] develop perso section 

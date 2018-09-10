@@ -2,7 +2,7 @@
 title: "Build Julia 1.0.0 from sources on Debian Testing"
 date: 2018-09-06
 categories: [installation]
-tags: [julia, installation, makefile]
+tags: [julia, installation, Makefile]
 ---
 
 You may have already heard about [Julia](https://julialang.org/). Well, I am not

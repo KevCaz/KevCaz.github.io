@@ -1,3 +1,13 @@
+- title: R Graphics.
+  author: Casajus N. and Cazelles K.
+  conf: QCBS Data Visualization workshop
+  year: 2016
+  place: Maison Gault
+  city: Mont St Hilaire
+  country: Canada
+  html: QCBSGraphsR/Rgraphics.html
+  category: formation
+
 - name: Gérer et formater sa bibliographie
   author: Casajus N., Vissault S. et Cazelles K.
   year: 2015
