@@ -2,7 +2,6 @@
   author: Sébastien Theveny
   style: roman a suspense
 
-
 - title: La horde du contrevent
   author: Alain Damasio
   year: 2018
@@ -13,7 +12,7 @@
 - title: La Chute
   author: Albert Camus
   year: 2018
-  url: https://images-na.ssl-images-amazon.com/images/I/41F2tUWLElL._AA218_.jpg
+  url: "https://images-na.ssl-images-amazon.com/images/I/41F2tUWLElL._AA218_.jpg"
 
 
 - title: Moby Dick

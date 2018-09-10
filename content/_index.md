@@ -11,4 +11,4 @@ combine abiotic and biotic factors to better predict tomorrow's biodiversity. I 
 
 
 Lastly, I should mention that I am a code-enthusiast (currently spending most of
-my coding-time on R and C/C++, but I enjoy several programming languages, see below) and a graphics-lover (I should probably say data-visualisation-lover as it sounds fancier nowadays). That the reason why, together with a couple of colleagues/friends, we started [inSileco](https://insileco.github.io/), a blog that focuses on the computational tools for ecologists.
+my coding-time on R and C/C++, but I enjoy several programming languages, see below) and a graphic-lover (I should probably say data-visualization-lover as it sounds fancier nowadays). That the reason why, together with a couple of colleagues/friends, we started [inSileco](https://insileco.github.io/), a blog that focuses on the computational tools for ecologists.

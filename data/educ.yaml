@@ -21,7 +21,7 @@ educs:
 
 
 curiculum:
-  - lang: "eng"
+  - lang: "en"
     pdf: "/docs/cv/CV_KevCaz_eng.pdf"
     zip: "/docs/cv/CV_KevCaz_eng.zip"
 

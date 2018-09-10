@@ -13,15 +13,15 @@
         <b><span style="color: #337ab7">
           {{ .family }} {{ $let }}</span></b>{{ if eq $len2 $i }}.{{ else }},{{ end }}
       {{ else }}
-        {{ .family }} {{ $let }}{{ if eq $len2 $i }}.{{ else }},{{ end }}
+        {{ .family }} {{ $let }}{{ if eq $len2 $i }}{{ else }},{{ end }}
       {{ end }}
     {{ end }}
-
-    <b>{{ .title }}</b>
-
     {{ range .issued }}
       ({{ .year }}).
     {{ end }}
+
+
+    <b>{{ .title }}</b>
 
     {{ if .container }}
       {{ .container }}.
