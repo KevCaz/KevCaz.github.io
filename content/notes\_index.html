@@ -22,38 +22,13 @@
 </style>
 </head>
 <body><div id="readme" class="container"><article class="markdown-body entry-content"><hr>
-<p>title: &quot;Build Julia 1.0.0 from sources on Debian Testing&quot;
-date: 2018-09-06
-categories: [installation]</p>
-<h2 id="tags-installation-setup-julia-">tags: [installation, setup, julia]</h2>
-<p>Many of may already about <a href="https://julialang.org/">Julia</a>. Well I am not yet a regular user but Julia&apos;s performances are impressive and the langage is well-thought, I therefore pay careful attention to what&apos;s happening on Julia. Recently, <a href="https://juliacomputing.com/press/2018/08/10/Julia-1.0-Released.html">version 1.0.0</a> was released, so
-I decided to replace my version [v0.4.7.9 available for Stretch](<a href="https://packages.debian.org/fr/strecth/julia">https://packages.debian.org/fr/strecth/julia</a> 0.4.7.9) I installed with <code>apt-get</code>: <code>sudo apt-get julia</code> (note that currently <a href="https://packages.debian.org/fr/sid/julia">v0.7.0-2 is available for Cid</a>).</p>
-<p>I followed the guidelines available on the <a href="">Github repository</a>
-Fortunately the project is maintained on
-Github and the website offers a <a href="https://julialang.org/downloads/platform.html#generic-binaries">Generic Linux Binaries for x86</a> a the readme show you how to build it. I wanted to compile for my own machine. Fortunalty indication are provided on the README of the GH repo, I simply followed them.</p>
-<pre><code>git clone https://github.com/JuliaLang/julia.git</code></pre><p>I took a couple of seconds. Then checkout</p>
-<pre><code>git checkout v1.0.0</code></pre><p>And then make!</p>
-<pre><code>make</code></pre><pre><code>REPL  &#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;  1.126812 seconds
-Statistics  &#x2500;&#x2500;&#x2500;&#x2500;&#x2500;  0.311747 seconds
-Stdlibs total  &#x2500;&#x2500; 65.668191 seconds
-Sysimage built. Summary:
-Total &#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;  88.168324 seconds
-Base: &#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;  22.498423 seconds 25.5176%
-Stdlibs: &#x2500;&#x2500;&#x2500;&#x2500;  65.668191 seconds 74.4805%
-    JULIA usr/lib/julia/sys-o.a
-Generating precompile statements... 762 generated in  37.767039 seconds
-    LINK usr/lib/julia/sys.so
-    CC usr/lib/libccalltest.so
-&gt;&gt;&gt; elapsed time 1h18m10s</code></pre><p>The build will automatically check for the existence of Make.user and use it if
-it exists. Building Julia requires 5GiB of disk space and approximately 2GiB of
-virtual memo</p>
-<pre><code>./julia</code></pre><p>I added an alias to make my life easier, in my <code>.zprofile</code> (available here
-  ) I added:</p>
-<pre><code>alias julia=&apos;~/Github/Applications/julia/julia&apos;</code></pre><p>Everything works fine!</p>
-<p><img src="/notes/julia/juliaV1.png" alt=""></p>
-<p>I like the idea of having but not integrated and different library download.
-It makes sense when version for debian will be on a ppa (like unbuntu)
-soon have verison 1.0.0 available for testng</p>
+<p>title: Notes
+icon: pencil-square-o</p>
+<h2 id="layout-list">layout: list</h2>
+<p>In my professional life, I mainly write about ecology (see the <a href="../publications">publications section</a>) but I spend a fair amount of my time on my computer looking at new freeware, new computational tools, new programming langages, etc. in order to find better practices and share them with colleagues. That is the reason why I partner up with colleagues/friends to start <a href="https://insileco.github.io/">inSileco</a>, a blog that focuses on computational tools for ecologists. I try to post on this blog regularly medium-size articles and I decided
+to report short note in this section (I may compile some of them for a blog
+on <a href="https://insileco.github.io/">inSileco</a>). As I wrote in one of the posts hosted on this blog, I am currently <a href="https://insileco.github.io/2018/06/18/my-r-setup-on-debian/">working on Debian testing</a> and notes
+I gather here may often be reltaed to Debian! </p>
 </article></div><div style="background-color: #b4b2b2;width: 50px;height:50px;line-height: 50px;text-align: center;position: fixed;bottom: 10px;right: 10px;padding-top:5px;" onclick="document.documentElement.scrollTop = document.body.scrollTop =0;">
   <svg t="1533629773982" class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1035" xlink="http://www.w3.org/1999/xlink" width="40" height="40"><defs><style type="text/css">@font-face { font-family: uc-nexus-iconfont; src: url("chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.woff") format("woff"), url("chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.ttf") format("truetype"); }
   </style></defs><path d="M536.255427 195.182354c-7.804756-7.804756-17.966187-11.615549-28.311813-11.615549-9.43693 0-18.874883 3.449565-26.496467 10.163477-2.360767 1.452071-4.356214 3.267417-6.352685 5.262864L218.47792 455.611735c-15.607466 15.60542-15.607466 40.834011 0 56.43943 15.607466 15.607466 41.558511 15.607466 57.167001 0l193.46013-192.733583 0 600.526219c0 22.1423 17.787108 39.927361 39.927361 39.927361 22.140253 0 39.927361-17.785062 39.927361-39.927361L548.959773 319.317583 737.15704 508.422522c15.607466 15.607466 40.469714 15.607466 56.078203 0 15.607466-15.607466 15.425318-40.834011-0.182149-56.441477L536.255427 195.182354 536.255427 195.182354z" p-id="1036" fill="#333"/><path d="M101.784174 143.097092l816.674071 0c22.140253 0 39.925315-17.785062 39.925315-39.927361 0-22.140253-17.784038-39.925315-39.925315-39.925315L101.784174 63.244416c-22.140253 0-39.927361 17.785062-39.927361 39.925315C61.856813 125.31203 79.643921 143.097092 101.784174 143.097092L101.784174 143.097092z" p-id="1037" fill="#333"/></svg>

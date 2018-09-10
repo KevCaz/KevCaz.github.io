@@ -1,7 +1,7 @@
 ---
 title: A few more LaTeX symbols
 date: 2018-09-08
-tags: [latex, maths]
+tags: [latex, maths, typesetting]
 ---
 
 Yesterday I learned **3** more [LaTeX](https://www.latex-project.org/) symbols while I was reviewing a paper :smiley_cat::

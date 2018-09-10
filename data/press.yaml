@@ -10,12 +10,14 @@ articles:
   - media: Greenreport
     year: 2018
     url: "http://www.greenreport.it/news/aree-protette-e-biodiversita/la-crisi-della-bodiversita-non-interessa-media/"
-    type: \faPencil
     lang: it
   - media: 20 minutes
     year: 2018
     url: "https://www.20minutes.fr/planete/2234443-20180308-pourquoi-parle-bien-plus-cangement-climatique-erosion-biodiversite"
-    type: \faPencil
+    lang: fr
+  - media: CNRS
+    year: 2018
+    url: "http://www.cnrs.fr/inee/communication/breves/b337.html"
     lang: fr
   - media: le Devoir
     year: 2018
