@@ -1,0 +1,94 @@
+sci_computing:
+- name: R
+  url: https://www.r-project.org/
+  level: 90
+
+- name: C/C++
+  url: https://isocpp.org
+  level: 60
+
+- name: Octave
+  url: https://www.gnu.org/software/octave/
+  level: 50
+
+- name: bash
+  url: https://www.gnu.org/software/bash/
+  level: 50
+
+- name: Sage
+  url: http://www.sagemath.org
+  level: 30
+
+- name: Python
+  url: https://www.python.org
+  level: 20
+
+- name: Julia
+  url: https://julialang.org
+  level: 10
+
+
+database:
+- name: PostgreSQL
+  url: https://www.postgresql.org
+  level: 50
+
+- name: Sqlite
+  url: https://www.sqlite.org/index.html
+  level: 50
+
+- name: YAML
+  url: http://yaml.org
+  level: 90
+
+- name: TOML
+  url: https://github.com/toml-lang/toml
+  level: 80
+
+- name: JSON
+  url: https://json.org/json-en.html
+  level: 60
+
+
+web:
+  - name: HTML
+    url: https://www.w3.org/TR/html52/
+    level: 60
+
+  - name: CSS
+    url: https://www.w3.org/Style/CSS/
+    level: 60
+
+  - name: JavaScript
+    url: https://developer.mozilla.org/bm/docs/Web/JavaScript
+    level: 30
+
+  - name: Hugo
+    url: https://gohugo.io
+    level: 70
+
+  - name: Jekyll
+    url: https://jekyllrb.com
+    level: 40
+
+
+docprep:
+  - name: Latex
+    url: https://www.latex-project.org
+    level: 90
+
+  - name: Markdown
+    url: https://pandoc.org/MANUAL.html#philosophy
+    level: 90
+
+  - name: LibreOffice
+    url: https://www.libreoffice.org/download/download/
+    level: 80
+
+  - name: Pandoc
+    url: https://pandoc.org/index.html
+    level: 70
+
+  - name: Inkscape
+    url: https://inkscape.org/en/
+    level: 50

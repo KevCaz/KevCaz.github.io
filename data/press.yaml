@@ -1,0 +1,31 @@
+articles:
+  - media: la Presse
+    year: 2018
+    lang: fr
+    url: "http://www.lapresse.ca/environnement/climat/201803/06/01-5156225-la-biodiverite-dans-lombre-des-changements-climatiques.php"
+  - media: Anthropocenemagazine
+    year: 2018
+    url: "http://www.anthropocenemagazine.org/2018/02/biodiversity-ignored-by-press/"
+    lang: en
+  - media: Greenreport
+    year: 2018
+    url: "http://www.greenreport.it/news/aree-protette-e-biodiversita/la-crisi-della-bodiversita-non-interessa-media/"
+    type: \faPencil
+    lang: it
+  - media: 20 minutes
+    year: 2018
+    url: "https://www.20minutes.fr/planete/2234443-20180308-pourquoi-parle-bien-plus-cangement-climatique-erosion-biodiversite"
+    type: \faPencil
+    lang: fr
+  - media: le Devoir
+    year: 2018
+    url: "http://www.ledevoir.com/socie dpkg-reconfigure localeste/education/518374/les-deux-derniers-laureats-de-l-acfas-reviennent-sur-leu-experience"
+    lang: fr
+  - media: UQAR Info
+    year: 2018
+    url: "https://www.uqar.ca/nouvelles/uqar-info/2266-un-diplome-de-l-uqar-remporte-une-distinction-pour-sa-these-en-biogeographie"
+    lang: fr
+  - media: Consulat général de France à Québec
+    year: 2018
+    url: "https://quebec.consulfrance.org/La-recherche-en-cotutelle-vue-par-Kevin-Cazelles"
+    lang: fr
