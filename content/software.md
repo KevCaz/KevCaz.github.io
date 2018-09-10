@@ -1,9 +1,7 @@
 ---
 title: Software
-layout: regular
 icon: code
+layout: software
 ---
 
-<span class = "Large">:construction: 
- UNDER CONSTRUCTION
-:construction:</span>
+<br>
