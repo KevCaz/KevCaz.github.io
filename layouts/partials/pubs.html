@@ -2,12 +2,11 @@
 
 <ol>
   {{ $letk := "Kevin" | truncate 1 "." }}
-
   {{ range .Site.Data.publi.references}}
   <li class="pubs_li">
     {{ $len := len .author }}
     {{ $len2 := sub $len 1 }}
-    {{ range $i, $e :=.author}}
+    {{ range $i, $e := .author}}
       {{ $let := .given | truncate 1 "." }}
       {{ if (and (eq .family "Cazelles") (eq $let $letk)) }}
         <b><span style="color: #337ab7">
@@ -30,9 +29,6 @@
     {{ if .volume }}
       <em>{{ .volume }}</em>{{ if .issue }}({{ .issue }}){{ end }}
     {{ end }}
-
-
-
 
 
     {{ if .DOI }}

@@ -9,10 +9,10 @@ icon: bullhorn
 
 ## <i class="fa fa-commenting" aria-hidden="true"></i> Talks {#talks}
 
-{{< talks >}}
+{{< talk >}}
 
 
 
 ## <i class="fa fa-file-image-o" aria-hidden="true"></i> Posters {#posters}
 
-{{< posters >}}
+{{< poster >}}

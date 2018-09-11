@@ -13,21 +13,22 @@ This is my personal website, all content is released under [CC-BY-NC-SA](https:/
 specified. A few notes about license of the tools I am using:
 
   - Hugo is licensed under Apache License v2.0;
-  - the Academic theme for Hugo has been released under the MIT license and includes:
+  - the following JavaScript libraries I used are licensed under the NIT License:
     - boostrap
     - academicicons
     - font-awesome
     - highlight
     - jQuery
-    - isotope
+    - jQuery-UI
+    - tocify
   - [Leaflet](http://leafletjs.com) is licensed under BSD 2-clause "Simplified" License;
   - [flag-icon-css](http://flag-icon-css.lip.is/) is licensed under the MIT License.
 
 
 ## Tout doux
 
-1. [ ] talks&posters section
+1. [ ] improve list of authors (create a specific shortcode)
+2. [ ] add seminars
 2. [ ] teaching section
-3. [ ] software section
 4. [ ] taxonomy tags for Notes
-5. [ ] develop perso section 
+5. [ ] develop perso section

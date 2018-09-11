@@ -1,0 +1,51 @@
+talks:
+- title: Do ecological interactions impact geographic distributions of species?
+  author: Cazelles K., Mouquet N. ,and Gravel D.
+  conference:
+    - name: Annual Meeeting of the Ecological Society of America
+      date: 2016-01-08
+      where: "Fort Lauderdale, "
+  country: Canada
+  html: ESA_2016/presESAKC.html
+  file: ESA_2016/presESAKC.pdf
+
+- title: "Do ecological interaction impact geographical distributions of species?"
+  author: Cazelles K., Mouquet N. and Gravel D.
+  conf: Quebec Center for Biodiversity Science - Annual Meeting
+  year: 2015
+  place: Hotel Westin
+  city: Montreal
+  country: Canada
+  file: CSBQ_2015.pdf
+  category: international conference
+
+- title: Integration of ecological networks in a theoretical stochastic model of biogeography.
+  author: Cazelles K., Mouquet N., Mouillot D. and Gravel D.
+  conf: Canadian Society for Ecology and Evolution - Annual Meeting
+  year: 2015
+  place: Hotel
+  city: Saskatoon
+  country: Canada
+  file: CSEE_2015.pdf
+  category: international conference
+
+- title: Integration of ecological networks in a theoretical stochastic model of biogeography.
+  author: Cazelles K., Mouquet N., Mouillot D. and Gravel D.
+  conf: British Ecological Society - Société Française d'Ecologie - Joint Annual Meeting
+  year: 2014
+  place: Palais des Congrès
+  city: Lille
+  country: France
+  file: "talks/talks/SFEBSE_2014.pdf"
+
+- title: "Wavelet Clustering, a tool to integrate spatial and temporal patterns based on their dynamical properties, application to dengue in Thailand"
+  author:
+    - family: Cazelles
+      given: Kevin
+    - family: Cazelles
+      given: Bernard
+  conference:
+    - name: "Model in Population Biology"
+      date: 2012-08-01
+      where: UFSM, Santa Maria, Brazil
+  pdf: "talks/talks/MIPD_2012.pdf"

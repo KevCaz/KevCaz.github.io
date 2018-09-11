@@ -4,14 +4,26 @@ date: 2018-09-14
 draft: true
 ---
 
-FFMEPG could be a string asset subsample a specific extract of a video
+As the website mention, [FFmepg] is:
+
+> A complete, cross-platform solution to record, convert and stream audio and video.
+
+FFmep is an extremelly powerful freeware, as mentioned on the [Wikipedia page](https://en.wikipedia.org/wiki/FFmpeg)
+
+
+> FFmpeg includes libavcodec, an audio/video codec library used by many commercial and free software products, libavformat (Lavf),[6] an audio/video container mux and demux library, and the core ffmpeg command line program for transcoding multimedia files.
+
+[libavcodec is used in VLC](https://en.wikipedia.org/wiki/VLC_media_player)
+a popular multimedia. Personnaly I value FFmpeg for its CLI that allows
+many cnversation and can be easily integrated in bash script. For instance
+to subsameple a usie strating at *56min42sec500ms* for 3.4 seconds:
+
 
 ```
 ffmpeg -ss 00:56:42.500 -i yourvideomp4 -t 3.4 -c copy out.mp4         
 ```
 
-
-Conversion audio format:
+Also it is extremelly helpful to convert audio formats in batch:
 
 ```sh
 # wma to mp3

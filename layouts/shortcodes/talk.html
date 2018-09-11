@@ -1,0 +1,9 @@
+  <ul>
+    {{ range .Site.Data.talk.talk }}
+    <li>
+      {{ .title }}
+      <span class="Date"> {{ .year }} </span>
+
+    </li>
+    {{ end }}
+  </ul>
