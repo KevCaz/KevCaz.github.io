@@ -8,7 +8,7 @@ tags: [Sage, installation, Makefile]
 [Sage](http://www.sagemath.org/) is a powerful mathematics software I use
 to do symbolic computation. Currently there is no version for Debian
 Testing, meaning you can either [install the version available for the stable
-release or cherry pick the package available for Cid](https://packages.debian.org/search?keywords=sagemath).
+release or cherry pick the package available for Sid](https://packages.debian.org/search?keywords=sagemath).
 Well I was not able to `sudo apt-get` the version from Stretch so I decided
 to use the same approach as I did for Julia (see [this previous note](/notes/julia/juliav1)).
 Basically the sources of sage are mirrored on Github https://github.com/sagemath/sage
@@ -51,4 +51,4 @@ After **3h24m11s**, everything works fine
 
 ![](/notes/sage/sageV8-3.png)
 
-I created another alias and :boom: ready to do maths! 
+I created another alias and :boom: ready to do maths!
