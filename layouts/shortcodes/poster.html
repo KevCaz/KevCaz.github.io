@@ -18,7 +18,7 @@
     <b> {{ .title }}. </b>
     <!-- conf -->
     {{ range .conference }}
-      <a href="{{ .url }}"> {{ .name }} </a> {{ dateFormat "01/2006" .date }} , {{ .where }}.
+      <a href="{{ .url }}"> {{ .name }} </a> {{ dateFormat "01/2006" .date }}. {{ .where }}.
     {{ end }}
     <!-- END conf -->
     {{ if .DOI }}

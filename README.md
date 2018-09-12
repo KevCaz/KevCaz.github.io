@@ -27,8 +27,9 @@ specified. A few notes about license of the tools I am using:
 
 ## Tout doux
 
-1. [ ] improve list of authors (create a specific shortcode)
+1. [ ] improve list of authors (create specific shortcodes)
 2. [ ] add seminars
+3. idea: use details when list are too long https://developer.mozilla.org/fr/docs/Web/HTML/Element/details
 2. [ ] teaching section
 4. [ ] taxonomy tags for Notes
 5. [ ] develop perso section
