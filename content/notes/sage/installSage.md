@@ -6,25 +6,25 @@ tags: [Sage, installation, Makefile]
 
 
 [Sage](http://www.sagemath.org/) is a powerful mathematics software I use
-to do symbolic computation. Currently there is no version for Debian
+to do symbolic computation. Currently, there is no version available for Debian
 Testing, meaning you can either [install the version available for the stable
 release or cherry pick the package available for Sid](https://packages.debian.org/search?keywords=sagemath).
-Well I was not able to `sudo apt-get` the version from Stretch so I decided
+Well I was not able to `sudo apt-get` the package for Stretch so I decided
 to use the same approach as I did for Julia (see [this previous note](/notes/julia/juliav1)).
-Basically the sources of sage are mirrored on Github https://github.com/sagemath/sage
-so one can clone the repository
+Basically, the sources of sage are [mirrored on Github](https://github.com/sagemath/sage)
+so one can clone the repository:
 
 ```sh
 git clone https://github.com/sagemath/sage.git
 ```
 
-and use the Makefile
+and then use the Makefile
 
 ```sh
 make
 ```
 
-It took some time, a lot of time :hourglass:
+It took some time :hourglass:
 
 
 ```sh
@@ -47,8 +47,8 @@ make[1]: Leaving directory '/home/kevcaz/Github/Applications/sage'
 >>> elapsed time 3h24m11s
 ```
 
-After **3h24m11s**, everything works fine
+After **3h24m11s**, everything works fine:
 
 ![](/notes/sage/sageV8-3.png)
 
-I created another alias and :boom: ready to do maths!
+I created another alias and :boom: I'm ready to do maths!

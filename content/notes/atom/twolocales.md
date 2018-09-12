@@ -1,5 +1,5 @@
 ---
-title: More than one langage
+title: More than one langage with spell-check
 date: 2018-09-12
 draft: false
 ---
