@@ -7,6 +7,10 @@
   color: #444;
 }
 
+.title{
+  font-size: .9em !important;
+}
+
 .date {
   color: #444;
   font-size: 1.1em;
