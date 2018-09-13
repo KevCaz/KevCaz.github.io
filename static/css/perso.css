@@ -1,6 +1,10 @@
+.tags {
+  font-weight: 600;
+}
 .tags a:hover {
     color: white;
 }
+
 
 .role {
   text-align: center;
