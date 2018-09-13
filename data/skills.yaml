@@ -23,6 +23,10 @@ sci_computing:
   url: https://www.python.org
   level: 20
 
+- name: Java
+  url: https://www.java.com/fr/
+  level: 15
+
 - name: Julia
   url: https://julialang.org
   level: 10
@@ -62,6 +66,11 @@ web:
   - name: JavaScript
     url: https://developer.mozilla.org/bm/docs/Web/JavaScript
     level: 30
+
+  - name: PHP
+    url: http://php.net/
+    level: 10
+
 
   - name: Hugo
     url: https://gohugo.io
