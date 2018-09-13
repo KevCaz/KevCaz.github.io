@@ -1,11 +1,15 @@
+.tags a:hover {
+    color: white;
+}
+
 .role {
   text-align: center;
-  color: #555;
+  color: #444;
 }
 
 .date {
-  color: #555;
-  font-size: 1.2em;
+  color: #444;
+  font-size: 1.1em;
 }
 
 .pubs_li {
@@ -46,3 +50,7 @@
    background-color:black;
    margin: 10px 10px 10px 10px;
   }
+
+blockquote {
+  font-size: 1.05em !important;
+}
