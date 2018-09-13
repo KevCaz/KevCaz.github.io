@@ -5,7 +5,7 @@
 - title: La horde du contrevent
   author: Alain Damasio
   year: 2018
-  perso_rating:
+  perso_rating: 5
   comments: "suspense novel"
   url: "https://images-na.ssl-images-amazon.com/images/I/41-tb1ZuUFL._SX301_BO1,204,203,200_.jpg"
 
@@ -23,7 +23,7 @@
   year: 2018
   url: "https://images-na.ssl-images-amazon.com/images/I/41F2tUWLElL._AA218_.jpg"
 
-- title: La petite fille qui aimait trop les alumettes
+- title: "La petite fille qui aimait trop les alumettes"
   author: Gaétan Soucy
   year: 2018
   url: "https://images-na.ssl-images-amazon.com/images/I/41F2tUWLElL._AA218_.jpg"
@@ -33,6 +33,12 @@
   author: Herman Melvill
   year: 2018
   guttenberg: "ebooks/2701"
-  # https://www.gutenberg.org/ebooks/2701
-# L'Hyper puissance de l'informatique, des vertes et des pas mures
-# after Europe, les lettres de mon Moulin
+
+- title: After Europe
+
+- title: Les Lettres de mon Moulin
+
+- title: "L'Hyper puissance de l'informatique"
+  author: Gerard Berry
+
+- title: "Je me souviens de toi"

@@ -36,7 +36,6 @@ defaultContentLanguageInSubdir = false
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
   date_format = "Mon, Jan 2, 2006"
 
-
   #  For more info on the highlighting options, see:   # https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/#highlighting-options
   highlight = true
   highlight_languages = []
@@ -111,11 +110,10 @@ font = ["Changa One"]
 # Taxonomies.
 [taxonomies]
   tag = "tags"
-  category = "categories"
-
+  # category = "categories"
 
 # Languages
-#   Create a [languages.X] block for each language you want, where X is the language ID.
+# Create a [languages.X] block for each language you want, where X is the language ID.
 # Configure the English version of the website.
 [languages.en]
   languageCode = "en-us"
