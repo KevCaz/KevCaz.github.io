@@ -1,6 +1,7 @@
 ---
 title: More than one langage with spell-check
 date: 2018-09-11
+tags: [hunspell, locales, Atom, Debian]
 ---
 
 I spend most on my coding and writing time on [Atom](https://atom.io/) and as

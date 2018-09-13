@@ -1,7 +1,7 @@
 ---
 title: Lenovo T470p
-date: 2018-09-19
-draft: true
+date: 2018-09-20
+tags: [hardware, Debian, Lenovo]
 ---
 
 When I switch from MacOS to Debian, I had no idea what computer to buy
