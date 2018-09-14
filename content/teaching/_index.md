@@ -4,4 +4,4 @@ icon: "university"
 layout: regular
 ---
 
-Coming soon! :fireworks:
+{{< tuto >}}

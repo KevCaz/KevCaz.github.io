@@ -1,5 +1,5 @@
   <ul>
-    {{ range .Site.Data.talk.talk }}
+    {{ range .Site.Data.tuto.tuto }}
     <li class="pubs_li">
       <!-- authors -->
       {{ $letk := "Kevin" | truncate 1 "." }}
@@ -17,7 +17,7 @@
       <!-- END authors -->
       <b> {{ .title }}. </b>
       <!-- conf -->
-      {{ range .conference }}
+      {{ range .workshop }}
         <a href="{{ .url }}"> {{ .name }} </a> {{ dateFormat "01/2006" .date }}. {{ .where }}.
       {{ end }}
       <!-- END conf -->
@@ -28,10 +28,8 @@
       {{ if .html }}
         <a href="{{ .html }}"><i class="fa fa-globe" aria-hidden="true"></i></a>
       {{ end }}
-      {{ if .pdf }}
-        <a href="{{ .pdf }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
-      {{ end }}
       <!-- END external links -->
+      <em>{{ .description }}</em>
     </li>
     {{ end }}
   </ul>
