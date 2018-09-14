@@ -1,15 +1,5 @@
-## contains id ans passwords
-pswd.md
-
-## No need to make the repo bigger including this
+_inprep/
 static/old
 old
-
-
-
-## This is the site it-self hugo generates
 public/
-
-## When using GUI in mac, it generates .DS_store to keep track of icons layout
-## in fodlers
 .DS_Store
