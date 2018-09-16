@@ -97,9 +97,13 @@ font = ["Changa One"]
     url = "/notes/"
     weight = 6
 [[menu.main]]
+    name = "Blog"
+    url = "https://insileco.github.io/"
+    weight = 7
+[[menu.main]]
     name = "Perso"
     url = "/perso/"
-    weight = 7
+    weight = 8
 
 # icon (font-awesome)
 [[menu.icon]]
