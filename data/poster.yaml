@@ -14,7 +14,7 @@ poster:
         url: "https://esa.org/neworleans/"
         date: 2018-08-01
         where: "New-Orleans, LA, USA"
-    pdf: "/talks/posters/CSEE_DB_2017.pdf"
+    pdf: "/talks/posters/ESA_MH_2018.png"
 
   - title: "Using Distributions of Biotracers to Predict Global Food Traceability"
     author:
@@ -31,7 +31,7 @@ poster:
         url: "http://conferences.academicjournals.org/cat/agricultural-sciences/69th-pacific-fisheries-technologists-pft-conference-2018"
         date: 2018-02-01
         where: "Alaska"
-    pdf: "/talks/posters/PFT_Em_2018.pdf"
+    pdf: "/talks/posters/PFT_EG_2018.pdf"
 
   - title: "Predicting the spatial distribution of ecological networks"
     author:
