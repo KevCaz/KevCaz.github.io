@@ -1,12 +1,12 @@
 ---
-title: Back to Thunderbird 52.9.1!
+title: "Back to Thunderbird 52.9.1!"
 date: 2018-09-18
 tags: [Debian, Thunderbird, apt-get, installation]
 ---
 
 Recently, Firefox 60 and [Thunderbird 60](https://www.thunderbird.net/en-US/)
-were made available for Debian Testing and so I installed them. While I was
-and still amhappy with Firefox when I tried Thunderbird I had some issues...
+were made available for Debian Testing and I installed them. While I was and
+still am happy with Firefox 60, when I tried Thunderbird I had some issues...
 Basically, I was not able to send a message and one of my favorite add-on,
 [Markdown-Here](https://markdown-here.com/index.html), was not available
 for this version :cry:. So, I needed to get the previous version back.
@@ -29,9 +29,9 @@ thunderbird:
        500 http://ftp.debian.org/debian stable/main amd64 Packages
 ```
 
-`1:52.9.1-1 500` means version `1:52.9.1-1` is installable, well, it was the one
-I was looking for to to re-install Thunderbird (btw `100 /var/lib/dpkg/status`
-is the one installed):
+`1:52.9.1-1 500` means version `1:52.9.1-1` is installable, and it was the one
+I was looking for to re-install Thunderbird (btw in `100 /var/lib/dpkg/status`
+`100` indicates the version installed):
 
 ```sh
 ❯ sudo apt-get install thunderbird=1:52.9.1-1  
@@ -48,5 +48,5 @@ YEAH:fireworks::fireworks:! Plus, in order to prevent from re-installing version
 thunderbird set on hold.
 ```
 
-I'll wait some weeks and the new version of Markdown Here that should [come soon](https://github.com/adam-p/markdown-here/pull/520) before using version
+I'll wait some weeks and the new version of Markdown Here that should [come soon](https://github.com/adam-p/markdown-here/pull/520) before installing version
 60 and its new features :smiley_cat:.
