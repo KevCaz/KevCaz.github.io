@@ -34,7 +34,7 @@ en_US.dic  fr_BE.aff  fr_CA.aff  fr_CH.aff  fr.dic     fr_FR.dic  fr_LU.dic  fr_
 
 I was then able to use then in [spell-check](https://github.com/atom/spell-check)
 
-![](/notes/atom/locales.png)
+![](/notes/atom/assets/locales.png)
 
 Everything works just fine now! Note that [hunspell](http://hunspell.github.io/)
 is also use for Firefox and Thunderbird :smirk:!

@@ -25,6 +25,6 @@ A brief explanation:
 - the content within `( )` could be used as a variable `$1` (`$2` for the next pair
   of brackets, if any, and so forth).
 
-![](/notes/atom/regexMatches.png)
+![](/notes/atom/assets/regexMatches.png)
 
 The preview is also really helpful, as you can see if you are doing the right changes :smile:.
