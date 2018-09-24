@@ -15,9 +15,6 @@ Below I exemplify how I use this very helpful package, basically when I am too l
 </video>
 
 
-![](/notes/atom/assets/multicursors.webm)
-
-
 Briefly, I use the [default keybindings](https://flight-manual.atom.io/using-atom/sections/editing-and-deleting-text/#multiple-cursors-and-selections) for the core feature:
 
 - `cmd-alt-up` or `cmd-alt-down` to select with the arrows;
