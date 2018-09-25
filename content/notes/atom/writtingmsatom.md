@@ -1,5 +1,5 @@
 ---
-title: "Writting paper in Atom"
+title: "Editing manuscripts in Atom"
 tags: [Atom, writing, find and replace]
 date: 2018-09-24
 ---
