@@ -9,10 +9,7 @@ I truly like the [multiple cursors in Atom](https://flight-manual.atom.io/using-
 
 Below I exemplify how I use this very helpful package, basically when I am too lazy to write a loop over 2 or 3 elements :smile::
 
-<video width="100%" controls>
- <source src="/notes/atom/assets/multicursors.webm" type="video/webm">
- Your browser does not support the video tag.
-</video>
+{{< video src = "/notes/atom/assets/multicursors.webm" >}}
 
 
 Briefly, I use the [default keybindings](https://flight-manual.atom.io/using-atom/sections/editing-and-deleting-text/#multiple-cursors-and-selections) for the core feature:

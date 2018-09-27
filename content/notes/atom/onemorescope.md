@@ -1,7 +1,7 @@
 ---
 title: One more scope in spell-check
 date: 2018-09-26
-tags: [Debian, locales, spell-check]
+tags: [Debian, Atom, spell-check]
 ---
 
 I often use [R markdown](https://rmarkdown.rstudio.com/) within [Atom](https://atom.io/).
@@ -12,7 +12,5 @@ corresponding scope to the list of grammars checked. It was a two steps process:
 
   2. copy-paste the scope and add it to the list of scopes that are already checked.  
 
-<video width="100%" controls>
- <source src="/notes/atom/assets/spellcheck.webm" type="video/webm">
- Your browser does not support the video tag.
-</video>
+
+{{< video src = "/notes/atom/assets/spellcheck.webm" >}}
