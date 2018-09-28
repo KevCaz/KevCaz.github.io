@@ -13,4 +13,4 @@ corresponding scope to the list of grammars checked. It was a two steps process:
   2. copy-paste the scope and add it to the list of scopes that are already checked.  
 
 
-{{< video src = "/notes/atom/assets/spellcheck.webm" >}}
+{{< screencast src = "/notes/atom/assets/spellcheck.webm" >}}
