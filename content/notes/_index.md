@@ -7,4 +7,5 @@ layout: list
 In my professional life, I mainly write about ecology (see the [publications section](../publications)) but I spend a fair amount of my time on my computer looking at new freeware, new computational tools, new programming langages, etc. so as to find better practices and share them with colleagues. That is the reason why I partner up with colleagues/friends to start [inSileco](https://insileco.github.io/), a blog that focuses on computational tools for ecologists. I try to post on this blog regularly medium-size articles and I decided
 to report short notes here (I may compile some of them for a post
 on [inSileco](https://insileco.github.io/)). Note that as I wrote in one of the posts hosted on this blog, I am currently [working on Debian testing](https://insileco.github.io/2018/06/18/my-r-setup-on-debian/), and hence
-the content of the notes below may sometimes be valid on Debian (*e.g.* keyboard shortcuts)!
+the content of the notes below may sometimes be valid on Debian (*e.g.* keyboard shortcuts). Finally,
+the complete list of tags used throughout notes is available [here](/tags/). 
