@@ -14,6 +14,6 @@ but at **9:53am**, I was working with 4.18 :trophy:
 
 ![](/notes/linux/linux4_18.png)
 
-By the way, the kernel is hosted (mirrored?) on [Github](https://github.com/torvalds/linux),
+By the way, the source code of the kernel is mirrored on [Github](https://github.com/torvalds/linux),
 a repository without an issue section with a $\infty$ number of contributors :joy:.
-Also there is an exhaustive documentation available at https://www.kernel.org/doc/html/latest/.
+Also, there is an exhaustive documentation available at https://www.kernel.org/doc/html/latest/.
