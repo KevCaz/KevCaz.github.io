@@ -54,9 +54,7 @@ defaultContentLanguageInSubdir = false
     "/css/flag-icon.css"
   ]
   custom_js  = [
-    # "/js/customzoom.js",
     # "/js/mapoffice.js",
-    # "/js/twitter.js"
   ]
 
 # google fonts
