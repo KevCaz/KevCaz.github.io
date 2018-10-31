@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
 video {
   padding-top: 5px;
   padding-bottom: 10px;
@@ -44,6 +46,22 @@ video {
   top: 48px;
 }
 
+pre {
+    padding: 8px !important;
+    margin: 0 0 10px;
+    line-height: 1.42857143;
+    background-color: #272822 !important;
+    border: 2px solid #272822 !important;
+    border-radius: 6px !important;
+}
+
+kbd {
+    background-color: #272822 !important;
+}
+
+pre > code {
+    font-family: "Ubuntu Mono";
+}
 
 #map {
   height: 350px;
@@ -53,7 +71,6 @@ video {
   background-color:black;
   margin: 10px 10px 10px 10px;
  }
-
 
 blockquote {
   font-size: 1.05em !important;

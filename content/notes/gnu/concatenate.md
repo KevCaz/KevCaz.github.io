@@ -12,7 +12,7 @@ appending a given file, the 2 first lines as well as the last line had to be rem
 ```sh
 #!/bin/bash
 touch biblio.yaml
-for f in refs/*.yml;
+for f in refs/*.yml
 do
   tail -n+3 $f | head -n-1 >> biblio.yaml
   echo "\n" >> biblio.yaml
