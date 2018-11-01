@@ -5,8 +5,7 @@ tags: [R, if, efficiency]
 ---
 
 
-Recently, I was looking at an R function and found a if statement that looks
-something like this:
+Recently, I was looking at an R function and found a if statement that looks something like this:
 
 ```R
 if (length(which(names(df) == "entry")) > 0) {
