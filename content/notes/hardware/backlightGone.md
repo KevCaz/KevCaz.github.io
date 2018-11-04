@@ -1,5 +1,5 @@
 ---
-title: "The backlight buttons do not respond anymore!"
+title: "And the backlight buttons stopped responding!"
 date: 2018-10-31
 tags: [Debian, hardware, backlight]
 ---
