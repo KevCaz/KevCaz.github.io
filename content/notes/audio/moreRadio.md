@@ -19,10 +19,10 @@ I found more complicated was to find a database with internet radios that broadc
 music not only because there are tons of them, but also because the websites
 that are meant to let you discover them rarely provide the URLs you need :angry:.
 I finally found [InternetRadio](https://www.internet-radio.com/) that really
-made my day: it gathers many radio stations and sort them but genres, bitrate
+made my day: it gathers many radio stations and sort them by genres, bitrate
 and the current number of listeners! Once I found a station I liked,
 I simply had to download the corresponding `.m3u` file, Rhythmbox reads it and
-adds the internet radio to my list of radio that is actually stored in
+adds the internet radio to my list of internet radios that is actually stored in
 `.local/share/rhythmbox/rhythmdb.xml`.
 
 
