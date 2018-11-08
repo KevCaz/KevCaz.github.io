@@ -1,5 +1,5 @@
 ---
-title: "Something wrong with rgeos 0.4.1?"
+title: "Something wrong with rgeos 0.4-1?"
 date: 2018-11-07
 tags: [R, if, efficiency]
 ---
@@ -38,4 +38,4 @@ library(devtools)
 install_version("rgeos", version = "0.3-28")
 ```
 
-Hopefully this will be fixed soon! 
+Hopefully this will be fixed soon!
