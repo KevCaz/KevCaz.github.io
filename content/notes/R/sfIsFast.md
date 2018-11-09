@@ -1,7 +1,7 @@
 ---
 title: "'sf' is fast"
 date: 2018-11-09
-tags: [R, if, efficiency]
+tags: [R, sf, GIS]
 ---
 
 [`sf`](https://cran.r-project.org/web/packages/sf/index.html) have become the
