@@ -1,7 +1,7 @@
 ---
 title: "Something wrong with rgeos 0.4-1?"
 date: 2018-11-07
-tags: [R, if, efficiency]
+tags: [R, rgeos, R package, GIS]
 ---
 
 The last update of [rgeos (version 0.4-1)](https://cran.r-project.org/web/packages/rgeos/index.html)
