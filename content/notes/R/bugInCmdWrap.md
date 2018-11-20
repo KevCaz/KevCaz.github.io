@@ -13,7 +13,7 @@ $ Rscript --no-site-file -e 'blogdown::serve_site()'
 ERROR: option '-e' requires a non-empty argument
 ```
 
-I did not understand what happened so I decided to google it! The [bug was identified and reported :smile:](https://www.mail-archive.com/search?l=debian-bugs-dist@lists.debian.org&q=subject:%22Bug%23913982%5C%3A+r%5C-base%5C-core%5C%3A+R+executable+wrapper+scripts+hard%5C-code+the+wrong+path+to+sed.%22&o=newest&f=1). A side note to mention that several packages now imports
+I did not understand what happened so I decided to google it! The [bug was already identified and reported :smile:](https://www.mail-archive.com/search?l=debian-bugs-dist@lists.debian.org&q=subject:%22Bug%23913982%5C%3A+r%5C-base%5C-core%5C%3A+R+executable+wrapper+scripts+hard%5C-code+the+wrong+path+to+sed.%22&o=newest&f=1). A side note to mention that several packages now imports
 [callr](https://cran.r-project.org/web/packages/callr/index.html) (for instance
 [pkgdown](https://pkgdown.r-lib.org/)) and as it uses the R command wrapper
 (if I understand correctly) the current bug actually affects several different
