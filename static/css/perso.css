@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css);
+
 
 video {
   padding-top: 5px;
@@ -60,7 +62,7 @@ kbd {
 }
 
 pre > code {
-    font-family: "Ubuntu Mono";
+    font-family: "Fira Code";
 }
 
 #map {

@@ -11,9 +11,9 @@ font must be [monospaced](https://en.wikipedia.org/wiki/Monospaced_font)
 (a matter of readability and aesthetic I guess).
 
 There are tons of fonts nowadays and it is quite easy to create your own (see for instance
-[fontstruc](https://fontstruct.com/)), so the choice is wide! There are people
-that propose selection of programming fonts, for instance on [hivelogic.com](http://hivelogic.com/articles/top-10-programming-fonts/), this
-good be very helpful.
+[fontstruc](https://fontstruct.com/)), so the choice is wide! Some people
+that propose selection of programming fonts, for instance on [hivelogic.com](http://hivelogic.com/articles/top-10-programming-fonts/),
+very helpful.
 
 
 Currently, I am using mainly two sets of fonts: [the ones by powerline](https://github.com/powerline/fonts)
