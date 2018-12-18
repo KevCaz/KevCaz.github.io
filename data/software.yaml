@@ -17,7 +17,6 @@ softs:
 
 
 
-
   - name: "inSilecoMisc"
     category: "R package"
     description: "Miscelleneous functions of the inSileco team. "
