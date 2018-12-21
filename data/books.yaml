@@ -1,15 +1,16 @@
 books:
 - title: "Des verts et des pas mûrs"
   author: Hicham-Stéfane Afeissa
-  type: ouvrage de phylosophie
+  type: phylosophie
   url_img: https://images-na.ssl-images-amazon.com/images/I/410XdEoANhL._SX330_BO1,204,203,200_.jpg
   info:
     url: https://www.puf.com/content/Des_verts_et_des_pas_m%C3%BBrs
     name: Presses universitaires de France
+  comments: "Chroniques bien utiles pour choisir ces futurs lectures."
 
 - title: "La démocratie des crédules"
   author: Gérald Bronner
-  type: ouvrage de sociologie
+  type: sociologie
   url_img: https://www.puf.com/sites/default/files/styles/ouvrage_couverture_zoom/public/1538617090_9782130607298_v100.jpg?itok=tl8Rf0Tp
   info:
     url: https://www.puf.com/content/La_d%C3%A9mocratie_des_cr%C3%A9dules
@@ -60,12 +61,14 @@ books:
 
 - title: "La petite fille qui aimait trop les alumettes"
   author: Gaétan Soucy
+  type: roman
   year: 2018
   url_img: "https://images-na.ssl-images-amazon.com/images/I/41fNCCHuhRL._SX332_BO1,204,203,200_.jpg"
   comments: "Complètement fou, une expérience de lecture! Le roman a été adopté au cinéma!"
 
 - title: Les Lettres de mon Moulin
   author: Alphonse Daudet
+  type: nouvelles
   year: 2018
   Guttenberg: 36780
   url_img: http://www.gutenberg.org/cache/epub/36780/pg36780.cover.medium.jpg
@@ -76,6 +79,7 @@ books:
 
 - title: After Europe
   author: Ivan Krastev
+  type: essay
   year: 2018
   url_img: https://images-na.ssl-images-amazon.com/images/I/4100bpH5lpL._SX351_BO1,204,203,200_.jpg
   info:
@@ -86,6 +90,7 @@ books:
 
 - title: "L'Hyper puissance de l'informatique"
   author: Gerard Berry
+  type: vulgarisation scientifique
   year: 2018
   info:
     url: https://www.franceinter.fr/emissions/la-tete-au-carre/la-tete-au-carre-30-octobre-2017
@@ -94,6 +99,7 @@ books:
 
 - title: "Je me souviens de toi"
   author: Cédric Charles ANTOINE
+  type: roman
   url_img: https://images-na.ssl-images-amazon.com/images/I/51vWMxGH0SL.jpg
 
 - title: "Mon chien Stupide"
@@ -106,6 +112,7 @@ books:
 
 - title: "Un frère de trop"
   author: Sébastien Theveny
+  type: roman
   year: 2018
   url_img: https://images-na.ssl-images-amazon.com/images/I/51teWUMwoFL.jpg
   comments: "Ça se lit très bien!"
@@ -114,5 +121,8 @@ books:
   author: Jean-Marie Pelt et Pierre Rabhi
   year: 2018
   url_img: https://images-na.ssl-images-amazon.com/images/I/4185i25t7kL._SX310_BO1,204,203,200_.jpg
+  info:
+    url: https://www.fayard.fr/documents-temoignages/le-monde-t-il-un-sens-9782213681863
+    name: Edition fayard
   comments: "J'ai apprécié la partie de Jean-Marie Pelt, il me semble que c'est une
   bonne vulgarisation d'une partie de la Biologie. Un peu moi convaincu par la seconde partie."
