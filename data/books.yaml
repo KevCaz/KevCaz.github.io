@@ -1,6 +1,14 @@
 books:
+- title: "Des verts et des pas mûrs"
+  author: Hicham-Stéfane Afeissa
+  type: ouvrage de phylosophie
+  url_img: https://images-na.ssl-images-amazon.com/images/I/410XdEoANhL._SX330_BO1,204,203,200_.jpg
+  info:
+    url: https://www.puf.com/content/Des_verts_et_des_pas_m%C3%BBrs
+    name: Presses universitaires de France
+
 - title: "La démocratie des crédules"
-  author: "Gérald Bronner"
+  author: Gérald Bronner
   type: ouvrage de sociologie
   url_img: https://www.puf.com/sites/default/files/styles/ouvrage_couverture_zoom/public/1538617090_9782130607298_v100.jpg?itok=tl8Rf0Tp
   info:
