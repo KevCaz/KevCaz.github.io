@@ -1,4 +1,15 @@
 tuto:
+  - title: "Visualiser vos données avec R"
+    author:
+      - family: Casajus
+        given: Nicolas
+      - family: Cazelles
+        given: Kevin
+    lang: fr
+    github: inSileco/VisualiseR
+    html: https://insileco.github.io/VisualiseR/
+    description: "Learn how visualize your data with R"
+
   - title: "About R Markdown"
     author:
       - family: Cazelles
@@ -6,7 +17,7 @@ tuto:
     lang: fr
     github: KevCaz/aboutRMarkdown
     html: https://kevcaz.github.io/aboutRMarkdown/#1
-    description: "Learn how to use R Markdown."
+    description: "Learn how to use R Markdown"
 
   - title: "About R packages"
     author:
@@ -15,7 +26,7 @@ tuto:
     lang: en
     github: KevCaz/aboutRPackages
     html: https://kevcaz.github.io/aboutRPackages/
-    description: "A short tutorial to learn how to created an R package."
+    description: "A short tutorial to learn how to created an R package"
 
   - title: "Maps with R"
     author:
@@ -24,7 +35,7 @@ tuto:
     lang: en
     github: KevCaz/MapswithR
     html: "http://kevcaz.github.io/mapsWithR/#1"
-    description: "Learn how to turn R into a powerful GIS software."
+    description: "Learn how to turn R into a powerful GIS software"
 
 
   - title: "Use R to visualize the results of your meta-analysis"
@@ -34,13 +45,13 @@ tuto:
       - family: Vissault
         given: Steve
     workshop:
-      - name: QCBS Meta-analysis workshop
+      - name: "QCBS Meta-analysis workshop"
         where: "Maison Gault, Mont St Hilaire, QC, Canada"
         date: 2017-10-01
     lang: fr
     github: KevCaz/graphsMetaAnalyses
     html: "https://kevcaz.github.io/graphsMetaAnalyses/#1"
-    description: "Learn how to visualize the results of your meta-analysis."
+    description: "Learn how to visualize the results of your meta-analysis"
 
 
   - title: "R Graphics - an overview"
@@ -56,7 +67,7 @@ tuto:
     lang: en
     github: KevCaz/QCBSgraphR
     html: http://kevcaz.github.io/QCBSgraphR/#1
-    description: "Data Visualization with R, a tutorial."
+    description: "Data Visualization with R, a tutorial"
 
 
   - title: "Gérer et formater sa bibliographie"
@@ -66,10 +77,10 @@ tuto:
       - family: Cazelles
         given: Kevin
     workshop:
-      - name: "QCBS Data Visualization workshop"
-        where: "Maison Gault, Mont St Hilaire, QC, Canada"
+      - name: "Midi numérique"
+        where: "Université du Québec à Rimouski"
         date: 2015-02-01
     lang: fr
     github: SteveViss/Talk_bib
     html: https://kevcaz.github.io/Talk_bib/
-    description: "A discussion about how to manage your references."
+    description: "A discussion about how to manage your references"

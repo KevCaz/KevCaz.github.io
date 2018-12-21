@@ -42,8 +42,8 @@ I did not know how to process but I read that [the Debian Installer can be used 
 
 I was a bit lost and did not succeed at the first attempt. Then I found [this tutorial on linux.com](
 https://www.linux.com/learn/how-rescue-non-booting-grub-2-linux%20%20)
-and tried it (so starting by typing C when the screen above poped up).
-Again, I was a bit confused because I always ended up in [BusyBox](https://en.wikipedia.org/wiki/BusyBox) and everything I tried was unsuccessful. I finally solved the issue by reinstalling GNU GRUB following the steps of this [great tutorial on  TecMint](https://www.tecmint.com/rescue-repair-and-reinstall-grub-boot-loader-in-ubuntu/) (it is for Ubuntu but Ubuntu is based on Debian). After the reinstallation everything went back to normal :smile:.
+and tried it (starting by typing `C` when the screen above popped up).
+Again, I was a bit confused because I always ended up in [BusyBox](https://en.wikipedia.org/wiki/BusyBox) and everything I tried was unsuccessful. I finally solved the issue by reinstalling GNU GRUB following the steps of this [great tutorial on  TecMint](https://www.tecmint.com/rescue-repair-and-reinstall-grub-boot-loader-in-ubuntu/) (it is for Ubuntu but Ubuntu is based on Debian). After the re-installation everything went back to normal :smile:.
 
 
-Once again I learned a lot by solving this issue but this time it was not a good timing for me at all... Anyway, now I will keep an live install ready to rescue my system. Also I now understand why there are three partitions on my Samsung hard drive: one for the file system, one for the SWAP and one for the UEFI! 
+Once again I learned a lot by solving this issue but this time it was not a good timing for me at all... Anyway, now I will keep an live install ready to rescue my system. Also I now understand why there are three partitions on my Samsung hard drive: one for the file system, one for the SWAP and one for the UEFI!

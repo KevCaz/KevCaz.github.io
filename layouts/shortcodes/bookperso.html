@@ -1,0 +1,41 @@
+{{ range .Site.Data.books.books }}
+
+<div class="books">
+
+  <div class="row">
+
+    <div class="col-sm-2">
+      <img src="{{ .url_img }}" alt="{{ .title }}" width = "100%">
+    </div>
+
+    <div class="col-sm-10">
+      <h1>{{.title}}</h1>
+      <h2>
+      <i class="fa fa-user" aria-hidden="true"></i>
+      {{ .author }}.
+      </h2>
+
+      {{ if .type }}
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        {{ .type }}
+        <br>
+      {{ end }}
+
+      {{ with .info }}
+        <i class="fa fa-info-circle" aria-hidden="true"></i>
+        <a href="{{ .url }}"> {{ .name }} </a>
+        <br>
+      {{ end }}
+
+      {{ if .comments }}
+        <i class="fa fa-commenting" aria-hidden="true"></i>
+        {{ .comments }}
+      {{ end }}
+
+    </div>
+
+  </div>
+
+</div>
+
+{{ end }}

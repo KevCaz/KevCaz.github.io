@@ -1,44 +1,110 @@
-- title: Un frère de trop
-  author: Sébastien Theveny
-  style: roman a suspense
+books:
+- title: "La démocratie des crédules"
+  author: "Gérald Bronner"
+  type: ouvrage de sociologie
+  url_img: https://www.puf.com/sites/default/files/styles/ouvrage_couverture_zoom/public/1538617090_9782130607298_v100.jpg?itok=tl8Rf0Tp
+  info:
+    url: https://www.puf.com/content/La_d%C3%A9mocratie_des_cr%C3%A9dules
+    name: Presses universitaires de France
+  comments: "A travers un certains d'effets et paradoxes bien expliqué,
+  Gerald Bronner donne une vision cohérente de l'organisation du marché
+  cognitif tel qu'il s'est organisé depuis les années 80. Vraiment trés
+  éclairant."
 
-- title: La horde du contrevent
+- title: "La horde du contrevent"
   author: Alain Damasio
+  type: "science fiction fantaisiste"
   year: 2018
-  perso_rating: 5
-  comments: "suspense novel"
-  url: "https://images-na.ssl-images-amazon.com/images/I/41-tb1ZuUFL._SX301_BO1,204,203,200_.jpg"
+  url_img: "https://images-na.ssl-images-amazon.com/images/I/41-tb1ZuUFL._SX301_BO1,204,203,200_.jpg"
+  info:
+    url: https://fr.wikipedia.org/wiki/La_Horde_du_Contrevent
+    name: Article sur Wikipedia
+  comments: "Un univers fou, une histoire folle, un must-read de la SF fraçaise.
+  En 2019, je lis le nouveau Damasio et au moins un de ses anciens bouquin!"
 
 - title: L'Etranger
   author: Albert Camus
+  type: conte philosophique
   year: 2018
+  url_img: https://images-na.ssl-images-amazon.com/images/I/41P27T%2BaxrL._SX302_BO1,204,203,200_.jpg
+  info:
+    url: https://fr.wikipedia.org/wiki/L%27%C3%89tranger
+    name: Article sur Wikipedia
 
 - title: La Chute
   author: Albert Camus
+  type: conte philosophique
   year: 2018
-  url: "https://images-na.ssl-images-amazon.com/images/I/41F2tUWLElL._AA218_.jpg"
+  url_img: "https://images-na.ssl-images-amazon.com/images/I/41K82S8R5vL._SX302_BO1,204,203,200_.jpg"
+  info:
+    url: https://fr.wikipedia.org/wiki/La_Chute_(roman)
+    name: Article sur Wikipedia
 
 - title: Royal
   author: Jean-Phillipe Baril Guérard
+  type: roman
+  url: https://www.tamere.org/nos-livres/royal/
+  url_img: https://images-na.ssl-images-amazon.com/images/I/61IUMYFRjbL._SX331_BO1,204,203,200_.jpg
   year: 2018
-  url: "https://images-na.ssl-images-amazon.com/images/I/41F2tUWLElL._AA218_.jpg"
+  info:
+    url: https://www.tamere.org/nos-livres/royal/
+    name: "Les éditions de ta mère"
 
 - title: "La petite fille qui aimait trop les alumettes"
   author: Gaétan Soucy
   year: 2018
-  url: "https://images-na.ssl-images-amazon.com/images/I/41F2tUWLElL._AA218_.jpg"
-
-
-- title: Moby Dick
-  author: Herman Melvill
-  year: 2018
-  guttenberg: "ebooks/2701"
-
-- title: After Europe
+  url_img: "https://images-na.ssl-images-amazon.com/images/I/41fNCCHuhRL._SX332_BO1,204,203,200_.jpg"
+  comments: "Complètement fou, une expérience de lecture! Le roman a été adopté au cinéma!"
 
 - title: Les Lettres de mon Moulin
+  author: Alphonse Daudet
+  year: 2018
+  Guttenberg: 36780
+  url_img: http://www.gutenberg.org/cache/epub/36780/pg36780.cover.medium.jpg
+  info:
+    url: https://fr.wikipedia.org/wiki/L%27Arl%C3%A9sienne_(Daudet)
+    name: Article sur Wikipedia
+  comments: "C'est de la que vient, entre autres, la chèvre de Monsieur Seguin!"
+
+- title: After Europe
+  author: Ivan Krastev
+  year: 2018
+  url_img: https://images-na.ssl-images-amazon.com/images/I/4100bpH5lpL._SX351_BO1,204,203,200_.jpg
+  info:
+    url: http://www.upenn.edu/pennpress/book/15679.html
+    name: pennpress
+  comments: "A very useful analysis about what's going on in Europe.
+  \n Fun facts: first book I've read on my e-book reader."
 
 - title: "L'Hyper puissance de l'informatique"
   author: Gerard Berry
+  year: 2018
+  info:
+    url: https://www.franceinter.fr/emissions/la-tete-au-carre/la-tete-au-carre-30-octobre-2017
+    name: Emission de la méthode scientifique
+  url_img: https://images-na.ssl-images-amazon.com/images/I/51BMO9DVnFL._SX321_BO1,204,203,200_.jpg
 
 - title: "Je me souviens de toi"
+  author: Cédric Charles ANTOINE
+  url_img: https://images-na.ssl-images-amazon.com/images/I/51vWMxGH0SL.jpg
+
+- title: "Mon chien Stupide"
+  author: John Fante
+  url_img: https://images-na.ssl-images-amazon.com/images/I/51WUJ54drRL._SX304_BO1,204,203,200_.jpg
+  info:
+    url: https://www.babelio.com/livres/Fante-Mon-chien-stupide/2387
+    name: babelio
+  comments: "Plutôt drôle, un bon moment de détente."
+
+- title: "Un frère de trop"
+  author: Sébastien Theveny
+  year: 2018
+  url_img: https://images-na.ssl-images-amazon.com/images/I/51teWUMwoFL.jpg
+  comments: "Ça se lit très bien!"
+
+- title: "Le monde a-t-il un sens ?"
+  author: Jean-Marie Pelt et Pierre Rabhi
+  year: 2018
+  url_img: https://images-na.ssl-images-amazon.com/images/I/4185i25t7kL._SX310_BO1,204,203,200_.jpg
+  comments: "J'ai apprécié la partie de Jean-Marie Pelt, il me semble que c'est une
+  bonne vulgarisation d'une partie de la Biologie. Un peu moi convaincu par la seconde partie."

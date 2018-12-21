@@ -29,7 +29,11 @@
         <a href="{{ .html }}"><i class="fa fa-globe" aria-hidden="true"></i></a>
       {{ end }}
       <!-- END external links -->
-      <em>{{ .description }}</em>
+      <em>{{ .description }}
+      {{ if .lang }}
+          ({{ .lang }}).
+      {{ end }}
+      </em>
     </li>
     {{ end }}
   </ul>
