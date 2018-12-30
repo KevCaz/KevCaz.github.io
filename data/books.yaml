@@ -1,4 +1,13 @@
 books:
+- title: "Le problème à trois corps"
+  author: Liu Cixin
+  type: science fiction
+  url_img: https://images-na.ssl-images-amazon.com/images/I/51XNB0H05CL._SX300_BO1,204,203,200_.jpg
+  info:
+    url: https://fr.wikipedia.org/wiki/Le_Probl%C3%A8me_%C3%A0_trois_corps
+    name: Article sur Wikipedia
+  comments: "Un roman de science fiction très riche de par le nombre de thèmes abordés montée sur une intrigue captivante. C'est le premier volet d'une trilogie, hâte de lire les deux autres volets en 2019. Attention ne pas lire la quatrième de couverture sur la version française (publiée chez Actes Sud)."
+
 - title: "Des verts et des pas mûrs"
   author: Hicham-Stéfane Afeissa
   type: phylosophie

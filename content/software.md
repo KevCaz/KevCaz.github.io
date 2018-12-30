@@ -4,6 +4,6 @@ icon: code
 layout: software
 ---
 
-Here are listed the software I (significantly) contributed to. 
+Here are listed the software I (significantly) contributed to.
 
 <br>

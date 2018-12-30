@@ -77,3 +77,29 @@ pre > code {
 blockquote {
   font-size: 1.05em !important;
 }
+
+
+.books {
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #e7e7e7;
+  padding: 6px;
+  margin: 6px;
+}
+
+.books h1, h2, h3, p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.books h1 {
+  font-size: 1.6em;
+  padding: 0px;
+  margin-bottom: 6px;
+}
+
+.books h2 {
+  font-size: 1.25em;
+  padding: 0px;
+  margin-bottom: 3px;
+}
