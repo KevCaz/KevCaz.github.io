@@ -1,7 +1,20 @@
 books:
+- title: "Leurs enfants après eux"
+  author: Nicolas Mathieu
+  type: roman
+  year: 2019
+  url_img: https://images-na.ssl-images-amazon.com/images/I/51rKnc9N9dL._SX299_BO1,204,203,200_.jpg
+  info:
+    url: https://www.actes-sud.fr/catalogue/litterature/leurs-enfants-apres-eux
+    name: Article sur Actes sud
+  comments: "Un beau reflet des anées 1990 dans une des France périphériques (en l'occurrence l'est), un roman hyper réaliste, de la micro histoire contemporaine dans un roman très bien écrit!"
+
+
+
 - title: "Le problème à trois corps"
   author: Liu Cixin
   type: science fiction
+  year: 2018
   url_img: https://images-na.ssl-images-amazon.com/images/I/51XNB0H05CL._SX300_BO1,204,203,200_.jpg
   info:
     url: https://fr.wikipedia.org/wiki/Le_Probl%C3%A8me_%C3%A0_trois_corps
@@ -61,6 +74,7 @@ books:
 - title: Royal
   author: Jean-Phillipe Baril Guérard
   type: roman
+  year: 2018
   url: https://www.tamere.org/nos-livres/royal/
   url_img: https://images-na.ssl-images-amazon.com/images/I/61IUMYFRjbL._SX331_BO1,204,203,200_.jpg
   year: 2018
@@ -109,10 +123,13 @@ books:
 - title: "Je me souviens de toi"
   author: Cédric Charles ANTOINE
   type: roman
+  year: 2018
   url_img: https://images-na.ssl-images-amazon.com/images/I/51vWMxGH0SL.jpg
 
 - title: "Mon chien Stupide"
   author: John Fante
+  type: roman
+  year: 2018
   url_img: https://images-na.ssl-images-amazon.com/images/I/51WUJ54drRL._SX304_BO1,204,203,200_.jpg
   info:
     url: https://www.babelio.com/livres/Fante-Mon-chien-stupide/2387
@@ -128,6 +145,7 @@ books:
 
 - title: "Le monde a-t-il un sens ?"
   author: Jean-Marie Pelt et Pierre Rabhi
+  type: essai
   year: 2018
   url_img: https://images-na.ssl-images-amazon.com/images/I/4185i25t7kL._SX310_BO1,204,203,200_.jpg
   info:
