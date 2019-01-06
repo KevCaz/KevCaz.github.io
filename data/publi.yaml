@@ -280,37 +280,15 @@ references:
   - family: Stouffer
     given: D.B.
   issued:
-  - year: 2015
+  - year: 2016
     month: 9
   title: The structure of probabilistic networks
   container: Methods Ecol Evol
   publisher: Wiley-Blackwell
-  page: n/a-n/a
-  URL: http://dx.doi.org/10.1111/2041-210x.12468
+  page: '303–-312'
+  volume: 7
+  URL: http://dx.doi.org/10.1111/2041-210X.12468
   DOI: 10.1111/2041-210x.12468
-
-- id: Kevin_Cazelles29676910
-  type: no-type
-  author:
-  - family: Cazelles
-    given: Kevin
-  - family: Poisot
-    given: Timothée
-  - family: Cirtwill
-    given: Alyssa
-  - family: Cazelles
-    given: Kévin
-  - family: Gravel
-    given: Dominique
-  - family: Fortin
-    given: Marie-Josée
-  - family: Stouffer
-    given: Daniel
-  issued:
-  - year: 2015
-  title: The structure of probabilistic networks
-  URL: http://doi.org/10.1101/016485
-  DOI: 10.1101/016485
 
 - id: Le_Stradic_2015
   type: article-journal
