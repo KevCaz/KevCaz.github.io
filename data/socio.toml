@@ -19,15 +19,9 @@
   link = "https://www.researchgate.net/profile/Kevin_Cazelles"
 
 [[socionetws]]
-  icon = "mendeley"
-  icon_pack = "ai"
-  link = "https://www.mendeley.com/profiles/kevin-cazelles/"
-
-[[socionetws]]
   icon = "github"
   icon_pack = "fa"
   link = "//github.com/KevCaz"
-
 
 [[socionetws]]
   icon = "orcid"
