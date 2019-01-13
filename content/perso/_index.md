@@ -11,3 +11,7 @@ layout: regular
 <br>
 
 ## [<i class="fa fa-video-camera" aria-hidden="true"></i> Movies](./movies/)
+
+<br>
+
+## [<i class="fa fa-comment-o" aria-hidden="true"></i> Opinions](./opinions/)
