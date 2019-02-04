@@ -1,6 +1,6 @@
 # Found here http://schnuddelhuddel.de/deployment-of-a-hugo-site-on-github-pages/
 # and adjusted by my self
-dist: trusty
+dist: xenial
 sudo: required
 python:
   - "2.7"
