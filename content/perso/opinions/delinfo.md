@@ -1,5 +1,5 @@
 ---
-title: "Comment ne pas se perdre"
+title: "De l'info"
 date: 2018-11-19
 tags: [politique]
 draft: true
@@ -13,4 +13,4 @@ ne lisez pas son dans votre champ de visin et processé par une autre formodable
 machine de clacul votre cerveau. Et donc on en arrive a finalement
 payer son infromation, on a juste gagné une foule de ploatforme qui copie
 et font des fautes d'orthographe horribles (j'en fait bien aussi, mais
-je ne suis pas journaliste). Donc en plus de l'information
+je ne suis pas journaliste). Donc en plus de l'information.

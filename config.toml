@@ -28,7 +28,7 @@ defaultContentLanguageInSubdir = false
   address = "Department of Integrative Biology, Summerlee Science Complex, University of Guelph, Guelph, ON N1G 2W1"
   office_hours = "Send me an email for setting an appointment."
   email = "kcazelle@uoguelph.ca"
-  phone = "+1 519 824 4120 (ext. 56861)"
+  phone = "+1 519 824 4120 (ext. 53700)"
   skype = "diazthc"
   skype_name = "Kevin Cazelles"
 
@@ -108,6 +108,7 @@ font = ["Changa One"]
 # Taxonomies.
 [taxonomies]
   tag = "tags"
+  topic = "topics"
   # category = "categories"
 
 # Languages

@@ -1,5 +1,5 @@
 ---
-title: "Opinions of my own"
+title: "Opinions"
 icon: comment-o
 ---
 

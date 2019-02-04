@@ -1,8 +1,8 @@
 ---
 title: "David contre Goliath?"
 date: 2018-11-19
-tags: [politique]
-draft: true
+topics: [Debian]
+draft: false
 ---
 
 - un ordinateur fait un meilleur job
