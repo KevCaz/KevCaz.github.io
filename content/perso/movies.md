@@ -1,6 +1,6 @@
 ---
 title: "Movies and Series I watched and liked"
-icon: book
+icon: video-camera
 layout: regular
 ---
 

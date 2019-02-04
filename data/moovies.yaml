@@ -1,4 +1,11 @@
 moovies:
+
+  - roto: m/chinatown
+    director: Roman Polanski
+    url_img: https://resizing.flixster.com/GyUnzIGE65I9HuOMa-Cz9WP1SbQ=/206x305/v1.bTsxMjk2MjE5NjtqOzE3OTcwOzEyMDA7MjAwMDszMDAw
+    year: 2019
+    yearout: 1974
+
   - roto: m/american_graffiti
     director: George Lucas
     url_img: https://resizing.flixster.com/zi13rgzuS0kjx1LBkC68exvVyfQ=/206x305/v1.bTsxMTIwNzQ4MDtqOzE4MDM5OzEyMDA7MjI1MDszMDAw
