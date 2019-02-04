@@ -1,8 +1,9 @@
 ---
-title: "Movies I have watched"
+title: "Movies and Series I watched"
 icon: book
 layout: regular
 ---
 
 
-# :construction: :ghost: :construction:
+
+{{< moovieperso >}}

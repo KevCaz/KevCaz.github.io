@@ -2,7 +2,7 @@
 title: "David contre Goliath?"
 date: 2018-11-19
 topics: [Debian]
-draft: false
+draft: true
 ---
 
 - un ordinateur fait un meilleur job

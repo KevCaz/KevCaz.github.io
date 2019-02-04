@@ -1,0 +1,55 @@
+moovies:
+  - roto: m/american_graffiti
+    director: George Lucas
+    url_img: https://resizing.flixster.com/zi13rgzuS0kjx1LBkC68exvVyfQ=/206x305/v1.bTsxMTIwNzQ4MDtqOzE4MDM5OzEyMDA7MjI1MDszMDAw
+    year: 2019
+    yearout: 1973
+
+  - roto: m/looper
+    director: Rian Johnson
+    url_img: https://resizing.flixster.com/Oq2xxK0j0Nt_HUxCsinUsynOeBY=/206x305/v1.bTsxMTE2ODE4NDtqOzE4MDM5OzEyMDA7ODAwOzEyMDA
+    year: 2019
+    yearout: 2012
+
+  - roto: m/three_billboards_outside_ebbing_missouri
+    director: Martin McDonagh
+    url_img: https://resizing.flixster.com/ralA3l-6SRc3x53e9zOy3f53Y8k=/fit-in/200x296.2962962962963/v1.bTsxMjM0NTY3NTtqOzE3OTYyOzEyMDA7NjM5Ozk0Ng
+    year: 2019
+    yearout: 2017
+
+  - roto: tv/bojack_horseman
+    director: Raphael Bob-Waksberg
+    url_img: https://resizing.flixster.com/nuADeoS_agGfpUG5lq1OsPDGe5s=/206x305/v1.dDszNDMxMzM7ajsxNzk0MjsxMjAwOzI4NDszOTg
+    year: 2019
+    yearout: 2018
+
+
+  - roto: m/o_brother_where_art_thou
+    director: Joel Coen
+    url_img: https://resizing.flixster.com/oPPws17btVgsblQExedyZTgXkjI=/206x305/v1.bTsxMTIwODQwNztqOzE4MDM5OzEyMDA7MTIwMDsxNjAw
+    year: 2018
+    yearout: 2000
+
+  - roto: m/no_country_for_old_men
+    director: "Joel Coen, Ethan Coen"
+    url_img: https://resizing.flixster.com/flnFFuDu34gehYMKa2u34o6ioDY=/206x305/v1.bTsxMTE3NjE2ODtqOzE4MDM5OzEyMDA7ODAwOzEyMDA
+    year: 2018
+    yearout: 2007
+
+  - roto: m/true_grit_2010
+    director: "Joel Coen, Ethan Coen"
+    url_img: https://resizing.flixster.com/DqX4ii8HsB0W0-azDwUvyz9W61M=/fit-in/200x296.2962962962963/v1.bTsxMTE2OTc5NTtqOzE4MDM5OzEyMDA7ODAwOzEyMDA
+    year: 2018
+    yearout: 2010
+
+  - roto: m/millers_crossing
+    director: Joel Coen
+    url_img: https://resizing.flixster.com/lqEqtE61Dyb-AFi_slnXgTlmlRI=/206x305/v1.bTsxMTIwODU0MDtqOzE4MDM5OzEyMDA7MTIzMDsxNjQw
+    year: 2018
+    yearout: 1990
+
+  - roto: m/barton_fink
+    director: Joel Coen
+    url_img: https://resizing.flixster.com/z6mP_7bhrDKHL87ADe1xfSNlhI0=/206x305/v1.bTsxMTM3MjM1NztqOzE4MDQxOzEyMDA7MTIwMDsxNjAw
+    year: 2018
+    yearout: 1991
