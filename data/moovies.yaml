@@ -53,3 +53,21 @@ moovies:
     url_img: https://resizing.flixster.com/z6mP_7bhrDKHL87ADe1xfSNlhI0=/206x305/v1.bTsxMTM3MjM1NztqOzE4MDQxOzEyMDA7MTIwMDsxNjAw
     year: 2018
     yearout: 1991
+
+  - roto: m/fargo
+    director: Joel Coen
+    url_img: https://resizing.flixster.com/52I9cMtNG0ThcFi-VqZUd1mpOAs=/206x305/v1.bTsxMTIwOTM4NTtqOzE4MDM5OzEyMDA7MTI4NDsxNzEy
+    year: 2018
+    yearout: 1996
+
+  - roto: tv/stranger_things
+    director: Matt Duffer, Ross Duffer
+    url_img: https://resizing.flixster.com/RdMroIE6noKCJUMDlHuD8AlLCvA=/206x305/v1.dDsyNTc1NDg7ajsxNzk0MTsxMjAwOzE1MDA7MjIyMg
+    year: 2018
+    yearout: "2016-2017"
+
+  - roto: tv/gotham
+    director: Bruno Heller
+    url_img: https://resizing.flixster.com/qD1Zx9x1qUVElyOehgGnMTZcLv4=/206x305/v1.dDszOTQ5Njk7ajsxNzk0MjsxMjAwOzE2MDA7MjQwMA
+    year: 2018
+    yearout: "2014-2018"
