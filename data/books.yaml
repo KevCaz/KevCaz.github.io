@@ -1,4 +1,15 @@
 books:
+
+- title: "Holly cow"
+  author: David Duchovny
+  type: roman
+  year: 2019
+  url_img: https://images-na.ssl-images-amazon.com/images/I/51YGQo7UdML._SX331_BO1,204,203,200_.jpg
+  info:
+    url: http://www.holycownovel.com/
+    name: Book's webpage
+
+
 - title: "Leurs enfants après eux"
   author: Nicolas Mathieu
   type: roman

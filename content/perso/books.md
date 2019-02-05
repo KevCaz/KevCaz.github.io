@@ -1,5 +1,5 @@
 ---
-title: "Books I read"
+title: "Books I read and liked"
 icon: book
 layout: regular
 ---
