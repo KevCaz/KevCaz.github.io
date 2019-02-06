@@ -1,5 +1,11 @@
 moovies:
 
+  - roto: m/incredibles_2
+    director: Brad Bird
+    url_img: https://resizing.flixster.com/AW-SudSHce--vUUrycWyZn4Q3nU=/fit-in/200x296.2962962962963/v1.bTsxMjcxMzEzMTtqOzE3OTY3OzEyMDA7MTA4NjsxNjA5
+    year: 2019
+    yearout: 1974
+
   - roto: m/chinatown
     director: Roman Polanski
     url_img: https://resizing.flixster.com/GyUnzIGE65I9HuOMa-Cz9WP1SbQ=/206x305/v1.bTsxMjk2MjE5NjtqOzE3OTcwOzEyMDA7MjAwMDszMDAw
