@@ -1,5 +1,35 @@
 ---
 references:
+- id: Bartley_2019
+  type: article-journal
+  author:
+  - family: Bartley
+    given: Timothy J.
+  - family: McCann
+    given: Kevin S.
+  - family: Bieg
+    given: Carling
+  - family: Cazelles
+    given: Kevin
+  - family: Granados
+    given: Monica
+  - family: Guzzo
+    given: Matthew M.
+  - family: MacDougall
+    given: Andrew S.
+  - family: Tunney
+    given: Tyler D.
+  - family: McMeans
+    given: Bailey C.
+  issued:
+  - year: 2019
+    month: 2
+  title: Food web rewiring in a changing world
+  container: Nature Ecology & Evolution
+  publisher: Springer Nature
+  URL: https://doi.org/10.1038%2Fs41559-018-0772-3
+  DOI: 10.1038/s41559-018-0772-3
+
 - id: Wheeler_2018
   type: article-journal
   author:
@@ -280,15 +310,37 @@ references:
   - family: Stouffer
     given: D.B.
   issued:
-  - year: 2016
+  - year: 2015
     month: 9
   title: The structure of probabilistic networks
   container: Methods Ecol Evol
   publisher: Wiley-Blackwell
-  page: '303–-312'
-  volume: 7
-  URL: http://dx.doi.org/10.1111/2041-210X.12468
+  page: n/a-n/a
+  URL: http://dx.doi.org/10.1111/2041-210x.12468
   DOI: 10.1111/2041-210x.12468
+
+- id: Kevin_Cazelles29676910
+  type: no-type
+  author:
+  - family: Cazelles
+    given: Kevin
+  - family: Poisot
+    given: Timothée
+  - family: Cirtwill
+    given: Alyssa
+  - family: Cazelles
+    given: Kévin
+  - family: Gravel
+    given: Dominique
+  - family: Fortin
+    given: Marie-Josée
+  - family: Stouffer
+    given: Daniel
+  issued:
+  - year: 2015
+  title: The structure of probabilistic networks
+  URL: http://doi.org/10.1101/016485
+  DOI: 10.1101/016485
 
 - id: Le_Stradic_2015
   type: article-journal
