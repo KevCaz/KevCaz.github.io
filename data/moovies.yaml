@@ -10,13 +10,13 @@ moovies:
 
   - roto: m/incredibles_2
     director: Brad Bird
-    url_img: https://resizing.flixster.com/AW-SudSHce--vUUrycWyZn4Q3nU=/fit-in/200x296.2962962962963/v1.bTsxMjcxMzEzMTtqOzE3OTY3OzEyMDA7MTA4NjsxNjA5
+    url_img: https://resizing.flixster.com/AYf09MBQTl1uEO6vaaJ-W7tSWrU=/fit-in/200x296.2962962962963/v1.bTsxMjcxMzEzMTtqOzE4MDEyOzEyMDA7MTA4NjsxNjA5
     year: 2019
     yearout: 2018
 
   - roto: m/chinatown
     director: Roman Polanski
-    url_img: https://resizing.flixster.com/GyUnzIGE65I9HuOMa-Cz9WP1SbQ=/206x305/v1.bTsxMjk2MjE5NjtqOzE3OTcwOzEyMDA7MjAwMDszMDAw
+    url_img: https://resizing.flixster.com/TS_npRBrMK7ibkvQxfAGLHSSEdY=/206x305/v1.bTsxMjk2MjE5NjtqOzE4MDE1OzEyMDA7MjAwMDszMDAw
     year: 2019
     yearout: 1974
 
@@ -34,13 +34,13 @@ moovies:
 
   - roto: m/three_billboards_outside_ebbing_missouri
     director: Martin McDonagh
-    url_img: https://resizing.flixster.com/ralA3l-6SRc3x53e9zOy3f53Y8k=/fit-in/200x296.2962962962963/v1.bTsxMjM0NTY3NTtqOzE3OTYyOzEyMDA7NjM5Ozk0Ng
+    url_img: https://resizing.flixster.com/ZqO8zMElPyfpFkqQBXb0k1kAIGg=/fit-in/200x296.2962962962963/v1.bTsxMjM0NTY3NTtqOzE4MDA3OzEyMDA7NjM5Ozk0Ng
     year: 2019
     yearout: 2017
 
   - roto: tv/bojack_horseman
     director: Raphael Bob-Waksberg
-    url_img: https://resizing.flixster.com/nuADeoS_agGfpUG5lq1OsPDGe5s=/206x305/v1.dDszNDMxMzM7ajsxNzk0MjsxMjAwOzI4NDszOTg
+    url_img: https://resizing.flixster.com/uPld3zlBKNBBaNRml28S78MufpA=/206x305/v1.dDszNDMxMzM7ajsxODAwMzsxMjAwOzI4NDszOTg
     year: 2019
     yearout: 2018
 

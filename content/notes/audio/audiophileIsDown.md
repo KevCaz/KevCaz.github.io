@@ -1,5 +1,5 @@
 ---
-title: "Let's discover more internet radio stations"
+title: "Even more internet radio stations"
 date: 2019-03-15
 tags: [Rhythmbox, audio, internet radio]
 ---

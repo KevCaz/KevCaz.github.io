@@ -1,7 +1,7 @@
 ---
 title: "Cannot boot after upgrade on Debian Testing [SOLVED]"
 date: 2018-12-17
-tags: [Linux, Debian Testing, BIOS, UEFI, GRUB]
+tags: [Linux, Debian Testing, boot, BIOS, UEFI, GRUB2]
 ---
 
 Yesterday, I upgraded some packages on my Debian machine as I regularly do (cannot remember the exact list) but when I rebooted the system, I was not able to access the file system anymore :scream:.
