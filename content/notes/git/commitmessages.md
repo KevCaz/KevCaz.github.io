@@ -7,6 +7,7 @@ tags: [Git, Github, commit, emoticons, emoji]
 When you are working on a project with GitHub (or a similar web service based on <i class="fa fa-git" aria-hidden="true"></i>) that has tens of commits, using emoticons in commit messages makes the search in the history of your project very efficient. To add one emoticon to your commit message, you must use its name (check this [cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)) within colons in the commit message, e.g. "add this :emoticon_name:". Personally, I mostly use the following emoticon:
 
 - :book: `book` add a new piece of documentation;
+- :bar_chart: `:bar_chart:` add a new figure/plot/chart; 
 - :pencil: `pencil` edit the documentation;
 - :hammer: `hammer` add a new function (or a class, or a method, .etc);
 - :gear: `gear` add a new argument to a function;
