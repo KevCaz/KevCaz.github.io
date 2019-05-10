@@ -10,13 +10,13 @@ moovies:
 
   - roto: m/incredibles_2
     director: Brad Bird
-    url_img: https://resizing.flixster.com/AYf09MBQTl1uEO6vaaJ-W7tSWrU=/fit-in/200x296.2962962962963/v1.bTsxMjcxMzEzMTtqOzE4MDEyOzEyMDA7MTA4NjsxNjA5
+    url_img: https://resizing.flixster.com/U3F2f7nJ--OozhX6xrg1qykFK5M=/fit-in/200x296.2962962962963/v1.bTsxMjcxMzEzMTtqOzE4MDU3OzEyMDA7MTA4NjsxNjA5
     year: 2019
     yearout: 2018
 
   - roto: m/chinatown
     director: Roman Polanski
-    url_img: https://resizing.flixster.com/TS_npRBrMK7ibkvQxfAGLHSSEdY=/206x305/v1.bTsxMjk2MjE5NjtqOzE4MDE1OzEyMDA7MjAwMDszMDAw
+    url_img: https://resizing.flixster.com/MrTudWv1SotFWQwHj6vS6-FkD2Y=/206x305/v1.bTsxMjk2MjE5NjtqOzE4MDYwOzEyMDA7MjAwMDszMDAw
     year: 2019
     yearout: 1974
 
@@ -34,13 +34,13 @@ moovies:
 
   - roto: m/three_billboards_outside_ebbing_missouri
     director: Martin McDonagh
-    url_img: https://resizing.flixster.com/ZqO8zMElPyfpFkqQBXb0k1kAIGg=/fit-in/200x296.2962962962963/v1.bTsxMjM0NTY3NTtqOzE4MDA3OzEyMDA7NjM5Ozk0Ng
+    url_img: https://resizing.flixster.com/N1rTum0MrldtwIBT-X8qZcbr2Po=/fit-in/200x296.2962962962963/v1.bTsxMjM0NTY3NTtqOzE4MDUyOzEyMDA7NjM5Ozk0Ng
     year: 2019
     yearout: 2017
 
   - roto: tv/bojack_horseman
     director: Raphael Bob-Waksberg
-    url_img: https://resizing.flixster.com/uPld3zlBKNBBaNRml28S78MufpA=/206x305/v1.dDszNDMxMzM7ajsxODAwMzsxMjAwOzI4NDszOTg
+    url_img: https://resizing.flixster.com/GDbeHVslk_Nkgcu-agnyDLCzLpg=/206x305/v1.dDszNDMxMzM7ajsxODA0ODsxMjAwOzI4NDszOTg
     year: 2019
     yearout: 2018
 
@@ -83,30 +83,30 @@ moovies:
 
   - roto: tv/stranger_things
     director: Matt Duffer, Ross Duffer
-    url_img: https://resizing.flixster.com/RdMroIE6noKCJUMDlHuD8AlLCvA=/206x305/v1.dDsyNTc1NDg7ajsxNzk0MTsxMjAwOzE1MDA7MjIyMg
+    url_img: https://resizing.flixster.com/TkFrsgVG23Fg1mNoHRqpdwLD7S0=/206x305/v1.dDsyNTc1NDg7ajsxODA0NzsxMjAwOzE1MDA7MjIyMg
     year: 2018
     yearout: "2016-2017"
 
   - roto: tv/gotham
     director: Bruno Heller
-    url_img: https://resizing.flixster.com/qD1Zx9x1qUVElyOehgGnMTZcLv4=/206x305/v1.dDszOTQ5Njk7ajsxNzk0MjsxMjAwOzE2MDA7MjQwMA
+    url_img: https://resizing.flixster.com/2L6sDKtzVkGYTPJ60ctYmbPudbo=/206x305/v1.dDszOTQ5Njk7ajsxODA0OTsxMjAwOzE2MDA7MjQwMA
     year: 2018
     yearout: "2014-2018"
 
   - roto: tv/the_handmaid_s_tale/
     director: Bruce Miller
-    url_img: https://resizing.flixster.com/o_s5h04DEJukr-zj8X5_O-h2NpA=/206x305/v1.dDsyODkzNTA7ajsxNzk0MTsxMjAwOzIwMDA7MzAwMA
+    url_img: https://resizing.flixster.com/hW1f3L95GmP9a7bQ6xB9j6uzMFs=/206x305/v1.dDsyODkzNTA7ajsxODA0ODsxMjAwOzIwMDA7MzAwMA
     year: 2018
     yearout: "2017-2018"
 
   - roto: tv/breaking_bad
     director: Vince Gilligan
-    url_img: https://resizing.flixster.com/Z4wdDlhmOAC9uneDy2GtCsNyaAQ=/206x305/v1.dDsyNDI0MTA7ajsxNzk0MTsxMjAwOzk1MDsxNDI1
+    url_img: https://resizing.flixster.com/0OD6nIkWddRRZMEnVzOrWEAy1VQ=/206x305/v1.dDsyNDI0MTA7ajsxODA0NzsxMjAwOzk1MDsxNDI1
     year: 2018
     yearout: "2003-2008"
 
   - roto: tv/occupied
     director: "Erik Skjoldbjaerg, Karianne Lund, Jo Nesbø"
-    url_img: https://resizing.flixster.com/cO2cbYBto3Uuwk01MEmN-uhqBxo=/206x305/v1.dDsyOTAyNDI7ajsxNzk0MTsxMjAwOzE1MDA7NzUw
+    url_img: https://resizing.flixster.com/6jZLFPUBVB-TfR4aYdf-4pYu9ic=/206x305/v1.dDsyOTAyNDI7ajsxODA0ODsxMjAwOzE1MDA7NzUw
     year: 2018
     yearout: "2016-2017"

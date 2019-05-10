@@ -1,5 +1,16 @@
 books:
 
+- title: "La zone du Dehors"
+  author: Alain Damasio
+  type: "science fiction fantaisiste"
+  year: 2019
+  url_img: "https://m.media-amazon.com/images/I/81tsWGH2YlL._AC_UL436_.jpg"
+  info:
+    url: https://fr.wikipedia.org/wiki/La_Zone_du_Dehors
+    name: Article sur Wikipedia
+  comments: "Dans un futur pas si lointain, la Volte essaye de réveiller les cerlonniens qui s'ammolisse dans un système 1984_ien. Un cri de révolte, un hymne à l'anarchie que j'ai eu grand plaisir a lire, bien que les tournures
+  damsiennes soient parfois difficile à suivre, ça fait partie de l'expérience de lecture."
+
 - title: "Holly cow"
   author: David Duchovny
   type: roman

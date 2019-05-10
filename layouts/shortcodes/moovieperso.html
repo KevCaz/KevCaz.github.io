@@ -1,33 +1,33 @@
 {{ range $index := (seq 2019 2018) }}
 
-  <h2> {{ $index }} </h2>
+<h2> {{ $index }} </h2>
 
-  <div class="row">
+<div class="row">
 
   {{ range $.Site.Data.moovies.moovies }}
 
 
-    {{ if eq .year $index }}
+  {{ if eq .year $index }}
 
-      <div class="col-xs-4 col-md-3">
-        <div class = "moovie">
-            <a href="https://www.rottentomatoes.com/{{ .roto }}">
-            <img src="{{ .url_img }}" alt="{{ .title }}" width = "100%">
-            </a>
-            <h4></span><i class="fa fa-user" aria-hidden="true"></i> {{ .director }}
-            <br></h4>
-            <h4><i class="fa fa-calendar" aria-hidden="true"></i> {{ .yearout }}</h4>
-        </div>
-      </div>
 
-    {{ end }}
+  <div class="col-xs-4 col-sm-3 col-md-2">
+
+      <a href="https://www.rottentomatoes.com/{{ .roto }}">
+        <img src="{{ .url_img }}" alt="{{ .title }}" style="max-height: 200px; padding: 1px;">
+      </a>
+      <!-- <h4></span><i class="fa fa-user" aria-hidden="true"></i> {{ .director }}
+        <br></h4>
+      <h4><i class="fa fa-calendar" aria-hidden="true"></i> {{ .yearout }}</h4> -->
+  </div>
 
   {{ end }}
 
-  </div>
+  {{ end }}
+
+</div>
 
 
-  <br>
+<br>
 
 
 {{ end }}
