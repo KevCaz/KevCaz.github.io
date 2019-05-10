@@ -59,6 +59,7 @@ defaultContentLanguageInSubdir = false
 
 # google fonts
 font = ["Changa One"]
+font-size = "20"
 
 
 # Navigation Links
@@ -101,7 +102,7 @@ font = ["Changa One"]
 
 # icon (font-awesome)
 [[menu.icon]]
-    name = "github"
+    name = "github fa-2x"
     url = "https://www.github.com/KevCaz"
 
 

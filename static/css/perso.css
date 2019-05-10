@@ -1,6 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 @import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css);
 
+body {
+  font-size: 16px!important;
+}
 
 video {
   padding-top: 5px;
@@ -39,13 +42,13 @@ video {
 
 .anchor span {
    position: absolute;
-   top: -64px;
+   top: -78px;
 }
 
 .mysticky {
   display: block;
   position: fixed;
-  top: 48px;
+  top: 52px;
 }
 
 pre {
