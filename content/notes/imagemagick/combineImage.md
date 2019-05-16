@@ -1,14 +1,15 @@
 ---
 title: "Combine images with ImageMagick"
-date: 2019-05-14
+date: 2019-05-16
 tags: [ImageMagick, image manipulation, convert, PhyloPic]
 ---
 
 I do love create figures with R, I found quite satisfying to make them very
-personalized, yet reproducible! However soetime I wish combining two plots were
-easier (very often it requires to build larges matrices and crazy `layout()`
-calls). I was looking for a simple way to do basic combinations of customized R
-figures, and I stumbled on [this discussion on <i class="fa fa-stack-exchange"
+personalized, yet reproducible! However I sometime wish that combining two
+plots was  easier (as it often requires to build larges matrices and crazy
+`layout()` calls). I was looking for a simple way to do basic combinations of
+customized R figures, and I stumbled on [this discussion on <i class="fa
+fa-stack-exchange"
 aria-hidden="true"></i>](https://superuser.com/questions/290656/combine-multiple-images-using-imagemagick)
 showing how easy it is to do so with
 [ImageMagick](https://imagemagick.org/script/develop.php). Let me exemplify with
@@ -78,7 +79,7 @@ convert -append -background transparent assets/perca_flavescens.png assets/salve
 {{< imgcenter "/notes/imagemagick/assets/fishV.png" 35 >}}
 
 
-Love this trick! Two short remaks to end this note:
+Love this trick! Two short remarks to end this note:
 
 1. there are many programming langages that [interface ImageMagick](https://imagemagick.org/script/develop.php);
 2. the R :package: [patchwork](https://github.com/thomasp85/patchwork) is making this kind of operation really easy with ggplot2.
