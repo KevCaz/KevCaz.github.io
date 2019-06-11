@@ -10,7 +10,7 @@
 
   <br>
 
-  <ul>
+  <ol reversed>
     {{ range (where .Data.Pages "Section" "!=" "") }}
     <li>
       <span class="date">{{ .Date.Format "2006/01/02" }}</span>
@@ -18,7 +18,7 @@
     </li>
       {{ end }}
 
-  </ul>
+  </ol>
 
 
 {{ end }}

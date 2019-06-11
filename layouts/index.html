@@ -1,41 +1,43 @@
 {{ partial "header" . }}
 
-  <div class="container">
+<div class="container">
 
-    <div class="row">
+  <div class="row">
 
-      <div class="col-sm-3">
-        <img src="img/avatar.png" width=224px alt="avatar"></img>
-        <br><br>
+    <div class="col-sm-3">
+      <img src="img/avatar.png" width=224px alt="avatar"></img>
+      <br><br>
 
-        {{ partial "socio" . }}
-        <br>
+      {{ partial "socio" . }}
+      <br>
 
-        <a class="twitter-timeline"  href="https://twitter.com/{{ .Site.Params.twitter }}" data-width="400" data-height="600" data-chrome="nofooter noborders hoheader"> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></a>
-      </div>
+      <a class="twitter-timeline" href="https://twitter.com/{{ .Site.Params.twitter }}" data-width="400" data-height="600" data-chrome="nofooter noborders hoheader">
+        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </a>
+    </div>
 
-      <div class="col-sm-8">
+    <div class="col-sm-8">
       {{ partial "about" . }}
 
-      </div>
+    </div>
 
-      <div class="col-sm-1">
-        <div class="hidden-sm hidden-xs">
-          <div class="mysticky">
-            {{ range .Site.Data.navhome.menu }}
-            <h1 title="{{ .title }}">
-              &nbsp;&nbsp;
-              <a href="#{{ .anchor }}">
-               <i class="fa fa-{{ .icon }}" aria-hidden="true"></i>
-             </a>
-            </h1>
-            {{ end }}
-          </div>
+    <div class="col-sm-1">
+      <div class="hidden-sm hidden-xs">
+        <div class="mysticky">
+          {{ range .Site.Data.navhome.menu }}
+          <h1 title="{{ .title }}">
+            &nbsp;&nbsp;
+            <a href="#{{ .anchor }}">
+              <i class="fa fa-{{ .icon }}" aria-hidden="true"></i>
+            </a>
+          </h1>
+          {{ end }}
         </div>
       </div>
+    </div>
 
 
 
   </div>
 
-{{ partial "footer" . }}
+  {{ partial "footer" . }}
