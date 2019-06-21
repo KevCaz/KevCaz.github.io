@@ -12,12 +12,3 @@ This is my personal website, all content is released under [CC-BY-NC-SA](https:/
 specified. See [my own theme](https://github.com/KevCaz/hugo-KevCaz) for further
 details, especially to see the list of libraries and a proper acknowledgment
 to developers.
-
-
-
-## Tout doux
-
-1. [ ] improve list of authors (create specific shortcodes)
-2. [ ] add seminars
-3. [ ] develop perso section
-4. idea: use `details` when lists are too long https://developer.mozilla.org/fr/docs/Web/HTML/Element/details
