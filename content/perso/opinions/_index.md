@@ -1,6 +1,5 @@
 ---
 title: "Opinions"
 icon: comment-o
+layout: list
 ---
-
-# :construction: :ghost: :construction:

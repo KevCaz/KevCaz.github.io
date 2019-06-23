@@ -1,36 +1,41 @@
 ---
-title: "Des opinions?"
-date: 2019-11-19
+title: "Des opinions, moi?"
+date: 2019-06-23
 tags: [politique]
-draft: true
 ---
 
-Je me suis fais récemment demandé si j'avais des opinions et je n'ai, comme souvent, ecarter la question en répondant quelques chose qui n'avait pas grand chose avoir. Peut-on ne pas avoir d'opinion.
+# :construction: :construction: :construction: :construction: :construction:
 
-> Avis donné sur une question discutée dans une assemblée, au sein d'une compagnie
+**Je me suis récemment fait demander si j'avais des opinions**. La question
+était posée ainsi, sans référence à un sujet particulier. Une bien drôle de
+question... peut-on seulement ne pas avoir d'opinion? Le dictionnaire de
+l'Académie Français propose, pour l'entrée [*opinion*](
+https://academie.atilf.fr/9/consulter/opinion?page=1), trois acceptions que je
+reporte ici:
 
->  Sentiment, idée, point de vue ; jugement que l'on porte, sans que l'esprit le tienne pour assuré, sur une question donnée
+> 1- Avis donné sur une question discutée dans une assemblée, au sein d'une compagnie;
 
-> Se dit, surtout au pluriel, des idées, des croyances, des convictions d'ordre moral, politique ou religieux propres à un individu ou à un groupe
+> 2- Sentiment, idée, point de vue ; jugement que l'on porte, sans que l'esprit le tienne pour assuré, sur une question donnée;
 
-La derniere dans le sens de conviction et je l'écarte ici.
-La pdeux preier sur une idée donnée.
+> 3- Se dit, surtout au pluriel, des idées, des croyances, des convictions d'ordre moral, politique ou religieux propres à un individu ou à un groupe.
 
-une question et avoir finalenent un position sur des idées autour ou des éléments de réponse. De maniere geneeral large, on peut avoir des soption sur tout. Comme ça la a vite mais a la reflexion oui ce n'est pas une réponse c'est un avis des argument epour voir ou penche la réponse. Alors oui j'en ai et bien que je me fasse infliuencé par mes lectures j'essaye de peser et dans la balance.
+Les deux premières définitions contextualisent l'opinion qui est associée à
+question précise. La dernière définition lui donne un sens plus général, plus
+profond peut-être, ou si l'on veut, c'est un point de vue qui porte sur des
+questions d'ordre très général! Donc, si je n'ai pas d'opinions, cela
+signifierait que je n'ai aucune idée sur quel que sujet qu'il soit ou (non
+exclusif) que je n'ai tout simplement pas de convictions. Je préfère le dire
+clairement, **oui j'ai des convictions et des opinions** et ce, sur de nombreux
+sujets!
 
-La tendacne sur twitter "" pour ditinguer de organisme/ inystotuo on est rataché celui qui parle.
+**Le problème est alors de savoir si je souhaite partager mes opinions**. Je
+pense que c'est la une ligne de partage importante valable aussi bien pour une
+conversation de vive voix que pour des échanges sur un réseau social. Certains
+sont plus enclins à partager ce qu'ils pensent quand d'autres se contentent de
+*liker* quand ils ne se taisent pas. Cela ne revient pas à dire que ces derniers
+n'ont pas d'opinions, ils ne les expriment pas ou très peu (en postulant que
+*liker* est une forme d'opinion).
 
+Il y a de nombreux sujets sur lesquels je ne partage pas mes opinions. Il s'agit le plus souvent d'une forme d'auto-censure: j'estime que mes connaissances sur tel ou tel sujet sont trop limitées pour que mon opinion mérite d'être partagée. Il m’apparaît aujourd'hui que je devrais essayer le plus souvent possible de mettre mes idées au clair, tenter de donner une substance aux réactions que provoquent en moi certaines de mes lectures. Je pense qu'il est important de se forger une opinion et je sais que cela peut prendre du temps.
 
-https://academie.atilf.fr/9/consulter/opinion?page=1
-
-Je passe une partie de mon temps a lire et ecouter de l'activi et mn tempa a lire et a explorer de l'information. M
-
-
-> opinions are my own
-
-opinion et non conviction
-
-on se forge son opinion c'est construit. Ce N,est pas juste le refte de mes lectures. Des opinions sur tout et surtout de sopition.
-
-
-Alors oui j'ai des opinions et si on me laisse réfléchir un peu je peux me forger un opinion.
+L'écriture est, pour moi, un mode d'expression propice à la réflexion: j'aime prendre le temps de réfléchir aux mots utilisés et à la tournure de la phrase qui va porter l'idée. Alors j'ai décidé de mettre un peu de temps chaque semaine pour méditer un sujet de mon choix et de me forger une opinion sur une question précise. Et **je souhaite partager cette opinion dans cette section de mon site internet**. Voila pour la genèse de cette section!  
