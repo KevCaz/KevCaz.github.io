@@ -1,11 +1,16 @@
 moovies:
 
+  - roto: m/rio_bravo
+    director: George Miller, George Ogilvie
+    url_img: https://resizing.flixster.com/gMw3tJ49X3dWu1nujZhhYF9zaAM=/206x305/v1.bTsxMTE3MzkzNztqOzE4MTc0OzEyMDA7ODAwOzEyMDA  
+    year: 2019
+    yearout: 1959
+
   - roto: m/how_to_train_your_dragon_the_hidden_world
     director: George Miller, George Ogilvie
     url_img: https://resizing.flixster.com/JgIsL1fqVDx1LIOL1Wug5jAQPKM=/fit-in/200x296.2962962962963/v1.bTsxMjc1NjU5NztqOzE4MDU3OzEyMDA7NDgwOzc2MA
     year: 2019
-    yearout: 1985
-
+    yearout: 2019
 
   - roto: m/mad_max_beyond_thunderdome
     director: George Miller, George Ogilvie

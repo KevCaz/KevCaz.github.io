@@ -25,17 +25,17 @@ profond peut-être, ou si l'on veut, c'est un point de vue qui porte sur des
 questions d'ordre très général! Donc, si je n'ai pas d'opinions, cela
 signifierait que je n'ai aucune idée sur quel que sujet qu'il soit ou (non
 exclusif) que je n'ai tout simplement pas de convictions. Je préfère le dire
-clairement, **oui j'ai des convictions et des opinions** et ce, sur de nombreux
-sujets!
+clairement, **oui j'ai des convictions et des opinions et ce, sur de nombreux
+sujets**!
 
 **Le problème est alors de savoir si je souhaite partager mes opinions**. Je
-pense que c'est la une ligne de partage importante valable aussi bien pour une
+pense que c'est la une ligne de partage importante, valable aussi bien pour une
 conversation de vive voix que pour des échanges sur un réseau social. Certains
 sont plus enclins à partager ce qu'ils pensent quand d'autres se contentent de
 *liker* quand ils ne se taisent pas. Cela ne revient pas à dire que ces derniers
 n'ont pas d'opinions, ils ne les expriment pas ou très peu (en postulant que
 *liker* est une forme d'opinion).
 
-Il y a de nombreux sujets sur lesquels je ne partage pas mes opinions. Il s'agit le plus souvent d'une forme d'auto-censure: j'estime que mes connaissances sur tel ou tel sujet sont trop limitées pour que mon opinion mérite d'être partagée. Il m’apparaît aujourd'hui que je devrais essayer le plus souvent possible de mettre mes idées au clair, tenter de donner une substance aux réactions que provoquent en moi certaines de mes lectures. Je pense qu'il est important de se forger une opinion et je sais que cela peut prendre du temps.
+Il y a de nombreux sujets sur lesquels je ne donne pas mes opinions. Il s'agit le plus souvent d'une forme d'auto-censure: j'estime que mes connaissances sur tel ou tel sujet sont trop limitées pour que mon opinion mérite d'être partagée. Il m’apparaît aujourd'hui que je devrais essayer, le plus souvent possible, de mettre mes idées au clair, tenter de donner une substance aux réactions que provoquent en moi certaines de mes lectures. Je pense qu'il est important de se forger une opinion et je suis conscient que cela peut prendre du temps.
 
-L'écriture est, pour moi, un mode d'expression propice à la réflexion: j'aime prendre le temps de réfléchir aux mots utilisés et à la tournure de la phrase qui va porter l'idée. Alors j'ai décidé de mettre un peu de temps chaque semaine pour méditer un sujet de mon choix et de me forger une opinion sur une question précise. Et **je souhaite partager cette opinion dans cette section de mon site internet**. Voila pour la genèse de cette section!  
+L'écriture est, pour moi, un mode d'expression propice à la réflexion: j'aime prendre le temps de réfléchir aux mots utilisés et à la tournure de la phrase qui va porter l'idée. J'ai donc décidé de mettre un peu de temps chaque semaine pour méditer un sujet de mon choix et de me forger une opinion sur une question précise. Et **je souhaite partager cette opinion dans cette section de mon site internet**. Voila pour la genèse de cette section!  
