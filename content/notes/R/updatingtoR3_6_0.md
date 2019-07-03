@@ -97,7 +97,7 @@ Packages installed where in two of these 3:
 - `/usr/lib/R/site-library` includes the packages installed via `apt-get`
 
 I decided to use `/usr/local/lib/R/site-library` to store packages I would
-install via `install.packages()`. To do so, I simply chnage the permission to
+install via `install.packages()`. To do so, I simply changed the permission to
 make this folder writable by myself without using super user privileges: `sudo
 chmod 777 /usr/local/lib/R/site-library`. Then, I completed the installation:
 
@@ -198,4 +198,4 @@ R> find.package("assertthat")
 [1] "/usr/local/lib/R/site-library/assertthat"
 ```
 
-Why are they insalled twice? I don't know yet! But I sure will let you know when I understand this!
+Why are they installed twice? I don't know yet! But I sure will let you know when I understand this!
