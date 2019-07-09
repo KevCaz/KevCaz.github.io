@@ -1,6 +1,6 @@
 ---
 title: "Ne pas avoir son permis de conduire passé 30 ans, en 2019"
-date: 2019-06-19
+date: 2019-07-19
 tags: [mobilité, technologie]
 draft: true
 ---
@@ -12,7 +12,7 @@ Evidemment, je devrais essayer d'obtenir le droit de conduire un véhicule motor
 
 Quand on me questionne sur quand j'aurais, j'ai plaisir a mentionner l'arriver di véhicule életrique autonome et on me rit souemt au nez, mais est-ce si studpide de penser que j'aurai un chauffeur coder en XXX et que j'aurais une version de uber sans et que je demanderais un service et que ce sera chez moi.
 
-Honnetement je ne pense pas. Allez, soyons fatuelle,
+Honnetement je ne pense pas. Allez, soyons factuel,
 
 1. premiere idée du wéhicule autonoe
 
