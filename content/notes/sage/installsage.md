@@ -1,7 +1,7 @@
 ---
 title: Building Sage 8.3 from sources on Debian Testing
 date: 2018-09-10
-tags: [Sage, installation, Makefile]
+tags: [SageMath, installation, Makefile]
 ---
 
 
