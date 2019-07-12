@@ -1,7 +1,7 @@
 ---
 title: My Lenovo T470p
 date: 2018-09-14
-tags: [hardware, Debian, Lenovo, Linux]
+tags: [hardware, Lenovo, Linux, Debian]
 ---
 
 When I switched from MacOS to Debian, I had no idea what laptop to buy
@@ -28,4 +28,4 @@ to meet point 2! I read something quite funny about few days ago: while the
 weight of laptop has dramatically decreased over the past decade, the same
 remark does not apply to the laptop chargers, we therefore are going towards a
 situation where the laptop weight equals the charger weight :imp:, better to
-buy a tablet computer. 
+buy a tablet computer.
