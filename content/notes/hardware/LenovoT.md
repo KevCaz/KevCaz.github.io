@@ -1,7 +1,7 @@
 ---
 title: My Lenovo T470p
 date: 2018-09-14
-tags: [hardware, Lenovo, Linux, Debian]
+tags: [hardware, installation, setup, Lenovo, Linux, Debian]
 ---
 
 When I switched from MacOS to Debian, I had no idea what laptop to buy

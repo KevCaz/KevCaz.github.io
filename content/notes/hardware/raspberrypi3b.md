@@ -1,7 +1,7 @@
 ---
 title: My Raspberry Pi 3B
 date: 2019-07-12
-tags: [hardware, Raspberry Pi, Linux, Debian, Raspbian]
+tags: [hardware, installation, setup, Raspberry Pi, Linux, Debian, Raspbian]
 ---
 
 Two years ago now, I bought myself a [Raspberry Pi
