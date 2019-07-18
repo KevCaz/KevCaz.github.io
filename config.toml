@@ -39,8 +39,8 @@ defaultContentLanguageInSubdir = false
   #  For more info on the highlighting options, see:   # https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/#highlighting-options
   highlight = true
   highlight_languages = ["bash", "html", "julia", "python", "r", "rust", "xml", "yaml", "tex", "shell", "matlab"]
-  highlight_style = "monokai"
-  # highlight_version = "9.12.0"
+  highlight_style = "tomorrow-night-eighties"
+  highlight_version = "9.15.8"
 
   # I follow the example given with highlightjs in academic theme to add mathjax and lealfet
   mathjax = true
