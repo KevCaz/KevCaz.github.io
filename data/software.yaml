@@ -16,7 +16,6 @@ softs:
       - "[![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/rcites)](https://cran.r-project.org/package=rcites)"
 
 
-
   - name: "inSilecoMisc"
     category: "R package"
     description: "Miscelleneous functions of the inSileco team. "
@@ -60,7 +59,7 @@ softs:
       branch: master
     badges:
       - "[![Build status](https://ci.appveyor.com/api/projects/status/sk3sbvusvcyy0at0?svg=true)](https://ci.appveyor.com/project/KevCaz/recruitr/build/1.0.7)"
-      - "[![codecov](https://codecov.io/gh/KevCaz/recruitR/branch/master/graphs/badge.svg)](https://codecov.io/gh/KevCaz/recruitR)"
+      - "[![codecov](https://codecov.io/gh/KevCaz/diskers/branch/master/graphs/badge.svg)](https://codecov.io/gh/KevCaz/diskers)"
 
   - name: "ecoocc"
     category: "R package"
