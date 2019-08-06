@@ -1,7 +1,7 @@
 ---
 title:  Towards an integrated theory of biogeography
 author: Kevin Cazelles
-tag: paper
+tag: [biogeography, publication]
 date: 2016-01-11
 ---
 

@@ -68,15 +68,11 @@ font-size = "20"
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-[[menu.main]]
     name = "Publications"
     url = "/publications/"
-    weight = 2
+    weight = 1
 [[menu.main]]
-    name = "Talks & Posters"
+    name = "Talks&Posters"
     url = "/talks/"
     weight = 3
 [[menu.main]]
@@ -87,6 +83,10 @@ font-size = "20"
     name = "Software"
     url = "/software/"
     weight = 5
+[[menu.main]]
+    name = "EcoNotes"
+    url = "/econotes/"
+    weight = 6
 [[menu.main]]
     name = "Notes"
     url = "/notes/"
@@ -102,8 +102,13 @@ font-size = "20"
 
 # icon (font-awesome)
 [[menu.icon]]
+    name = "home fa-2x"
+    url = "/"
+    weight = 1
+[[menu.icon]]
     name = "github fa-2x"
     url = "https://www.github.com/KevCaz"
+
 
 
 # Taxonomies.
