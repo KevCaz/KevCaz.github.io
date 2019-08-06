@@ -4,7 +4,6 @@ date: 2019-08-02
 tags: [R, plot, expression, variable, base plot]
 ---
 
-
 It is rather straightforward to [add mathematical annotation in a plot with R](https://stat.ethz.ch/R-manual/R-devel/library/grDevices/html/plotmath.html). However, I have noted that people struggle with the two following :
 
 1. combining mathematical expression and text;
