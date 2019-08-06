@@ -51,6 +51,10 @@ video {
   top: 52px;
 }
 
+.navbar-icon {
+  font-size: 1.4em;
+}
+
 pre {
     padding: 8px !important;
     margin: 0 0 10px;

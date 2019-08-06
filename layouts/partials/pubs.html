@@ -1,6 +1,6 @@
 <ol>
   {{ $letk := "Kevin" | truncate 1 "." }}
-  {{ range .Site.Data.publi.references}}
+  {{ range .Site.Data.pubs.references}}
   <li class="pubs_li">
     {{ $len := len .author }}
     {{ $len2 := sub $len 1 }}
