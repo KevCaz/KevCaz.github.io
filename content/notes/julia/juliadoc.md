@@ -1,146 +1,62 @@
 ---
 title: "Use Julia [part 1]!"
-date: 2019-07-21
+date: 2019-08-12
 tags: [Julia]
 draft: true
 ---
 
-Julia is modern and version 1.1 working on 1.1.
-see previous note
+[The Julia Programming Language](https://julialang.org/) first appeared in 2012 (see the [Wikipedia page for more details](ttps://en.wikipedia.org/wiki/Julia_(programming_language))) and version 1.0 was released August 2018. As mentioned on the wbsite:
 
-well done easy to read and nice currated list of references.
-
-they should have a nice template for the pdf but well
-
-the mention how it works gives exemple and nice readings do pretty funny
-
-https://docs.julialang.org/en/v1/
-
-> Julia features optional typing, multiple dispatch, and good performance, achieved using type inference and just-in-time (JIT) compilation, implemented using LLVM.
-
-> Efficient support for Unicode, including but not limited to UTF-8
-
-> Call C functions directly (no wrappers or special APIs needed)
+>  Julia was designed from the beginning for high performance. Julia programs compile to efficient native code for multiple platforms via [LLVM](https://llvm.org/docs/GettingStarted.html).
 
 
-freas when most are concepts are clearer ans
+There are several people I work with that have started to use Julia on a regular basis and I am now involved in porject that include Julia code. So, after 4 years thinking about learning properly it, I finally decided to go through the [Julia manual](https://docs.julialang.org/en/v1/). Well... hum... it is great :fireworks:. After havoing spent hours going throuh the documentation and practicing a little bit, I would say that Julia took the best of many works and is rather impressive. And the documentaion :book: is very well done, it gives you a good understanding of how Julia was made and what are the reasons behind, a good balance between concept, technical details (e.g. pointas about performance) and example (event thought if they admit that sometime the examples are somewhat contrived, well the are always helpful for the sake of understanding), and they give good reading suggestoin, i.e. about [character set](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 
- `julia`
-
-  `julia script.jl arg1 arg2...`
-
-scripting https://docs.julialang.org/en/v1/manual/faq/#man-scripting-1
-
-2+2
-
-List of resource https://julialang.org/learning/
-
-
-; mode shell  
-] node package
-
-Variable names must begin with a letter (A-Z or a-z), underscore, or a subset of Unicode code points greater than 00A0; in particular, Unicode character categories Lu/Ll/Lt/Lm/Lo/Nl (letters), Sc/So (currency and other symbols), and a few other letter-like characters (e.g. a subset of the Sm math symbols) are allowed.
+Below I jotted a few notes, to highlight a couple of points I found really underesting. So many things that I found interesting that would ne rather useless to copy paste the full documentation.. Plus list of resource https://julialang.org/learning/
 
 
 
 
-[Stylistic Conventions](https://docs.julialang.org/en/v1/manual/variables/#Stylistic-Conventions-1)
 
-While Julia imposes few restrictions on valid names, it has become useful to adopt the following conventions:
+- Different modes
 
-    Names of variables are in lower case.
-    Word separation can be indicated by underscores, but use of underscores is discouraged unless the name would be hard to read otherwise.
-    Names of Types and Modules begin with a capital letter and word separation is shown with upper camel case instead of underscores.
-    Names of functions and macros are in lower case, without underscores.
-    Functions that write to their arguments have names that end in !. These are sometimes called "mutating" or "in-place" functions because they are intended to produce changes in their arguments after the function is called, not just return a value.
+  - `julia script.jl arg1 arg2...` see [the faq](https://docs.julialang.org/en/v1/manual/faq/#man-scripting-1)
+  - `julia` [repl](https://en.wikipedia.org/wiki/Read–eval–print_loop)
+  - `;`: shell mode  
+  - `]`: package mode
+  - `?`: help mode
+
+- [Stylistic Conventions](https://docs.julialang.org/en/v1/manual/variables/#Stylistic-Conventions-1): I like the idea that provide convention :
+
+- Support any character and more mathematical way is just so good:
 
 
-```juia
-julia> typeof(1)
-Int64
+```julia
+julia> δ = 10
+10
+julia> x = 3
+3
+julia> 2x+δ
+13
 ```
 
-ans
+- love `ans` that is last call also love
 
- for T in [Int8,Int16,Int32,Int64,Int128,UInt8,UInt16,UInt32,UInt64,UInt128]
-           println("$(lpad(T,7)): [$(typemin(T)),$(typemax(T))]")
-       end
+```julia
+[1, 2, 4][end]
+```
 
 
-https://docs.julialang.org/en/v1/manual/integers-and-floating-point-numbers/#Overflow-behavior-1
-
-Overflow behavior
+- Overflow behavior made clear
 
 > In Julia, exceeding the maximum representable value of a given type results in a wraparound behavior:
 
-
-```julia
-julia> typeof((1, 1))
-Tuple{Int64,Int64}
-
-julia> typeof((1, 1.))
-Tuple{Int64,Float64}
-```
-
-Machine epsilon
-
-```julia
-julia> eps(Float16)
-Float16(0.000977)
-
-julia> eps(Float32)
-1.1920929f-7
-
-julia> eps(Float64)
-2.220446049250313e-16
-```
+- missed the [vectorized dot operator](https://docs.julialang.org/en/v1/manual/mathematical-operations/#man-dot-operators-1) I used to use in Matematica
 
 
+- cool gave a [chaining comparaison](https://docs.julialang.org/en/v1/manual/mathematical-operations/#Chaining-comparisons-1) (also R)
 
-```julia
-julia> typemax(Int64)
-9223372036854775807
-
-julia> typemax(Int64) + 1
--9223372036854775808
-
-julia> BigInt(typemax(Int64)) + 1
-9223372036854775808
-
-```
-
-
-```julia
-julia> x = 3
-3
-
-julia> 2x
-6
-
-julia> 2x+3
-9
-
-julia> (2x+3)*(2x+6)
-```
-
-
-updating versions of all the binary arithmetic and bitwise operators are:
-
-
-https://docs.julialang.org/en/v1/manual/mathematical-operations/#man-dot-operators-1
-
-
-
-https://docs.julialang.org/en/v1/manual/mathematical-operations/#Chaining-comparisons-1
- comparisons can be arbitrarily chained:
-
-
-https://docs.julialang.org/en/v1/manual/mathematical-operations/#Division-functions-1
-
-
-
-https://docs.julialang.org/en/v1/manual/complex-and-rational-numbers/#Rational-Numbers-1
-
+- using rational
 
 ```julia
 julia> 2// 3 == 6//9
@@ -150,7 +66,7 @@ Rational{Int64}
 ```
 
 
-string char
+- love string cahra string char
 
 ```julia
 julia> 'X'
@@ -183,9 +99,10 @@ Stacktrace:
 
 julia> s[4]
 ' ': ASCII/Unicode U+0020 (category Zs: Separator, space)
-
 ```
 
+
+triple "
 
 ```
 julia> """
@@ -213,6 +130,8 @@ julia> repeat(".:Z:.", 10)
 julia> join(["apples", "bananas", "pineapples"], ", ", " and ")
 "apples, bananas and pineapples"
 ```
+
+- [regular expression](https://docs.julialang.org/en/v1/manual/strings/#Regular-Expressions-1)
 
 > Julia has Perl-compatible regular expressions
 https://docs.julialang.org/en/v1/manual/strings/#Regular-Expressions-1
@@ -244,10 +163,8 @@ julia> "super"*" "*"cool"
 "super cool"
 ```
 
-cool readings
 
-https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
-
+- love how functions work
 
 
 
@@ -282,6 +199,7 @@ julia> hcat(12, 23, 13, nothing)
  12  23  13  nothing
 ```
 
+- map
 
 julia> map(round, [1.2,3.5,1.7])
 
@@ -297,62 +215,14 @@ julia> (yop = [1 2], txt = "hello", val = 23)
 
 
 
-```
-julia> minmax(x, y) = (y < x) ? (y, x) : (x, y)
-
-julia> range((min, max)) = max - min
-
-julia> range(minmax(10, 2))
-8
-```
-
-[Varargs Functions](https://docs.julialang.org/en/v1/manual/functions/#Varargs-Functions-1) splat
-
-
-```julia
-julia> bar(a,b,x...) = (a,b,x)
-bar (generic function with 1 method)
-
-julia> xx = bar(1, 2, 3, 4, 5, 6, 7, 8, 9)
-(1, 2, (3, 4, 5, 6, 7, 8, 9))
-
-julia> xx[1]
-1
-
-julia> xx[3][1]
-3
-
-julia> xx[3][5]
-7
-
-julia> xx = bar((1, 2, 3, 4, 5, 6, 7, 8, 9)...)
-(1, 2, (3, 4, 5, 6, 7, 8, 9))
-
-julia> xx = bar((1, 2, 3, 4, 5, 6, 7, 8, 9))
-ERROR: MethodError: no method matching bar(::NTuple{9,Int64})
-Closest candidates are:
-  bar(::Any, ::Any, ::Any...) at REPL[248]:1
-Stacktrace:
- [1] top-level scope at none:0
-```
-
-```julia
-function g(x, y = 1)
-    x + y
-end
-```
-
-https://docs.julialang.org/en/v1/manual/functions/#Keyword-Arguments-1
-> Keyword arguments can make these complex interfaces easier to use and extend by allowing arguments to be identified by name instead of only by position.
-
-
 
 > In Julia, vectorized functions are not required for performance, and indeed it is often beneficial to write your own loops (see Performance Tips), but they can still be convenient. Therefore, any Julia function f can be applied elementwise to any array (or other collection) with the syntax f.(A)
 
 
 
+https://docs.julialang.org/en/v1/manual/functions/#The-return-Keyword-1
 
-
+> The value returned by a function is the value of the last expression evaluated, which, by default, is the last expression in the body of the function definition. In the example function, f, from the previous section this is the value of the expression x + y. As in C and most other imperative or functional languages, the return keyword causes a function to return immediately, providing an expression whose value is returned
 
 
 
@@ -392,3 +262,64 @@ julia> f([1,2,pi])
 
 cos.(sin.([1,2,pi]))
 ```
+
+Operators Are Functions ` +(1,2,3)`
+
+
+### Tuples
+
+Data structure
+
+https://docs.julialang.org/en/v1/manual/functions/#Tuples-1
+
+```julia
+tup = (a=1, b=1+1, k = "v")
+tup[3]
+tup.k
+```
+
+- the section [Control Flow](https://docs.julialang.org/en/v1/manual/control-flow/) is very well laid out and really got the  [Short circuit evaluation](https://docs.julialang.org/en/v1/manual/control-flow/#Short-Circuit-Evaluation-1)
+ ; task still new to me, we shall see.
+
+
+```julia
+julia> function fact(n::Int)
+           n >= 0 || error("n must be non-negative")
+           n == 0 && return 1
+           n * fact(n-1)
+       end
+```
+
+
+- Scope is somewahtd similar with what used in R (where refered to frame)
+
+- I really found the type system very well thoughjt,
+
+> One particularly distinctive feature of Julia's type system is that concrete types may not subtype each other: all concrete types are final and may only have abstract types as their supertypes. While this might at first seem unduly restrictive, it has many beneficial consequences with surprisingly few drawbacks. It turns out that being able to inherit behavior is much more important than being able to inherit structure, and inheriting both causes significant difficulties in traditional object-oriented languages.
+
+
+
+```julia
+julia> IO <: Any
+true
+julia> String <: AbstractString <: Any
+true
+julia> Complex <: Number
+true
+julia> Float64 <: AbstractFloat <: Real <: Number <: Any
+true
+julia> BigInt <: Signed <: Integer <: Real <: Number <: Any
+true
+julia> Bool <: Integer <: Real <: Number <: Any
+true
+julia> Int64 <: Int <: Signed <: Integer <: Real <: Number <: Any
+true
+julia> UInt64 <: UInt <: Unsigned <: Integer <: Real <: Number <: Any
+true
+julia> supertype(Bool)
+true
+Integer
+```
+
+aso composite paramteric type, great.
+https://docs.julialang.org/en/v1/manual/types/#Parametric-Composite-Types-1
