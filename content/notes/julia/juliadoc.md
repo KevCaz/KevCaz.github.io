@@ -1,8 +1,8 @@
 ---
-title: "Use Julia [part 1]!"
-date: 2019-08-12
-tags: [Julia]
-draft: true
+title: "Use Julia! [part 1]"
+date: 2019-08-14
+tags: [Julia, documentation, get started]
+draft: false
 ---
 
 [The Julia Programming Language](https://julialang.org/) first appeared in 2012 (see the [Wikipedia page for more details](ttps://en.wikipedia.org/wiki/Julia_(programming_language))) and version 1.0 was released August 2018. As mentioned on the wbsite:
@@ -10,12 +10,9 @@ draft: true
 >  Julia was designed from the beginning for high performance. Julia programs compile to efficient native code for multiple platforms via [LLVM](https://llvm.org/docs/GettingStarted.html).
 
 
-There are several people I work with that have started to use Julia on a regular basis and I am now involved in porject that include Julia code. So, after 4 years thinking about learning properly it, I finally decided to go through the [Julia manual](https://docs.julialang.org/en/v1/). Well... hum... it is great :fireworks:. After havoing spent hours going throuh the documentation and practicing a little bit, I would say that Julia took the best of many works and is rather impressive. And the documentaion :book: is very well done, it gives you a good understanding of how Julia was made and what are the reasons behind, a good balance between concept, technical details (e.g. pointas about performance) and example (event thought if they admit that sometime the examples are somewhat contrived, well the are always helpful for the sake of understanding), and they give good reading suggestoin, i.e. about [character set](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
+There are several people I work with that have started to use Julia on a regular basis and I am now involved in project that include Julia code. So, after 4 years thinking about learning properly it, I finally decided to go through the [Julia manual](https://docs.julialang.org/en/v1/). Well... hum... it is great :fireworks:. After having spent hours going throuh the documentation and practicing a little bit, I would say that Julia took the best of many works and is rather impressive. And the documentation :book: is very well done, it gives you a good understanding of how Julia was made and what are the reasons behind, a good balance between concept, technical details (e.g. pointas about performance) and example (event thought if they admit that sometime the examples are somewhat contrived, well the are always helpful for the sake of understanding), and they give good reading suggestoin, i.e. about [character set](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 
-Below I jotted a few notes, to highlight a couple of points I found really underesting. So many things that I found interesting that would ne rather useless to copy paste the full documentation.. Plus list of resource https://julialang.org/learning/
-
-
-
+Below I jotted a few notes, to highlight a couple of points I found really underesting. So many things that I found interesting that would ne rather useless to copy paste the full documentation.. Plus list of resource https://julialang.org/learning/ this covers the **Manual** part.
 
 
 - Different modes
@@ -26,7 +23,8 @@ Below I jotted a few notes, to highlight a couple of points I found really under
   - `]`: package mode
   - `?`: help mode
 
-- [Stylistic Conventions](https://docs.julialang.org/en/v1/manual/variables/#Stylistic-Conventions-1): I like the idea that provide convention :
+- [Stylistic Conventions](https://docs.julialang.org/en/v1/manual/variables/#Stylistic-Conventions-1): I like the idea that provide convention and
+dedicated sectiom https://docs.julialang.org/en/v1/manual/style-guide/
 
 - Support any character and more mathematical way is just so good:
 
@@ -293,14 +291,24 @@ julia> function fact(n::Int)
 
 - Scope is somewahtd similar with what used in R (where refered to frame)
 
-- I really found the type system very well thoughjt,
+- I really found the type system very well thought,
 
-> One particularly distinctive feature of Julia's type system is that concrete types may not subtype each other: all concrete types are final and may only have abstract types as their supertypes. While this might at first seem unduly restrictive, it has many beneficial consequences with surprisingly few drawbacks. It turns out that being able to inherit behavior is much more important than being able to inherit structure, and inheriting both causes significant difficulties in traditional object-oriented languages.
+> One particularly distinctive feature of Julia's type system is that concrete types may not subtype each other: all concrete types are final and may only have abstract types as their supertypes. While this might at first seem unduly restrictive, it has many beneficial consequences with surprisingly few
+ drawbacks. It turns out that being able to inherit behavior is much more important than being able to inherit structure, and inheriting both causes significant difficulties in traditional object-oriented languages.
 
 
+is subtype?: `<:`
 
 ```julia
+julia> NTuple <: Tuple <: Any
+true
 julia> IO <: Any
+true
+Matrix <: AbstractMatrix <:  AbstractArray
+true
+Matrix <: Array <: AbstractArray <: Any
+true
+Vector <: Array <: AbstractArray <: Any
 true
 julia> String <: AbstractString <: Any
 true
@@ -323,3 +331,99 @@ Integer
 
 aso composite paramteric type, great.
 https://docs.julialang.org/en/v1/manual/types/#Parametric-Composite-Types-1
+
+
+
+https://docs.julialang.org/en/v1/manual/methods/
+
+> Julia allows the dispatch process to choose which of a function's methods to call based on the number of arguments given, and on the types of all of the function's arguments. This is different than traditional object-oriented languages, where dispatch occurs based only on the first argument, which often has a special argument syntax, and is sometimes implied rather than explicitly written as an argument.
+
+
+
+I found the errors always very clear. Must say that sometimes in R error are somewhat obscure... and the system for atching error well designed,.
+
+```julia
+julia> methods(println)
+# 3 methods for generic function "println":
+[1] println(io::IO) in Base at coreio.jl:5
+[2] println(io::IO, xs...) in Base at strings/io.jl:69
+[3] println(xs...) in Base at coreio.jl:4
+```
+
+
+```julia
+julia> g(x::Float64, y) = 2x + y
+g (generic function with 1 method)
+
+julia> g(x, y::Float64) = x + 2y
+g (generic function with 2 methods)
+
+julia> g(2.0, 3.0)
+ERROR:
+MethodError: g(::Float64, ::Float64) is ambiguous. Candidates:
+  g(x, y::Float64) in Main at REPL[11]:1
+  g(x::Float64, y) in Main at REPL[10]:1
+Possible fix, define
+  g(::Float64, ::Float64)
+Stacktrace:
+ [1] top-level scope at none:0
+```
+
+```julia
+julia> typeof([1, 2, 2])
+Array{Int64,1}
+```
+
+
+julia> f(a,b) = a+2b
+f (generic function with 1 method)
+
+julia> methods(f)
+# 1 method for generic function "f":
+[1] f(a, b) in Main at REPL[1]:1
+
+
+julia> f(a=1,b=2) = a+2b
+f (generic function with 3 methods)
+
+
+julia> f(a=1,b=2) = a+2b
+f (generic function with 3 methods)
+
+julia> methods(f)
+# 3 methods for generic function "f":
+[1] f() in Main at REPL[1]:1
+[2] f(a) in Main at REPL[1]:1
+[3] f(a, b) in Main at REPL[1]:1
+
+
+
+> If any inner constructor method is defined, no default constructor method is provided: it is presumed that you have supplied yourself with all the inner constructors you need.
+
+
+
+
+struct Foo
+           bar
+           baz
+       end
+Foo(x) = Foo(x,x)
+Foo() = Foo(0)
+Foo()
+
+
+Conversion pormoition https://docs.julialang.org/en/v1/manual/conversion-and-promotion/
+
+>  These catch-all rules first promote all operands to a common type using user-definable promotion rules, and then invoke a specialized implementation of the operator in question for the resulting values, now of the same type
+
+
+
+
+> Some languages consider parsing strings as numbers or formatting numbers as strings to be conversions (many dynamic languages will even perform conversion for you automatically), however Julia does not: even though some strings can be parsed as numbers, most strings are not valid representations of numbers, and only a very limited subset of them are.
+
+```julia
+julia> parse(Float64, "9.018")
+9.018
+```
+
+built-in pipe "|>"

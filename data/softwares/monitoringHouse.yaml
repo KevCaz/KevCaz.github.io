@@ -1,0 +1,11 @@
+name: "monitoringOutcomes"
+category: "Reproducibility"
+description: "Data, analyses and figures included in DOI: 10.1111/cobi.13257"
+github: KevCaz/monitoringOutcomes
+badges:
+  travis:
+    repo: KevCaz/monitoringOutcomes
+  appveyor:
+    status: 2hkpklm56c8q7gmn
+    repo: KevCaz/monitoringOutcomes
+  repostatus: active

@@ -1,0 +1,16 @@
+name: "alien"
+github: TheoreticalEcosystemEcology/alien
+category: "R package"
+description: "Methods to predict ecological interactions."
+badges:
+  appveyor:
+    status: al10lmlky7se4wa6
+    branch: master
+    repo: TheoreticalEcosystemEcology/alien
+  travis:
+    repo: TheoreticalEcosystemEcology/alien
+    branch: master
+  # codecov:
+  #   repo: gh/TheoreticalEcosystemEcology/alien
+  #   branch: master
+  repostatus: wip

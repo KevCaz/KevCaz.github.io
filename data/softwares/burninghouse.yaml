@@ -1,0 +1,11 @@
+name: "burningHouse"
+category: "Reproducibility"
+description: "Data, analyses and figures found in DOI: 10.3389fevo.2017.00175"
+github: KevCaz/burningHouse
+badges:
+  travis:
+    repo: KevCaz/burningHouse
+  appveyor:
+    status: qh4ntjow6tcho9oh?
+    repo: KevCaz/burningHouse
+  repostatus: active

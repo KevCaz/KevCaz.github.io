@@ -1,0 +1,13 @@
+name: "ecoocc"
+github: KevCaz/ecoocc
+category: "R package"
+description: "Occurrence and cooccurrence analysis in ecology"
+badges:
+  travis:
+    repo: KevCaz/ecoocc
+  appveyor:
+    status: qeywntin8yma0jb0
+    repo: KevCaz/ecoocc
+  codecov:
+    repo: gh/KevCaz/ecoocc
+  repostatus: concept
