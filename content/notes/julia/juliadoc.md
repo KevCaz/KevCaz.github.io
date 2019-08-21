@@ -2,7 +2,7 @@
 title: "Use Julia! [part 1]"
 date: 2019-08-14
 tags: [Julia, documentation, get started]
-draft: false
+draft: true
 ---
 
 [The Julia Programming Language](https://julialang.org/) first appeared in 2012 (see the [Wikipedia page for more details](ttps://en.wikipedia.org/wiki/Julia_(programming_language))) and version 1.0 was released August 2018. As mentioned on the wbsite:
