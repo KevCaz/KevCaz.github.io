@@ -18,15 +18,15 @@ Bartley](https://www.researchgate.net/profile/Timothy_Bartley) available on
 [PhyloPic](http://phylopic.org/) (note that I use 2 images here, but it works
 the same way with more):
 
-1. [lake trout](http://phylopic.org/image/d8072f32-4792-4649-a318-c9e37ccc023d/) (*Salvelinus namaycush*);  
+1. [lake trout](http://phylopic.org/image/7f2cbb42-12b1-4481-8ac0-705eb7363c74/) (*Salvelinus namaycush*);  
 2. [yellow perch](http://phylopic.org/image/5e431267-dc57-435d-a64f-b91d4c569677) (*Perca flavescens*).
 
 Let's first create a folder `assets` and download the silhouettes with [wget](https://www.gnu.org/software/wget/manual/):
 
 ```shell
 mkdir assets
-wget http://phylopic.org/assets/images/submissions/5e431267-dc57-435d-a64f-b91d4c569677.1024.png -O assets/perca_flavescens.png
 wget http://phylopic.org/assets/images/submissions/7f2cbb42-12b1-4481-8ac0-705eb7363c74.1024.png -O assets/salvelinus_namaycush.png
+wget http://phylopic.org/assets/images/submissions/5e431267-dc57-435d-a64f-b91d4c569677.1024.png -O assets/perca_flavescens.png
 ```
 
 Here there are:

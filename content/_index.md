@@ -1,4 +1,4 @@
-I am a post-doctoral fellow at [the McCann Lab](https://www.mccannlab.org) with
+I am a post-doctoral fellow at [the McCann Lab](http://www.mccannlab.ca) with
 a wide range of interests in ecology. I regard myself as a theoretician
 motivated by a strong desire to apply the results of abstract
 investigations to tangible challenges such as the impact of global change
