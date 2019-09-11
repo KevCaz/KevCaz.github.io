@@ -4,6 +4,8 @@ date: 2019-08-26
 tags: [ImageMagick, image manipulation, convert, memory]
 ---
 
+
+
 Today, I was [combining a set of images](/notes/imagemagick/combineimage/) like so:
 
 ```
