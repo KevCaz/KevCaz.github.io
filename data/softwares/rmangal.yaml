@@ -2,7 +2,7 @@ name: "rmangal"
 github: mangal-wg/rmangal
 category: "R package"
 description: "Retrieve data from MANGAL."
-website: "https://mangal-wg.github.io/rmangal/"
+website: "https://ropensci.github.io/rmangal/"
 badges:
   travis:
     repo: mangal-wg/rmangal
@@ -12,3 +12,4 @@ badges:
   codecov:
     repo: gh/mangal-wg/rmangal
   repostatus: active
+  ropensci: 332

@@ -1,0 +1,12 @@
+name: "HomogenFishOntario"
+category: "Reproducibility"
+description: "Data, analyses and figures found in DOI: 10.1111/gcb.14829"
+github: McCannLab/HomogenFishOntario
+website: "http://mccannlab.ca/HomogenFishOntario/"
+badges:
+  travis:
+    repo: McCannLab/HomogenFishOntario
+  appveyor:
+    status: iw2lkapvla1flr8v
+    repo: McCannLab/HomogenFishOntario
+  repostatus: active
