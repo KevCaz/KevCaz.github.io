@@ -4,6 +4,4 @@ icon: pencil
 layout: list
 ---
 
-# :construction::construction::construction: WIP :construction::construction::construction:
-
-## :deciduous_tree: :palm_tree: :evergreen_tree: :tanabata_tree:
+This is where I gathered blog post and notes that regards ecology.
