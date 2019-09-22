@@ -5,6 +5,9 @@ tags: [homogenization, fish community, Ontario, publication]
 ---
 
 This was originally posted on https://mccannlab.ca/post/2019/09/20/homogenization-of-freshwater-lakes/
+
+
+
 # :us:
 
 What happened to fish communities in Ontario lakes over the last few decades? We
@@ -112,15 +115,15 @@ access the paper or have further questions.
 
 # :fr:
 
-Que s'est-il passé dans les communautés de poissons des lacs en Ontario au cours des dernières décennies! Nous avons essayer de trouver des réponses à cette question. Plus précisément, nous avons essayé de determiner si les changements globaux ont affecté ces communautés au cours des 40 dernières années. Nous nous sommes aperçus que le les communautés ont bien changées mais que les changements climatiques n'expliquent pas bien nos observations :boom:! Mais comment sommes-nous arrivé a une telle conclusion? C'est justement le sujet de ce billet!
+Que s'est-il passé dans les communautés de poissons des lacs en Ontario au cours des dernières décennie? Et ben nous avons justement essayé de trouver des réponses à cette question. Plus précisément, nous avons essayé de determiner si les changements globaux ont affecté ces communautés au cours des 40 dernières années. Nous nous sommes aperçus que les communautés ont bien changées mais que les changements climatiques n'expliquent pas très bien nos observations :boom:! Mais comment en sommes-nous arrivé a une telle conclusion? C'est justement le sujet de ce billet!
 
-Nous dispositions de deux très bons jeux de données liés à deux campagnes d’échantillonnage du [*Ministry of Natural Resources and Forestry*](https://www.ontario.ca/page/ministry-natural-resources-and-forestry): l'une menée dans les années 1970 et l'autre au début des années 2000. Nous avions des données de presence et d'absence pour plus de 500 lacs ontariens.
+Nous disposions de deux très bons jeux de données liés à deux campagnes d’échantillonnage du [*Ministry of Natural Resources and Forestry*](https://www.ontario.ca/page/ministry-natural-resources-and-forestry): l'une menée dans les années 1970 et l'autre au début des années 2000. Au total Nous avions des données de presence et d'absence pour des dizaines d'espèces de poissons pour plus de 500 lacs ontariens et ce pour deux périodes.
 
 
 ![](map.png)
 
 
-Après avoir sélectionné un ensemble pertinent d’espèces, nous avons comparé différents aspects de la biodiversité. Globalement, nous avons trouvés une augmentation de la diversité local (la diversité dite α) et une diminution de la biodiversité régionale (la diversité β). Vous vous demandé peut-être ce que cela veut dire. Essayons d'utiliser analogie avec des boulangerie (il me semble que pour les français, ça parle!). Imaginons que dans votre ville, il y a plusieurs décennies, il y avait 3 boulangeries:
+Après avoir sélectionné un ensemble pertinent d’espèces, nous avons comparé différents aspects de la biodiversité. Globalement, nous avons trouvés une augmentation de la diversité local (la diversité dite α) et une diminution de la biodiversité régionale (la diversité β). Qu'est-ce que cela signifie? Essayons une analogie avec des boulangeries (pour les français, ça parle!). Imaginons que dans une ville donnée, il y a plusieurs décennies, il y avait 3 boulangeries:
 
 1. dans la première, vous pouviez acheter chocolatines, croissants, tartes à la rhubarbe et clafoutis aux cerises[^trad1];
 2. dans le seconde, seulement des croissants (les meilleurs de la ville);
@@ -132,7 +135,7 @@ Mais aujourd’hui, dans ces trois mêmes boulangeries, le choix est le suivant:
 2. chocolatines, croissants et tartes à la rhubarbe;
 3. chocolatines et croissants.
 
-C'est un exemple d'homogénéisation: l'offre en patisseries/viennoiseries dans les différentes boulangeries est plus similaires qu'il ne l'était. En changeant boulangeries par lacs et patisseries par poissons vous obtenez le premier résultat de notre article!
+C'est un exemple d'homogénéisation: l'offre en patisseries/viennoiseries dans les différentes boulangeries est plus similaire qu'elle ne l'était. En changeant boulangeries par lacs et patisseries par poissons vous obtenez le premier résultat de notre article!
 
 
 Dans un second temps, pour comprendre cette homogénéisation nous avons utilisé
@@ -144,13 +147,13 @@ expliquaient nos premières observations. Nos résultats montrent que les donné
 climatiques et les données de lacs ne permettent pas d'expliquer les changements
 constatés. Nous avons néanmoins trouvé une forte différence entre les espèces
 recherchées pour la pêche (dont 5 espèces très populaires sont présentées à
-cette URL
+cette addresse
 https://www.northeasternontario.com/top-5-fish-species-northeastern-ontario/))
 et les [autres
 espèces](https://www.ontario.ca/faq/what-kinds-baitfish-can-i-use-live-bait):
-les première prospèrent en Ontario, mais pas les secondes. Les changements dans
+les premières prospèrent en Ontario, mais pas les secondes. Les changements
 de composition spécifique dans les communautés locales s'expliquent assez bien
-de cette manière. Nous avons donc conclu que l'homogénéisation des lacs en
+de cette manière. Nous avons alors conclu que l'homogénéisation des lacs en
 Ontario est certainement liée aux mouvements des espèces recherchées pour la
 pêche; mais il faut garder à l'esprit que les changements climatiques rendent
 aussi les lacs plus habitables pour certaines de ces espèces.
@@ -158,7 +161,7 @@ aussi les lacs plus habitables pour certaines de ces espèces.
 
 ![](homogen.png)
 
-Les lacs d'Ontario sont maintenant dominés par des espèces recherchées pour la pêche, mais la vraie nature de ces changements reste à élucider: sont-ils d'origine naturelle (les colonisations et extinctions locales sont des processus écologiques), purement anthropique, ou les deux en même temps? Dans tous les cas, le changement de composition de ces communautés auront des conséquences sur le long terme sur le fonctionnement écologique de ces lacs. C'est d'ailleurs une question qui va demander de nouveaux efforts de recherche.
+Les lacs d'Ontario sont maintenant dominés par des espèces recherchées pour la pêche, mais la vraie nature de ces changements reste à élucider: sont-ils d'origine naturelle (les colonisations et extinctions locales sont des processus écologiques), purement anthropique, ou les deux en même temps? Dans tous les cas, les changements de composition de ces communautés auront des conséquences sur le long terme sur le fonctionnement écologique de ces lacs. C'est d'ailleurs une question qui va demander de nouveaux efforts de recherche.
 
 
 Pour conclure ce billet de blogue, je (Kevin Cazelles) voudrais faire deux
@@ -166,9 +169,9 @@ remarques. La première porte sur l'homogénéisation observée. En tant que
 scientifique, j'essaye de me concentrer sur les faits, et j'évite d'émettre de
 jugement moral sur ces derniers. Il est cependant bien difficile de ne pas
 s'inquiéter de la perte régionale de biodiversité. Pour revenir sur l'analogie
-utilisée plus haut: l'homogénéisation peut être une bonne nouvelle pour les fans
-de clafoutis aux cerises, mais c'en est une bien mauvaise pour ceux qui aiment
-les tartes à la rhubarbe.
+utilisée plus haut: l'homogénéisation peut être une bonne nouvelle pour les
+amateurs de clafoutis aux cerises, mais c'en est une bien mauvaise pour ceux qui
+aiment les tartes à la rhubarbe.
 
 Ma deuxième remarque concerne l'importance de la collaboration. Même si je suis
 relativement à l'aise avec les analyses de communauté, je dois bien avouer que
@@ -177,10 +180,10 @@ il a été capital, pour moi, d'aller chercher l'expertise d'autres chercheurs.
 Sans eux, cet article n'aurait pas été possible. Il me semble que dans la
 science moderne, il est important de connaître ses forces (et d'essayer
 d'étendre son savoir aussi loin que possible), mais il est encore plus important
-d'identifier les situations où l'on a besoin d'aide, ainsi que les personnes
-qualifiées car leur savoir et leur avis peuvent rendre une étude beaucoup plus intéressante!
+d'identifier les situations où l'on a besoin d'aide ainsi que les personnes
+qui pourront vous l'apporter car leur savoir et leur avis peuvent rendre une étude beaucoup plus intéressante!
 
-:link: Pour plus de détails sur notre étude, veillez vous reporter au site de
+:link: Pour plus de détails sur cette étude, veillez vous reporter au site de
 [Global Change Biology
 website](https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.14829). Voir aussi
 [le code pour reproduire les
