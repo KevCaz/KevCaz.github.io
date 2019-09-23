@@ -10,6 +10,10 @@ icon: bullhorn
 {{< talk >}}
 
 
+## <i class="fa fa-commenting" aria-hidden="true"></i> Seminar Talks {#talks}
+
+{{< seminar >}}
+
 
 <br>
 

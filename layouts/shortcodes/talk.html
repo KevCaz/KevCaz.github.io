@@ -1,5 +1,5 @@
   <ul>
-    {{ range .Site.Data.talk.talk }}
+    {{ range .Site.Data.talks.talk }}
     <li class="pubs_li">
       <!-- authors -->
       {{ $letk := "Kevin" | truncate 1 "." }}
@@ -18,7 +18,7 @@
       <b> {{ .title }}. </b>
       <!-- conf -->
       {{ range .conference }}
-        <a href="{{ .url }}"> {{ .name }} </a> {{ dateFormat "01/2006" .date }}. {{ .where }}.
+        <a href="{{ .url }}"> {{ .name }} </a> {{ dateFormat "06/01/2006" .date }}. {{ .where }}.
       {{ end }}
       <!-- END conf -->
       <!-- external links -->

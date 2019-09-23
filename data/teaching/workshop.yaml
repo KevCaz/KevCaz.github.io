@@ -1,17 +1,17 @@
-- title:       "A few notes about probability theory"
+- title:       "Introduction to R"
   author:
+    - family:  Brice
+      given:   Marie-Hélène
     - family:  Cazelles
       given:   Kevin
   workshop:
     - name:    "Bayesian Summer School"
-      where:   "Orford Musique, 3165 chemin du Parc Orford, QC, Canada"
-      date:    2017-08-14
+      where:   "Université du Québec à Montréal, QC, Canada"
+      date:    2019-03-26
   lang:        en
-  github:      EcoNumUdS/Bayes2017
-  zip: https://theoreticalecosystemecology.github.io/BayesSummer/Day1_material.zip
-  html:        "/docs/Bayesian_Day1.pdf"
-  description: "A day about probability theory to understand the mathematical rational behing the Bayesian framework"
-
+  github:      https://github.com/inSileco/IntroR
+  html:        "https://insileco.github.io/IntroR/#1"
+  description: "One day to started with R"
 
 - title:       "Use R to visualize the results of your meta-analysis"
   author:
@@ -28,7 +28,6 @@
   html:        "https://kevcaz.github.io/graphsMetaAnalyses/#1"
   description: "Learn how to visualize the results of your meta-analysis"
 
-
 - title:       "R Graphics - an overview"
   author:
     - family:  Casajus
@@ -44,6 +43,19 @@
   html:        http://kevcaz.github.io/QCBSgraphR/#1
   description: "Data Visualization with R, a tutorial"
 
+- title:       "A few notes about probability theory"
+  author:
+    - family:  Cazelles
+      given:   Kevin
+  workshop:
+    - name:    "Bayesian Summer School"
+      where:   "Orford Musique, 3165 chemin du Parc Orford, QC, Canada"
+      date:    2017-08-14
+  lang:        en
+  github:      EcoNumUdS/Bayes2017
+  zip: https://theoreticalecosystemecology.github.io/BayesSummer/Day1_material.zip
+  html:        "/docs/Bayesian_Day1.pdf"
+  description: "A day about probability theory to understand the mathematical rational behing the Bayesian framework"
 
 - title:       "Gérer et formater sa bibliographie"
   author:
