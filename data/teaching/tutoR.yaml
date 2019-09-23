@@ -1,0 +1,17 @@
+- title: "About R Markdown"
+  lang: en
+  github: KevCaz/aboutRMarkdown
+  html: https://kevcaz.github.io/aboutRMarkdown/#1
+  description: "Learn how to use R Markdown"
+
+- title: "About R packages"
+  lang: en
+  github: KevCaz/aboutRPackages
+  html: https://kevcaz.github.io/aboutRPackages/
+  description: "A short tutorial to learn how to created an R package"
+
+- title: "Maps with R"
+  lang: en
+  github: KevCaz/MapswithR
+  html: "http://kevcaz.github.io/mapsWithR/#1"
+  description: "Learn how to turn R into a powerful GIS software"

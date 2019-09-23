@@ -1,0 +1,30 @@
+- title:       "Visualiser vos données avec R"
+  author:
+    - family:  Casajus
+      given:   Nicolas
+    - family:  Cazelles
+      given:   Kevin
+  lang:        fr
+  github:      inSileco/VisualiseR
+  html:        https://insileco.github.io/VisualiseR/
+  description: "Learn how visualize your data with R"
+  category: Web pages
+
+- title:       "R in Space"
+  author:
+    - family:  Beauchesne
+      given:   David
+    - family:  Marie-Hélène
+      given:   Brice
+    - family:  Casajus
+      given:   Nicolas
+    - family:  Cazelles
+      given:   Kevin
+    - family:  Dreujou
+      given:   Eliot
+    - family:  Vissault
+      given:   Steve
+  lang:        en
+  html:        https://insileco.github.io/tuto/rinspace/rinspace_homepage/
+  description: "Learn how to use R as a powerful GIS"
+  category: Web book

@@ -1,0 +1,61 @@
+- title:       "A few notes about probability theory"
+  author:
+    - family:  Cazelles
+      given:   Kevin
+  workshop:
+    - name:    "Bayesian Summer School"
+      where:   "Orford Musique, 3165 chemin du Parc Orford, QC, Canada"
+      date:    2017-08-14
+  lang:        en
+  github:      EcoNumUdS/Bayes2017
+  zip: https://theoreticalecosystemecology.github.io/BayesSummer/Day1_material.zip
+  html:        "/docs/Bayesian_Day1.pdf"
+  description: "A day about probability theory to understand the mathematical rational behing the Bayesian framework"
+
+
+- title:       "Use R to visualize the results of your meta-analysis"
+  author:
+    - family:  Cazelles
+      given:   Kevin
+    - family:  Vissault
+      given:   Steve
+  workshop:
+    - name:    "QCBS Meta-analysis workshop"
+      where:   "Maison Gault, Mont St Hilaire, QC, Canada"
+      date:    2017-10-01
+  lang:        fr
+  github:      KevCaz/graphsMetaAnalyses
+  html:        "https://kevcaz.github.io/graphsMetaAnalyses/#1"
+  description: "Learn how to visualize the results of your meta-analysis"
+
+
+- title:       "R Graphics - an overview"
+  author:
+    - family:  Casajus
+      given:   Nicolas
+    - family:  Cazelles
+      given:   Kevin
+  workshop:
+    - name:    "QCBS Data Visualization workshop"
+      where:   "Maison Gault, Mont St Hilaire, QC, Canada"
+      date:    2016-05-01
+  lang:        en
+  github:      KevCaz/QCBSgraphR
+  html:        http://kevcaz.github.io/QCBSgraphR/#1
+  description: "Data Visualization with R, a tutorial"
+
+
+- title:       "Gérer et formater sa bibliographie"
+  author:
+    - family:  Casajus
+      given:   Nicolas
+    - family:  Cazelles
+      given:   Kevin
+  workshop:
+    - name:    "Midi numérique"
+      where:   "Université du Québec à Rimouski"
+      date:    2015-02-01
+  lang:        fr
+  github:      SteveViss/Talk_bib
+  html:        https://kevcaz.github.io/Talk_bib/
+  description: "A discussion about how to manage your references"
