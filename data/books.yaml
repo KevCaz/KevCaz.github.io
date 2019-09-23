@@ -1,5 +1,25 @@
 books:
 
+- titre: Gomorra
+  author: Roberto Saviano
+  url_img: "https://images-na.ssl-images-amazon.com/images/I/41qN-lgO4dL._SX302_BO1,204,203,200_.jpg"
+  type: "roman documentaire"
+  year: 2019
+  year_out: 2006
+  info:
+    url: https://www.franceinter.fr/emissions/affaires-sensibles/affaires-sensibles-24-avril-2018
+    name: "Gomorra : le silence ou la mort, Addaires Sensible, France Inter"
+  comments: "Le récit est dense, rempli de noms, de détails envoyé par couches succéssives avec relativement une articulation que je n'ai pas trouvé particulièrement claire. Comme si l'auteur était pressé, comme s'il éprouvait le besoin urgent de tout raconter, de tout révéler. Et ces révélations ont d'ailleurs coûté cher à l'auteur qui doit vivre vec un garde du corps en permannce. Mais elles sont là les révélations, dans ces pages, utiles pour comprendre *le système* et elles procurent maintes raisons d'être écoeuré. La première est de voir comment certains individus se batissent des empires sur le dos du bien commun avec un mépris complet de la vie humaine. La seconde est de sentir que lutter contre ce système est tout simplement vain. Je suis content d'avoir lu ce livre mais révolté par le système mafieux qui y est décrit."
+
+
+- titre: "Livret de Famille"
+  author: Patrick Modiano
+  url_img: https://images-na.ssl-images-amazon.com/images/I/410yt2Ml1eL._SX210_.jpg
+  type: "roman partiellement autobiographique"
+  year: 2019
+  year_out: 1977
+  comments: "Je suis encore dans la reflexion pour comprendre ce que j'ai aimé et ce que j'ai pas aimé. J'ai trouvé plusieurs articles sur le sujet mais pas encore un bon pour mieux me faire comprendre ce que j'au lu!"
+
 - title: "La zone du Dehors"
   author: Alain Damasio
   type: "science fiction fantaisiste"
@@ -78,7 +98,7 @@ books:
     url: https://fr.wikipedia.org/wiki/La_Horde_du_Contrevent
     name: Article sur Wikipedia
   comments: "Un univers fou, une histoire folle, un must-read de la SF fraçaise.
-  En 2019, je lis le nouveau Damasio et au moins un de ses anciens bouquin!"
+  En 2019, je lis le nouveau Damasio et son premier bouquin!"
 
 - title: L'Etranger
   author: Albert Camus

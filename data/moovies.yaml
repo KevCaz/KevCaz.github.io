@@ -1,8 +1,37 @@
 moovies:
 
+  - roto: m/the_lion_king_2019
+    url_img: https://resizing.flixster.com/feRInF7qkG5d0AKYwb0iISw_tEY=/fit-in/200x296.2962962962963/v1.bTsxMzAwNDEwMDtqOzE4MTk1OzEyMDA7MTY4ODsyNTAw
+    director: Jon Favreau
+    year: 2019
+    yearout: 2017
+
+  - roto: m/it_2017
+    url_img: https://resizing.flixster.com/T9-abQAnUJcHyZTT5_aRrfT_vJw=/fit-in/200x296.2962962962963/v1.bTsxMjM1MDg5ODtqOzE4MTg3OzEyMDA7NjQ4Ozk2MA
+    director: Andy Muschietti
+    year: 2019
+    yearout: 2017
+
+  - roto: m/the_biggest_little_farm
+    url_img: https://resizing.flixster.com/INcwpVa-XllZx8zrK4iBCNf77NA=/fit-in/200x296.2962962962963/v1.bTsxMzAzNjU0MjtqOzE4MTk1OzEyMDA7MzYwMDs1NTUw
+    year: 2019
+    yearout: 2019
+
+  - roto: tv/the_office
+    creator:  Greg Daniels, Ricky Gervais, Stephen Merchant
+    url_img: https://resizing.flixster.com/ZAZetRWVH_pBWAmctBHzq_3A_BA=/206x305/v1.dDsxMDA1Nzg7ajsxODE5NzsxMjAwOzE2Mzk7MjE4NQ
+    year: 2019
+    yearout: 2015-2013
+
+  - roto: tv/lucifer
+    creator: Tom Kapinos
+    url_img: https://resizing.flixster.com/F0UEnjl_AS0Iqga17SQABh4fYSA=/206x305/v1.dDsyNzk2MTE7ajsxODIwMDsxMjAwOzQ1MDs3NTA
+    year: 2019
+    yearout: 2016-2019
+
   - roto: m/rio_bravo
     director: George Miller, George Ogilvie
-    url_img: https://resizing.flixster.com/gMw3tJ49X3dWu1nujZhhYF9zaAM=/206x305/v1.bTsxMTE3MzkzNztqOzE4MTc0OzEyMDA7ODAwOzEyMDA  
+    url_img: https://resizing.flixster.com/gMw3tJ49X3dWu1nujZhhYF9zaAM=/206x305/v1.bTsxMTE3MzkzNztqOzE4MTc0OzEyMDA7ODAwOzEyMDA
     year: 2019
     yearout: 1959
 
