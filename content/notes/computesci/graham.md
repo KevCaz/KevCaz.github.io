@@ -4,7 +4,7 @@ date: 2019-09-19
 tags: [Compute Canada, Advances Research Computing, ]
 ---
 
-[Compute Canada](https://www.computecanada.ca/home/) is awesome! Seriously, it is! As explained on its websitehttps://www.computecanada.ca/about/: 
+[Compute Canada](https://www.computecanada.ca/home/) is awesome! Seriously, it is! As explained on its website: 
 
 > Compute Canada, in partnership with regional organizations ACENET, Calcul Québec, Compute Ontario and WestGrid, leads the acceleration of research and innovation by deploying state-of-the-art advanced research computing (ARC) systems, storage and software solutions. Together we provide essential ARC services and infrastructure for Canadian researchers and their collaborators in all academic and industrial sectors. Our world-class team of more than 200 experts employed by 37 partner universities and research institutions across the country provide direct support to research teams. Compute Canada is a proud ambassador for Canadian excellence in advanced research computing nationally and internationally.[^comcan]
 

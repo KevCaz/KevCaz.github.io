@@ -1,7 +1,7 @@
 sci_computing:
 - name: R
   url: https://www.r-project.org/
-  level: 90
+  level: 92
 
 - name: C/C++
   url: https://isocpp.org
@@ -17,6 +17,10 @@ sci_computing:
 
 - name: Sage
   url: http://www.sagemath.org
+  level: 35
+
+- name: Julia
+  url: https://julialang.org
   level: 30
 
 - name: Python
@@ -27,19 +31,29 @@ sci_computing:
   url: https://www.java.com/fr/
   level: 15
 
-- name: Julia
-  url: https://julialang.org
-  level: 10
+- name: "Git (and webservices such as GitHub or Gitlab)"
+  url: https://git-scm.com/
+  level: 80
+
+- name: GNU Make
+  url: https://git-scm.com/
+  level: 70
+
+- name: Resource managers (TORQUE and Slurm)
+  url: https://git-scm.com/
+  level: 45
+
+
 
 
 database:
 - name: PostgreSQL
   url: https://www.postgresql.org
-  level: 50
+  level: 60
 
 - name: Sqlite
   url: https://www.sqlite.org/index.html
-  level: 50
+  level: 55
 
 - name: YAML
   url: http://yaml.org
@@ -57,11 +71,11 @@ database:
 web:
   - name: HTML
     url: https://www.w3.org/TR/html52/
-    level: 60
+    level: 70
 
   - name: CSS
     url: https://www.w3.org/Style/CSS/
-    level: 60
+    level: 70
 
   - name: JavaScript
     url: https://developer.mozilla.org/bm/docs/Web/JavaScript
@@ -69,8 +83,7 @@ web:
 
   - name: PHP
     url: http://php.net/
-    level: 10
-
+    level: 15
 
   - name: Hugo
     url: https://gohugo.io
@@ -98,6 +111,14 @@ docprep:
     url: https://pandoc.org/index.html
     level: 70
 
+  - name: ImageMagick
+    url: https://imagemagick.org/index.php
+    level: 60
+
   - name: Inkscape
     url: https://inkscape.org/en/
-    level: 50
+    level: 60
+
+  - name: GIMP
+    url: https://www.gimp.org/
+    level: 30
