@@ -124,29 +124,6 @@ references:
   URL: https://doi.org/10.24072%2Fpci.ecology.100017
   DOI: 10.24072/pci.ecology.100017
 
-- id: Bartley_2019
-  type: article-journal
-  author:
-  - family: Bartley
-    given: Timothy J.
-  - family: Guzzo
-    given: Matthew M.
-  - family: Cazelles
-    given: Kevin
-  - family: Verville
-    given: Alex
-  - family: McMeans
-    given: Bailey C.
-  - family: McCann
-    given: Kevin S.
-  issued:
-  - year: 2019
-    month: 3
-  title: Thermal preferences drive behavioural responses but not biomass responses
-    of predatory fishes to lake morphometry
-  publisher: Cold Spring Harbor Laboratory
-  URL: https://doi.org/10.1101%2F572925
-  DOI: 10.1101/572925
 
 - id: Bartley_2019
   type: article-journal
