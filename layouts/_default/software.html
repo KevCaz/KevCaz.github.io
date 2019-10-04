@@ -36,6 +36,9 @@
             {{ with .ropensci }}
                 <a href="https://github.com/ropensci/onboarding/issues/{{ . }}"><img alt = "ROpenSci status" src="https://badges.ropensci.org/{{ . }}_status.svg"></img></a>
             {{ end }}
+            {{ with .cran }}
+                <a href="https://cran.r-project.org/package={{ . }}"><img alt = "CRAN status" src="https://www.r-pkg.org/badges/version/{{ . }}"></img></a>
+            {{ end }}
           {{ end }}
         </div>
       </div>
