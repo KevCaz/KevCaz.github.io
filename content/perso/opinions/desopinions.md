@@ -1,7 +1,7 @@
 ---
 title: "Des opinions, moi?"
 date: 2019-06-23
-tags: [pensée]
+tags: [pensée, écriture]
 ---
 
 **Je me suis récemment fait demander si j'avais des opinions**. La question
@@ -37,4 +37,7 @@ n'ont pas d'opinions, ils ne les expriment pas ou très peu (en postulant que
 
 Il y a de nombreux sujets sur lesquels je ne donne pas mes opinions. Il s'agit le plus souvent d'une forme d'auto-censure: j'estime que mes connaissances sur tel ou tel sujet sont trop limitées pour que mon opinion mérite d'être partagée. Il m’apparaît aujourd'hui que je devrais essayer, le plus souvent possible, de mettre mes idées au clair, tenter de donner une substance aux réactions que provoquent en moi certaines de mes lectures. Je pense qu'il est important de se forger une opinion et je suis conscient que cela peut prendre du temps.
 
-L'écriture est, à mes yeux, un mode d'expression propice à la réflexion: j'aime prendre le temps de choisir mes mots et à la tournure de la phrase qui va porter l'idée. J'ai donc décidé de mettre un peu de temps chaque semaine pour méditer un sujet de mon choix et de me forger une opinion sur une question précise. Et **je souhaite partager cette opinion dans cette section de mon site internet**. Voila pour la genèse de cette section!  
+L'écriture est, à mes yeux, un mode d'expression propice à la réflexion: j'aime prendre le temps de choisir mes mots et à la tournure de la phrase qui va porter l'idée. J'ai donc décidé de mettre un peu de temps chaque semaine[^note] pour méditer un sujet de mon choix et de me forger une opinion sur une question précise. Et **je souhaite partager cette opinion dans cette section de mon site internet**. Voila pour la genèse de cette section!  
+
+
+[^note]: J'ai pris conscience du temps que me prenais ces textes et j'ai décid. de revoir ma formule depuis!
