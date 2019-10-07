@@ -4,6 +4,6 @@ icon: video-camera
 layout: regular
 ---
 
-Below are the moovies I watched and like. 
+Below are the movies I watched and liked.
 
 {{< moovieperso >}}

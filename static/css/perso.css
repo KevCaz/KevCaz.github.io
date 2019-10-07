@@ -10,6 +10,12 @@ video {
   padding-bottom: 10px;
 }
 
+.img_moovies {
+  overflow: hidden;
+  max-height: 19rem;
+  margin-bottom: 1rem !important;
+}
+
 .tags {
   font-weight: 600;
 }
