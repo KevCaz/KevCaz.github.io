@@ -1,3 +1,9 @@
+- title: "intRoduction"
+  lang: en
+  github: KevCaz/aboutRMarkdown
+  html: https://insileco.github.io/IntroR/#1
+  description: "Introduction to R"
+
 - title: "About R Markdown"
   lang: en
   github: KevCaz/aboutRMarkdown
@@ -15,3 +21,9 @@
   github: KevCaz/MapswithR
   html: "http://kevcaz.github.io/mapsWithR/#1"
   description: "Learn how to turn R into a powerful GIS software"
+
+- title: "Touchdown your research with Rmarkdown"
+  lang: en
+  github: inSileco/ResearchDown
+  html: "https://insileco.github.io/ResearchDown/#1"
+  description: "Learn how to build websites and web presentationss wth R Markdown"
