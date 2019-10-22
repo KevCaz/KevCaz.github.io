@@ -29,7 +29,7 @@
           <ul class="dropdown-menu">
             {{ range .Children }}
             <li class="nav-item">
-              <a href="{{ .URL | relLangURL }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}>
+              <a href="{{ .Permalink | relLangURL }}"{{ if $.IsHome }} data-target="{{ .Permalink }}"{{ end }}>
                 {{ .Pre }}
                 <span>{{ .Name }}</span>
               </a>
@@ -41,7 +41,7 @@
         {{ else }}
 
         <li class="nav-item">
-          <a href="{{ .URL | relLangURL }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}>
+          <a href="{{ .Permalink | relLangURL }}"{{ if $.IsHome }} data-target="{{ .Permalink }}"{{ end }}>
             {{ .Pre }}
             <span>{{ .Name }}</span>
           </a>
