@@ -1,6 +1,6 @@
 ---
 title: "Use Julia! [part 1]"
-date: 2019-08-14
+date: 2019-11-03
 tags: [Julia, documentation, get started]
 draft: true
 ---
@@ -403,6 +403,7 @@ julia> methods(f)
 
 
 
+
 struct Foo
            bar
            baz
@@ -413,6 +414,8 @@ Foo()
 
 
 Conversion pormoition https://docs.julialang.org/en/v1/manual/conversion-and-promotion/
+
+> "no automatic promotion" category:
 
 >  These catch-all rules first promote all operands to a common type using user-definable promotion rules, and then invoke a specialized implementation of the operator in question for the resulting values, now of the same type
 
@@ -427,3 +430,57 @@ julia> parse(Float64, "9.018")
 ```
 
 built-in pipe "|>"
+
+
+
+
+# Modules
+
+using => cannot extent several names at a time
+import => one names at a time can extent
+
+
+?cos
+
+
+https://docs.julialang.org/en/v1/manual/metaprogramming/
+
+> The key point here is that Julia code is internally represented as a data structure that is accessible from the language itself.
+
+
+
+macro sayhello(name)
+    show(name)
+    return :( println("Hello ", $name, "!") )
+end
+
+@sayhello "KevCaz"
+
+
+generated functions. These have the capability to generate specialized code depending on the types of their arguments with more flexibility and/or less code than what can be achieved with multiple dispatch
+
+@generated function foo(x)
+            Core.println(x)
+           return :(x * x)
+end
+
+x = foo(2);
+x = foo(4);
+y = foo("bar");
+
+
+
+ One way to explore macro arguments is to call the show function within the macro body
+
+
+https://docs.julialang.org/en/v1/manual/arrays/
+
+The array library is implemented almost completely in Julia itself, and derives its performance from the compiler, just like any other code written in Julia.
+
+
+```
+julia> colwise(myscale,df)
+┌ Warning: `colwise(f, d::AbstractDataFrame)` is deprecated, use `[f(col) for col = eachcol(d)]` instead.
+│   caller = top-level scope at REPL[44]:1
+└ @ Core REPL[44]:1
+```
