@@ -30,5 +30,5 @@ a `.bib` file.
 As I often use a `.yaml` file once the `.bib` file downloaded I call [pandoc-citeproc](https://github.com/jgm/pandoc-citeproc) to the rescue!
 
 ```sh
-pandoc-citeproc -y ref.bib > ref.yaml
+$ pandoc-citeproc -y ref.bib > ref.yaml
 ```
