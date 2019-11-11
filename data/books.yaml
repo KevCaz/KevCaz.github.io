@@ -1,6 +1,32 @@
 books:
 
-- titre: Gomorra
+- title: Serotonine
+  author: Michel Houellebecq
+  url_img: "https://images-na.ssl-images-amazon.com/images/I/31xHzFYtLbL._SX319_BO1,204,203,200_.jpg"
+  type: roman
+  year: 2019
+  year_out: 2019
+  info:
+    url: https://www.franceinter.fr/emissions/affaires-sensibles/affaires-sensibles-29-juillet-2019
+    name: "Quel miroir Michel Houellebecq nous tend-il ? Affaires Sensibles,
+    France Inter"
+  comments: "C'est le troisième Houellebecq à mon actif, et j'ai
+  pris une nouvelle fois grand plaisir dans cette lecture. J'avoue ne pas bien
+  saisir les polémiques qui entourent cet auteur; j'ai l'impression que ce qui
+  dérange, c'est sa perspicacité, les thèmes qu'il aborde, et l'interaction
+  entre les deux; c'est-à-dire là où l'amène cette perspicacité sur un sujet
+  donné. Dans cette ouvrage, j'ai trouvé la construction de la narration
+  vraiment bien ficelée, surtout pour le thème abordé! Je m'explique. Tout au
+  long du livre, on a un narrateur qui plonge dans une grande dépression, tout
+  en gardant la tête hors de l'eau grâce aux anti-dépresseurs (c'est là
+  l'origine du titre). Le narrateur s'enfonce donc progressivement dans un état
+  critique mais reste néanmoins totalement lucide sur sa situation et, au fil du
+  roman, il cherche de moins en moins à la résoudre tant elle lui apparaît de
+  plus en plus inévitable. Et c'est à mon sens vraiment bien trouvé pour un
+  livre qui traite en toile de fond de l'agriculture en général et des problèmes
+  de l'agriculture française en particulier!"
+
+- title: Gomorra
   author: Roberto Saviano
   url_img: "https://images-na.ssl-images-amazon.com/images/I/41qN-lgO4dL._SX302_BO1,204,203,200_.jpg"
   type: "roman documentaire"
@@ -8,11 +34,11 @@ books:
   year_out: 2006
   info:
     url: https://www.franceinter.fr/emissions/affaires-sensibles/affaires-sensibles-24-avril-2018
-    name: "Gomorra : le silence ou la mort, Addaires Sensible, France Inter"
+    name: "Gomorra : le silence ou la mort, Affaires Sensibles, France Inter"
   comments: "Le récit est dense, rempli de noms, de détails envoyé par couches succéssives avec relativement une articulation que je n'ai pas trouvé particulièrement claire. Comme si l'auteur était pressé, comme s'il éprouvait le besoin urgent de tout raconter, de tout révéler. Et ces révélations ont d'ailleurs coûté cher à l'auteur qui doit vivre vec un garde du corps en permannce. Mais elles sont là les révélations, dans ces pages, utiles pour comprendre *le système* et elles procurent maintes raisons d'être écoeuré. La première est de voir comment certains individus se batissent des empires sur le dos du bien commun avec un mépris complet de la vie humaine. La seconde est de sentir que lutter contre ce système est tout simplement vain. Je suis content d'avoir lu ce livre mais révolté par le système mafieux qui y est décrit."
 
 
-- titre: "Livret de Famille"
+- title: "Livret de Famille"
   author: Patrick Modiano
   url_img: https://images-na.ssl-images-amazon.com/images/I/410yt2Ml1eL._SX210_.jpg
   type: "roman partiellement autobiographique"
