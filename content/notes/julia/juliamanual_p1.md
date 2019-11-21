@@ -1,19 +1,45 @@
 ---
 title: "Use Julia! [part 1]"
-date: 2019-11-03
-tags: [Julia, documentation, get started]
+date: 2019-11-21
+tags: [Julia, programming language, documentation, get started]
 draft: true
 ---
 
-[The Julia Programming Language](https://julialang.org/) first appeared in 2012 (see the [Wikipedia page for more details](ttps://en.wikipedia.org/wiki/Julia_(programming_language))) and version 1.0 was released August 2018. As mentioned on the wbsite:
 
->  Julia was designed from the beginning for high performance. Julia programs compile to efficient native code for multiple platforms via [LLVM](https://llvm.org/docs/GettingStarted.html).
+## A bit of context
+
+[The Julia Programming Language](https://julialang.org/) first appeared in 2012 (see the [Wikipedia page for more details](ttps://en.wikipedia.org/wiki/Julia_(programming_language))), version 1.0 was released in August 2018 and 1.2.0 was released in August 2019. As mentioned on the website:
+
+> Julia was designed from the beginning for high performance. Julia programs compile to efficient native code for multiple platforms via [LLVM](https://llvm.org/docs/GettingStarted.html).
 
 
-There are several people I work with that have started to use Julia on a regular basis and I am now involved in project that include Julia code. So, after 4 years thinking about learning properly it, I finally decided to go through the [Julia manual](https://docs.julialang.org/en/v1/). Well... hum... it is great :fireworks:. After having spent hours going throuh the documentation and practicing a little bit, I would say that Julia took the best of many works and is rather impressive. And the documentation :book: is very well done, it gives you a good understanding of how Julia was made and what are the reasons behind, a good balance between concept, technical details (e.g. pointas about performance) and example (event thought if they admit that sometime the examples are somewhat contrived, well the are always helpful for the sake of understanding), and they give good reading suggestoin, i.e. about [character set](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 
-Below I jotted a few notes, to highlight a couple of points I found really underesting. So many things that I found interesting that would ne rather useless to copy paste the full documentation.. Plus list of resource https://julialang.org/learning/ this covers the **Manual** part.
+Several people I work with have started to use Julia, especially to solve
+differential equations (the :package:
+[DifferentialEquations.jl](http://docs.juliadiffeq.org/latest/) is damn good!)
+and as I am getting involved in projects with Julia code I thought the time had
+come to learn more about it (which I have been thinking about for 4 years now)!
+I decided to go through the [Julia manual](https://docs.julialang.org/en/v1/), which is not the easiest reading to get started but it is very clear and provide the level of details I was looking for: a good understanding of how Julia was made and what are the reasons behind,
+a good balance between concept, technical details (e.g. pointas about
+performance) and example (event thought if they admit that sometime the examples
+are somewhat contrived, well the are always helpful for the sake of
+understanding), and they give good reading suggestions, i.e. about [character
+set](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/). Note that they are dnow many valuable resource that offer a more applied perspective (https://julialang.org/learning/), videos, webs pages, books, [Cheat Sheet](https://juliadocs.github.io/Julia-Cheat-Sheet/). B
 
+
+In this series of notes I gather my personal "highlights", i.e. stuff I found
+pretty cool! Obviously my goal is not to repeat give more, making these notes
+quite personnal.  (repeating was is said) I would write more (how to do this or
+that with Julia). In this first notes I go from
+["Strings"](https://docs.julialang.org/en/v1/manual/strings/) to I may skip ome
+parts  in which case I may go back to this whenever I need to mention it! Also
+not necessarly in order.
+
+
+## Writing code and executing is Julia --- my setup
+
+As I mainly use [Atom](https://atom.io/) so I use [Juno](https://junolab.org/)
+Juno but execute using the Repl in a external etenren  in my terminal sending the comnand thanks to..
 
 - Different modes
 
@@ -23,10 +49,20 @@ Below I jotted a few notes, to highlight a couple of points I found really under
   - `]`: package mode
   - `?`: help mode
 
+Below I jotted a few notes, to highlight a couple of points I found really un
+
+
+Alos
+
+
 - [Stylistic Conventions](https://docs.julialang.org/en/v1/manual/variables/#Stylistic-Conventions-1): I like the idea that provide convention and
 dedicated sectiom https://docs.julialang.org/en/v1/manual/style-guide/
 
 - Support any character and more mathematical way is just so good:
+
+
+
+## Variables
 
 
 ```julia
@@ -62,6 +98,10 @@ true
 julia> typeof(2// 3)
 Rational{Int64}
 ```
+
+
+
+## String
 
 
 - love string cahra string char
