@@ -3,3 +3,4 @@ static/old
 old
 public/
 .DS_Store
+gh-pages*

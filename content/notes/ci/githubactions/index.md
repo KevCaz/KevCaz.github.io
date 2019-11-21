@@ -5,7 +5,7 @@ tags: [continuous integration, GitHub, GitHub Actions, gh-pages]
 ---
 
 
-### :construction: in Revision :construction: 
+### :construction: in Revision :construction:
 
 As explained on [GitHub](https://github.com/features/actions):
 
@@ -34,7 +34,7 @@ With this first file in hand, I then examined the the [documentation](https://he
 - https://github.com/r-lib/ghactions/blob/master/.github/workflows/main.yml
 - https://github.com/peaceiris/actions-gh-pages
 
-and tweaked the file based on these! Belwo is the final version of my workflow (see [the file on GitHub](https://github.com/McCannLab/TheoryClub/blob/master/.github/workflows/main.yml)):
+and tweaked the file based on these! Below is the final version of my workflow (see [the file on GitHub](https://github.com/McCannLab/TheoryClub/blob/master/.github/workflows/main.yml)):
 
 
 ```yaml
@@ -82,7 +82,7 @@ runs-on: ubuntu-18.04
 container: rocker/verse:latest
 ```
 
-The rest of the setps are rather self explanatory. Note that to understand how to deplow the website I followed the guidelines available on the README of this repository [peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages) (very well laid-out). The last step was to add the badge, I used ghactions[^usethis] once more:
+The rest of the setps are rather self explanatory. Note that to understand how to deplow the website I followed the guidelines available on the README of this repository [peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages), that are very well laid-out[^deploy]. The last step was to add the badge, I used ghactions[^usethis] once more:
 
 ```
 R> ghactions::use_ghactions_badge()
@@ -96,7 +96,12 @@ to generate the following badge[^badge]:
 
 The workflow and the website are available [in the repository of the theory club](https://github.com/McCannLab/TheoryClub) and if you want to learn more about it, you should have a look at the [documentation](https://help.github.com/en/actions/automating-your-workflow-with-github-actions), there are also several blogposts introducing this feature (e.g. [one by Paul Czarkowski](https://tech.paulcz.net/blog/intro-to-github-actions/), [another by Austin Roy](https://scotch.io/bar-talk/introducing-github-actions))!
 
+<!-- I may use this to deploy my website!  -->
+
 
 [^usethis]: By the way, some R users may have noticed that this package uses the same semantic as the other [usethis](https://github.com/r-lib/ghactions)) functions :smirk:!
 
 [^badge]: I simply edited the URL.
+
+
+<!-- [^deploy]: I may use this to deploy my website! -->
