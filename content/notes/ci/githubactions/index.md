@@ -5,8 +5,6 @@ tags: [continuous integration, GitHub, GitHub Actions, gh-pages]
 ---
 
 
-### :construction: in Revision :construction:
-
 As explained on [GitHub](https://github.com/features/actions):
 
 > GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD. Build, test, and deploy your code right from GitHub. Make code reviews, branch management, and issue triaging work the way you want.
@@ -14,7 +12,7 @@ As explained on [GitHub](https://github.com/features/actions):
 I've heard about this feature and I decided to give it a first go yesterday as I
 wanted to deploy a notebook for the [McCann Lab's Theory
 Club](https://github.com/McCannLab/TheoryClub) built with
-[bookdown](https://bookdown.org/). As it uses the form of a R package, I figured
+[bookdown](https://bookdown.org/). As it uses the form of an R package, I figured
 the easiest approach was to google "github actions R" and this is how I learned
 about the R package [ghactions](https://github.com/r-lib/ghactions). This
 package generates the file you need to set up your GitHub Actions workflow, i.e.
@@ -82,7 +80,7 @@ runs-on: ubuntu-18.04
 container: rocker/verse:latest
 ```
 
-The rest of the setps are rather self explanatory. Note that to understand how to deplow the website I followed the guidelines available on the README of this repository [peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages), that are very well laid-out[^deploy]. The last step was to add the badge, I used ghactions[^usethis] once more:
+The remaining steps are self explanatory. Note that to better understand how to deploy the website, I followed the guidelines available on the README of [the repository actions-gh-pages maintained by peaceiris](https://github.com/peaceiris/actions-gh-pages), that are very well laid-out[^deploy]. The last step was to add the badge, I used ghactions[^usethis] once more:
 
 ```
 R> ghactions::use_ghactions_badge()
@@ -103,5 +101,4 @@ The workflow and the website are available [in the repository of the theory club
 
 [^badge]: I simply edited the URL.
 
-
-<!-- [^deploy]: I may use this to deploy my website! -->
+[^deploy]: And I used [peaceiris/actions-hugo](https://github.com/peaceiris/actions-hugo) for this website.
