@@ -1,7 +1,7 @@
 ---
 title: "My programming fonts!"
 date: 2018-11-22
-tags: [Code, Fonts]
+tags: [code, font, programming]
 ---
 
 Given that I spend most of my working time on a code editor (including to write
@@ -24,4 +24,4 @@ in RStudio](
 https://github.com/tonsky/FiraCode/wiki/RStudio-instructions) (see below). I was not aware
 of [programming ligature](https://www.hanselman.com/blog/MonospacedProgrammingFontsWithLigatures.aspx) before using FiraCode, it's really neat.
 
-![FiraCode on RStudio](/notes/code/assets/FiraCodeRStudio.png)
+![FiraCode on RStudio](FiraCodeRStudio.png)

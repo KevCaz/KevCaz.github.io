@@ -1,7 +1,7 @@
 ---
 title: "The fontawesome5 Latex package"
 date: 2019-10-01
-tags: [latex, Font Awesome]
+tags: [Latex, font, Font Awesome]
 ---
 
 
