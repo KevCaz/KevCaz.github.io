@@ -1,7 +1,6 @@
 # My website
+[![Actions Status](https://github.com/KevCaz/KevCaz.github.io/workflows/github%20pages/badge.svg)](hhttps://github.com/KevCaz/KevCaz.github.io/actions)
 
-
-[![Build Status](https://travis-ci.org/KevCaz/KevCaz.github.io.svg?branch=dev)](https://travis-ci.org/KevCaz/KevCaz.github.io)
 
 This is the source code for my website made with [Hugo](https://gohugo.io) and [my own theme](https://github.com/KevCaz/hugo-KevCaz).
 
@@ -12,3 +11,5 @@ This is my personal website, all content is released under [CC-BY-NC-SA](https:/
 specified. See [my own theme](https://github.com/KevCaz/hugo-KevCaz) for further
 details, especially to see the list of libraries and a proper acknowledgment
 to developers.
+
+
