@@ -50,16 +50,17 @@ defaultContentLanguageInSubdir = false
   #   (relative to /static/css and /static/js respectively)
   custom_css = [
     "/css/perso.css",
+    "/css/family.css",
     "/css/creativecommons.css",
-    "/css/flag-icon.css"
   ]
   custom_js  = [
     # "/js/mapoffice.js",
   ]
 
 # google fonts
-font = ["Changa One"]
-font-size = "20"
+# font = ["Changa One"]
+# font-size = "20"
+
 
 
 # Navigation Links

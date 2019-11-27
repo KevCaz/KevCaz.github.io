@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Itim|Mali|Patrick+Hand+SC&display=swap');
+
+/* font-family: 'Courgette', cursive; */
+/* font-family: 'Itim', cursive; */
+/* font-family: 'Mali', cursive; */
+/* font-family: 'Patrick Hand SC', cursive; */
+
+
+@font-face {
+    font-family: 'BeyondWonderland';
+    src: url('fonts/Beyond_Wonderland.eot');
+    src: url('fonts/Beyond_Wonderland.eot?#iefix') format('embedded-opentype'),
+          url('fonts/Beyond_Wonderland.woff2') format('woff2'),
+          url('fonts/Beyond_Wonderland.woff') format('woff'),
+          url('fonts/Beyond_Wonderland.ttf') format('truetype')
+    /* font-weight: normal; */
+    /* font-style: normal; */
+ }
+
+ @font-face {
+     font-family: 'PWChristmasfont';
+     src: url('fonts/PWChristmasfont.eot');
+     src: url('fonts/PWChristmasfont.eot?#iefix') format('embedded-opentype'),
+           url('fonts/PWChristmasfont.woff2') format('woff2'),
+           url('fonts/PWChristmasfont.woff') format('woff'),
+           url('fonts/PWChristmasfont.ttf') format('truetype')
+     /* font-weight: normal; */
+     /* font-style: normal; */
+  }
+
+
+
+.christmas h1 {
+    font-family: 'Mountains of Christmas';
+    font-size: 4em;
+}
+
+.christmas p {
+    font-family: "Patrick Hand SC", cursive;
+    font-size: 1.2em;
+}
+
+
+.christmas h2 {
+  font-family: 'PWChristmasfont';
+  font-size: 2.4em;
+}
+
+.christmas h3 {
+  font-family: 'BeyondWonderland';
+  font-size: 3em;
+}
+
+
+.jeudmots p {
+    font-family: 'Mali';
+    font-size: 1.25em;
+}
+
+.underline1 {
+  text-decoration: underline;
+  background-color: #f7c296;
+}
+
+.underline2 {
+  text-decoration: underline;
+  background-color: #d5f6ff;
+}
+
+.underline3 {
+  text-decoration: underline;
+  background-color: #b6f5b5;
+}
+.underline4 {
+  text-decoration: underline;
+  background-color: #fff193;
+}

@@ -18,4 +18,8 @@ layout: regular
 
 <br>
 
+## [<i class="fa fa-users" aria-hidden="true"></i> Family & Friends](./family/)
+
+<br>
+
 <!-- ## [<i class="fa fa-calendar" aria-hidden="true"></i> Old](./old/) -->
