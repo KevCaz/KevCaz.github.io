@@ -3,20 +3,22 @@
 
 <head>
 
-  <head>
+  <link rel="stylesheet" href="../../../css/christmas.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="{{ "/js/jquery-ui-1.9.1.custom.min.js" | relURL }}"></script>
 
-    <!-- include css mentioned in toml -->
-    {{ partial "css" . }}
-    {{ partial "js" . }}
-    {{ partial "head_custom.html" . }}
-    {{ hugo.Generator }}
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  </head>
+  <!-- include css mentioned in toml -->
+  {{ partial "head_custom.html" . }}
+  {{ hugo.Generator }}
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 
-
 <body>
+
+
 

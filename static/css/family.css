@@ -1,10 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Courgette|Itim|Mali|Patrick+Hand+SC&display=swap');
-
 /* font-family: 'Courgette', cursive; */
 /* font-family: 'Itim', cursive; */
 /* font-family: 'Mali', cursive; */
 /* font-family: 'Patrick Hand SC', cursive; */
+
+.jeudmots p {
+  font-family: 'Mali';
+  font-size: 1.25em;
+}
+
+.underline1 {
+  text-decoration: underline;
+  background-color: #f7c296;
+}
+
+.underline2 {
+  text-decoration: underline;
+  background-color: #d5f6ff;
+}
+
+.underline3 {
+  text-decoration: underline;
+  background-color: #b6f5b5;
+}
+
+.underline4 {
+  text-decoration: underline;
+  background-color: #fff193;
+}
+
 
 
 @font-face {
@@ -31,9 +56,22 @@
 
 
 
+.christmas {
+  background-color: #0a0d1d;
+  width: 100%;
+	height: 100%;
+}
+
 .christmas h1 {
-    font-family: 'Mountains of Christmas';
+    font-family: 'PWChristmasfont';
     font-size: 4em;
+		text-align: center;
+		color: #fff;
+  }
+
+.christmas h2 {
+    font-family: 'Mountains of Christmas';
+    font-size: 3em;
 }
 
 .christmas p {
@@ -42,37 +80,41 @@
 }
 
 
-.christmas h2 {
-  font-family: 'PWChristmasfont';
-  font-size: 2.4em;
-}
-
-.christmas h3 {
-  font-family: 'BeyondWonderland';
-  font-size: 3em;
-}
 
 
-.jeudmots p {
-    font-family: 'Mali';
-    font-size: 1.25em;
+
+.christmas_container {
+  position: absolute;
+  top: 90px; left: 180px;
 }
 
-.underline1 {
-  text-decoration: underline;
-  background-color: #f7c296;
+#days {
+  font-size: 60px;
+  color: #c65454;
+  text-align: center;
+  letter-spacing: 2px;
+	font-family: 'Mountains of Christmas';
 }
 
-.underline2 {
-  text-decoration: underline;
-  background-color: #d5f6ff;
+.drop {
+	position: absolute;
+	top: 0;
+	z-index: -1;
+  opacity: 0;
+}
+.snow {
+	height: 8px;
+	width: 8px;
+	border-radius: 100%;
+	background-color: #FFF;
+  box-shadow: 0 0 10px #FFF
 }
 
-.underline3 {
-  text-decoration: underline;
-  background-color: #b6f5b5;
+.animate {
+	animation: falling 8.5s infinite ease-in;
 }
-.underline4 {
-  text-decoration: underline;
-  background-color: #fff193;
+
+@keyframes falling {
+	0% {top: 0; opacity: 1;}
+	100% {top: 1500px; opacity: 0}
 }

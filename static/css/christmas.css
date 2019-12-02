@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Itim|Mali|Patrick+Hand+SC&display=swap');
+
+/* font-family: 'Courgette', cursive; */
+/* font-family: 'Itim', cursive; */
+/* font-family: 'Mali', cursive; */
+/* font-family: 'Patrick Hand SC', cursive; */
+@font-face {
+  font-family: 'BeyondWonderland';
+  src: url('fonts/Beyond_Wonderland.eot');
+  src: url('fonts/Beyond_Wonderland.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Beyond_Wonderland.woff2') format('woff2'),
+    url('fonts/Beyond_Wonderland.woff') format('woff'),
+    url('fonts/Beyond_Wonderland.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'PWChristmasfont';
+  src: url('fonts/PWChristmasfont.eot');
+  src: url('fonts/PWChristmasfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/PWChristmasfont.woff2') format('woff2'),
+    url('fonts/PWChristmasfont.woff') format('woff'),
+    url('fonts/PWChristmasfont.ttf') format('truetype')
+}
+
+body {
+  background-color: #040a1d;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-family: 'PWChristmasfont';
+  font-size: 72px;
+  text-align: center;
+  color: #fff;}
+
+h2 {
+  font-family: 'Mountains of Christmas';
+  font-size: 3em;
+  color: #fff;
+  text-align: center;
+}
+
+p {
+  font-family: "Patrick Hand SC", cursive;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+li {
+  color: #fff;
+  font-family: "Patrick Hand SC", cursive;
+}
+
+a {
+  color: #a42749;
+}
+
+.container {
+  position: absolute;
+  top: 200px;
+  left: 180px;
+}
+
+.boules {
+  top: 0px;
+  left: 0px;
+  height: 100px;
+  background-image: url(/css/images/boules.png);
+  background-repeat: repeat-x;
+  background-size: 200px 100px;
+}
+
+.trees {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-image: url(/css/images/trees.png);
+  background-repeat: repeat-x;
+  background-size: 300px 100px;
+}
+
+.menu {
+  padding: 5px;
+  border:2px white;
+  font-size: 26px;
+  text-align: center;
+}
+
+#days {
+  font-size: 50px;
+  color: #FFF;
+  text-align: center;
+  letter-spacing: 3px;
+  font-family: 'Mountains of Christmas';
+}
+
+.drop {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  opacity: 0;
+}
+
+.snow {
+  height: 8px;
+  width: 8px;
+  border-radius: 100%;
+  background-color: #FFF;
+  box-shadow: 0 0 10px #FFF
+}
+
+.animate {
+  animation: falling 8.5s infinite ease-in;
+}
+
+@keyframes falling {
+  0% {
+    top: 0;
+    opacity: 1;
+  }
+
+  100% {
+    top: 1500px;
+    opacity: 0
+  }
+}
