@@ -1,7 +1,6 @@
 {{ define "main" }}
 
-<h1><i class="fa fa-{{ .Params.icon }}" aria-hidden="true"></i> {{ .Title }}</h1>
-<hr>
+  {{ partial "title1" . }}
 
 {{ .Content }}
 
