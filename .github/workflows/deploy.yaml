@@ -18,7 +18,6 @@ jobs:
       with:
         hugo-version: '0.57.2'
         # extended: true
-
     - name: Build website
       run: hugo --minify
 
