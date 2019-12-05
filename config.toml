@@ -108,7 +108,7 @@ defaultContentLanguageInSubdir = false
     weight = 2
 [[menu.icon]]
     name = "github"
-    url = "https://www.github.com/KevCaz"
+    url = "https://github.com/KevCaz/KevCaz.github.io"
 
 
 # Taxonomies.
