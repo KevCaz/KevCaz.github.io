@@ -15,8 +15,8 @@ if (daysToChristmas>0)
 $('#days').text("Plus que "+daysToChristmas+" jours avant le réveillon!");
 
 //make snow
-snowDrop(150, randomInt(1035, 1280));
-snow(150, 150);
+snowDrop(250, randomInt(0, 2000));
+snow(300, 200);
 
 function snow(num, speed) {
 		if (num > 0) {
@@ -35,7 +35,7 @@ function snow(num, speed) {
 			$('body').append(drop);
 			$('#drop_' + num).css('left', position);
 			num--;
-			snowDrop(num, randomInt(60, 1280));
+			snowDrop(num, randomInt(0, 2560));
 		}
 	};
 

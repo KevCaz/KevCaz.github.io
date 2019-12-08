@@ -2,6 +2,8 @@
 
 <div class="boules"></div>
 
+<br>
+
 <h1>Noel 2019</h1>
 
 <p id="days"> </p>
@@ -9,12 +11,49 @@
 <script src="../../../js/snow.js"></script>
 
 
+<br><br>
 
-<div class="menu">
-  {{ .Content }}
+<div class="">
+
 </div>
 
+<h2>Entrées</h2>
+<ul>
+  {{ range $.Site.Data.repas.entree }}
+  <li>
+    <a href="{{ .url }}">{{ .name }}</a>
+  </li>
+  {{ end }}
+</ul>
+
+
+<br><br>
+
+<h2>Plats principaux</h2>
+<ul>
+  {{ range $.Site.Data.repas.principal }}
+  <li>
+    <a href="{{ .url }}">{{ .name }}</a>
+  </li>
+  {{ end }}
+</ul>
+
+
+<br><br>
+
+
+<h2>Desserts</h2>
+<ul>
+  {{ range $.Site.Data.repas.dessert }}
+  <li>
+    <a href="{{ .url }}">{{ .name }}</a>
+  </li>
+  {{ end }}
+</ul>
 
 
 
-<div class="trees"></div>
+<div class="spacing_snowbg"> <br>
+
+
+<div class="snowbg"></div>

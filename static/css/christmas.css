@@ -31,30 +31,58 @@ body {
 
 h1 {
   font-family: 'PWChristmasfont';
-  font-size: 72px;
+  font-size: 3.4em;
   text-align: center;
   color: #fff;}
 
 h2 {
   font-family: 'Mountains of Christmas';
-  font-size: 3em;
-  color: #fff;
+  font-size: 2.8em;
+  color: #a42749;
   text-align: center;
 }
 
-p {
-  font-family: "Patrick Hand SC", cursive;
-  font-size: 1.2em;
-  color: #fff;
-}
 
 li {
   color: #fff;
   font-family: "Patrick Hand SC", cursive;
+  text-align: center;
+  font-size: 2em;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+ul li:before {
+  content: '';
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background-size: 24px;
+  background-image: url(/css/images/snowflake_128.png);
+  background-repeat: no-repeat;
+  margin-right: 12px;
+}
+
+ul li:after {
+  content: '';
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background-size: 24px;
+  background-image: url(/css/images/snowflake_128.png);
+  background-repeat: no-repeat;
+  margin-left: 12px;
 }
 
 a {
-  color: #a42749;
+  color: #fff;
+}
+
+a:hover {
+  background-color: #a42749;
 }
 
 .container {
@@ -72,14 +100,19 @@ a {
   background-size: 200px 100px;
 }
 
-.trees {
+.snowbg {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 100px;
-  background-image: url(/css/images/trees.png);
+  height: 180px;
+  background-image: url(/css/images/snowbg.png);
   background-repeat: repeat-x;
-  background-size: 300px 100px;
+  background-size: 1800px 180px;
+}
+
+.spacing_snowbg {
+  height: 200px;
+  width: 100%;
 }
 
 .menu {
@@ -89,9 +122,11 @@ a {
   text-align: center;
 }
 
+
+
 #days {
   font-size: 50px;
-  color: #FFF;
+  color: #a42749;
   text-align: center;
   letter-spacing: 3px;
   font-family: 'Mountains of Christmas';
@@ -105,8 +140,8 @@ a {
 }
 
 .snow {
-  height: 8px;
-  width: 8px;
+  height: 12px;
+  width: 12px;
   border-radius: 100%;
   background-color: #FFF;
   box-shadow: 0 0 10px #FFF
@@ -123,7 +158,7 @@ a {
   }
 
   100% {
-    top: 1500px;
-    opacity: 0
+    top: 3000px;
+    opacity: .8;
   }
 }
