@@ -4,40 +4,42 @@
 
   <div class="row">
 
-    <div class="col-sm-3">
-      <img src="img/avatar.png" width=224px alt="avatar"></img>
-      <br><br>
+    <div class="spc_10"></div>
 
+    <div class="col-sm-4">
+      <center>
+        <img class="avatar" src="img/avatar.png" width=256px alt="avatar"></img>
+        <!-- Kevin Cazelles -->
+      </center>
       {{ partial "socio" . }}
-      <br>
+      <!-- map Office -->
+      <div id="map"></div>
+      <script src="/js/mapoffice.js"></script>
+    </div>
 
-      <a class="twitter-timeline" href="https://twitter.com/{{ .Site.Params.twitter }}" data-width="400" data-height="600" data-chrome="nofooter noborders hoheader">
+
+    <div class="col-sm-5">
+      {{ .Content }}
+      <!--  -->
+      <h3> <i class="fa fa-code" aria-hidden="true"></i>&nbsp;Latest <a href="/notes/">Siliconote</a> </h3>
+      {{ range where .Site.Pages.ByDate.Reverse ".Type" "==" "notes" | first 1 }}
+      <h4 style="font-weight:bolder;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+      {{ end }}
+      <!--  -->
+      <h3><i class="fa fa-pagelines" aria-hidden="true"></i>&nbsp;Latest <a href="/notes/">Econote</a></h3>
+      <!--  -->
+      {{ range where .Site.Pages.ByDate.Reverse ".Type" "==" "econotes" | first 1 }}
+      <h4 style="font-weight:bolder;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+      {{ end }}
+    </div>
+
+    <div class="col-sm-3">
+      <a class="twitter-timeline" href="https://twitter.com/{{ .Site.Params.twitter }}" data-width="100%" data-height="740" data-chrome="nofooter noborders hoheader">
         <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
       </a>
     </div>
 
-    <div class="col-sm-8">
-      {{ partial "about" . }}
-
-    </div>
-
-    <div class="col-sm-1">
-      <div class="hidden-sm hidden-xs">
-        <div class="mysticky">
-          {{ range .Site.Data.navhome.menu }}
-          <h1 title="{{ .title }}">
-            &nbsp;&nbsp;
-            <a href="#{{ .anchor }}">
-              <i class="fa fa-{{ .icon }}" aria-hidden="true"></i>
-            </a>
-          </h1>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-
-
-
   </div>
 
+</div>
   {{ partial "footer" . }}

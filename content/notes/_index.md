@@ -2,6 +2,7 @@
 title: Notes
 icon: pencil-square-o
 layout: list
+date: 2018-09-01
 ---
 
 In my professional life, I mainly write about ecology (see the [publications

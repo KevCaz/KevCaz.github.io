@@ -2,7 +2,7 @@ baseurl = "https://kevcaz.github.io/"
 relativeurls = true
 languageCode = "en-us"
 title = "KevCaz Home Page"
-copyright = "&copy; 2018 Kevin Cazelles. "
+copyright = "&copy; 2019 Kevin Cazelles. "
 theme = "hugo-KevCaz"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -19,7 +19,7 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "Kevin Cazelles"
-  role = "Post-doctoral fellow in theoretical and computational ecology"
+  role = "Post-doctoral fellow in theoretical and computational ecology [@McCann Lab](https://mccannlab.ca/)"
   organization = "Department of Integrated Biology, University of Guelph"
   organization_url = "https://www.uoguelph.ca/ib/"
   # avatar = "kevcazava.jpg"
@@ -57,11 +57,6 @@ defaultContentLanguageInSubdir = false
     # "/js/mapoffice.js",
   ]
 
-# google fonts
-# font = ["Changa One"]
-# font-size = "20"
-
-
 
 # Navigation Links
 
@@ -69,43 +64,92 @@ defaultContentLanguageInSubdir = false
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
-    name = "Publications"
-    url = "/publications/"
+    name = "Research"
+    weight = 1
+
+[[menu.main]]
+    parent = "Research"
+    name = "Projects"
+    url = "/projects/"
     weight = 1
 [[menu.main]]
-    name = "Talks&Posters"
-    url = "/talks/"
-    weight = 3
+    parent = "Research"
+    name = "Publications"
+    url = "/publications/"
+    weight = 2
 [[menu.main]]
-    name = "Teaching"
-    url = "/teaching/"
-    weight = 4
-[[menu.main]]
+    parent = "Research"
     name = "Software"
     url = "/software/"
+    weight = 3
+[[menu.main]]
+    parent = "Research"
+    name = "Software"
+    url = "/software/"
+    weight = 4
+[[menu.main]]
+    parent = "Research"
+    name = "Talks&Posters"
+    url = "/talks/"
     weight = 5
 [[menu.main]]
-    name = "EcoNotes"
+    parent = "Research"
+    name = "Teaching"
+    url = "/teaching/"
+    weight = 6
+[[menu.main]]
+    parent = "Research"
+    name = "CV"
+    url = "/cv/"
+    weight = 7
+
+
+[[menu.main]]
+    name = "BlogPro"
     url = "/econotes/"
     weight = 6
 [[menu.main]]
+    parent = "BlogPro"
+    name = "EcoNotes"
+    url = "/econotes/"
+    weight = 1
+[[menu.main]]
+    parent = "BlogPro"
     name = "SilicoNotes"
     url = "/notes/"
-    weight = 6
+    weight = 2
+[[menu.main]]
+    parent = "BlogPro"
+    name = "inSileco"
+    url = "https://insileco.github.io/"
+    weight = 3
+
 [[menu.main]]
     name = "Perso"
     url = "/perso/"
     weight = 7
+[[menu.main]]
+    parent = "Perso"
+    name = "Books I read and liked"
+    url = "/perso/books"
+    weight = 1
+[[menu.main]]
+    parent = "Perso"
+    name = "Movies I watched and liked"
+    url = "/perso/movies"
+    weight = 2
+[[menu.main]]
+    parent = "Perso"
+    name = "Opinions I dare to share"
+    url = "/perso/opinions"
+    weight = 3
+[[menu.main]]
+    parent = "Perso"
+    name = "Even more personnal"
+    url = "/perso/family"
+    weight = 4
 
 # icon (font-awesome)
-[[menu.icon]]
-    name = "home"
-    url = "/"
-    weight = 1
-[[menu.icon]]
-    name = "external-link-square"
-    url = "https://insileco.github.io/"
-    weight = 2
 [[menu.icon]]
     name = "github"
     url = "https://github.com/KevCaz/KevCaz.github.io"

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic');
 @import url('https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css');
 
+
 body {
   font-size: 16px!important;
 }
@@ -14,6 +15,21 @@ video {
   overflow: hidden;
   max-height: 19rem;
   margin-bottom: 1rem !important;
+}
+
+.avatar {
+	margin-bottom: 10px;
+}
+
+.bg_grey {
+	background-color: #f8f8f8;
+	border-top: 1px solid #e7e7e7;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/* position: fixed; */
+	/* height: 200px; */
+	/* width: 100%; */
+	/* bottom: 0px; */
 }
 
 .tags {
@@ -80,11 +96,11 @@ pre > code {
 
 #map {
   height: 350px;
-  width: 90%;
+  width: 100%;
   float: center;
   display: inline-block;
   background-color:black;
-  margin: 10px 10px 10px 10px;
+  margin: 6px;
  }
 
 blockquote {

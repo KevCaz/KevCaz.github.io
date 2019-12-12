@@ -1,31 +1,6 @@
-{{ define "leftside"}}
-
-  <div class="sticky-top">
-    <div id="toc"></div>
-
-    <script>
-      var $jq = jQuery.noConflict();
-
-        $jq(function() {
-
-            var toc = $jq("#toc").tocify({
-              selectors: "h2, h3",
-              scrollTo: 50
-            }).data("toc-tocify");
-
-            prettyPrint();
-            $jq(".optionName").popover({ trigger: "hover" });
-      });
-    </script>
-
-</div>
-{{ end }}
-
-
 {{ define "main" }}
 
-  <h1><i class="fa fa-{{ .Params.icon }}" aria-hidden="true"></i> {{ .Title }}</h1>
-  <hr>
+  {{ partial "title1" . }}
 
   {{ .Content }}
 

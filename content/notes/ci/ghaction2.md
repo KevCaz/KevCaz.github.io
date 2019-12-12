@@ -2,6 +2,7 @@
 title: "GitHub actions, checkout and submodule"
 date: 2019-12-04
 tags: [continuous integration, GitHub, GitHub Actions, checkout, submodule]
+type: "siliconote"
 ---
 
 
