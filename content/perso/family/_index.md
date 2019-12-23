@@ -1,5 +1,5 @@
 ---
-title: "Familiy & Friends"
+title: "Family & Friends"
 icon: users
 layout: list
 ---

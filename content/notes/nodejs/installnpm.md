@@ -31,12 +31,19 @@ installation:
 The first option is rather straightforward:
 
 ```
-sudo apt-get nodejs
+sudo apt-get install nodejs npm
 ```
 
-which should also install `npm`. Note that on Debian Buster, this command
-installs Node.js v12.13.0. The second option requires to run a small command
-line
+Note that on Debian Buster, you will have the following version installed:
+
+```
+$ npm -v
+5.8.0
+$ node -v
+v10.15.2
+```
+
+The second option requires to run a small command line
 
 ```
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
@@ -89,6 +96,10 @@ $ whereis node
 node: /usr/bin/node /usr/include/node /home/kevcaz/.nvm/versions/nv13.0.1/bin/node /usr/share/man/man1/node.1.gz
 ```
 
-Seemed like this was not a problem but I thought the sane piece of software installed twice at different locations with different versions wasn't the best thing to do and so I removed v10.13.0. I may change this in the future if I nodejs for other Debian packages, in which case I will write a follow up to this note :smile:!
+Seemed like this was not a problem but I thought the sane piece of software
+installed twice at different locations with different versions wasn't the best
+thing to do and so I removed v10.13.0. I may change this in the future if I use
+nodejs for other Debian packages, in which case I will write a follow up to this
+note :smile:!
 
 `

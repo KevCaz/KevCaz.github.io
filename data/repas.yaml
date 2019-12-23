@@ -1,61 +1,46 @@
 entree:
+  - name: Grignotines variées
+  - name: Tapenade d'olive
+    url: https://fr.chatelaine.com/recettes/hors_d_oeuvres/tapenade-dolives-noires/
+  - name: Crudité avec humus
+    homemade: true
   - name: Champignons farcis
     url: https://danslacuisinedenathalie.com/champignons-farcis-aux-epinards/?fbclid=IwAR0pmqmB_vWd59j40MDO5_0B73340VLzB9v7jnDHPYKzLbMkDNFMpbon5Hw
   - name: Toast à l'avocado + oignon caramélisé
-    homemade: true
-  - name: Tapenade d'olive
-    homemade: https://fr.chatelaine.com/recettes/hors_d_oeuvres/tapenade-dolives-noires/
-  - name: Crudité avec humus, babaganoush et vegenaise à l'ail
     homemade: true
   - name: Tartelettes aux oignons
     url: http://oliviapatisse.com/2018/08/25/tarte-aux-oignons-vegan-recette/
   - name: Tartelettes aux tomates
     url: http://fringuespopoteaction.blogspot.com/2014/04/relecture-dun-plat-estival-la-tarte-aux.html
-  - name: Grignotines variées et pains
-    homemade: true
+
 
 
 principal:
   - name: Tourtière de Jean-Philippe
     url: https://www.lacuisinedejeanphilippe.com/recipe/tourtiere-de-millet-2/
-  - name: Bean dans le sirop à la mijoteuse
-    url: https://danslacuisinedenathalie.com/beans-au-sirop-erable-mijoteuse/?fbclid=IwAR29UrULdRCHKJoiWer_IqP27kn-r0qHT-fE4RV_W8vX2v_HVrGWQgT58VU
-  - name: Risotto
-    url: https://minimalistbaker.com/caramelized-shiitake-mushroom-risotto/
+  - name: Avec Sauce gravy de la cuisine renversante & Ketchup aux fruits de grand-maman
   - name: Ragoût de boulettes de Jean-Philippe
     url: https://www.lacuisinedejeanphilippe.com/recipe/ragout-de-boulettes-vegan/
+  - name: Risotto
+    url: https://minimalistbaker.com/caramelized-shiitake-mushroom-risotto/
+  - name: Bean dans le sirop à la mijoteuse
+    url: https://danslacuisinedenathalie.com/beans-au-sirop-erable-mijoteuse/?fbclid=IwAR29UrULdRCHKJoiWer_IqP27kn-r0qHT-fE4RV_W8vX2v_HVrGWQgT58VU
   - name: Légumes rôties au four
     url: https://nobleveggies.com/legumes-dhivers-roties-au-four/
   - name: Salade de bébés épinards, noix et clémentines
     homemade: true
   - name: Salade de carottes au cari
     url: https://www.lacuisinedejeanphilippe.com/recipe/salade-de-carottes-au-cari/
-  - name: Salade de chou
-    homemade: true
-  - name: Sauce gravy de la cuisine renversante
-    homemade: true
-  - name: Ketchup aux fruits de grand-maman
-    homemade: true
+
 
 dessert:
-  - name: Bûche de Noël choco-abricot
-    url: https://cuisinez.telequebec.tv/recettes/5807/buche-de-noel-sans-cuisson-choco-abricot-et-neige-de-coco
-  - name: Gâteau aux amandes
-    url: https://www.lacuisinedejeanphilippe.com/recipe/gateau-aux-amandes/
-  - name: Gâteau au chocholat
-    url: https://www.lacuisinedejeanphilippe.com/recipe/gateau-au-chocolat-vegan/
-  - name: Boules au chocholat
+  - name: Fromages
+  - name: Tartes crues aux framboises
+  - name: Bûche de Noël Praliné Chocolat de Gourmet Privilège
+    url: https://promenadefleury.com/commercants/gourmet-privilege/
+  - name: Bouchées sucrées-salées de Louise
+  - name: Truffes au chocholatet noix
     url: https://www.valpiform.com/recettes/boules-energie-sans-gluten-vegan-trois-variantes/
-  - name: Carrot cake
-    url: https://minimalistbaker.com/raw-carrot-cake-with-vegan-cream-cheese-frosting/
   - name: Salade de fruits orange et gingembre de Joachim
     homemade: true
-  - name: Vins chauds
-    url: https://www.lacuisinedejeanphilippe.com/recipe/wellington-de-portobello/
-
-
-autres:
-  - name: Bûche de Noël choco-clémentine
-    url: https://patateetcornichon.com/recettes/buche-de-noel-vegan-au-chocolat-et-clementines
-  - name: Wellington au portobello de Jean-Philippe
-    url: https://www.lacuisinedejeanphilippe.com/recipe/wellington-de-portobello/
+  - name: Gateau aux avelines avec crème fouettée de Ginette
