@@ -146,7 +146,7 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
     parent = "Perso"
     name = "Even more personnal"
-    url = "/perso/family"
+    url = "/perso/famille"
     weight = 4
 
 # icon (font-awesome)
