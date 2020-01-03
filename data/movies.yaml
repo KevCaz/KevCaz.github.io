@@ -1,4 +1,46 @@
-moovies:
+movies:
+
+  - roto: m/yes_man
+    url_img: https://resizing.flixster.com/FKm9G2Cu-gp5OV6kRTZaeeo0DLs=/206x305/v1.bTsxMTIyMzMwNTtqOzE4MzU0OzEyMDA7MTMyOTsxNzcy
+    director: Peyton Reed
+    year: 2020
+    yearout: 2008
+
+  - roto: m/central_intelligence
+    url_img: https://resizing.flixster.com/m23S7VinMSHr6xCwBUnrSuPRPpU=/fit-in/200x296.2962962962963/v1.bTsxMTk0NjQ4MztqOzE4MjczOzEyMDA7ODAwOzExODY
+    director: Rawson Marshall Thurber
+    year: 2020
+    yearout: 2016
+
+  - roto: m/toy_story_4
+    url_img: https://resizing.flixster.com/Nptiw_sHA7d_TownyjvMrsxUK24=/fit-in/200x296.2962962962963/v1.bTsxMzAyMzkxNjtqOzE4MzMwOzEyMDA7MTA4NjsxNjA5
+    director: Josh Cooley
+    year: 2019
+    yearout: 2019
+
+  - roto: tv/friends
+    url_img: https://resizing.flixster.com/RVhtvh1uJsTp1JJUUl2AKpq3_Js=/206x305/v1.dDsyNzcxODI7ajsxODI3MzsxMjAwOzIyNTA7MzAwMA
+    creator: Marta Kauffman David Crane
+    year: 2019
+    yearout: 1994
+
+  - roto: m/tombstone
+    url_img: https://resizing.flixster.com/xqLVu12zvsgWR4rWO8QOgnHVCdY=/206x305/v1.bTsxMTIwODU0MjtqOzE4MzU0OzEyMDA7MTk1MDsyNjAw
+    director: George P. Cosmatos
+    year: 2019
+    yearout: 1993
+
+  - roto: m/coming_to_america
+    url_img: https://resizing.flixster.com/RNRqdHUiZVNsnkY1mCQ6z0RkP4o=/fit-in/200x296.2962962962963/v1.bTsxMTE2ODkzMDtqOzE4MzU0OzEyMDA7ODAwOzEyMDA
+    director: John Landis
+    year: 2019
+    yearout: 1993
+
+  - roto: m/the_irishman
+    url_img: https://resizing.flixster.com/6emRziyNIwY7xOhjdS55E0JvnLU=/fit-in/200x296.2962962962963/v1.bTsxMzE4OTE2NTtqOzE4MzMyOzEyMDA7MjAwMDsyOTI5
+    director: Martin Scorsese
+    year: 2019
+    yearout: 2019
 
   - roto: m/the_lion_king_2019
     url_img: https://resizing.flixster.com/feRInF7qkG5d0AKYwb0iISw_tEY=/fit-in/200x296.2962962962963/v1.bTsxMzAwNDEwMDtqOzE4MTk1OzEyMDA7MTY4ODsyNTAw

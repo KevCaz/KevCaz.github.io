@@ -1,5 +1,17 @@
 books:
 
+- title: Les Furtifs
+  author: Alain Damasio
+  url_img: "https://lavolte.net/wp-content/uploads/LES_FURTIFS-couverture.jpg"
+  type: roman
+  year: 2019
+  year_out: 2019
+  info:
+    url: https://www.youtube.com/watch?v=addb60vjqx4
+    name: "Passage à Médiapart en avril 2019"
+    autre: https://lavolte.net/livres/les-furtifs-alain-damasio/
+  comments: "Troisième roman d'Alain Damasio, troisième claque ! Avec les furtifs, l'auteur nous amène sur la trace d'une espèce qui n'en laisse pas. Ce récit passionnant, émouvant et rythmé offre une profonde méditation sur notre société de la trace dans laquelle toutes nos actions sont désormais enregistrées, stockées et traitées par des algorithmes, qui nous catégorisent le plus souvent dans l'unique but de nous servir de la publicité bien ciblée. Les Furtifs, c'est un appel à ne plus laisser de traces, à se rendre invisible, à reprendre le contrôle sur nos vies en arrêtant de le donner aux empires qui grandissent derrière les interfaces ludiques de nos objets connectés. Cette reprise en main de nos parcours dans le réel est aussi l'opportunité de vivre la diversité, d'écrire des récits communs, ne pas avoir peur du changement, accueillir l'altérité, se furtiver jusqu'à l'hybridation. Pour cela, comme à son habitude, Alain Damasio propose non seulement un récit riche avec une narration polyphonique mais aussi un énorme travail autour de la langue : sur sa sonorité, son rythme et son écriture. Les Furtifs c'est dense, il y a beaucoup de profondeur et de dimension et ça fait beaucoup, beaucoup de bien à lire."
+
 - title: Serotonine
   author: Michel Houellebecq
   url_img: "https://images-na.ssl-images-amazon.com/images/I/31xHzFYtLbL._SX319_BO1,204,203,200_.jpg"

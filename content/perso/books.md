@@ -5,9 +5,7 @@ layout: regular
 ---
 
 
-I inaugurated this section in 2018 so as to remember the books I read and what I
-liked about them (when I really don't like a book I normally stop reading it).
-Because it is a personal section, I'll often write in French.
+<i class="fa fa-question-circle-o" aria-hidden="true"></i>&nbsp; Since 2018, I share the books I read and liked in this section (when I don't really like a book I just stop reading it). As this section is a personal one, most content is written in French.
 
 <br>
 

@@ -4,6 +4,6 @@ icon: video-camera
 layout: regular
 ---
 
-Below are the movies I watched and liked.
+<i class="fa fa-question-circle-o" aria-hidden="true"></i>&nbsp; Since late 2018, I share the movies ans series I watched and liked in this section.
 
 {{< moovieperso >}}
