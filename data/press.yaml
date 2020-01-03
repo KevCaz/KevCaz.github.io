@@ -1,4 +1,8 @@
 articles:
+  - media: Science
+    year: 2019
+    lang: en
+    url: "https://science.sciencemag.org/content/366/6472/1468.1/tab-pdf"
   - media: la Presse
     year: 2018
     lang: fr

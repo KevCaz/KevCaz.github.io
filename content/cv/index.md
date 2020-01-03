@@ -1,15 +1,15 @@
 ---
-title: Curriculam Voate
+title: Curriculum Vitæ
 icon: "address-card"
 layout: "cv"
 ---
 
 
-I am a currently post-doctoral fellow at [the McCann
-Lab](http://www.mccannlab.ca) with a wide range of interests in ecology. I
-regard myself as a theoretician motivated by a strong desire to apply the
-results of abstract investigations to tangible challenges such as the impact of
-global change on ecological communities.  
+I am a currently a post-doctoral fellow at [the McCann
+Lab](http://www.mccannlab.ca). I am currently doing quantitative ecology for a
+leaving. As such, I do my best to apply the results of abstract investigations
+to tangible challenges such as the impact of global change on ecological
+communities.
 
 For over six years now, I have been tackling research challenges in various
 areas of ecology. I have mainly been focusing on theory in macro-ecology and
