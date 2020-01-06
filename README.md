@@ -12,4 +12,3 @@ specified. See [my own theme](https://github.com/KevCaz/hugo-KevCaz) for further
 details, especially to see the list of libraries and a proper acknowledgment
 to developers.
 
-
