@@ -1,4 +1,9 @@
 articles:
+  - media: "Québec Science"
+    title: "Une carte des interactions entre les poissons de toutes les mers"
+    year: 2020 
+    lang: fr
+    url: "https://www.quebecscience.qc.ca/sciences/les-10-decouvertes-de-2019/carte-interactions-entre-poissons/"
   - media: Science
     year: 2019
     lang: en
