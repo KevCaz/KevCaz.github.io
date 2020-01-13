@@ -1,5 +1,23 @@
 movies:
 
+  - roto: tv/mindhunter
+    url_img: https://resizing.flixster.com/0lorF-CcGLlGJWChtnFP8Cd3Jlg=/206x305/v1.dDsyNjQ3MDI7ajsxODMxODsxMjAwOzgwMDsxMjAw
+    creator: Joe Penhall
+    year: 2020
+    yearout: 2019
+
+  - roto: /m/bird_box
+    url_img:  https://resizing.flixster.com/jxYxhl7ltfu9M8vYgZHAd1qA0oY=/fit-in/200x296.2962962962963/v1.bTsxMjkzMjYxODtwOzE4MzI5OzEyMDA7MTUwMDsyMjIy
+    director: Susanne Bier
+    year: 2020
+    yearout: 2018
+
+  - roto: tv/the_witcher/s01
+    url_img: https://resizing.flixster.com/k91Xs-tkMOoMap9nY1-2KwOzeV0=/206x305/v1.dDs2MDU4MzY7ajsxODMyMjsxMjAwOzEwODA7MTkyMA
+    director: Peyton Reed
+    year: 2020
+    yearout: 2019
+
   - roto: m/yes_man
     url_img: https://resizing.flixster.com/FKm9G2Cu-gp5OV6kRTZaeeo0DLs=/206x305/v1.bTsxMTIyMzMwNTtqOzE4MzU0OzEyMDA7MTMyOTsxNzcy
     director: Peyton Reed
@@ -12,23 +30,30 @@ movies:
     year: 2020
     yearout: 2016
 
+
   - roto: m/toy_story_4
     url_img: https://resizing.flixster.com/Nptiw_sHA7d_TownyjvMrsxUK24=/fit-in/200x296.2962962962963/v1.bTsxMzAyMzkxNjtqOzE4MzMwOzEyMDA7MTA4NjsxNjA5
     director: Josh Cooley
     year: 2019
     yearout: 2019
 
-  - roto: tv/friends
-    url_img: https://resizing.flixster.com/RVhtvh1uJsTp1JJUUl2AKpq3_Js=/206x305/v1.dDsyNzcxODI7ajsxODI3MzsxMjAwOzIyNTA7MzAwMA
-    creator: Marta Kauffman David Crane
+  - roto: m/klaus
+    url_img: https://resizing.flixster.com/RCS1TLFohMw1Vn-qAHVNQjQfkAc=/206x305/v1.bTsxMzIwNzQ5ODtqOzE4MzMyOzEyMDA7MTUwMDsyMjIy
+    director: Sergio Pablos
     year: 2019
-    yearout: 1994
+    yearout: 2019
 
   - roto: m/tombstone
     url_img: https://resizing.flixster.com/xqLVu12zvsgWR4rWO8QOgnHVCdY=/206x305/v1.bTsxMTIwODU0MjtqOzE4MzU0OzEyMDA7MTk1MDsyNjAw
     director: George P. Cosmatos
     year: 2019
     yearout: 1993
+
+  - roto: tv/friends
+    url_img: https://resizing.flixster.com/RVhtvh1uJsTp1JJUUl2AKpq3_Js=/206x305/v1.dDsyNzcxODI7ajsxODI3MzsxMjAwOzIyNTA7MzAwMA
+    creator: Marta Kauffman David Crane
+    year: 2019
+    yearout: 1994
 
   - roto: m/coming_to_america
     url_img: https://resizing.flixster.com/RNRqdHUiZVNsnkY1mCQ6z0RkP4o=/fit-in/200x296.2962962962963/v1.bTsxMTE2ODkzMDtqOzE4MzU0OzEyMDA7ODAwOzEyMDA
