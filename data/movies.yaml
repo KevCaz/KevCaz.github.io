@@ -1,5 +1,23 @@
 movies:
 
+  - roto: m/shazam
+    url_img: https://resizing.flixster.com/ubc51il5eujleVSyBqO3olW27UU=/fit-in/200x296.2962962962963/v1.bTsxMzAxODU5MTtqOzE4MzMwOzEyMDA7Mjc2NDs0MDk2
+    director: David F. Sandberg 
+    year: 2020
+    yearout: 2019
+
+  - roto: m/sister_act
+    url_img: https://resizing.flixster.com/qkpHEYNqZpNlYn8ziIkH-jgJIBc=/206x305/v1.bTsxMTIwNDE2NTtqOzE4Mzk5OzEyMDA7MTIwMDsxNjAw
+    director: Emile Ardolino
+    year: 2020
+    yearout: 1992
+
+  - roto: m/once_upon_a_time_in_hollywood
+    url_img: https://resizing.flixster.com/ei6mfzpaWdtyiHKASw0LjGUnVDg=/fit-in/200x296.2962962962963/v1.bTsxMzEwMTEzNDtqOzE4MzMxOzEyMDA7MTY5OzI1MA
+    creator: Quentin Tarantino
+    year: 2020
+    yearout: 2019
+
   - roto: tv/mindhunter
     url_img: https://resizing.flixster.com/0lorF-CcGLlGJWChtnFP8Cd3Jlg=/206x305/v1.dDsyNjQ3MDI7ajsxODMxODsxMjAwOzgwMDsxMjAw
     creator: Joe Penhall
