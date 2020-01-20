@@ -1,4 +1,9 @@
 movies:
+  - roto: m/mudbound
+    url_img: https://resizing.flixster.com/MO2LKdpwMhiVjTDUzl_TZyGpiUk=/fit-in/200x296.2962962962963/v1.bTsxMjU1MTAxMztqOzE4MzI1OzEyMDA7MTUwMDsyMjIy
+    director: Dee Rees
+    year: 2020
+    yearout: 2017
 
   - roto: m/shazam
     url_img: https://resizing.flixster.com/ubc51il5eujleVSyBqO3olW27UU=/fit-in/200x296.2962962962963/v1.bTsxMzAxODU5MTtqOzE4MzMwOzEyMDA7Mjc2NDs0MDk2
