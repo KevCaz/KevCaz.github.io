@@ -1,3 +1,6 @@
 [submodule "themes/hugo-KevCaz"]
 	path = themes/hugo-KevCaz
 	url = https://github.com/KevCaz/hugo-KevCaz.git
+[submodule "themes/funkyflex"]
+	path = themes/funkyflex
+	url = https://github.com/KevCaz/funkyflex.git
