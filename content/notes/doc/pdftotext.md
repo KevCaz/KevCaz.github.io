@@ -15,20 +15,20 @@ derivatives), `pdftotext` and the other CLI tools are included in the package De
 [poppler-utils](https://packages.debian.org/buster/poppler-utils) that can be installed like so:
 
 
-```
+```sh
 $ sudo apt-get install poppler-utils
 ```
 
 Once installed, the following command line does the conversion
 
-```
+```sh
 $ pdftotext input.pdf output.txt
 ```
 
 There are several additional option and if one means to extract a table, the `-layout` option is pretty helpful as it maintains the original physical layout (as explained [documentation]https://www.xpdfreader.com/pdftotext-man.html):
 
 
-```
+```sh
 $ pdftotext -layout input.pdf table.txt
 ```
 

@@ -7,7 +7,7 @@ tags: [Github, API, limit]
 Yesterday, while [Travis was testing rcites](https://travis-ci.org/ibartomeus/rcites)
 I got this error message for the 3 jobs:
 
-```
+```sh
 Error: HTTP error 403.
   API rate limit exceeded for 104.154.255.220. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
   Rate limit remaining: 0/60

@@ -27,7 +27,7 @@ that was running under CentOS and had
 For the record, below is the bash script I wrote to deploy all my models:
 
 
-```
+```sh
 #!/bin/bash
 #PBS -l nodes=94:ppn=1
 #PBS -l walltime=12:00:00
@@ -57,7 +57,7 @@ Now that I am at the University of Guelph, I have access to **Graham**, that is 
 
 Graham's OS is also CentOS:
 
-```
+```sh
 $ lsb_release -a
 LSB Version:	n/a
 Distributor ID:	CentOS
@@ -73,7 +73,7 @@ I'd like to show how I loaded the software I frequently use. Basically, I first
 used `module spider` to identify the module name and the versions available, for
 example:
 
-```
+```sh
 $ module spider julia
 
 -----------------------------------------------------------------------
@@ -92,14 +92,14 @@ $ module spider julia
 
 Once all the modules I needed were identified, I loaded them all:
 
-```
+```sh
 $ module load gcc/7.3.0 geos/3.7.2 gdal/3.0.1 proj/6.0.0 julia/1.1.1 \
     nixpkgs/16.09 python/3.7.4 r/3.6.0 udunits/2.2.26
 ```
 
 and then saved them so that next time so I don't have to reload them next times I log in.
 
-```
+```sh
 $ module save
 ```
 
@@ -112,7 +112,7 @@ That being done, and after installing specific R packages, I read the wiki page
 jobs"](https://docs.computecanada.ca/wiki/Running_jobs#Accounts_and_projects) to write the following bash script (`launch.sh`):
 
 
-```
+```sh
 #!/bin/bash
 #SBATCH --time=48:00:00
 #SBATCH --nodes=1

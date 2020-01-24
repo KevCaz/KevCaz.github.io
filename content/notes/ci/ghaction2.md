@@ -8,14 +8,14 @@ type: "siliconote"
 
 I now use [GitHub Actions](https://github.com/features/actions) to deploy this website (see my [previous note about it](../githubactions)) and last Monday (two days ago :smiley:) after I pushed I got an email saying the deployment failed and found the following error message in the console log:
 
-```
+```sh
 ##[error]The input 'submodules' is not supported in actions/checkout@v2
 ```
 
 Turns out this is because version 2 of [checkout](https://github.com/actions/checkout) does not support submodule yet (see this issue report https://github.com/actions/checkout/issues/81) which I use to install my [Hugo Theme](https://github.com/KevCaz/hugo-KevCaz). All I had to do was to use a previous version, so I replaced `uses: actions/checkout@master` by `uses: actions/checkout@v1.2.0` in my [`deploy.yaml`](https://github.com/KevCaz/KevCaz.github.io) file:
 
 
-```
+```yaml
 name: github pages
 
 on:
@@ -45,4 +45,4 @@ jobs:
         PUBLISH_DIR: ./public
 ```
 
-Hope submodule soon be supported soon!
+Hope submodule soon will be supported soon in the new version!

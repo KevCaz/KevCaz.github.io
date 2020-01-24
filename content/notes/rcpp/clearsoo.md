@@ -8,7 +8,7 @@ tags: [Rcpp, R, gcc, compilation]
 
 >  As of May 2017, 1026 packages on CRAN and a further 91 on BioConductor deploy Rcpp to extend R. (www.rcpp.org - October 17, 2018)
 
-Even people that do not know nothing about Rcpp are likely to use it on a regular basis as most packages for data science are linked to Rcpp (e.g.  [dplyr](https://cloud.r-project.org/web/packages/dplyr/index.html)).
+Even people that do not know nothing about Rcpp are likely to use it on a regular basis as most packages for data science are now linked to Rcpp (e.g. [dplyr](https://cloud.r-project.org/web/packages/dplyr/index.html)).
 
 Even though I am comfortable with Rcpp, I still do silly mistakes. Yesterday for instance, I was working on a package I am contributing to and ran into a
 problem that I should have easily avoided. I compiled one of the `.cpp` files

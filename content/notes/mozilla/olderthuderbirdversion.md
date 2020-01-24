@@ -15,7 +15,7 @@ one](https://askubuntu.com/questions/138284/how-to-downgrade-a-package-via-apt-g
 very helpful! So I checked the version available using `apt-cache policy`:
 
 ```sh
-❯ apt-cache policy thunderbird
+$ apt-cache policy thunderbird
 thunderbird:
  Installed: 1:60.0-3~deb9u1
  Candidate: 1:60.0-3~deb9u1
@@ -34,16 +34,16 @@ I was looking for to re-install Thunderbird (btw in `100 /var/lib/dpkg/status`
 `100` indicates the version installed):
 
 ```sh
-❯ sudo apt-get install thunderbird=1:52.9.1-1  
+$ sudo apt-get install thunderbird=1:52.9.1-1  
 [...]
-❯ thunderbird -v                                
+$ thunderbird -v                                
 Thunderbird 52.9.1
 ```
 
 YEAH:fireworks::fireworks:! Plus, in order to prevent from re-installing version 60, I marked version 52:
 
 ```sh
-❯ sudo apt-mark hold thunderbird     
+$ sudo apt-mark hold thunderbird     
 [sudo] password for kevcaz:
 thunderbird set on hold.
 ```

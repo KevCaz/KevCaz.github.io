@@ -1,5 +1,5 @@
 ---
-title: "Cannot boot after upgrade on Debian Testing [SOLVED]"
+title: "Cannot boot after upgrade on Debian Testing `[SOLVED]`"
 date: 2018-12-17
 tags: [Linux, Debian Testing, boot, BIOS, UEFI, GRUB2]
 ---
@@ -42,7 +42,7 @@ I did not know how to process but I read that [the Debian Installer can be used 
 
 I was a bit lost and did not succeed at the first attempt. Then I found [this tutorial on linux.com](
 https://www.linux.com/learn/how-rescue-non-booting-grub-2-linux%20%20)
-and tried it (starting by typing `C` when the screen above popped up).
+and tried it (starting by typing <kbd>C</kbd> when the screen above popped up).
 Again, I was a bit confused because I always ended up in [BusyBox](https://en.wikipedia.org/wiki/BusyBox) and everything I tried was unsuccessful. I finally solved the issue by reinstalling GNU GRUB following the steps of this [great tutorial on  TecMint](https://www.tecmint.com/rescue-repair-and-reinstall-grub-boot-loader-in-ubuntu/) (it is for Ubuntu but Ubuntu is based on Debian). After the re-installation everything went back to normal :smile:.
 
 

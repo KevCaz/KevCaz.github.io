@@ -1,5 +1,5 @@
 ---
-title: "Markdown tables to Word tables [WORK AROUND]"
+title: "Markdown tables to Word tables `[WORK AROUND]`"
 date: 2019-11-18
 tags: [libreoffice, pandoc, conversion, odt, docx, tables]
 ---
@@ -15,7 +15,7 @@ quickly fix this issue with LibreOffice. I figured that this was caused by
 either pandoc or LibreOffice and so I first checked the version of pandoc
 installed:
 
-```
+```sh
 $ apt policy pandoc
 pandoc:
  Installed: 2.2.1-3+b2
@@ -29,7 +29,7 @@ pandoc:
 
 Given that this version was more than a year old, I thought that this issue could have being fixed in newer versions and so I installed [v2.7.3 (released last June)](https://github.com/jgm/pandoc/releases) (downloading `pandoc-2.7.3-1-amd64.deb` and using `dpkg`):
 
-```
+```sh
 $ apt policy pandoc
 pandoc:
  Installed: 2.7.3-1
@@ -44,7 +44,7 @@ pandoc:
 
 This did not solve the issue but I quickly found a two-steps work around. First I converted the Markdown file to a [OpendDocument one (`.odt`)](https://en.wikipedia.org/wiki/OpenDocument):
 
-```
+```sh
 $ pandoc file.md file.odt
 ```
 

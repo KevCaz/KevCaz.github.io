@@ -19,7 +19,7 @@ which I enjoy, and I installed a bunch of software (I don't remember the full
 set, but it is a subset of the ones I installed on my Lenovo, [see this gist
 :link:](https://gist.github.com/KevCaz/29536740b9150383a9d543ec1be96103)) including [inxi](https://smxi.org/docs/inxi.htm) that I use to give more detail about the hardware below:
 
-```
+```sh
 $ inxi -F
 System:    Host: kevcaz Kernel: 4.9.35-v7+ armv7l (32 bit)
            Console: tty 1 Distro: Raspbian GNU/Linux 9 (stretch)
@@ -48,7 +48,7 @@ https://www.raspberrypi-spy.co.uk/2012/09/checking-your-raspberry-pi-board-versi
 here is mine:
 
 
-```
+```sh
 $ cat /proc/device-tree/model
 Raspberry Pi 3 Model B Rev 1.2p
 ```
@@ -56,7 +56,7 @@ Raspberry Pi 3 Model B Rev 1.2p
 
 Today, I needed to run a computation that may last days and as I hadn't use my Raspberry for months, I updated it. I switched from jessie to stretch (the new Debian old stable), i.e. I updated my `/etc/apt/sources.list` which now contains the following lines:
 
-```
+```sh
 deb http://mirrordirector.raspbian.org/raspbian/ stretch main contrib non-$
 # Uncomment line below then 'apt-get update' to enable 'apt-get source'
 # deb-src http://archive.raspbian.org/raspbian/ stretch main contrib non-f$
@@ -65,13 +65,13 @@ deb http://mirrordirector.raspbian.org/raspbian/ stretch main contrib non-$
 
 and then I ran
 
-```
+```sh
 # apt-get update && apt-get upgrade
 ```
 
 Below are reported the version numbers of a selection of software after the upgrade:
 
-```
+```sh
 $ git --version
 git version 2.11.0
 $ R --version

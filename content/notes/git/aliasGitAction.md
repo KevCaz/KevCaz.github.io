@@ -8,8 +8,7 @@ A few days ago, as I was having a look at the list of aliases I use with
 [Zsh](http://zsh.sourceforge.net/), I realized that there was a ton of aliases
 available that I did not created:
 
-
-```shell
+```sh
 $ alias
 g=git
 gCO='gCo $(gCl)'
@@ -36,7 +35,7 @@ repository](https://github.com/sorin-ionescu/prezto/blob/master/modules/git/alia
 For the record, below is a selection that I find the most useful for my personal
 use.
 
-```
+```sh
 alias gr='git rebase'
 alias gir='git reset'
 alias gwx='git rm -r'
@@ -55,6 +54,6 @@ creates `.gitignore` file which ignores the
 files :laughing:) that some of my collaborators keep adding in the repositories
 we share...:scream:
 
-```
+```sh
 alias gig='echo ".DS_Store" > .gitignore
 ```

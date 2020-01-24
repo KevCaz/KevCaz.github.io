@@ -1,5 +1,5 @@
 ---
-title: "How many & or |?"
+title: "How many `&` or `|` ?"
 date: 2018-11-21
 tags: [R, bite operators, logical operators]
 ---

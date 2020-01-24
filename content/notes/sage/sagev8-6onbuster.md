@@ -13,7 +13,7 @@ $ apt-get install sagemath
 A bunch of packages are installed but the process is way faster than the > 3 hours of compilation using the GitHub repository. After this `sage` can be used in a terminal:
 
 ```python
-❯ sage
+$ sage
 ┌────────────────────────────────────────────────────────────────────┐
 │ SageMath version 8.6, Release Date: 2019-01-15                     │
 │ Using Python 2.7.15. Type "help()" for help.                       │

@@ -14,20 +14,20 @@ Out of curiosity, I checked out what [hunspell](http://hunspell.github.io/) is
 and then I checked the dictionaries currently installed on my device:
 
 ```sh
-❯ ls /usr/share/hunspell
+$ ls /usr/share/hunspell
 en_US.aff en_US.dic
 ```
 
 So, in order to use French dictionaries, I installed the following package:
 
 ```sh
-❯ sudo apt-get install hunspell-fr-modern/testing
+$ sudo apt-get install hunspell-fr-modern/testing
 ```
 
 Then I re-check the dictionaries installed:
 
 ```sh
-❯ ls /usr/share/hunspell
+$ ls /usr/share/hunspell
 en_US.aff  fr.aff     fr_BE.dic  fr_CA.dic  fr_CH.dic  fr_FR.aff  fr_LU.aff  fr_MC.aff
 en_US.dic  fr_BE.aff  fr_CA.aff  fr_CH.aff  fr.dic     fr_FR.dic  fr_LU.dic  fr_MC.dic
 ```
