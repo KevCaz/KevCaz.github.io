@@ -31,12 +31,7 @@
     {{ end }}
     <!-- END conf -->
     <!-- external links -->
-    {{ if .github }}
-    <a href="https://github.com/{{ .github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
-    {{ end }}
-    {{ if .html }}
-    <a href="{{ .html }}"><i class="fa fa-globe" aria-hidden="true"></i></a>
-    {{ end }}
+    {{ partial "links-icons.html" . }}
     <!-- END external links -->
     <em>{{ .description }}
       {{ if .lang }}
@@ -61,12 +56,7 @@
     {{ end }}
     <!-- END conf -->
     <!-- external links -->
-    {{ if .github }}
-    <a href="https://github.com/{{ .github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
-    {{ end }}
-    {{ if .html }}
-    <a href="{{ .html }}"><i class="fa fa-globe" aria-hidden="true"></i></a>
-    {{ end }}
+    {{ partial "links-icons.html" . }}
     <!-- END external links -->
     <em>{{ .description }}
       {{ if .lang }}
@@ -104,13 +94,7 @@
     <a href="{{ .url }}"> {{ .name }} </a> {{ dateFormat "01/2006" .date }}. {{ .where }}.
     {{ end }}
     <!-- END conf -->
-    <!-- external links -->
-    {{ if .github }}
-    <a href="https://github.com/{{ .github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
-    {{ end }}
-    {{ if .html }}
-    <a href="{{ .html }}"><i class="fa fa-globe" aria-hidden="true"></i></a>
-    {{ end }}
+    {{ partial "links-icons.html" . }}
     <!-- END external links -->
     <em>{{ .description }}
       {{ if .lang }}

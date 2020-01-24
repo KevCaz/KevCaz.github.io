@@ -1,0 +1,11 @@
+{{ if .github }}
+<a href="https://github.com/{{ .github }}"><i class="fab fa-github" aria-hidden="true"></i></a>
+{{ end }}
+
+{{ if .html }}
+<a href="{{ .html }}"><i class="fas fa-globe" aria-hidden="true"></i></a>
+{{ end }}
+
+{{ if .pdf }}
+<a href="{{ .pdf }}"><i class="far fa-file-pdf" aria-hidden="true"></i></a>
+{{ end }}

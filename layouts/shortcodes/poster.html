@@ -22,13 +22,13 @@
     {{ end }}
     <!-- END conf -->
     {{ if .DOI }}
-      DOI: <a href="https://doi.org/{{ .DOI }}">{{ .DOI }}</i></a>
+    <i:  class="ai ai-doi"></i: ><a href="https://doi.org/{{ .DOI }}">{{ .DOI }}</i></a>
     {{ end }}
     {{ if .researchgate }}
-      <a href="https://www.researchgate.net/{{ .researchgate }}"><i class="ai ai-researchgate" aria-hidden="true"></i></a>
+    <a href="https://www.researchgate.net/{{ .researchgate }}"><i class="ai ai-researchgate" aria-hidden="true"></i></a>
     {{ end }}
     {{ if .pdf }}
-      <a href="{{ .pdf }}"><i class="fa fa-file-image-o" aria-hidden="true"></i></a>
+      <a href="{{ .pdf }}"><i class="far fa-file-pdf" aria-hidden="true"></i></a>
     {{ end }}
   </li>
   {{ end }}
