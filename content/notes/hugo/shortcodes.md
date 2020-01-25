@@ -34,13 +34,13 @@ Also, I only use [.webm](https://en.wikipedia.org/wiki/WebM) file as it is an
 open video format for the web (and the default format of screencast in
 [GNOME](https://www.gnome.org/)). From now on, I include my screencast like so:
 
-````html
+```html
 {{</* screencast src="/notes/atom/assets/multicursors.webm" */>}}
 ```
 
 and if I want to modify the width, I simply do:
 
-````html
+```html
 {{</* screencast src="/notes/atom/assets/multicursors.webm" width="50%" */>}}
 ```
 

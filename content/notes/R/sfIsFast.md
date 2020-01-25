@@ -1,5 +1,5 @@
 ---
-title: "'sf' is fast"
+title: "`sf` is fast"
 date: 2018-11-09
 tags: [R, sf, GIS]
 ---

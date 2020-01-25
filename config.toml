@@ -49,7 +49,6 @@ defaultContentLanguageInSubdir = false
     "family.css",
   ]
   custom_js  = [
-    # "/js/mapoffice.js",
   ]
 
 
@@ -67,7 +66,7 @@ defaultContentLanguageInSubdir = false
     weight = 1
   [[menu.main]]
     identifier = "about"
-    name = "<i class='fas far fa-id-card'></i> About"
+    name = "<i class='fas fa-id-card'></i> About"
     url = "/about/"
     weight = 2
   [[menu.main]]
@@ -113,7 +112,7 @@ defaultContentLanguageInSubdir = false
 
 
 [[menu.main]]
-    name = "Blog"
+    name = "<i class='fas fa-blog'></i> Blog"
     identifier = "blog"
     url = "/econotes/"
     weight = 4
@@ -134,7 +133,7 @@ defaultContentLanguageInSubdir = false
     weight = 3
 
 [[menu.main]]
-    name = "Perso"
+    name = "<i class='fas fa-person-booth'></i> Personal stuff"
     identifier = "perso"
     weight = 5
 [[menu.main]]

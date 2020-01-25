@@ -1,5 +1,5 @@
 ---
-title: "Cannot boot again [SOLVED]"
+title: "Cannot boot again `[SOLVED]`"
 date: 2019-03-18
 tags: [Linux, Debian Testing, boot, BIOS, UEFI, GRUB2]
 ---
@@ -18,13 +18,13 @@ After the re-installation (2 weeks ago) on my system, I worked without rebooting
 
 On the MacOSX machine I had access, I used the following command line:
 
-```
-# dd bs=4m if=Downloads/debian-testing-amd64-DVD-1.iso of=/dev/disk1 && sync
+```sh
+$ dd bs=4m if=Downloads/debian-testing-amd64-DVD-1.iso of=/dev/disk1 && sync
 ```
 
 With Debian installer on my USB stick, I was able to use a GRUB2 terminal and found this post on [HowtoForge](https://www.howtoforge.com/tutorial/repair-linux-boot-with-grub-rescue/) to better understand what I was doing. Basically, I needed to set the path to properly boot, after checking where was my file system (using the GRUB's `ls` command I found that it was `(hd0,gpt2)` in my case), I followed [these guidelines](https://wiki.debian-fr.xyz/R%C3%A9installer_Grub2) :fr: and typed:
 
-```
+```sh
 grub> prefix=(hd0,gpt2)/boot/grub
 grub> set root=(hd0,gpt2)
 grub> insmod linux
@@ -37,8 +37,8 @@ Afterwards, I was then able to access my Debian partition on the boot menu (and 
 
 The last step was to reinstall GRUB on my hard drive (the steps about is just a work around to boot with a broken GRUB). After several unsuccessful attempts, I ended up checking out the [GRUB manual](http://www.gnu.org/software/grub/manual/grub/grub.html) and it turned out that all I had to do was to reinstall GRUB with a simple command line. First, I needed to locate the partition where the EFI system was installed:
 
-```
-# fdisk -l
+```sh
+$ fdisk -l
 [...]
 Device              Start        End    Sectors   Size Type
 /dev/nvme0n1p1       2048    1050623    1048576   512M EFI System
@@ -49,8 +49,8 @@ Device              Start        End    Sectors   Size Type
 
 and then I used `grub-install`:
 
-```
-# grub-install /dev/nvme0n1p1
+```sh
+$ grub-install /dev/nvme0n1p1
 ```
 
 #### And now **my computer boots properly** :fireworks: :trophy:!
