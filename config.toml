@@ -96,7 +96,7 @@ defaultContentLanguageInSubdir = false
     weight = 4
   [[menu.main]]
     parent = "research"
-    name = "Talks&Posters"
+    name = "Talks & Posters"
     url = "/talks/"
     weight = 5
   [[menu.main]]

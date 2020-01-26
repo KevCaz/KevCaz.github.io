@@ -1,5 +1,5 @@
 ---
-title: "<i class='fas fa-project-diagram'></i> Projects "
+title: "<i class='fas fa-project-diagram'></i> Projects"
 ---
 
 

@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+  <div class="article-meta">
+    <h1 id="title">{{ .Title | markdownify }}</h1>
+  </div>
+
+  <div class="article-main">
+    {{ .Content }}
+ 
+    <br>
+
+    <h2><i class='fas fa-chalkboard-teacher'></i> Conference talks</h2>
+
+    {{ partial "talks" . }}
+
+    <br>
+
+
+    <h2><i class='fas fa-chalkboard-teacher'></i> Seminars</h2>
+
+    {{ partial "seminar" . }}
+
+    <br>
+
+
+    <h2><i class='fas far fa-images'></i> Posters</h2>
+
+    {{ partial "poster" . }}
+
+  </div>
+
+{{ end }}
