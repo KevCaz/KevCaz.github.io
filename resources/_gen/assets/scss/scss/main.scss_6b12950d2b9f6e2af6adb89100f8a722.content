@@ -231,8 +231,6 @@
     text-align: center; }
     .ctt-main-content .article-meta #title h1 {
       margin: 2vh 0vh 2vh 0vh; }
-    .ctt-main-content .article-meta h2, .ctt-main-content .article-meta h3 {
-      margin: 1vh 0vh 1vh 0vh; }
     .ctt-main-content .article-meta .tags {
       margin-top: 12px;
       font-size: 1em;
@@ -297,6 +295,18 @@ p {
   font-family: inherit;
   font-weight: inherit; }
 
+h1 {
+  margin: 72px 0vh 36px 0vh; }
+
+h2 {
+  margin: 48px 0vh 24px 0vh; }
+
+h3 {
+  margin: 36px 0vh 18px 0vh; }
+
+h4, h5 {
+  margin: 24px 0vh 12px 0vh; }
+
 blockquote {
   border-left: solid 15px #d5ba9c;
   padding-left: 20px;
@@ -313,6 +323,20 @@ kbd {
   padding-left: 4px;
   padding-right: 4px;
   border: 4px solid #665d60; }
+
+.ctn-progress-bar {
+  color: #0d122f;
+  background-color: #0d122f;
+  margin: 1vh;
+  height: 36px;
+  font-size: 27px; }
+  .ctn-progress-bar .ctt-progress-bar {
+    height: 36px;
+    border: 0px;
+    background-color: #b95821;
+    text-align: center;
+    padding: 0px;
+    font-size: 1em; }
 
 li code, p code {
   font-family: 'Fira Code', monospace;

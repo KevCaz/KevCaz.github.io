@@ -1,0 +1,91 @@
+{{ define "main" }}
+
+  <div class="article-meta">
+    <h1 id="title">{{ .Title | markdownify }}</h1>
+  </div>
+
+  <div class="article-main">
+    {{ .Content }}
+  
+
+  <h2><i class="fas fa-graduation-cap"></i> Background</h2>
+
+  {{ range .Site.Data.educ.educs}}
+  <h4>
+   <span class="date">{{ .year }}</span>
+   <span class="large"><b>{{ .course}}</b></span>
+   {{ range .institution }}
+     <a href="{{ .url }}"> {{ .name }}</a>
+   {{ end }}
+  </h4>
+ {{ end }}
+
+
+  <h2><i class="fas fa-user-cog"></i> Skills</h2>
+
+  <p>For the sake of clarity I have grouped the computational tools I utilize under four categories. These categories are somewhat superficial from a practical standpoint as I use many of them inside <i class='fab fa-r-project'></i>.
+  For instance, even though I am able to code a standalone program in C++, I mainly call my C++ functions directly from <i class='fab fa-r-project'></i> using <a href="http://www.rcpp.org/">Rcpp</a>.
+  Also, although I am comfortable with Markdown and Pandoc, I often use <a href="https://rmarkdown.rstudio.com">R Markdown</a>. Similarly, I do most of my work with spatial data with <i class='fab fa-r-project'></i> (see this <a href="https://insileco.github.io/2018/04/14/r-in-space---a-series/">post on inSileco</a>) but I occasionally use <a href="https://qgis.org/en/site/">QuantumGIS</a>.
+  Finally, I&#39;d like to mention that I am currently working on Linux (Debian Testing) I used to work on MacOS and I have a little experience with several Linux distributions and Windows.</p>
+
+  <h3> <i class="fas fa-calculator"></i> Scientific computing </h3>
+
+  Programing languages I use to perform numerical simulations,
+  data analysis, statstics and data visualization. <br>
+
+  {{ range .Site.Data.skills.sci_computing }}
+    {{ partial "progress-bar-resume.html" . }}
+  {{ end }}
+
+  <h3> <i class="fas fa-database"></i> Database management and data serialization</h3>
+
+  On the top of the common spreasheet file formats, I use: <br>
+
+  {{ range .Site.Data.skills.database }}
+  {{ partial "progress-bar-resume.html" . }}
+  {{ end }}
+
+
+  <h3> <i class="fas fa-align-left"></i> Document prepration</h3>
+
+  To write manuscripts, I need to be well-equiped! <br>
+
+  {{ range .Site.Data.skills.docprep }}
+    {{ partial "progress-bar-resume.html" . }}
+  {{ end }}
+
+
+  <h3><i class="fas fa-globe"></i> Web development</h3>
+
+  I am not a web developer, yet I use different web laguages for blogging and retrieving data available online! <br>
+
+  {{ range .Site.Data.skills.web }}
+  {{ partial "progress-bar-resume.html" . }}
+  {{ end }}
+
+  <h2><i class="far fa-newspaper"></i> Media</h2>
+  {{ range .Site.Data.press.articles }}
+    <h4>
+      <span class = "date"> {{ .year }}: </span>
+      <span class = "large"> {{ .media }} </span>
+      ({{ .lang }})
+      <a href="{{ .url }}">
+        <i class="fas fa-external-link-alt"></i>
+      </a>
+    </h4>
+  {{ end }}
+
+
+
+</div>
+
+  
+
+
+
+{{ end }}
+
+
+
+
+

@@ -106,8 +106,8 @@ defaultContentLanguageInSubdir = false
     weight = 6
   [[menu.main]]
     parent = "research"
-    name = "CV"
-    url = "/cv/"
+    name = "Resume"
+    url = "/resume/"
     weight = 7
 
 

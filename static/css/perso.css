@@ -6,7 +6,7 @@
   margin: 6px;
 }
 
-.books h1, h2, h3, p {
+.books h1,.books h2, .books h3, .books p {
   padding: 0px;
   margin: 0px;
 }
@@ -28,7 +28,6 @@
 	margin-left:auto;
 	margin-right:auto;
 }
-
 
 .mg-bot {
   margin: 7px;
