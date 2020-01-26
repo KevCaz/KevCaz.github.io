@@ -10,51 +10,83 @@
         <div class="ctn-sidebar-primary">
             <div class="ctt-sidebar-primary">
                 {{ partial "sidebar-primary.html" . }}
-
                 <div class="footer">
                     {{ partial "footer.html" . }}
                 </div>
-
             </div>
         </div>
 
         <div class="ctn-main-content">
 
             <div class="ctt-main-content">
-                <h1 id="title"> {{ .Site.Title }}</h1>
-
-                <center>
-                  <img class="avatar" src="img/avatar.png" width=256px alt="avatar"></img>
-                  <!-- Kevin Cazelles -->
-                </center>
           
-
                 <div class="ctt-main-content">
-                     <div class="article-main">
-                        {{ .Content }}
+
+                    <h1 id="title">Welcome</h1>
+                                            
+                    <div class="ctn-home">
+
+                        <div class="ctn-home-half">
+                        <div class="mission">
+                        <h2 id="skip">I am Kevin Cazelles, a ecologist who uses</h2>
+                        <h3 id="title">
+                        algebra, analysis, probability, statistics and computational sciences</h3>
+                        <h2 id="skip">to study</h2> 
+                        <h3 id="title">
+                        ecological networks and how global change affects them
+                        </h3>
+                        <h2 id="skip">in order to</h2> 
+                        <h3 id="title">
+                            conserve ecosystem functions and biodiversity that are essential our good health and well being.
+                        </h3>
+                        </div>
+                        </div>
+
+                        <div class="ctn-home-half">
+                            <center>
+                                <img src="img/wordcloud.png" alt="wordcloud" width="88%"></img>
+                            </center>
+                        </div>
+
                     </div>
 
-                    <div class="ctn-news">
-                      <h2> <i class="fas fa-code" aria-hidden="true"></i>&nbsp;Latest <a href="/notes/">Siliconote</a> </h2>
-                      {{ range where .Site.Pages.ByDate.Reverse ".Type" "==" "notes" | first 2 }}
-                      <h4 style="font-weight:bolder;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+                    <br><h1 id="title">News</h1>
+            
+                    <div class="ctn-home">
+
+
+                    <div class="ctn-home-bighalf">
+
+                      <h2> <i class="fas fa-code" aria-hidden="true"></i>&nbsp;Latest <a href="/notes/">Siliconotes</a> </h2>
+                      <ol>
+                          
+                      {{ range where .Site.Pages.ByDate.Reverse ".Type" "==" "notes" | first 10 }}
+                      <li style="font-weight:bolder;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                       {{ end }}
+
+                    </ol>
+
+                      <h2><i class="fas fa-tree" aria-hidden="true"></i>&nbsp;Latest <a href="/notes/">Econotes</a></h2>
                       <!--  -->
-                      <h2><i class="fas fa-tree" aria-hidden="true"></i>&nbsp;Latest <a href="/notes/">Econote</a></h2>
-                      <!--  -->
+                      <ol>
                       {{ range where .Site.Pages.ByDate.Reverse ".Type" "==" "econotes" | first 2 }}
-                      <h4 style="font-weight:bolder;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+                      <li style="font-weight:bolder;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                       {{ end }}
+                    </ol>
                     </div>
 
-                    <div class="ctn-twitter">
-                      <a class="twitter-timeline" href="https://twitter.com/{{ .Site.Params.twitter }}" data-width="100%" data-height="740" data-chrome="nofooter noborders hoheader">
+                    <div class="ctn-home-smallhalf">
+                      <a class="twitter-timeline" href="https://twitter.com/{{ .Site.Params.twitter }}" data-width="98%" data-height="1000" data-chrome="nofooter noborders hoheader transparent">
                         <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                       </a>
                     </div>
+
+                </div>
+
+                </div>
+
                 </div>
    
-            </div>
 
             <div class="footer2">
                 {{ partial "footer.html" . }}

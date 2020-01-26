@@ -20,19 +20,19 @@
           </h3>
 
           {{ if .type }}
-            <i class="fas fa-tag" aria-hidden="true"></i>&nbsp;
+            <i class="fas fa-tag"></i>&nbsp;
             {{ .type }}
             <br>
           {{ end }}
 
           {{ with .info }}
-            <i class="fas fa-info-circle" aria-hidden="true"></i>&nbsp;
+            <i class="fas fa-info-circle"></i>&nbsp;
             <a href="{{ .url }}"> {{ .name }} </a>
             <br>
           {{ end }}
 
           {{ if .comments }}
-            <i class="far fa-comment" aria-hidden="true"></i>&nbsp;
+            <i class="far fa-comment"></i>&nbsp;
             {{ .comments }}
           {{ end }}
 
