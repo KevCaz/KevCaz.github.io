@@ -1,40 +1,38 @@
+<div class="books">
 {{ range $index := (seq 2019 2018) }}
 
-  <h2> {{ $index }} </h2>
+  <h1>{{ $index }}</h1>
 
   {{ range $.Site.Data.books.books }}
 
     {{ if eq .year $index }}
 
-    <div class="books">
-
-      <div class="row">
-
-        <div class="col-sm-2">
+      <div class="ctn-book">
+        <div class="ctt-book-img">
           <img src="{{ .url_img }}" alt="{{ .title }}" width = "100%">
         </div>
 
-        <div class="col-sm-10">
-          <h1>{{.title}}</h1>
-          <h2>
-          <i class="fa fa-user" aria-hidden="true"></i>&nbsp;
+        <div class="ctt-book-content">
+          <h2>{{.title}}</h2>
+          <h3>
+          <i class="fas fa-user-tie"></i>&nbsp;
           {{ .author }}
-          </h2>
+          </h3>
 
           {{ if .type }}
-            <i class="fa fa-tag" aria-hidden="true"></i>&nbsp;
+            <i class="fas fa-tag" aria-hidden="true"></i>&nbsp;
             {{ .type }}
             <br>
           {{ end }}
 
           {{ with .info }}
-            <i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;
+            <i class="fas fa-info-circle" aria-hidden="true"></i>&nbsp;
             <a href="{{ .url }}"> {{ .name }} </a>
             <br>
           {{ end }}
 
           {{ if .comments }}
-            <i class="fa fa-commenting" aria-hidden="true"></i>&nbsp;
+            <i class="far fa-comment" aria-hidden="true"></i>&nbsp;
             {{ .comments }}
           {{ end }}
 
@@ -42,10 +40,9 @@
 
       </div>
 
-    </div>
-
     {{ end }}
 
   {{ end }}
 
 {{ end }}
+</div>

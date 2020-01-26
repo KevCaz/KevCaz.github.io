@@ -1,9 +1,5 @@
 .books {
-  border-radius: 12px;
-  border-style: solid;
-  border-color: #e7e7e7;
-  padding: 6px;
-  margin: 6px;
+  padding: 12px;
 }
 
 .books h1,.books h2, .books h3, .books p {
@@ -21,6 +17,29 @@
   font-size: 1.25em;
   padding: 0px;
   margin-bottom: 3px;
+}
+
+.ctn-movie, .ctn-book {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+
+.ctn-book {
+  margin-top: 1vh;
+  border: solid;
+  padding: 6px;
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #e7e7e7;
+}
+
+.ctt-book-img {
+  width: 16%;
+}
+.ctt-book-content {
+  width: 80%;
 }
 
 .twitter-tweet-rendered {
