@@ -9,7 +9,7 @@ title: "<i class='far fa-address-card'></i> About"
 
 I'm **Kevin Cazelles** and for over six years now, I have been tackling
 research challenges in various areas of ecology. I have mainly been focusing on
-theory in macro-ecology and network ecology (see my [PhD
+theory in macro-ecology and network ecology (check out my [PhD
 dissertation](/docs/thesekc.pdf)) but I have also been working on various
 topics such as epidemics, forest dynamics, homogenization of fish communities,
 analysis of media coverage, meta-ecosystems and food security. I have been
