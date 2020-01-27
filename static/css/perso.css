@@ -5,23 +5,22 @@
 .mission {
   font-family: "AMA";
   text-align: center;
+  font-size: .8em;
 }
 
 .mission h2 {
   color: #b95821;
-  font-size: 1em;
 }
 
 .mission h3 {
-  font-size: .8em;
   margin: 8px 0px 4px 0px;
 }
 
 #title-home {
   font-family: "AMA";
   text-align: center;
-  font-size: 4em;
-  margin-bottom: 5vh;
+  font-size: 2.8em;
+  margin-bottom: 3vh;
 }
 
 
