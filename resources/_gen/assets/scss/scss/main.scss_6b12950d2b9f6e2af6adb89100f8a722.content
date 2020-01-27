@@ -13,10 +13,10 @@
   background-color: #0d122f;
   min-height: 100vh;
   color: #bccdec; }
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 1400px) {
     .ctn-sidebar-primary {
       width: 30%; } }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 1200px) {
     .ctn-sidebar-primary {
       width: 100%;
       text-align: center;
@@ -27,7 +27,7 @@
 .ctt-sidebar-primary {
   width: 100%;
   font-size: 1.1em; }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 1200px) {
     .ctt-sidebar-primary {
       padding: 6px 0px 6px 0px; }
       .ctt-sidebar-primary h1 {
@@ -88,7 +88,7 @@
     display: none;
     font-size: 1.1em;
     margin: 1vh 0vh 1vh 0vh; }
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 1200px) {
       .ctt-sidebar-primary .primary-sidebar-premenu {
         display: block; } }
   .ctt-sidebar-primary #current {
@@ -107,10 +107,10 @@
 .footer {
   padding: 6vh 6px 6px 12px;
   font-size: 1em; }
-  .footer i, .footer ai {
-    font-size: inherit;
+  .footer .social-media-banner i, .footer .social-media-banner ai {
+    font-size: 1.4em;
     color: #bccdec; }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 1200px) {
     .footer {
       display: none; } }
   .footer #hr-footer {
@@ -129,7 +129,7 @@
   @media only screen and (max-width: 1800px) {
     .ctn-sidebar-secondary {
       width: 18%; } }
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 1400px) {
     .ctn-sidebar-secondary {
       width: 100%;
       display: none; } }
@@ -172,10 +172,10 @@
   @media only screen and (max-width: 1800px) {
     .ctn-main-content {
       width: 62%; } }
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 1400px) {
     .ctn-main-content {
       width: 70%; } }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 1200px) {
     .ctn-main-content {
       width: 100%;
       display: flex;
@@ -189,7 +189,7 @@
   margin-bottom: 2vh;
   font-size: 1.1em;
   color: #0d122f; }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 1200px) {
     .ctt-main-content {
       flex: 1 0 auto; } }
   .ctt-main-content p {
@@ -206,6 +206,9 @@
     .ctt-main-content #title code {
       font-family: "Fira Code", monospace;
       color: #b95821; }
+    .ctt-main-content #title i, .ctt-main-content #title ai {
+      padding-left: 4px;
+      padding-right: 4px; }
   .ctt-main-content h1 {
     font-size: 2em; }
   .ctt-main-content .listings {
@@ -261,7 +264,7 @@
   width: 100%;
   background-color: #0d122f;
   color: #bccdec; }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 1200px) {
     .footer2 {
       display: block;
       width: 100%;
@@ -318,8 +321,8 @@ mark {
   background-color: #bccdec; }
 
 i, ai {
-  padding-left: 2px;
-  padding-right: 2px; }
+  padding-left: 4px;
+  padding-right: 4px; }
 
 kbd {
   font-family: "Fira Code", monospace;
