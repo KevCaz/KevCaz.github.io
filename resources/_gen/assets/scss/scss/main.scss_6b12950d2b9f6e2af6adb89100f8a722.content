@@ -26,7 +26,7 @@
 
 .ctt-sidebar-primary {
   width: 100%;
-  font-size: 1.1em; }
+  font-size: 1em; }
   @media only screen and (max-width: 900px) {
     .ctt-sidebar-primary {
       padding: 10px 0px 10px 0px; }
@@ -64,8 +64,7 @@
     margin: 1vh 0vh 2vh 0vh; }
     .ctt-sidebar-primary h2 button, .ctt-sidebar-primary h2 a, .ctt-sidebar-primary h3 button, .ctt-sidebar-primary h3 a {
       color: inherit;
-      text-decoration: none;
-      outline: 2; }
+      text-decoration: none; }
       .ctt-sidebar-primary h2 button:hover, .ctt-sidebar-primary h2 a:hover, .ctt-sidebar-primary h3 button:hover, .ctt-sidebar-primary h3 a:hover {
         color: #d5ba9c; }
     .ctt-sidebar-primary h2 i, .ctt-sidebar-primary h2 ai, .ctt-sidebar-primary h3 i, .ctt-sidebar-primary h3 ai {
