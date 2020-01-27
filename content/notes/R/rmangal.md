@@ -1,5 +1,5 @@
 ---
-title: "rmangal [redirect]"
+title: "rmangal `[REDIRECT]`"
 date: 2019-10-22
 tags: [R, rOpenSci, data access, Mangal, web API]
 ---

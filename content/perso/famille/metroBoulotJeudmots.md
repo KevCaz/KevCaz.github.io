@@ -1,6 +1,5 @@
 ---
-title: "Métro, boulot, jeu de mots!"
-layout: regular
+title: "Metro, boulot, jeu de mots!"
 date: 2019-11-26
 ---
 

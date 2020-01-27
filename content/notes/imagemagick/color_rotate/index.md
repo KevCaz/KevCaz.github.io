@@ -12,107 +12,92 @@ an image and I would like to show how simple it is here. Note that in order to
 show what the different command lines yoeld, I've used the PNG file of the
 GitHub Octocat (`Octocat.png`) available at https://github.com/logos.
 
-<br>
 {{< figcenter "Octocat.png" 30 "Octocat.png" >}}
-<br>
-
 
 To fill `Octocat.png` with black, I've used the following command line:
 
-```
+```sh
 $ convert Octocat.png -fill black -colorize 100% Octocat_black.png
 ```
 
 that created `Octocat_black.png`
 
 {{< figcenter "Octocat_black.png" 30 "Octocat_black.png" >}}
-<br>
+
 
 the option `-fill` accept all color format listes at  https://imagemagick.org/script/color.php. For instance I can use `#80cbc3`
 
 
-```
+```sh
 $ convert Octocat.png -fill '#80cbc3' -colorize 100 Octocat_blue.png
 ```
-<br>
 
 {{< figcenter "Octocat_blue.png" 30 "Octocat_blue.png" >}}
-<br>
 
 Note that the `%` after 100 is optional. Using a value lower that 100, say 80 o4 40, tints the image with the desired color!
 
 
-```
+```sh
 $ convert Octocat.png -fill '#80cbc3' -colorize 80 Octocat_blue80.png
 ```
 
-<br>
 {{< figcenter "Octocat_blue80.png" 30 "Octocat_blue80.png" >}}
-<br>
 
-<br>
-```
+
+```sh
 $ convert Octocat.png -fill '#80cbc3' -colorize 40 Octocat_blue40.png
 ```
 
-<br>
 {{< figcenter "Octocat_blue40.png" 30 "Octocat_blue40.png" >}}
-<br>
 
 Using a value above 100 yield funky results (I did not check whether this is expected)
 
-```
+```sh
 $ convert Octocat.png -fill '#80cbc3' -colorize 200 Octocat_weird.png
 ```
 
-<br>
 {{< figcenter "Octocat_weird.png" 30 "Octocat_weird.png" >}}
-<br>
-
 
 It is also pretty straight forward to add a background to the image as explain in [this article available at codeyarns.com](https://codeyarns.com/2014/11/19/how-to-set-background-color-in-imagemagick/)
 
-```
+
+```sh
 $ convert Octocat.png -background '#80cbc3' -flatten Octocat_bg.png
 ```
 
-<br>
 {{< figcenter "Octocat_bg.png" 30 "Octocat_bg.png" >}}
-<br>
+
 
 Note that `-flatten` is required otherwise it would not add the background layer required.
 As explained in the [documentation](https://imagemagick.org/script/command-line-options.php#layers) `flatten` does the following :
 
->  	Create a canvas the size of the first images virtual canvas using the current -background color, and -compose each image in turn onto that canvas. Images falling outside that canvas is clipped. Final image will have a zero virtual canvas offset.
+>  Create a canvas the size of the first images virtual canvas using the current -background color, and -compose each image in turn onto that canvas. Images falling outside that canvas is clipped. Final image will have a zero virtual canvas offset.
 
 
 Rotating an image is even more simple, is only requires to use the `roate` option (see the list of options avialble for `convert` at https://imagemagick.org/script/convert.php)
 
 
-```
+```sh
 $ convert Octocat.png -rotate "45" Octocat_45.png
 ```
 
-<br>
 {{< figcenter "Octocat_45.png" 30 "Octocat_45.png" >}}
-<br>
 
 
 Finally, all the step above can be combined is one line to do multiple transformations at once !
 
-```
+```sh
 $ convert Octocat.png -background black -flatten -rotate "-45" -fill '#80cbc3' -colorize 80 Octocat_all.png
 ```
 
-<br>
 {{< figcenter "Octocat_all.png" 30 "Octocat_all.png" >}}
-<br>
+
 <br>
 
 
 To conclude this note, I'd like to mention that I'm currently using ImageMagick 6
 
-```
+```sh
 $ convert --version
 Version: ImageMagick 6.9.10-23 Q16 x86_64 20190101 https://imagemagick.org
 Copyright: © 1999-2019 ImageMagick Studio LLC

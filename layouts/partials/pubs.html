@@ -1,13 +1,14 @@
+
 <ol>
   {{ $letk := "Kevin" | truncate 1 "." }}
-  {{ range .Site.Data.pubs.references}}
-  <li class="pubs_li">
+  {{ range .Site.Data.pubs.references }}
+  <li>
     {{ $len := len .author }}
     {{ $len2 := sub $len 1 }}
     {{ range $i, $e := .author}}
       {{ $let := .given | truncate 1 "." }}
       {{ if (and (eq .family "Cazelles") (eq $let $letk)) }}
-        <b><span style="color: #337ab7">
+        <b><span style="color: #b95821;">
           {{ .family }} {{ $let }}</span></b>{{ if eq $len2 $i }}.{{ else }},{{ end }}
       {{ else }}
         {{ .family }} {{ $let }}{{ if eq $len2 $i }}{{ else }},{{ end }}
@@ -16,23 +17,17 @@
     {{ range .issued }}
       ({{ .year }}).
     {{ end }}
-
-
     <b>{{ .title }}</b>
-
     {{ if .container }}
       {{ .container }}.
     {{ end }}
-
     {{ if .volume }}
       <em>{{ .volume }}</em>{{ if .issue }}({{ .issue }}){{ end }}
     {{ end }}
-
-
-    {{ if .DOI }}
-      DOI: <a href="{{ .URL }}">{{ .DOI }}</a>
-    {{ end }}
-
+    {{ if .DOI }}<i class='ai ai-doi'></i> <a href="{{ .URL }}">{{ .DOI }}</a>{{ end }}
+    <a href="mailto:kevin.cazelles@gmail.com?subject=Paper%20Request&amp;body=Dear%20Kevin%2C%20%0A%0AI%20would%20like%20to%20have%20a%20copy%20of%20the%20following%20paper%3A%20%22{{ .title }}%22.%0A%0ASincerely%2C"><i class='far fa-envelope'></i></a>
   </li>
   {{ end }}
 </ol>
+
+<i class='fab fa-researchgate'></i>

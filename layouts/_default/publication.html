@@ -1,9 +1,20 @@
 {{ define "main" }}
 
-  {{ partial "title1" . }}
+  <div class="article-meta">
+    <h1 id="title">{{ .Title | markdownify }}</h1>
+  </div>
 
-  {{ .Content }}
+  <div class="article-main">
+    {{ .Content }}
+  </div>
 
-  {{ partial "pubs" . }}
-
+  <div class="listings">
+    <div class="pubs">
+      {{ partial "pubs" . }}
+    </div>
+  </div>
+ 
 {{ end }}
+
+
+

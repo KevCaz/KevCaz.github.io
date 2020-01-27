@@ -21,7 +21,7 @@ deleting them. To do so, I wrote the following bash script to distribute the
 simulations on 5 nodes and use 4 CPUs per node:
 
 
-```shell
+```sh
 #!/bin/bash
 #SBATCH --time=6:00:00
 #SBATCH --nodes=5

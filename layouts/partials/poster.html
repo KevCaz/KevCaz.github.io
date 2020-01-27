@@ -8,7 +8,7 @@
     {{ range $i, $e := .author}}
       {{ $let := .given | truncate 1 "." }}
       {{ if (and (eq .family "Cazelles") (eq $let $letk)) }}
-        <b><span style="color: #337ab7">
+        <b><span style="color: #b95821;">
           {{ .family }} {{ $let }}</span></b>{{ if eq $len2 $i }}.{{ else }},{{ end }}
       {{ else }}
         {{ .family }} {{ $let }}{{ if eq $len2 $i }}{{ else }},{{ end }}
@@ -22,13 +22,13 @@
     {{ end }}
     <!-- END conf -->
     {{ if .DOI }}
-      DOI: <a href="https://doi.org/{{ .DOI }}">{{ .DOI }}</i></a>
+    <i:  class="ai ai-doi"></i: ><a href="https://doi.org/{{ .DOI }}">{{ .DOI }}</i></a>
     {{ end }}
     {{ if .researchgate }}
-      <a href="https://www.researchgate.net/{{ .researchgate }}"><i class="ai ai-researchgate" aria-hidden="true"></i></a>
+    <a href="https://www.researchgate.net/{{ .researchgate }}"><i class="ai ai-researchgate" aria-hidden="true"></i></a>
     {{ end }}
     {{ if .pdf }}
-      <a href="{{ .pdf }}"><i class="fa fa-file-image-o" aria-hidden="true"></i></a>
+      <a href="{{ .pdf }}"><i class="far fa-file-pdf" aria-hidden="true"></i></a>
     {{ end }}
   </li>
   {{ end }}

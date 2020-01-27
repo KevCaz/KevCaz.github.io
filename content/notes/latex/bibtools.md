@@ -16,14 +16,12 @@ Let's assume that there are two `bib` files within the manuscript folder:
 
 I added these two files below:
 
-
-<br>
-
 <details>
 <summary>
-  <a>click to display kevcaz.bib <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+  <a>click to display kevcaz.bib</a>
 </summary>
-```tex
+
+```latex
 % kevcaz.bib
 @Article{	 alroy_new_2015,
   title		= {A new twist on a very old binary similarity coefficient},
@@ -57,10 +55,12 @@ I added these two files below:
 </details>
 
 <details>
+
 <summary>
-  <a>click to display coauthor.bib <i class="fa fa-chevron-down" aria-hidden="true"></i> </a>
+  <a>click to display coauthor.bib</a>
 </summary>
-```tex
+
+```latex
 % coauthor.bib
 @article{morales-castilla_inferring_2015,
 	title = {Inferring biotic interactions from proxies},
@@ -100,9 +100,8 @@ I added these two files below:
   pages		= {575--586}
 }
 ```
-</details>
 
-<br>
+</details>
 
 Then, what I want is to merge them into one single file `biblio_sorted.bib` (the
 one to be used as reference data base for the manuscript) and I also want to
@@ -126,13 +125,12 @@ Where :
 
  Below is the final file with two comments of my own:
 
- <br>
-
 <details>
 <summary>
-  <a>click to display biblio_sorted.bib <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+  <a>click to display biblio_sorted.bib</a>
 </summary>
-```tex
+
+```latex
 % biblio_sorted
 @Article{	  alroy_new_2015,
   title		= {A new twist on a very old binary similarity coefficient},
@@ -205,9 +203,9 @@ Where :
   pages		= {546--555}
 }
 ```
+
 </details>
 
-<br>
 
 Pretty neat, isn't it? Plus, if you are familiar with
 [Makefiles](https://www.gnu.org/software/make/manual/html_node/Introduction.html),

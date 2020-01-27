@@ -1,60 +1,54 @@
 baseurl = "https://kevcaz.github.io/"
 relativeurls = true
 languageCode = "en-us"
-title = "KevCaz Home Page"
+title = "KevCaz's Website"
 copyright = "&copy; 2019 Kevin Cazelles. "
-theme = "hugo-KevCaz"
+theme = "funkyflex"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
+pygmentsUseClasses = false
 
-# Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+style = "dracula"
+lineNos = true
+
+
+
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
-[blackfriday]
-  hrefTargetBlank = true
 
 [params]
   name = "Kevin Cazelles"
   role = "Post-doctoral fellow in theoretical and computational ecology [@McCann Lab](https://mccannlab.ca/)"
   organization = "Department of Integrated Biology, University of Guelph"
   organization_url = "https://www.uoguelph.ca/ib/"
-  # avatar = "kevcazava.jpg"
-  twitter = "KCazelles"
   github = "KevCaz"
+  orcid = "0000-0001-6619-9874"
+  researchgate = "Kevin_Cazelles"
+  twitter = "KCazelles"
+  googlescholar = "xzvcu7cAAAAJ&hl"
   address = "Department of Integrative Biology, Summerlee Science Complex, University of Guelph, Guelph, ON N1G 2W1"
   office_hours = "Send me an email for setting an appointment."
   email = "kcazelle@uoguelph.ca"
   phone = "+1 519 824 4120 (ext. 53700)"
-  skype = "diazthc"
-  skype_name = "Kevin Cazelles"
-
   # Date format (refer to Go's date format: http://flippinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
   date_format = "Mon, Jan 2, 2006"
-
-  #  For more info on the highlighting options, see:   # https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/#highlighting-options
-  highlight = true
-  highlight_languages = ["bash", "julia", "python", "r", "rust", "xml", "yaml", "tex", "shell", "matlab"]
-  highlight_style = "tomorrow-night-eighties"
-  highlight_version = "9.15.8"
-
-  # I follow the example given with highlightjs in academic theme to add mathjax and lealfet
-  mathjax = true
-  leaflet = true
+  footer = "Website built with <a href='https://gohugo.io/'>Hugo</a>. <br><i class='fas fa-code'></i> available on <a href='https://github.com/KevCaz/KevCaz.github.io'><i class='fab fa-github'></i></a>. <br>Content under <a href='https://creativecommons.org/publicdomain/zero/1.0'><i class='fab fa-creative-commons'></i> <i class='fab fa-creative-commons-zero'></i></a> unless otherwise specified."
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
   custom_css = [
-    "/css/perso.css",
-    "/css/family.css",
-    "/css/creativecommons.css",
+    "perso.css",
+    "family.css",
   ]
   custom_js  = [
-    # "/js/mapoffice.js",
   ]
 
 
@@ -63,96 +57,105 @@ defaultContentLanguageInSubdir = false
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
-[[menu.main]]
-    name = "Research"
-    weight = 1
 
-[[menu.main]]
-    parent = "Research"
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "<i class='fas fa-home'></i> Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "about"
+    name = "<i class='fas fa-id-card'></i> About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    identifier = "research"
+    name = "<i class='fas fa-microscope'></i> Research"
+    url = "/research/"
+    weight = 3  
+  [[menu.main]]
+    parent = "research"
     name = "Projects"
     url = "/projects/"
     weight = 1
-[[menu.main]]
-    parent = "Research"
+  [[menu.main]]
+    parent = "research"
     name = "Publications"
     url = "/publications/"
     weight = 2
-[[menu.main]]
-    parent = "Research"
+  [[menu.main]]
+    parent = "research"
     name = "Software"
     url = "/software/"
     weight = 3
-[[menu.main]]
-    parent = "Research"
+  [[menu.main]]
+    parent = "research"
     name = "Software"
     url = "/software/"
     weight = 4
-[[menu.main]]
-    parent = "Research"
-    name = "Talks&Posters"
+  [[menu.main]]
+    parent = "research"
+    name = "Talks & Posters"
     url = "/talks/"
     weight = 5
-[[menu.main]]
-    parent = "Research"
+  [[menu.main]]
+    parent = "research"
     name = "Teaching"
     url = "/teaching/"
     weight = 6
-[[menu.main]]
-    parent = "Research"
-    name = "CV"
-    url = "/cv/"
+  [[menu.main]]
+    parent = "research"
+    name = "Resume"
+    url = "/resume/"
     weight = 7
 
 
 [[menu.main]]
-    name = "BlogPro"
+    name = "<i class='fas fa-blog'></i> Blog"
+    identifier = "blog"
     url = "/econotes/"
-    weight = 6
+    weight = 4
 [[menu.main]]
-    parent = "BlogPro"
+    parent = "blog"
     name = "EcoNotes"
     url = "/econotes/"
     weight = 1
 [[menu.main]]
-    parent = "BlogPro"
+    parent = "blog"
     name = "SilicoNotes"
     url = "/notes/"
     weight = 2
 [[menu.main]]
-    parent = "BlogPro"
+    parent = "blog"
     name = "inSileco"
     url = "https://insileco.github.io/"
     weight = 3
 
 [[menu.main]]
-    name = "Perso"
-    url = "/perso/"
-    weight = 7
+    name = "<i class='fas fa-person-booth'></i> Personal stuff"
+    identifier = "perso"
+    weight = 5
 [[menu.main]]
-    parent = "Perso"
+    parent = "perso"
     name = "Books I read and liked"
     url = "/perso/books"
     weight = 1
 [[menu.main]]
-    parent = "Perso"
+    parent = "perso"
     name = "Movies I watched and liked"
     url = "/perso/movies"
     weight = 2
 [[menu.main]]
-    parent = "Perso"
+    parent = "perso"
     name = "Opinions I dare to share"
     url = "/perso/opinions"
     weight = 3
 [[menu.main]]
-    parent = "Perso"
+    parent = "perso"
     name = "Even more personnal"
     url = "/perso/famille"
     weight = 4
-
-# icon (font-awesome)
-[[menu.icon]]
-    name = "github"
-    url = "https://github.com/KevCaz/KevCaz.github.io"
 
 
 # Taxonomies.

@@ -1,0 +1,27 @@
+<ul>
+  {{ range .Site.Data.talks.seminar }}
+  <li class="pubs_li">
+    <!-- authors -->
+    {{ $letk := "Kevin" | truncate 1 "." }}
+    {{ $len := len .author }}
+    {{ $len2 := sub $len 1 }}
+    {{ range $i, $e := .author}}
+      {{ $let := .given | truncate 1 "." }}
+      {{ if (and (eq .family "Cazelles") (eq $let $letk)) }}
+        <b><span style="color: #b95821;7">
+          {{ .family }} {{ $let }}</span></b>{{ if eq $len2 $i }}.{{ else }},{{ end }}
+      {{ else }}
+        {{ .family }} {{ $let }}{{ if eq $len2 $i }}{{ else }},{{ end }}
+      {{ end }}
+    {{ end }}
+    <!-- END authors -->
+    <b> {{ .title }}. </b>
+    <!-- where -->
+    <a href="{{ .url }}"> {{ .where }} </a> {{ dateFormat "06/01/2006" .date }}.
+    <!-- END conf -->
+    <!-- external links -->
+    {{ partial "links-icons.html" . }}
+    <!-- END external links -->
+  </li>
+  {{ end }}
+</ul>

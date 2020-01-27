@@ -1,121 +1,31 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic');
-@import url('https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css');
-
-
-body {
-  font-size: 16px!important;
-}
-
-video {
-  padding-top: 5px;
-  padding-bottom: 10px;
-}
-
-.img_moovies {
-  overflow: hidden;
-  max-height: 19rem;
-  margin-bottom: 1rem !important;
-}
-
-.avatar {
-	margin-bottom: 10px;
-}
-
-.bg_grey {
-	background-color: #f8f8f8;
-	border-top: 1px solid #e7e7e7;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	/* position: fixed; */
-	/* height: 200px; */
-	/* width: 100%; */
-	/* bottom: 0px; */
-}
-
-.tags {
-  font-weight: 600;
-}
-.tags a:hover {
-    color: white;
-}
-
-.role {
-  text-align: center;
-  color: #444;
-}
-
-.title{
-  font-size: .9em !important;
-}
-
-.date {
-  color: #444;
-  font-size: 1.1em;
-}
-
-.pubs_li {
-  font-size: 1.05em;
-  padding-top: 10px;
-}
-
-.anchor {
-   position: relative;
-}
-
-.anchor span {
-   position: absolute;
-   top: -78px;
-}
-
-.mysticky {
-  display: block;
-  position: fixed;
-  top: 52px;
-}
-
-.navbar-icon {
-  font-size: 1.4em;
-}
-
-pre {
-    padding: 8px !important;
-    margin: 0 0 10px;
-    line-height: 1.42857143;
-    background-color: #2d2d2d !important;
-    border: 2px solid #2d2d2d !important;
-    border-radius: 7px !important;
-}
-
-kbd {
-    background-color: #272822 !important;
-}
-
-pre > code {
-    font-family: "Fira Code";
-}
-
-#map {
-  height: 350px;
-  width: 100%;
-  float: center;
-  display: inline-block;
-  background-color:black;
-  margin: 6px;
- }
-
-blockquote {
-  font-size: 1.05em !important;
-}
-
 .books {
-  border-radius: 12px;
-  border-style: solid;
-  border-color: #e7e7e7;
-  padding: 6px;
-  margin: 6px;
+  padding: 12px;
 }
 
-.books h1, h2, h3, p {
+.mission {
+  font-family: "AMA";
+  text-align: center;
+}
+
+.mission h2 {
+  color: #b95821;
+  font-size: 1em;
+}
+
+.mission h3 {
+  font-size: .8em;
+  margin: 8px 0px 4px 0px;
+}
+
+#title-home {
+  font-family: "AMA";
+  text-align: center;
+  font-size: 4em;
+  margin-bottom: 5vh;
+}
+
+
+.books h1,.books h2, .books h3, .books p {
   padding: 0px;
   margin: 0px;
 }
@@ -132,16 +42,81 @@ blockquote {
   margin-bottom: 3px;
 }
 
-.twitter-tweet-rendered {
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
+.ctn-movie, .ctn-book, .ctn-home {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+  align-items: center;
 }
 
-.highlight {
-  background-color: #d5f6ff;
+.ctn-home-half {
+  display: block;
+  width: 48%;
+}
+
+.ctn-home-bighalf {
+  display: block;
+  width: 70%;
+}
+
+.ctn-home-smallhalf {
+  display: block;
+  width: 28%;
+}
+
+.ctn-book {
+  margin-top: 1vh;
+  border: solid;
+  padding: 6px;
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #e7e7e7;
+}
+
+.ctt-book-img {
+  width: 16%;
+}
+.ctt-book-content {
+  width: 80%;
+}
+
+.twitter-tweet-rendered {
+	margin-left:auto;
+  margin-right:auto;
 }
 
 .mg-bot {
   margin: 7px;
+}
+
+.avatar {
+  width: 30vh;
+}
+
+
+.software-mozaic {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+  width: 100%;
+}
+
+.software-mozaic-unit {
+  width: 46%;
+  padding: 12px;
+}
+
+@media screen and (max-width: 800px) {
+  .software-mozaic-unit {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .ctn-home-half, .home-bighalf, .home-smallhalf {
+    width: 100%;
+  }
 }

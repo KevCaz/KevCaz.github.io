@@ -18,7 +18,7 @@ alias mykbl='sudo tee /sys/class/leds/tpacpi::kbd_backlight/brightness <<<'
 To understand the lines above you must know what [tee](https://en.wikipedia.org/wiki/Tee_(command)) is and what are [here-strings](https://www.tldp.org/LDP/abs/html/x17837.html) (for the latter I found [this answer](https://unix.stackexchange.com/questions/80362/what-does-mean) pretty useful). So now, let's say I want to change my backlight to medium intensity, if so I would open my terminal and then type:
 
 ```sh
-mysbl 800
+$ mysbl 800
 ```
 
 That's it! I wish this will be fixed soon, I guess I have to reinstall something... If I found a solution or if a future update fixes this, I'll write another note, in the meanwhile I'll keep using theses aliases!

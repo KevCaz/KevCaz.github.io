@@ -2,13 +2,15 @@
 title: "Homogenization of freshwater lakes "
 date: 2019-09-20
 tags: [homogenization, fish community, Ontario, publication]
+math: true
 ---
+
 
 This was originally posted on https://mccannlab.ca/post/2019/09/20/homogenization-of-freshwater-lakes/
 
 
 
-# :us:
+# English version :uk:
 
 What happened to fish communities in Ontario lakes over the last few decades? We
 have been relentlessly looking for answers to this question! Indeed, we did our
@@ -113,7 +115,7 @@ access the paper or have further questions.
 
 
 
-# :fr:
+# French version :fr:
 
 Que s'est-il passé dans les communautés de poissons des lacs en Ontario au cours des dernières décennie? Et ben nous avons justement essayé de trouver des réponses à cette question. Plus précisément, nous avons essayé de determiner si les changements globaux ont affecté ces communautés au cours des 40 dernières années. Nous nous sommes aperçus que les communautés ont bien changées mais que les changements climatiques n'expliquent pas très bien nos observations :boom:! Mais comment en sommes-nous arrivé a une telle conclusion? C'est justement le sujet de ce billet!
 

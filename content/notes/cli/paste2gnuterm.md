@@ -125,7 +125,7 @@ application (for instance, from my Internet browser :wink:).
 
 #### Extra readings
 
-First of all, in order to create the script above I've got good hints reading [this answer on <i class="fa fa-stack-exchange" aria-hidden="true"></i>](
+First of all, in order to create the script above I've got good hints reading [this answer on <i class="fab fa-stack-exchange"></i>](
 https://unix.stackexchange.com/questions/11889/pasting-x-selection-not-clipboard-contents-with-keyboard)! Second, there is a tool similar to `xclip`: [xsel](https://github.com/kfish/xsel) that you can use here (see below) and  [Fernando Basso wrote a nice piece about these two](https://fernandobasso.github.io/shell/copy-paste-from-command-line-xclip-xsel-clipboard.html) that I strongly recommend (obviously, you should also look at the documentation: `man xclip` and `man xdotool`). Third, you should better read a bit about `xdotool` as it is pretty handy: it simulates keyboard input and mouse activity, so you can create script that resize windows, enter keys, [clicks](https://www.youtube.com/watch?v=SIjumbdkq_w), etc. Note that due to its nature, it does interact with your own activity and [that is why using `sleep` could be useful](https://stackoverflow.com/questions/34092604/xdotool-why-sleep-before-running-commands), it took me some time to understand this but it explains why some time your script does not work!
 
 #### Using `xsel` instead of `xlip`

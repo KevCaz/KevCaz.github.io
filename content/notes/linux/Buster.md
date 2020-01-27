@@ -8,7 +8,7 @@ I have been on Debian *buster* for more than a year while it was the Debian Test
 
 What does this change on my end? Not much! Basically, as I was already using *buster* in my  `/etc/apt/sources.list.d/` file, when I used `apt-get update` I got the following message:
 
-```
+```sh
 Get:1 http://security.debian.org/debian-security buster/updates InRelease [39.1 kB]
 Get:2 http://deb.debian.org/debian buster InRelease [118 kB]           
 [... NOT SHOWN FOR THE SAKE OF BRIVETY]
@@ -19,11 +19,12 @@ N: This must be accepted explicitly before updates for this repository can be ap
 [... NOT SHOWN FOR THE SAKE OF BRIVETY]
 ```
 
-As explained [on <i class="fa fa-stack-exchange" aria-hidden="true"></i>](
+As explained [on <i class="fab fa-stack-exchange"></i>](
 https://superuser.com/questions/1456989/how-to-configure-apt-in-debian-buster-after-release), all I had to do was:
 
-```
-# apt-get update --allow-releaseinfo-change
+```sh
+$ apt-get update --allow-releaseinfo-change
 ```
 
 I am gonna stick to Buster for a couple of months and I'll switch to Debian 11 [*bullseye*](https://pixar.fandom.com/wiki/Bullseye) at the end of this year, or early 2020!
+

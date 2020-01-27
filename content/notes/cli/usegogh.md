@@ -8,7 +8,7 @@ As mentioned in a [previous note](/notes/cli/paste2gnuterm), I now use Atom toge
 
 Once Gnome Terminal opened, use (as explained on the website):
 
-```
+```sh
 $  bash -c  "$(wget -qO- https://git.io/vQgMr)"
 ```
 

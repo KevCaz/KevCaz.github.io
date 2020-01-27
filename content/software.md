@@ -1,6 +1,5 @@
 ---
-title: Software
-icon: code
+title: "<i class='fas fa-code'></i> Software"
 layout: software
 ---
 

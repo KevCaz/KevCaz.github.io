@@ -15,13 +15,13 @@ Basically, the sources of sage are [mirrored on Github](https://github.com/sagem
 so one can clone the repository:
 
 ```sh
-git clone https://github.com/sagemath/sage.git
+$ git clone https://github.com/sagemath/sage.git
 ```
 
 and then use the Makefile
 
 ```sh
-make
+$ make
 ```
 
 It took some time :hourglass:

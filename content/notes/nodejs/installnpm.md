@@ -30,8 +30,8 @@ installation:
 
 The first option is rather straightforward:
 
-```
-sudo apt-get install nodejs npm
+```sh
+$ sudo apt-get install nodejs npm
 ```
 
 Note that on Debian Buster, you will have the following version installed:
@@ -45,14 +45,14 @@ v10.15.2
 
 The second option requires to run a small command line
 
-```
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
+```sh
+$ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
 ```
 
 which installs Node.js, npm and the following lines to `.bashsrc`:
 
-```
-export NVM_DIR="$HOME/.nvm"
+```sh 
+$ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_com$
 ```
@@ -62,7 +62,7 @@ it is better to use NVM (cannot find where anymore) but I don't understand why
 this would be true except to get the latest version of nodejs and npm. And this is why I
 decided to use [NVM (Node Version Manager)](https://github.com/nvm-sh/nvm). Once installed I checked where were the corresponding binary and the versions:
 
-```
+```sh
 $ type node
 /home/kevcaz/.nvm/versions/node/v13.0.1/bin/node
 $ which npm
@@ -76,14 +76,14 @@ $ npm -v
 I then installed `decktape` and `gtop`:
 
 
-```
-npm i decktape gtop -g
+```sh
+$ npm i decktape gtop -g
 ```
 
 it worked pretty well! And the commands are also installed in `~/.nvm` :boom:.
 
 
-```
+```sh
 $ type gtop
 gtop is /home/kevcaz/.nvm/versions/node/v13.0.1/bin/gtop
 ```
@@ -91,7 +91,7 @@ gtop is /home/kevcaz/.nvm/versions/node/v13.0.1/bin/gtop
 During this process, I figured that I was able to have two versions installed,
 one installed via `apt-get` and the other by NVM and so, while I have v13.0.1 installed via NVM, I also had v10.13.0.
 
-```
+```sh
 $ whereis node
 node: /usr/bin/node /usr/include/node /home/kevcaz/.nvm/versions/nv13.0.1/bin/node /usr/share/man/man1/node.1.gz
 ```
@@ -101,5 +101,3 @@ installed twice at different locations with different versions wasn't the best
 thing to do and so I removed v10.13.0. I may change this in the future if I use
 nodejs for other Debian packages, in which case I will write a follow up to this
 note :smile:!
-
-`

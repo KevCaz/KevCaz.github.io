@@ -63,4 +63,4 @@ So, now when I enter `julia` in my terminal, I get:
 ![](/notes/julia/assets/juliaV1.png)
 
 
-# :fireworks: :fire: :star2:  :fireworks: :fire: :star2:
+Youhou! :fireworks: :fire: :star2:  :fireworks: :fire: :star2:

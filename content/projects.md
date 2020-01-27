@@ -1,8 +1,6 @@
 ---
-title: Projects
-icon: "briefcase"
-layout: "regular"
+title: "<i class='fas fa-project-diagram'></i> Projects"
 ---
 
 
-# :construction: WIP :construction: 
+# :construction: :construction: WIP :construction: :construction:

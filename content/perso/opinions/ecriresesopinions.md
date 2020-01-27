@@ -1,5 +1,5 @@
 ---
-title: "Écrire ses opinions prend du temps!"
+title: "Ecrire ses opinions prend du temps!"
 date: 2019-10-05
 tags: [pensée, écriture, organisation]
 ---

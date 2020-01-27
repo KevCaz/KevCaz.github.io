@@ -1,5 +1,5 @@
 ---
-title: "Dual Boot MacOS/Ubuntu"
+title: "Dual Boot MacOS-Ubuntu"
 date: 2019-07-16
 tags: [hardware, installation, setup, MacBookPro, MacOS, Linux, Debian, Ubuntu]
 ---
@@ -43,7 +43,7 @@ the `View` menu in Disk Utility in order to select the hard drive -- not a
 container). Afterwards I installed [Homebrew](https://brew.sh/) and a couple of
 of software for the time being, i.e. I opened the terminal and entered:
 
-```
+```sh
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 $ brew install git imagemagick ffmpeg docker hugo R postgresql hugo
 $ brew cask install atom firefox google-chrome iterm julia libreoffice vlc sage
@@ -76,14 +76,14 @@ the installer on my USD stick. Note that I got the right location, `disk1`,
 using `diskutil list` in a terminal (I would have used `lsblk` on Debian). So
 here is what I did:
 
-```
+```sh
 $ sudo umount /dev/<disk?>
 $ dd if=./ubuntu-18.04.2-desktop-amd64.iso of=<disk?> bs=4m && sync
 ```
 
 where `<disk?>` was replaced by `disk1` in my case. For the records, I would have done the following on Debian:
 
-```
+```sh
 $ sudo umount /dev/<disk?>
 $ sudo dd bs=4M if=./ubuntu-18.04.2-desktop-amd64.iso of=/dev/<disk?> conv=fdatasync
 ```
@@ -92,7 +92,7 @@ where `<disk?>` would have been `sda1` (again, in my case). Once the Ubuntu
 installer created I rebooted and held `alt` to launch the Ubuntu installer. The
 tricky part was to find the right partition so I used the partition manager to select the right partition (for me it was `sda4` and I needed to first remove it with `-` to turn it into free space which I used to install Ubuntu. Once done, I installed several packages:
 
-```
+```sh
 # apt-get update && apt-get upgrade
 # apt-get install inkscape libreoffice gimp imagemagick ffmpeg vlc git inxi \
   openssh-server gconf2 pandoc texlive fonts-powerline zsh cmake python-pip \
@@ -101,7 +101,7 @@ tricky part was to find the right partition so I used the partition manager to s
 
 and below are a couple of characteristics of my MacBookPro returned by [inxi](https://github.com/smxi/inxi) on my Ubuntu partition:
 
-```
+```sh
 $ inxi -SMCGP
 System:    Host: kevcaz-mbp Kernel: 4.18.0-25-generic x86_64 bits: 64 Desktop: Gnome 3.28.4
           Distro: Ubuntu 18.04.2 LTS
@@ -118,7 +118,6 @@ Graphics:  Card-1: Intel 3rd Gen Core processor Graphics Controller
           OpenGL: renderer: NVE7 version: 4.3 Mesa 18.2.2
 Partition: ID-1: / size: 458G used: 11G (3%) fs: ext4 dev: /dev/sda4
 ```
-
 
 When I first rebooted my Mac, I was confused because Ubuntu was directly
 launched and I cannot select the MacOS partition. After a couple of minutes I

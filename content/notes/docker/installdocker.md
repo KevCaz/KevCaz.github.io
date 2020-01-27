@@ -16,7 +16,7 @@ Basically, instead of installing software in a way that very much likely depends
 The steps to install docker on debian are thoroughly described [here](https://docs.docker.com/install/linux/docker-ce/debian/)
 Few months ago, I thought `sudo apt-get install docker` was enough, but I realized that it installs an old version of docker:
 
-```
+```sh
 $ apt policy docker
 docker:
  Installed: (none)
@@ -31,7 +31,7 @@ docker:
 After I completed all the steps to install the most recent stable version of
 docker, version `18.09` was installed.
 
-```
+```sh
 $ docker -v
 Docker version 18.09.0, build 4d60db4
 ```
