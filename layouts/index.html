@@ -28,7 +28,7 @@
 
                         <div class="ctn-home-half">
                         <div class="mission">
-                        <h2 id="skip">I am Kevin Cazelles, a ecologist who uses</h2>
+                        <h2 id="skip">I am Kevin Cazelles, an ecologist who uses</h2>
                         <h3 id="title">
                         algebra, analysis, probability, statistics and computational sciences</h3>
                         <h2 id="skip">to study</h2> 
@@ -60,7 +60,7 @@
                       <h2> <i class="fas fa-code" aria-hidden="true"></i>&nbsp;Latest <a href="/notes/">Siliconotes</a> </h2>
                       <ol>
                           
-                      {{ range where .Site.Pages.ByDate.Reverse ".Type" "==" "notes" | first 10 }}
+                      {{ range where .Site.Pages.ByDate.Reverse ".Type" "==" "notes" | first 7 }}
                       <li style="font-weight:bolder;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                       {{ end }}
 
@@ -76,7 +76,7 @@
                     </div>
 
                     <div class="ctn-home-smallhalf">
-                      <a class="twitter-timeline" href="https://twitter.com/{{ .Site.Params.twitter }}" data-width="98%" data-height="1000" data-chrome="nofooter noborders hoheader transparent">
+                      <a class="twitter-timeline" href="https://twitter.com/{{ .Site.Params.twitter }}" data-width="98%" data-height="800" data-chrome="nofooter noborders hoheader transparent">
                         <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                       </a>
                     </div>
