@@ -17,7 +17,6 @@ facing a wide spectrum of technical problems and have acquired a very broad set
 of quantitative skills including wavelets analysis, biodiversity analysis,
 network analysis, Bayesian statistics, etc.
 
-
  <!-- I am currently doing quantitative ecology for a
 leaving. As such, I do my best to apply the results of abstract investigations
 to tangible challenges such as the impact of global change on ecological
@@ -27,12 +26,9 @@ communities. -->
 
 ## Contact
 
-
 I am a currently a post-doctoral fellow at [the McCann
 Lab](http://www.mccannlab.ca) at the [University of Guelph](https://www.uoguelph.ca/)
-(see map below).
-
-The easiest to contact is to send me an email <a href="mailto:kevin.cazelles@gmail.com?subject=Paper%20Request&amp;body=Dear%20Kevin%2C%20%0A%0AMessage%0A%0ASincerely%2C"><i class='far fa-envelope'></i></a> but you can also reach me at the 
+(see map below). The easiest to contact is to send me an email <a href="mailto:kevin.cazelles@gmail.com?subject=Paper%20Request&amp;body=Dear%20Kevin%2C%20%0A%0AMessage%0A%0ASincerely%2C"><i class='far fa-envelope'></i></a> but you can also reach me at the 
 following phone numbers **+1 519 824 4120 (ext. 53700)**.
 
 <center>
