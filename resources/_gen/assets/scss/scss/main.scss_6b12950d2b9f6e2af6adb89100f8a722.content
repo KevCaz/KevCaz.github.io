@@ -26,10 +26,10 @@
 
 .ctt-sidebar-primary {
   width: 100%;
-  font-size: 1em; }
+  font-size: 1.1em; }
   @media only screen and (max-width: 900px) {
     .ctt-sidebar-primary {
-      padding: 10px 0px 10px 0px; }
+      padding: 6px 0px 6px 0px; }
       .ctt-sidebar-primary h1 {
         margin: 1vh 0vh 1vh 0vh; }
       .ctt-sidebar-primary .primary-sidebar-menu {
@@ -41,7 +41,9 @@
     padding: 6px; }
   .ctt-sidebar-primary i, .ctt-sidebar-primary ai {
     font-size: inherit;
-    color: #d5ba9c; }
+    color: #d5ba9c;
+    padding-right: 3px;
+    padding-left: 3px; }
   .ctt-sidebar-primary a {
     color: inherit;
     text-decoration: none;
@@ -64,7 +66,8 @@
     margin: 1vh 0vh 2vh 0vh; }
     .ctt-sidebar-primary h2 button, .ctt-sidebar-primary h2 a, .ctt-sidebar-primary h3 button, .ctt-sidebar-primary h3 a {
       color: inherit;
-      text-decoration: none; }
+      text-decoration: none;
+      outline: 2; }
       .ctt-sidebar-primary h2 button:hover, .ctt-sidebar-primary h2 a:hover, .ctt-sidebar-primary h3 button:hover, .ctt-sidebar-primary h3 a:hover {
         color: #d5ba9c; }
     .ctt-sidebar-primary h2 i, .ctt-sidebar-primary h2 ai, .ctt-sidebar-primary h3 i, .ctt-sidebar-primary h3 ai {
@@ -330,10 +333,10 @@ kbd {
   color: #0d122f;
   background-color: #0d122f;
   margin: 1vh;
-  height: 36px;
-  font-size: 27px; }
+  height: 24px;
+  font-size: 24px; }
   .ctn-progress-bar .ctt-progress-bar {
-    height: 36px;
+    height: 24px;
     border: 0px;
     background-color: #b95821;
     text-align: center;
