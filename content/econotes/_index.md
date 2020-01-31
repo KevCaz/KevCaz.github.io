@@ -1,6 +1,5 @@
 ---
-title: "EcoNotes"
-icon: pencil
+title: "<i class='fab fa-canadian-maple-leaf'></i> EcoNotes"
 layout: list
 ---
 

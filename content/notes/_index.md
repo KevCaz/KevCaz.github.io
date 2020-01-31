@@ -1,7 +1,5 @@
 ---
-title: Notes
-icon: pencil-square-o
-layout: list
+title: "<i class='fas fa-code-branch'></i> SilicoNotes"
 date: 2018-09-01
 ---
 
