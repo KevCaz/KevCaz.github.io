@@ -11,11 +11,30 @@ This is where the projects I am part of will be listed.
 
 # Species distribution and interaction 
 
+### Recent papers
+
+### Recent talks
+
 # Food webs, communities and disturbacnces 
+
+### Recent papers
+
+### Recent talks
+
 
 # Ontarian Fish community 
 
+### Recent papers
+
+### Recent talks
+
+
 # Ecological data 
+
+### Recent papers
+
+### Recent talks
+
 
 
 
