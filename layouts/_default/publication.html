@@ -4,10 +4,6 @@
     <h1 id="title">{{ .Title | markdownify }}</h1>
   </div>
 
-  <div class="article-main">
-    {{ .Content }}
-  </div>
-
   <div class="listings">
     <div class="pubs">
       {{ partial "pubs" . }}

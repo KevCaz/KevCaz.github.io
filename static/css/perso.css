@@ -1,6 +1,3 @@
-.books {
-  padding: 12px;
-}
 
 .mission {
   font-family: "AMA";
@@ -22,22 +19,35 @@
   margin-bottom: 3rem;
 }
 
+#title-home h1 {
+  font-size: 10rem !important;
+}
 
-.books h1,.books h2, .books h3, .books p {
+
+.books {
   padding: 0px;
-  margin: 0px;
 }
 
 .books h1 {
-  font-size: 1.6em;
-  padding: 0px;
-  margin-bottom: 6px;
+  font-size: 2.4rem;
+  padding: 0rem;
+  margin-bottom: 0rem;
 }
 
 .books h2 {
-  font-size: 1.25em;
+  font-size: 1.25rem;
   padding: 0px;
-  margin-bottom: 3px;
+  margin-bottom: .2rem;
+}
+
+.books h3 {
+  margin-top: .4rem;
+  margin-bottom: .6rem;
+}
+
+ .books h4, .books h5 {
+  margin-bottom: .4rem;
+  margin-top: .2rem;
 }
 
 .ctn-movie, .ctn-book, .ctn-home {
@@ -66,10 +76,10 @@
 .ctn-book {
   margin-top: 1vh;
   border: solid;
-  padding: 6px;
-  border-radius: 12px;
+  padding: .4rem;
+  border-radius: .6rem;
   border-style: solid;
-  border-color: #e7e7e7;
+  border-color: #d5ba9c;
 }
 
 .ctt-book-img {
@@ -80,16 +90,25 @@
 }
 
 .twitter-tweet-rendered {
-	margin-left:auto;
-  margin-right:auto;
+	margin:auto;
 }
 
 .mg-bot {
-  margin: 7px;
+  margin: 2rem;
 }
 
 .avatar {
-  width: 30vh;
+  width: 100%;
+}
+
+.frame1 {
+  border: 10px solid;
+  /* border-image-source: linear-gradient(45deg, #b95821, #b95821; */
+  /* border-image-slice: 1; */
+}
+
+.home-main {
+  padding: 3%;
 }
 
 
@@ -116,6 +135,6 @@
 @media screen and (max-width: 1200px) {
   .ctn-home-half, .ctn-home-bighalf, .ctn-home-smallhalf {
     width: 100%;
-    margin-bottom: 2VH;
+    margin-bottom: 2vh;
   }
 }
