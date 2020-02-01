@@ -107,6 +107,11 @@
   /* border-image-slice: 1; */
 }
 
+.flexstart {
+  align-items: flex-start;
+}
+
+
 .home-main {
   padding: 3%;
 }
