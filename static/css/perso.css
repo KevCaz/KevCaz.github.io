@@ -5,22 +5,21 @@
 .mission {
   font-family: "AMA";
   text-align: center;
-  font-size: .9em;
 }
 
 .mission h2 {
+  font-size: 2rem;
   color: #b95821;
 }
 
 .mission h3 {
-  margin: 8px 0px 4px 0px;
+  font-size: 1.6rem;
 }
 
 #title-home {
   font-family: "AMA";
   text-align: center;
-  font-size: 2.8em;
-  margin-bottom: 3vh;
+  margin-bottom: 3rem;
 }
 
 
@@ -56,12 +55,12 @@
 
 .ctn-home-bighalf {
   display: block;
-  width: 70%;
+  width: 64%;
 }
 
 .ctn-home-smallhalf {
   display: block;
-  width: 28%;
+  width: 34%;
 }
 
 .ctn-book {
@@ -107,15 +106,16 @@
   padding: 12px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .software-mozaic-unit {
     width: 100%;
   }
 }
 
 
-@media screen and (max-width: 1000px) {
-  .ctn-home-half, .home-bighalf, .home-smallhalf {
+@media screen and (max-width: 1200px) {
+  .ctn-home-half, .ctn-home-bighalf, .ctn-home-smallhalf {
     width: 100%;
+    margin-bottom: 2VH;
   }
 }

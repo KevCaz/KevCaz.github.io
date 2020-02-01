@@ -22,21 +22,21 @@
           
                 <div class="ctt-main-content">
 
-                    <h1 id="title">Welcome</h1>
+                    <h1 id="title">Welcome!</h1>
                                             
                     <div class="ctn-home">
 
                         <div class="ctn-home-half">
                         <div class="mission">
                         <h2 id="skip">I am Kevin Cazelles, an ecologist who uses</h2>
-                        <h3 id="title">
+                        <h3 id="title-home">
                         algebra, analysis, probability, statistics and computational sciences</h3>
                         <h2 id="skip">to study</h2> 
-                        <h3 id="title">
+                        <h3 id="title-home">
                         ecological networks and how global change affects them
                         </h3>
                         <h2 id="skip">in order to</h2> 
-                        <h3 id="title">
+                        <h3 id="title-home">
                             conserve ecosystem functions and biodiversity that are essential our good health and well being.
                         </h3>
                         </div>
@@ -57,7 +57,7 @@
 
                     <div class="ctn-home-bighalf">
 
-                      <h2> <i class="fas fa-code" aria-hidden="true"></i>&nbsp;Latest <a href="/notes/">Siliconotes</a> </h2>
+                      <h3> <i class="fas fa-code" aria-hidden="true"></i>&nbsp;Latest <a href="/notes/">Siliconotes</a> </h3>
                       <ol>
                           
                       {{ range where .Site.Pages.ByDate.Reverse ".Type" "==" "notes" | first 7 }}
@@ -66,7 +66,7 @@
 
                     </ol>
 
-                      <h2><i class="fas fa-tree" aria-hidden="true"></i>&nbsp;Latest <a href="/notes/">Econotes</a></h2>
+                      <h3><i class="fas fa-tree" aria-hidden="true"></i>&nbsp;Latest <a href="/notes/">Econotes</a></h3>
                       <!--  -->
                       <ol>
                       {{ range where .Site.Pages.ByDate.Reverse ".Type" "==" "econotes" | first 2 }}
@@ -76,7 +76,7 @@
                     </div>
 
                     <div class="ctn-home-smallhalf">
-                      <a class="twitter-timeline" href="https://twitter.com/{{ .Site.Params.twitter }}" data-width="98%" data-height="500" data-chrome="nofooter noborders hoheader transparent">
+                      <a class="twitter-timeline" href="https://twitter.com/{{ .Site.Params.twitter }}" data-width="98%" data-height="600" data-chrome="nofooter noborders hoheader transparent">
                         <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                       </a>
                     </div>
