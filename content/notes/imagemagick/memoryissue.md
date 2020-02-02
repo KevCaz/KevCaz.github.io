@@ -8,8 +8,8 @@ tags: [ImageMagick, image manipulation, convert, memory]
 
 Today, I was [combining a set of images](/notes/imagemagick/combineimage/) like so:
 
-```
-convert -append figP*.png out.png
+```sh
+$ convert -append figP*.png out.png
 ```
 
 when I got error stating that `cache resources exhausted`. I was first surprised because it was the same set of images I combined a couple of days before EXCEPT that I significantly increased their resolution. So I  googled the error message and found [this issue](https://github.com/ImageMagick/ImageMagick/issues/396) on the GitHub repository of ImageMagick.
@@ -22,13 +22,13 @@ Well, turns out it was not a issue at all, I simply needed to change the memory 
 So, all I had to do was to go to `/etc/ImageMagick-6` (with a *k*, there is a typo in the original comment quoted above) and
 modify `policy.xml`: I changed
 
-```
+```xml
 <policy domain="resource" name="memory" value="256MiB"/>
 ```
 
 for
 
-```
+```xml
 <policy domain="resource" name="memory" value="1GiB"/>
 ```
 

@@ -25,7 +25,7 @@ Once installed, the following command line does the conversion
 $ pdftotext input.pdf output.txt
 ```
 
-There are several additional option and if one means to extract a table, the `-layout` option is pretty helpful as it maintains the original physical layout (as explained [documentation]https://www.xpdfreader.com/pdftotext-man.html):
+There are several additional option and if one means to extract a table, the `-layout` option is pretty helpful as it maintains the original physical layout (as explained in the [documentation](https://www.xpdfreader.com/pdftotext-man.html)):
 
 
 ```sh
