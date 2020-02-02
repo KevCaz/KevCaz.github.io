@@ -50,7 +50,7 @@ The `#SBATCH` instructions do the following:
 
 and in the main command:
 
-```
+```sh
 $ parallel --delay 1 Rscript ./scr_extract.R $SLURM_ARRAY_TASK_ID {1} {2} ::: {1..2} ::: {1..2}
 ```
 

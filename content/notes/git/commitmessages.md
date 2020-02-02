@@ -21,24 +21,22 @@ When you are working on a project with GitHub (or a similar web service based on
 
 Let's say, my commit adds a new function to my project, then I'd write something like:
 
-```
-git commit -m "add fun() that does this :hammer:"
+```sh
+$ git commit -m "add fun() that does this :hammer:"
 ```
 
 And if the function is fairly simple, I may commit the function together with the corresponding unit testing, in which case I'd write:
 
-```
-git commit -m "add fun() that does this and test it :hammer: :shield:"
+```sh
+$ git commit -m "add fun() that does this and test it :hammer: :shield:"
 ```
 
 As you can see, I add the commit at the end of the message. This looks something like this is my commit messages locally:
 
-{{< imgcenter "/notes/git/assets/gitCommits.png" 80 >}}
-
-<br>
+{{< imgcenter "/notes/git/assets/gitCommits.png" 92 >}}
 
 
-And like this on GitHub!
+but it looks like this on GitHub!
 
 ![](/notes/git/assets/githubCommits.png)
 
