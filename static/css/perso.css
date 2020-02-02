@@ -19,9 +19,9 @@
   font-size: 4rem;
 }
 
-
-
-
+.pubs li {
+  margin-bottom: .4rem;
+}
 
 .books {
   padding: 0px;
