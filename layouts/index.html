@@ -59,22 +59,26 @@
 
                     <div class="ctn-home-bighalf">
 
-                      <h3> <i class="fas fa-code" aria-hidden="true"></i>&nbsp;Latest <a href="/notes/">Siliconotes</a> </h3>
-                      <ol>
-                          
-                      {{ range where .Site.Pages.ByDate.Reverse ".Type" "==" "notes" | first 7 }}
-                      <li style="font-weight:bolder;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-                      {{ end }}
+                    
+                    <h3> <i class="fas fa-code" aria-hidden="true"></i> Latest 
+                    <a href="/notes/">Siliconotes</a></h3>
+                        <div class="listings">
+                        <ol>
+                        {{ range where .Site.Pages.ByDate.Reverse ".Type" "==" "notes" | first 7 }}
+                        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                        {{ end }}
+                        </ol>
+                    </div>
 
-                    </ol>
-
-                      <h3><i class="fas fa-tree" aria-hidden="true"></i>&nbsp;Latest <a href="/econotes/">Econotes</a></h3>
-                      <!--  -->
-                      <ol>
-                      {{ range where .Site.Pages.ByDate.Reverse ".Type" "==" "econotes" | first 2 }}
-                      <li style="font-weight:bolder;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                    <br>
+                    <h3><i class="fas fa-tree" aria-hidden="true"></i> Latest <a href="/econotes/">Econotes</a></h3>
+                        <div class="listings">
+                        <ol>
+                        {{ range where .Site.Pages.ByDate.Reverse ".Type" "==" "econotes" | first 2 }}
+                        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                       {{ end }}
-                    </ol>
+                        </ol>
+                        </div>
                     </div>
 
                     <div class="ctn-home-smallhalf">
