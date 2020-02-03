@@ -1,3 +1,7 @@
+img, iframe, video { 
+  max-width: 100%; 
+  margin: 1rem 0rem 1rem 0rem;
+}
 
 .mission {
   font-family: "AMA";
@@ -100,7 +104,7 @@
   width: 100%;
 }
 
-.frame1 {
+#map, .frame1 {
   border: 10px solid;
   /* border-image-source: linear-gradient(45deg, #b95821, #b95821; */
   /* border-image-slice: 1; */
@@ -110,9 +114,15 @@
   align-items: flex-start;
 }
 
-
 .home-main {
   padding: 3%;
+}
+
+.mozaic {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-around;
+  align-items: center;
 }
 
 
@@ -129,16 +139,16 @@
   padding: 12px;
 }
 
-@media screen and (max-width: 1000px) {
-  .software-mozaic-unit {
-    width: 100%;
-  }
-}
-
 
 @media screen and (max-width: 1200px) {
   .ctn-home-half, .ctn-home-bighalf, .ctn-home-smallhalf {
     width: 100%;
     margin-bottom: 2vh;
+  }
+  .software-mozaic-unit {
+    width: 100%;
+  }
+  .mozaic-element {
+    width: 100% !important;
   }
 }
