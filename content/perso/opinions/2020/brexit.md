@@ -35,7 +35,7 @@ compliqués](https://www.cairn.info/revue-politique-europeenne-2002-2-page-36.ht
 et qu'il était très rétifs à une intégration plus poussée dans les dernières années. 
 
 
-(et les [problémes ont commencé avec son entrée dans la CEE](https://www.franceinter.fr/emissions/affaires-sensibles/affaires-sensibles-14-septembre-2017). Alors, on peut envisgaé que les membres 
+(et les [depuis sont entrée un peu forcée](https://www.franceinter.fr/emissions/affaires-sensibles/affaires-sensibles-14-septembre-2017). Alors, on peut envisgaé que les membres 
 seront libérés du leste que représentation pour aller vers une intégration plus 
 poussé. 
 

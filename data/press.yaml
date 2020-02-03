@@ -1,42 +1,51 @@
-articles:
-  - media: "Québec Science"
-    title: "Une carte des interactions entre les poissons de toutes les mers"
-    year:  2020
-    lang:  fr
-    url:   "https://www.quebecscience.qc.ca/sciences/les-10-decouvertes-de-2019/carte-interactions-entre-poissons/"
-  - media: Science
-    year:  2019
-    lang:  en
-    url:   "https://science.sciencemag.org/content/366/6472/1468.1/tab-pdf"
-  - media: la Presse
-    year:  2018
-    lang:  fr
-    url:   "http://www.lapresse.ca/environnement/climat/201803/06/01-5156225-la-biodiverite-dans-lombre-des-changements-climatiques.php"
-  - media: Anthropocenemagazine
-    year:  2018
-    url:   "http://www.anthropocenemagazine.org/2018/02/biodiversity-ignored-by-press/"
-    lang:  en
-  - media: Greenreport
-    year:  2018
-    url:   "http://www.greenreport.it/news/aree-protette-e-biodiversita/la-crisi-della-bodiversita-non-interessa-media/"
-    lang:  it
-  - media: 20 minutes
-    year:  2018
-    url:   "https://www.20minutes.fr/planete/2234443-20180308-pourquoi-parle-bien-plus-cangement-climatique-erosion-biodiversite"
-    lang:  fr
-  - media: CNRS
-    year:  2018
-    url:   "http://www.cnrs.fr/inee/communication/breves/b337.html"
-    lang:  fr
-  - media: le Devoir
-    year:  2018
-    url:   "http://www.ledevoir.com/socie dpkg-reconfigure localeste/education/518374/les-deux-derniers-laureats-de-l-acfas-reviennent-sur-leu-experience"
-    lang:  fr
-  - media: UQAR Info
-    year:  2018
-    url:   "https://www.uqar.ca/nouvelles/uqar-info/2266-un-diplome-de-l-uqar-remporte-une-distinction-pour-sa-these-en-biogeographie"
-    lang:  fr
-  - media: Consulat général de France à Québec
-    year:  2018
-    url:   "https://quebec.consulfrance.org/La-recherche-en-cotutelle-vue-par-Kevin-Cazelles"
-    lang:  fr
+---
+media:
+
+    - media: "Québec Science"
+      title: "Une carte des interactions entre les poissons de toutes les mers"
+      year: 2020
+      type: \faPen
+      lang: fr
+      url: "https://www.quebecscience.qc.ca/sciences/les-10-decouvertes-de-2019/carte-interactions-entre-poissons/"
+    - media: Science
+      title: "Trees stumped"
+      type: \faPen
+      year: 2019
+      lang: en
+      url: "https://science.sciencemag.org/content/366/6472/1468.1"
+    - media: la Presse
+      title: "La biodiversité dans l'ombre des changements climatiques"
+      year: 2018
+      type: \faPen
+      lang: fr
+      url: http://www.lapresse.ca/environnement/climat/201803/06/01-5156225-la-biodiversite-dans-lombre-des-changements-climatiques.php
+    - media: Anthropocenemagazine
+      year: 2018
+      url: http://www.anthropocenemagazine.org/2018/02/biodiversity-ignored-by-press/
+      title: "As biodiversity declines, so does public attention"
+      type: \faPen
+      lang: en
+    - media: Greenreport
+      title: "La crisi della biodiversità non interessa i media"
+      year: 2018
+      url: http://www.greenreport.it/news/aree-protette-e-biodiversita/la-crisi-della-biodiversita-non-interessa-media/
+      type: \faPen
+      lang: it
+    - media: 20 minutes
+      title: "Pourquoi parle-t-on bien plus du changement climatique que de l’érosion de la biodiversité ?"
+      year: 2018
+      url: https://www.20minutes.fr/planete/2234443-20180308-pourquoi-parle-bien-plus-changement-climatique-erosion-biodiversite
+      type: \faPen
+      lang: fr
+    - media: RFI
+      year: 2018
+      url: http://www.rfi.fr/emission/20180218-2-chaos-climatique-financier-jouzel-larrouturou
+      type: \faMicrophone
+      lang: fr
+    - media: le Devoir
+      year: 2018
+      title: "Une grande chance, malgré un manque de soutien"
+      url: http://www.ledevoir.com/societe/education/518374/les-deux-derniers-laureats-de-l-acfas-reviennent-sur-leur-experience
+      type: \faPen
+      lang: fr
+---

@@ -1,3 +1,4 @@
+---
 poster:
   - title: "Mangal, a global ecological interactions database"
     author:
@@ -114,3 +115,5 @@ poster:
       #   where: "Montreal"
     researchgate: "publication/312232420_Our_house_is_burning_and_we_are_looking_elsewhere_climate_change_vs_biodiversity_loss_coverage_in_the_media"
     pdf: "/talks/posters/QCBS_PR_2016.pdf"
+
+---

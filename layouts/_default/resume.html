@@ -64,15 +64,14 @@
   {{ end }}
 
   <h2><i class="far fa-newspaper"></i> Media</h2>
-  {{ range .Site.Data.press.articles }}
-    <h4>
+  {{ range .Site.Data.press.media }}
+    <h5>
       <span class = "date"> {{ .year }}: </span>
-      <span class = "large"> {{ .media }} </span>
+      {{ .media }}
       ({{ .lang }})
-      <a href="{{ .url }}">
-        <i class="fas fa-external-link-alt"></i>
-      </a>
-    </h4>
+      <em>{{ with .title }} {{ . }}. {{ end }}</em>
+      <a href="{{ .url }}"><i class="fas fa-external-link-alt"></i></a>
+    </h5>
   {{ end }}
 
 

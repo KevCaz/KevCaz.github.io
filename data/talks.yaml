@@ -1,3 +1,24 @@
+---
+talk:
+
+  - title:      "Embracing the blessing of dimensionality to determine species’ provenance"
+    author:
+      - family: Cazelles
+        given:  Kevin
+      - family: Myles-Gonzalez
+        given:  Emelia
+      - family: Zemlak
+        given:  Tyler
+      - family: McCann
+        given:  Kevin
+    conference:
+      - name:   "QCBS Annual symposium"
+        url:    "https://qcbs.ca/symposium-2019"
+        date:   2019-12-19
+        where:  "Montreal, Qc, Canada"
+    github:     KevCaz/fightingNoise
+    html:       https://kevcaz.github.io/fightingNoise
+
   - title:      "Towards an Energetic Theory of Island biogeography"
     author:
       - family: Cazelles
@@ -31,8 +52,7 @@
         where:  Guelph
     github:     KevCaz/fightingNoise
     html:       https://kevcaz.github.io/fightingNoise/#1
-
-
+  
   - title:      "Towards an Energetic Theory of Island biogeography"
     author:
       - family: Cazelles
@@ -65,7 +85,6 @@
     html:       https://kevcaz.github.io/talkETIB/
     github:     KevCaz/talkETIB
 
-
   - title:      "Teaser of the alien R package"
     author:
       - family: Vissault
@@ -79,7 +98,6 @@
         where:  "Québec, Qc, Canada"
     html:       https://kevcaz.github.io/Talk_alien/
     github:     KevCaz/Talk_alien/
-
 
   - title:      "Do ecological interaction impact geographical distributions of species?"
     author:
@@ -95,7 +113,6 @@
         date:   2015-12-01
         where:  "Montreal, Qc, Canada"
     pdf:        "talks/talks/CSBQ_2015.pdf"
-
 
   - title:      "Integration of ecological networks in a theoretical stochastic model of biogeography"
     author:
@@ -114,7 +131,6 @@
         where:  "Saskatoon, SK, Canada"
     pdf:        "talks/talks/CSEE_2015.pdf"
 
-
   - title:      "Integration of ecological networks in a theoretical stochastic model of biogeography"
     author:
       - family: Cazelles
@@ -132,7 +148,6 @@
         where:  "Lille, France"
     file:       "talks/talks/SFEBSE_2014.pdf"
 
-
   - title:      "Wavelet Clustering, a tool to integrate spatial and temporal patterns based on their dynamical  properties, application to dengue in Thailand"
     author:
       - family: Cazelles
@@ -145,3 +160,4 @@
         url:    "https://www2.le.ac.uk/departments/mathematics/extranet/staff-material/staff-profiles/sp237/conferences/mpde12-report"
         where:  UFSM, Santa Maria, Brazil
     pdf:        "talks/talks/MIPD_2012.pdf"
+---
