@@ -8,7 +8,7 @@ Après le [référendum du 23 juin 2016](https://fr.wikipedia.org/wiki/R%C3%A9f%
 (initié par [David Cameron](https://www.la-croix.com/Monde/Europe/Brexit-David-Cameron-regrette-rien-2019-09-14-1201047531)
 et quelques 3 ans &frac12; chaotiques à se demander quand l'Union Européenne (UE) et
 Le Royaume-Uni (RU) trouveraient un accord sur le Brexit et même, parfois, si un [nouveau référendum aurait lieu](https://ici.radio-canada.ca/nouvelle/1352491/brexit-manifestation-londres-demande-nouveau-referendum)), [les résultats aux législatives de décembre dernier](https://www.journaldemontreal.com/2019/12/12/elections-majorite-absolue-pour-boris-johnson) ont mis fin au suspens et [le divorce a été prononcé le 31 janvier 2020 à 23h GMT](https://www.lapresse.ca/international/europe/202002/01/01-5259170-la-presse-a-londres-le-brexit-et-apres.php). A titre personnel, je regrette sincèrement cet évènement car il me semble que la
-période actuelle, faîte de tensions géopolitiques majeures et de bouleversements
+période actuelle, faite de tensions géopolitiques majeures et de bouleversements
 environnementaux sans précédent, demande une Europe forte, soudée, capable de
 peser dans les décisions internationales. Mais avec le Brexit, force est de
 constater que l'Europe vient de perdre un de ses poids lourds.
@@ -33,12 +33,12 @@ perd un membre, mais gagne une expérience majeure pour la suite de sa
 construction. Il faut rappeler que le [traité de
 Rome](https://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=CELEX:11957E/TXT&from=FR)
 est un texte de rapprochement entre les peuples Européens qui n’envisageait pas
-la sortie des membres. Dans la dernière décennies, l'UE a été mal traité par
-certain partis politiques qui dépeignaient l'UE comme une prison, avec le Brexit
+la sortie des membres. Dans la dernière décennie, l'UE a été mal traité par
+certains partis politiques qui dépeignaient l'UE comme une prison, avec le Brexit
 c'est fini, on sait maintenant qu'il est possible de quitter l'UE, c'est
-compliqué, pas sans mal et c'est possible, l'UE n'est pas une prison.
+compliqué, pas sans mal, mais c'est possible, l'UE n'est pas une prison.
 Deuxièmement, face à la difficulté du Brexit, [les membres de l'UE se sont
-soudés et que le sentiment Européens a été quelques peu
+soudés et que le sentiment Européens a été quelqu peu
 réanimé](https://www.lesechos.fr/monde/europe/pourquoi-le-virus-du-brexit-na-pas-contamine-le-reste-de-leurope-1168228),
 les peuples veulent rester dans l'UE. Enfin, alors que je mentionnais plus haut
 que l'UE perdait un poids lourd, il y a des raisons de penser que l'UE se
