@@ -1,5 +1,5 @@
-img, iframe, video { 
-  max-width: 100%; 
+img, iframe, video {
+  max-width: 100%;
   margin: 1rem 0rem 1rem 0rem;
 }
 
@@ -97,7 +97,7 @@ img, iframe, video {
 }
 
 .mg-bot {
-  margin: 2rem;
+  margin: 0.4rem;
 }
 
 .avatar {
