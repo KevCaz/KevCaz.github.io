@@ -110,6 +110,10 @@ img, iframe, video {
   /* border-image-slice: 1; */
 }
 
+.frame2 {
+  border: 6px solid;
+}
+
 .flexstart {
   align-items: flex-start;
 }
