@@ -10,15 +10,20 @@
 
   <h2><i class="fas fa-graduation-cap"></i> Background</h2>
 
-  {{ range .Site.Data.educ.educs}}
+  {{ range .Site.Data.educ.educs }}
   <h5>
    <span class="date">{{ .year }}</span>
    <span class="large"><b>{{ .course}}</b></span>
    {{ range .institution }}
+     {{ if .url }}
      <a href="{{ .url }}"> {{ .name }}</a>
+     {{ else }} 
+     {{ .name }}
+     {{end}}
    {{ end }}
   </h5>
  {{ end }}
+
 
 
   <h2><i class="fas fa-user-cog"></i> Skills</h2>

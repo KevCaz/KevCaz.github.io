@@ -1,8 +1,9 @@
 educs:
   - course: "PhD in Ecology"
     institution:
-      - name: UQAR,
+      - name: "Université du Québec à Rimouski"
         url: https://www.uqar.ca/
+      - name: "&"
       - name: Université de Montpellier
         url: https://www.umontpellier.fr/
     year: 2016

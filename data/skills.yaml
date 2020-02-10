@@ -17,11 +17,11 @@ sci_computing:
 
 - name: Sage
   url: http://www.sagemath.org
-  level: 35
+  level: 40
 
 - name: Julia
   url: https://julialang.org
-  level: 30
+  level: 40
 
 - name: Python
   url: https://www.python.org
@@ -29,7 +29,7 @@ sci_computing:
 
 - name: Java
   url: https://www.java.com/fr/
-  level: 15
+  level: 20
 
 - name: "Git (and webservices such as GitHub or Gitlab)"
   url: https://git-scm.com/
@@ -41,7 +41,7 @@ sci_computing:
 
 - name: Resource managers (TORQUE and Slurm)
   url: https://git-scm.com/
-  level: 45
+  level: 50
 
 
 
@@ -79,11 +79,11 @@ web:
 
   - name: JavaScript
     url: https://developer.mozilla.org/bm/docs/Web/JavaScript
-    level: 30
+    level: 40
 
   - name: PHP
     url: http://php.net/
-    level: 15
+    level: 20
 
   - name: Hugo
     url: https://gohugo.io
@@ -110,13 +110,13 @@ docprep:
   - name: Pandoc
     url: https://pandoc.org/index.html
     level: 70
+  
+  - name: Inkscape
+    url: https://inkscape.org/en/
+    level: 70
 
   - name: ImageMagick
     url: https://imagemagick.org/index.php
-    level: 60
-
-  - name: Inkscape
-    url: https://inkscape.org/en/
     level: 60
 
   - name: GIMP

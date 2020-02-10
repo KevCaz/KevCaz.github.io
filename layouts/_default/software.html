@@ -11,10 +11,10 @@
   <div class="software-mozaic">
   {{ range $.Site.Data.softwares }}
     <div class="software-mozaic-unit">
+      <h4 style="display:inline;">
       {{ with .github }} <a href="https://github.com/{{.}}" style="display:inline;"><i class="fab fa-github"></i></a>{{ end }}
-      {{ with .website }}<a href="{{ . }}"><i class="fas fa-globe"></i></a>{{ end }}
-      <h4 style="display:inline;"> {{ .name }} </h4>
-      <h5 style="display:inline;"> &nbsp;-&nbsp; {{ .category }} </h5>
+      {{ with .website }}<a href="{{ . }}"><i class="fas fa-globe"></i></a>{{ end }}&nbsp;{{ .name }} </h4>
+      <h6 style="display:inline;">&nbsp; <code>{{ .category }}</code> </h6>
       
           <hr>
           <p> {{ .description }} </p>
