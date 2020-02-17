@@ -82,7 +82,7 @@ Yeah ✨!!
 Also, <i class='fab fa-r-project'></i> users would be happy to know that there 
 is a package available on GitHub, written by [Bob Rudis](https://github.com/hrbrmstr/cloc),
 that wraps around the Perl script used in cloc and that returns the results as a data
-frame. So for instance, I can the same count for my rcites package with R:
+frame. So for instance, I can do the same count for my rcites package with R:
 
 ```R
 R> # install.packages("remotes") # if needed
