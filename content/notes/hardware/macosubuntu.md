@@ -84,11 +84,11 @@ $ dd if=./ubuntu-18.04.2-desktop-amd64.iso of=<disk?> bs=4m && sync
 where `<disk?>` was replaced by `disk1` in my case. For the records, I would have done the following on Debian:
 
 ```sh
-$ sudo umount /dev/<disk?>
-$ sudo dd bs=4M if=./ubuntu-18.04.2-desktop-amd64.iso of=/dev/<disk?> conv=fdatasync
+$ sudo umount /dev/<sda?>
+$ sudo dd bs=4M if=./ubuntu-18.04.2-desktop-amd64.iso of=/dev/<sda?> conv=fdatasync
 ```
 
-where `<disk?>` would have been `sda1` (again, in my case). Once the Ubuntu
+where `<sda?>` would have been `sda1` (again, in my case). Once the Ubuntu
 installer created I rebooted and held `alt` to launch the Ubuntu installer. The
 tricky part was to find the right partition so I used the partition manager to select the right partition (for me it was `sda4` and I needed to first remove it with `-` to turn it into free space which I used to install Ubuntu. Once done, I installed several packages:
 

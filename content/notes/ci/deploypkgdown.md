@@ -19,7 +19,7 @@ I frequently use the GitHub pages to deploy the [pkgdown](https://github.com/r-l
 That's why I've decided to make [Travis](https://travis-ci.org/) build the
 website and deploy it on the `gh-branch` (many developers smartly use this
 approach which actually is the default branch for Travis). After tweaking
-`travis.yml` (see [Travis documentation about this]) I ran into two problems.
+`travis.yml` (see [Travis documentation about this](https://docs.travis-ci.com/user/deployment/pages/)) I ran into two problems.
 First, I needed a deploy key:
 
 
@@ -29,11 +29,9 @@ Error: No deploy key found, please setup with `travis::use_travis_deploy()`
 
 I read the error message and fixed it :smile:!. The second one was slightly more difficult (to me): the `gh-branch` had to be empty and as I created `gh-pages` from `master` it wasn't! So, I've got the following error message:
 
-```
+```sh
 Error: callr subprocess failed: '/tmp/RtmpDinJqC/file409c3dd473be' is non-empty and not built by pkgdown
-
 Execution halted
-
 Script failed with status 1
 ```
 
@@ -41,6 +39,6 @@ see [this job](https://travis-ci.org/KevCaz/seedlingsRecruitment/builds/59886621
 
 Fortunately, the solution to fix this issue [is well explained on the pkgdown
 website](https://pkgdown.r-lib.org/reference/deploy_site_github.html). Following
-the guidelines provided, you should actually get away from the two issues I
-described above :wink:!
+the guidelines provided there, I was able to solve the two issues described
+above :wink:!
 
