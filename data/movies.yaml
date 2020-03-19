@@ -1,11 +1,29 @@
 movies:
 
+  - roto: m/okja
+    url_img: https://resizing.flixster.com/SX7M2aahw5vxwh3r093wjbtEW7s=/fit-in/200x296.2962962962963/v1.bTsxMjM5ODAyOTtqOzE4MzY4OzEyMDA7NjM5Ozk0Ng
+    director: Bong Joon Ho
+    year: 2020
+    yearout: 2017
+
+  - roto: m/parasite_2019
+    url_img: https://resizing.flixster.com/gL6_mDT9qSzk8FYLi9OgdbYR3ZU=/fit-in/200x296.2962962962963/v1.bTsxMzIyNDEwMjtqOzE4Mzc4OzEyMDA7MjQwMDszNTU2
+    director: Bong Joon Ho
+    year: 2020
+    yearout: 2019
+
   - roto: m/the_adventures_of_tintin
     url_img: https://resizing.flixster.com/Rc0FgPBRTE17Vv3Or_3KEMUigDg=/fit-in/200x296.2962962962963/v1.bTsxMTE2OTE0NTtqOzE4Mzk5OzEyMDA7ODAwOzEyMDA
     director: Steven Spielberg
     year: 2020
     yearout: 2011
-    
+
+  - roto: m/a_shaun_the_sheep_movie_farmageddon
+    url_img: https://resizing.flixster.com/IHQVWdU0MNzm-AfEtoVVskkPsE0=/fit-in/200x296.2962962962963/v1.bTsxMjkzMjYwOTtqOzE4Mzc0OzEyMDA7NTA5Ozc1NQ
+    director: Richard Starzak
+    year: 2020
+    yearout: 2019
+
   - roto: m/early_man
     url_img: https://resizing.flixster.com/7oJrwdGX-KcxsG8WSjVxOSsmJsk=/fit-in/200x296.2962962962963/v1.bTsxMjY0MTk2NTtqOzE4MzcxOzEyMDA7Mzc1MDs1NzAw
     director: Nick Park
@@ -14,7 +32,7 @@ movies:
 
   - roto: v/the_haunting_of_hill_house
     url_img: https://resizing.flixster.com/Hm3qLMDpK46a2BwL7dafxIzYr1I=/206x305/v1.dDszNDU3Mjg7ajsxODM0NzsxMjAwOzE1MDA7MjIyMg
-    creator: Mike Flanagan 
+    creator: Mike Flanagan
     year: 2020
     yearout: 2018
 
@@ -32,7 +50,7 @@ movies:
 
   - roto: m/shazam
     url_img: https://resizing.flixster.com/ubc51il5eujleVSyBqO3olW27UU=/fit-in/200x296.2962962962963/v1.bTsxMzAxODU5MTtqOzE4MzMwOzEyMDA7Mjc2NDs0MDk2
-    director: David F. Sandberg 
+    director: David F. Sandberg
     year: 2020
     yearout: 2019
 
