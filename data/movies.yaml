@@ -1,5 +1,11 @@
 movies:
 
+  - roto: tv/13_reasons_why/s01
+    url_img: https://resizing.flixster.com/m2ZSajUdVWuwiOP59BJ8zMjSBKQ=/206x305/v1.dDsyOTU3Njc7ajsxODM2MzsxMjAwOzE1MDA7MjIyMg
+    director: Selena Gomez, Joy Gorman, Brian Yorkey, Kristel Laiblin
+    year: 2020
+    yearout: 2017
+
   - roto: m/okja
     url_img: https://resizing.flixster.com/SX7M2aahw5vxwh3r093wjbtEW7s=/fit-in/200x296.2962962962963/v1.bTsxMjM5ODAyOTtqOzE4MzY4OzEyMDA7NjM5Ozk0Ng
     director: Bong Joon Ho
@@ -12,11 +18,24 @@ movies:
     year: 2020
     yearout: 2019
 
-  - roto: m/the_adventures_of_tintin
-    url_img: https://resizing.flixster.com/Rc0FgPBRTE17Vv3Or_3KEMUigDg=/fit-in/200x296.2962962962963/v1.bTsxMTE2OTE0NTtqOzE4Mzk5OzEyMDA7ODAwOzEyMDA
-    director: Steven Spielberg
+  - roto: m/wallace_and_gromit_in_a_close_shave
+    url_img: https://resizing.flixster.com/Yduk_Xh_QHJL5W8PebGoh4yCogY=/206x305/v1.bTsxMTI5NjYyNztqOzE4NDQ1OzEyMDA7MTUxNTsyMDIw
+    director: Nick Park
     year: 2020
-    yearout: 2011
+    yearout: 2019
+
+  - roto: m/a_grand_day_out_with_wallace_and_gromit
+    url_img: https://resizing.flixster.com/whq4vTUnjX0zLiXzzYXL2bwTBP0=/206x305/v1.bTs3NDI4ODgyO2o7MTg0NDU7MTIwMDsxNTA7Mjc4
+    director: Nick Park
+    year: 2020
+    yearout: 2019
+
+  - roto: /m/wallace_and_gromit_the_wrong_trousers
+    url_img: https://resizing.flixster.com/7DdqerQCgrWW1H3SyopxtqDEhPY=/206x305/v1.bTsxMjIxNTk4OTtqOzE4MzY2OzEyMDA7MjQwMDszMzgz
+    director: Nick Park
+    year: 2020
+    yearout: 2019
+
 
   - roto: m/a_shaun_the_sheep_movie_farmageddon
     url_img: https://resizing.flixster.com/IHQVWdU0MNzm-AfEtoVVskkPsE0=/fit-in/200x296.2962962962963/v1.bTsxMjkzMjYwOTtqOzE4Mzc0OzEyMDA7NTA5Ozc1NQ
@@ -29,6 +48,12 @@ movies:
     director: Nick Park
     year: 2020
     yearout: 2018
+
+  - roto: m/the_adventures_of_tintin
+    url_img: https://resizing.flixster.com/Rc0FgPBRTE17Vv3Or_3KEMUigDg=/fit-in/200x296.2962962962963/v1.bTsxMTE2OTE0NTtqOzE4Mzk5OzEyMDA7ODAwOzEyMDA
+    director: Steven Spielberg
+    year: 2020
+    yearout: 2011
 
   - roto: v/the_haunting_of_hill_house
     url_img: https://resizing.flixster.com/Hm3qLMDpK46a2BwL7dafxIzYr1I=/206x305/v1.dDszNDU3Mjg7ajsxODM0NzsxMjAwOzE1MDA7MjIyMg
