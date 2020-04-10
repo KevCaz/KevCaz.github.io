@@ -22,7 +22,6 @@ approach which actually is the default branch for Travis). After tweaking
 `travis.yml` (see [Travis documentation about this](https://docs.travis-ci.com/user/deployment/pages/)) I ran into two problems.
 First, I needed a deploy key:
 
-
 ```r
 Error: No deploy key found, please setup with `travis::use_travis_deploy()`
 ```
@@ -37,7 +36,7 @@ Script failed with status 1
 
 see [this job](https://travis-ci.org/KevCaz/seedlingsRecruitment/builds/598866219#L1432) if you want to check out the full console log.
 
-Fortunately, the solution to fix this issue [is well explained on the pkgdown
+Fortunately, the solution to fix this issue [is well explained on the `pkgdown`
 website](https://pkgdown.r-lib.org/reference/deploy_site_github.html). Following
 the guidelines provided there, I was able to solve the two issues described
 above :wink:!

@@ -33,7 +33,7 @@ library(openssl)
 # 1. generate the pair of keys
 key <- rsa_keygen(4096)
 # 2. write the public key with my email in ""gh-pages.pub"
-cat(paste0(key$pubkey$ssh, "kcazelle@uoguelph.ca") , file = "gh-pages.pub")
+cat(paste(key$pubkey$ssh, "kcazelle@uoguelph.ca") , file = "gh-pages.pub")
 # 3. write the private key
 cat(write_pem(key), file = "gh-pages")
 ```
