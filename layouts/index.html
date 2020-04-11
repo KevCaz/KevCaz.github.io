@@ -50,10 +50,9 @@
                                 <img src="img/wordcloud.png" alt="wordcloud" width="92%"></img>
                             </center>
                         </div>
-
                     </div>
 
-                    <br><h1 id="title-home">News</h1>
+                    <h1 id="title-home" class="addto-second-navbar">News</h1>
 
                     <div class="ctn-home flexstart">
 
@@ -64,13 +63,12 @@
                     <a href="/notes/">Siliconotes</a></h3>
                         <div class="listings">
                         <ol>
-                        {{ range where .Site.Pages.ByDate.Reverse ".Type" "==" "notes" | first 7 }}
+                        {{ range where .Site.Pages.ByDate.Reverse ".Type" "==" "notes" | first 8 }}
                         <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                         {{ end }}
                         </ol>
                     </div>
 
-                    <br>
                     <h3><i class="fas fa-tree" aria-hidden="true"></i> Latest <a href="/econotes/">Econotes</a></h3>
                         <div class="listings">
                         <ol>
@@ -83,7 +81,7 @@
 
                     <div class="ctn-home-smallhalf">
                     <center>
-                      <a class="twitter-timeline" href="https://twitter.com/{{ .Site.Params.twitter }}" data-width="75%" data-height="700" data-chrome="nofooter noborders hoheader transparent">
+                      <a class="twitter-timeline" href="https://twitter.com/{{ .Site.Params.twitter }}" data-width="92%" data-height="600" data-chrome="nofooter noborders hoheader transparent">
                         <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                       </a>
                     </center>

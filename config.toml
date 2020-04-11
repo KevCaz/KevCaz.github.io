@@ -2,7 +2,7 @@ baseurl = "https://kevcaz.github.io/"
 relativeurls = true
 languageCode = "en-us"
 title = "KevCaz's Website"
-copyright = "&copy; 2019 Kevin Cazelles. "
+copyright = "Content under CC0 1.0 Universal unless otherwise specified."
 theme = "funkyflex"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -15,7 +15,7 @@ unsafe = true
 style = "dracula"
 lineNos = true
 
-
+copyright = "Content under."
 
 
 # Default language to use (if you setup multilingual support)
@@ -74,7 +74,7 @@ defaultContentLanguageInSubdir = false
     identifier = "research"
     name = "<i class='fas fa-microscope'></i> Research"
     url = "/research/"
-    weight = 3  
+    weight = 3
   [[menu.main]]
     parent = "research"
     name = "Projects"

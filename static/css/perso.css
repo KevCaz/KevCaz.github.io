@@ -9,18 +9,21 @@ img, iframe, video {
 }
 
 .mission h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #b95821;
+	margin-top: .6rem;
+	margin-bottom: .6rem;
 }
 
 .mission h3 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 #title-home {
   font-family: "AMA";
   text-align: center;
-  font-size: 4rem;
+  font-size: 3.2rem;
+	margin-top: .1rem;
 }
 
 .pubs li {
@@ -63,17 +66,22 @@ img, iframe, video {
 
 .ctn-home-half {
   display: block;
-  width: 48%;
+  width: 40%;
 }
 
 .ctn-home-bighalf {
   display: block;
-  width: 64%;
+  width: 59%;
+}
+
+.ctn-home-bighalf h3, .ctn-home-half h3 {
+	margin-bottom: .2rem;
+	margin-top: .2rem;
 }
 
 .ctn-home-smallhalf {
   display: block;
-  width: 34%;
+  width: 30%;
 }
 
 .ctn-book {
