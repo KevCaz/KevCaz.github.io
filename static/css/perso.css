@@ -8,6 +8,10 @@ img, iframe, video {
   text-align: center;
 }
 
+.home-main {
+  padding: .8rem;
+}
+
 .mission h2 {
   font-size: 1.8rem;
   color: #b95821;
@@ -64,6 +68,9 @@ img, iframe, video {
   align-items: center;
 }
 
+.ctn-home {
+	padding: .6rem;
+}
 .ctn-home-half {
   display: block;
   width: 40%;
@@ -113,7 +120,7 @@ img, iframe, video {
 }
 
 #map, .frame1 {
-  border: 10px solid;
+  border: 8px solid;
   /* border-image-source: linear-gradient(45deg, #b95821, #b95821; */
   /* border-image-slice: 1; */
 }
@@ -126,9 +133,7 @@ img, iframe, video {
   align-items: flex-start;
 }
 
-.home-main {
-  padding: 3%;
-}
+
 
 .mozaic {
   display: flex;
