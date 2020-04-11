@@ -5,7 +5,7 @@ description: "Access information from the Speciesplus database"
 website: "https://ropensci.github.io/rcites/"
 badges:
   travis:
-    repo: ropensci/rcites
+    branch: master
   appveyor:
     status: kgimo4v7rvtpkp5e
     repo: ropensci/rcites

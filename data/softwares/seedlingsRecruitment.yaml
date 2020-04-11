@@ -1,0 +1,12 @@
+name: "seedlingsRecruitment"
+category: "Research Compendium"
+description: "Data, analyses and figures found in DOI: 10.1111/1365-2745.13311"
+github: KevCaz/seedlingsRecruitment
+website: "https://kevcaz.github.io/seedlingsRecruitment/"
+badges:
+  travis:
+    branch: master
+  appveyor:
+    status: xcsiox3ufc4bab69
+    repo: KevCaz/seedlingsRecruitment
+  zenodo: 80908301

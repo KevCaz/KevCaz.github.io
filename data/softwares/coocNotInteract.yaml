@@ -1,0 +1,9 @@
+name: "coocNotInteract"
+description: "Data, analyses and figures in DOI: 10.1111/gcb.14829"
+category: "Research Compendium"
+github: TheoreticalEcosystemEcology/coocNotInteract
+badges:
+  ghactions:
+     reposlug: TheoreticalEcosystemEcology/coocNotInteract
+     workflow: R-CMD-check
+  zenodo: 248542876
