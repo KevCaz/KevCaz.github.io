@@ -1,5 +1,6 @@
 movies:
 
+
   - roto: m/jusquau_declin
     url_img: https://resizing.flixster.com/APCDJpUZNW2IvAKrprF4LHVjF74=/206x305/v1.bTsxMzM5MjU0MDtqOzE4NDI1OzEyMDA7MTE0MjsxNjAw
     director: Patrice Laliberté
@@ -11,6 +12,12 @@ movies:
     director: Gore Verbinski
     year: 2020
     yearout: 2011
+
+  - roto: m/isle_of_dogs_2018
+    url_img: https://resizing.flixster.com/RSWnPL4RxlzWXdEvIKQ8CKJLBUk=/fit-in/200x296.2962962962963/v1.bTsxMjYxNzIwNDtwOzE4NDE2OzEyMDA7NTMwOzg0MQ
+    director: Wes Anderson
+    year: 2020
+    yearout: 2018
 
   - roto: tv/13_reasons_why/s01
     url_img: https://resizing.flixster.com/m2ZSajUdVWuwiOP59BJ8zMjSBKQ=/206x305/v1.dDsyOTU3Njc7ajsxODM2MzsxMjAwOzE1MDA7MjIyMg
