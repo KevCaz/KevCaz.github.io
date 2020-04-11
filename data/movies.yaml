@@ -1,5 +1,17 @@
 movies:
 
+  - roto: m/jusquau_declin
+    url_img: https://resizing.flixster.com/APCDJpUZNW2IvAKrprF4LHVjF74=/206x305/v1.bTsxMzM5MjU0MDtqOzE4NDI1OzEyMDA7MTE0MjsxNjAw
+    director: Patrice Laliberté
+    year: 2020
+    yearout: 2020
+
+  - roto: m/rango
+    url_img: https://resizing.flixster.com/2sdIu6dWsu9oodkJD0QQ9PyVpfA=/fit-in/200x296.2962962962963/v1.bTsxMTE2ODk2NDtqOzE4NDQ0OzEyMDA7ODAwOzEyMDA
+    director: Gore Verbinski
+    year: 2020
+    yearout: 2011
+
   - roto: tv/13_reasons_why/s01
     url_img: https://resizing.flixster.com/m2ZSajUdVWuwiOP59BJ8zMjSBKQ=/206x305/v1.dDsyOTU3Njc7ajsxODM2MzsxMjAwOzE1MDA7MjIyMg
     director: Selena Gomez, Joy Gorman, Brian Yorkey, Kristel Laiblin
@@ -17,6 +29,12 @@ movies:
     director: Bong Joon Ho
     year: 2020
     yearout: 2019
+
+  - roto: m/wallace_and_gromit_a_matter_of_loaf_and_death_pands
+    url_img: https://resizing.flixster.com/mpp7tKjFwM9Pcbv87yT44btXAdg=/206x305/v1.bTsxMTU1NTQ3MTtqOzE4NDkzOzEyMDA7MzI2OzQ2Mg
+    director: Nick Park
+    year: 2020
+    yearout: 2008
 
   - roto: m/wallace_and_gromit_in_a_close_shave
     url_img: https://resizing.flixster.com/Yduk_Xh_QHJL5W8PebGoh4yCogY=/206x305/v1.bTsxMTI5NjYyNztqOzE4NDQ1OzEyMDA7MTUxNTsyMDIw
