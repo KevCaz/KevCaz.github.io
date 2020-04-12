@@ -8,9 +8,6 @@ enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 pygmentsUseClasses = false
 
-[author]
-    name = "Kevin Cazelles"
-
 [markup.goldmark.renderer]
 unsafe = true
 
@@ -26,6 +23,7 @@ defaultContentLanguageInSubdir = false
 
 
 [params]
+  authorname = "Kevin Cazelles"
   role = "Post-doctoral fellow in theoretical and computational ecology [@McCann Lab](https://mccannlab.ca/)"
   organization = "Department of Integrated Biology, University of Guelph"
   organization_url = "https://www.uoguelph.ca/ib/"
