@@ -28,6 +28,7 @@ defaultContentLanguageInSubdir = false
   organization = "Department of Integrated Biology, University of Guelph"
   organization_url = "https://www.uoguelph.ca/ib/"
   github = "KevCaz"
+  rss = true
   stackoverflow = "8038778"
   orcid = "0000-0001-6619-9874"
   researchgate = "Kevin_Cazelles"

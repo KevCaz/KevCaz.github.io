@@ -8,8 +8,6 @@ categories: general
 
 I wrote the lines below few months ago. I wanted to share them on line but at that time my website was not fully operational. As I dug out the text yesterday I post it on line today after few corrections.
 
-
-<br>
 I would like to share my feelings about the [ITER project](http://en.wikipedia.org/wiki/ITER). *Nature* have recently published [something on this topic](http://www.nature.com/news/us-plans-for-future-of-fusion-research-1.15993?WT.ec_id=NEWS-20140923) and I think they could have explained way better the drawbacks of the project.
 
 Since the 80’s - but the desire may have emerged before - advanced countries strive to control the nuclear fusion. In 1986, the ITER project started with many advanced countries and the hope of producing electricity thanks to this new technology over the next few years.
