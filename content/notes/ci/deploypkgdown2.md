@@ -1,9 +1,10 @@
 ---
 title: "Deploy a pkgdown website on gh-pages manually"
-date: 2020-04-10
+date: 2020-04-12
+descriptionOG: "Deploy a pkgdown website on gh-pages without the travis package"
+imageOG: deploy.png
 tags: [continuous integration, Travis, GitHub pages, website, R, pkgdown]
 ---
-
 
 This is another note about deploying a
 [`pkgdown`](https://CRAN.R-project.org/package=pkgdown)[^n1] website with

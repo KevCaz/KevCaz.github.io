@@ -1,1 +1,5 @@
-<meta property="og:image" content="https://kevcaz.github.io/img/kevcaz_og.png"/>
+<meta property="og:image" content="{{ ( print .Site.BaseURL "img/imgOG/" .Params.imageOG ) | default ( print .Site.BaseURL "img/imgOG/kevcaz_og.png" ) }}"/>
+
+{{ with .Params.descriptionOG }}
+ <meta property="og:description" content="{{ . }}">
+{{ end }}
