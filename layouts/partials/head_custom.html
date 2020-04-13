@@ -1,5 +1,11 @@
-<meta property="og:image" content="{{ ( print .Site.BaseURL "img/imgOG/" .Params.imageOG ) | default ( print .Site.BaseURL "img/imgOG/kevcaz_og.png" ) }}"/>
+{{ with .Params.imageOG }}
+  <meta property="og:image" content="{{ ( print $.Site.BaseURL "img/imgOG/" . ) }}" >
+{{ else }}
+  <meta property="og:image" content="{{ ( print $.Site.BaseURL "img/imgOG/kevcaz_og.png" ) }}"/>
+{{ end }}
 
 {{ with .Params.descriptionOG }}
- <meta property="og:description" content="{{ . }}">
+  <meta property="og:description" content="{{ . }}" />
+{{ else }}
+  <meta property="og:description" content="Kevin Cazelles's website" />
 {{ end }}

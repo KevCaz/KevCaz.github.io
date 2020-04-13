@@ -8,6 +8,10 @@ enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 pygmentsUseClasses = false
 
+# Default language to use (if you setup multilingual support)
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
 [markup.goldmark.renderer]
 unsafe = true
 
@@ -17,9 +21,6 @@ lineNos = true
 
 
 
-# Default language to use (if you setup multilingual support)
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
 
 
 [params]
