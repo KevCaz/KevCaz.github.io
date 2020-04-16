@@ -1,0 +1,11 @@
+name: "biogeonet"
+description: "Cazelles (2016) DOI:10.1007/s12080-015-0281-9 - research compendium"
+category: "Research Compendium"
+github: KevCaz/biogeonet
+website: https://kevcaz.github.io/biogeonet/
+badges:
+  ghactions:
+     reposlug: KevCaz/biogeonet
+     workflow: R-CMD-check
+  codecov:
+     repo: gh/KevCaz/biogeonet
