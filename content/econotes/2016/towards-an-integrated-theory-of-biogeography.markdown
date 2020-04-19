@@ -1,7 +1,6 @@
 ---
 title:  Towards an integrated theory of biogeography
-author: Kevin Cazelles
-tag: [biogeography, publication]
+tag: [biogeography, TIB, publication]
 date: 2016-01-11
 ---
 
