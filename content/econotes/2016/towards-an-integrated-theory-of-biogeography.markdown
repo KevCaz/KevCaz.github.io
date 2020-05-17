@@ -1,6 +1,6 @@
 ---
 title:  Towards an integrated theory of biogeography
-tag: [biogeography, TIB, publication]
+tags: [biogeography, network ecology, theory of island biogeography, publication]
 date: 2016-01-11
 ---
 

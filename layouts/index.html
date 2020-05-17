@@ -72,7 +72,7 @@
                     <h3><i class="fas fa-tree" aria-hidden="true"></i> Latest <a href="/econotes/">Econotes</a></h3>
                         <div class="listings">
                         <ol>
-                        {{ range where .Site.Pages.ByDate.Reverse ".Type" "==" "econotes" | first 2 }}
+                        {{ range where .Site.Pages.ByDate.Reverse ".Type" "==" "econotes" | first 3 }}
                         <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                       {{ end }}
                         </ol>
