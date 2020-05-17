@@ -2,7 +2,7 @@
 title: Never too late to publish your code!
 tags: [biogeography, network ecology, theory of island biogeography, research compendium, code]
 math: true
-publishDate: 2020-05-16
+publishDate: 2020-05-17
 imageOG: "tableBits"
 ---
 
