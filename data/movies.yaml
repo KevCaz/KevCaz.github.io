@@ -1,5 +1,22 @@
 movies:
 
+  - roto: m/the_two_popes
+    url_img: https://resizing.flixster.com/zqGpL3Odk_8XFXJ5kX1s71ayUxY=/206x305/v1.bTsxMzE5MTE0MTtqOzE4NTEyOzEyMDA7NzI5OzEwODA
+    director: Fernando Meirelles
+    year: 2020
+    yearout: 2019
+
+  - roto: m/burn_after_reading
+    url_img: https://resizing.flixster.com/bdobv0uQeR_Dk8yjh6AUVnX5LkU=/206x305/v1.bTsxMTE1MTAzMTtqOzE4NTM0OzEyMDA7MTAxNjsxNTAw
+    director: "Joel Coen, Ethan Coen"
+    year: 2020
+    yearout: 2008
+
+  - roto: m/1003033-brazil
+    url_img: https://resizing.flixster.com/mKiuAPeKlsAk3NhX2YE3leCKdO4=/206x305/v1.bTsxMTI5MTA1NjtqOzE4NTM1OzEyMDA7MTUzNjsyMDQ4
+    director: Terry Gilliam
+    year: 2020
+    yearout: 1985
 
   - roto: m/jusquau_declin
     url_img: https://resizing.flixster.com/APCDJpUZNW2IvAKrprF4LHVjF74=/206x305/v1.bTsxMzM5MjU0MDtqOzE4NDI1OzEyMDA7MTE0MjsxNjAw
