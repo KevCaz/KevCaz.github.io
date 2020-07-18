@@ -1,5 +1,21 @@
 movies:
 
+  - roto: tv/brooklyn_nine_nine
+    url_img: https://resizing.flixster.com/6b7TAQSnXGvGdDQUoryZiqEeHsg=/206x305/v1.dDsxMzQ4NTg7ajsxODQ5NjsxMjAwOzE1MzY7MjA0OA
+    year: 2020
+    yearout: 2020
+
+  - roto: tv/the_last_dance
+    url_img: https://resizing.flixster.com/d654ZNAfpWevFI4ekjriK_VSAeQ=/206x305/v1.dDs3MDA0OTQ7ajsxODUwMzsxMjAwOzI2MTY7Mzg3Mg
+    year: 2020
+    yearout: 2020
+
+  - roto: m/singin_in_the_rain
+    url_img: https://resizing.flixster.com/p-XLWB4FK0SFWObaxU1gTF7YVS8=/fit-in/200x296.2962962962963/v1.bTsxMjI5MjMyODtqOzE4NTAyOzEyMDA7NTk2Ozk2MA
+    director: "Stanley Donen, Gene Kelly"
+    year: 2020
+    yearout: 1952
+
   - roto: m/the_two_popes
     url_img: https://resizing.flixster.com/zqGpL3Odk_8XFXJ5kX1s71ayUxY=/206x305/v1.bTsxMzE5MTE0MTtqOzE4NTEyOzEyMDA7NzI5OzEwODA
     director: Fernando Meirelles
