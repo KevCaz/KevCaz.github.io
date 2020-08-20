@@ -1,5 +1,5 @@
 ---
-title: "Parallelizing scripts that take more than one varying paremter"
+title: "Running parallel simulations with scripts that take two or more varying parameters"
 date: 2020-08-20
 tags: [Advances Research Computing, High Performance Computing, Slurm, bash, Julia]
 ---
