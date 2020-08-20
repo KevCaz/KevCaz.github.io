@@ -5,11 +5,11 @@ on:
     branches:
     - dev
   schedule:
-    - cron: '48 4 * * 1-6'
+    - cron: '48 4 * * 1-2'
 
 jobs:
   build-deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - name: Checkout submodules
