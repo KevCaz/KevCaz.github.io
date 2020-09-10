@@ -78,13 +78,13 @@ https://linuxize.com/post/how-to-rename-files-in-linux/).
 
 Below, I use <i class="fab fa-r-project"></i> to solve **problem 2**. I would
 like to stress that I am using <i class="fab fa-r-project"></i> simply because I
-am more more confortable doing this manipulation with R. Obviously there are
+am more confortable doing this manipulation with R. Obviously there are
 ways of accomplishing this with many programming language and I believe that
 this is totally doable with `rename`. That being said, this is also a good
 opportunity to exemplify how to use <i class="fab fa-r-project"></i> can to
 rename files. 
 
-First, let's list the file in `/path/to/folder1/`
+First, let's list the in `/path/to/folder1/`
 
 
 ```R
@@ -100,7 +100,7 @@ R> head(fls)
 
 Note that I purposely changed the original long path to `/path/to/folder1/` for
 the sake of clarity. So now what I am looking for is to rename
-`res_simu1_01.txt` to `res_simu1_21.txt`, `res_simu1_02.txt' to
+`res_simu1_01.txt` to `res_simu1_21.txt`, `res_simu1_02.txt` to
 `res_simu1_22.txt` and so forth. To do so, I need to extract the number add 20
 and then rename the file, and I wrote the following function that does the job!
 
@@ -124,10 +124,10 @@ R> lapply(fls, myrename, 20)
 
 And I can actually add any number, including negative ones. That said, with this
 solution it may be important to ensure that numbers obtained after addition
-remain within [0; 1000], otherwise you may not obtained what you were looking
+remain within [0; 1000], otherwise you may not obtain what you were looking
 for. Even more important, you should check whether new files names are existing
 file name, cause this could be quite problematic. For instance, in the example
-above, if I were to use `lapply(fls, myrename, 20)`, then `res_simu1_01.txt`
+above, if I were to use `lapply(fls, myrename, 5)`, then `res_simu1_01.txt`
 would be renamed `res_simu1_06.txt` and as `res_simu1_01.txt` is the first file
 to be renamed, `res_simu1_06.txt` would be overwritten. One way to avoid this is
 to change the order in which files are handled, e.g. 
@@ -138,6 +138,6 @@ R> lapply(fls[1:5], myrename, 5)
 ```
 
 Here, `myrename()` was designed specifically to solve **problem 2** but it
-would be relatively easy to make it more general, that is writting a few extra
+would be relatively easy to make it more general, that is writing a few extra
 lines to handle a wider range of patterns and to check for potential problems
-while renaming (e.g. the one we just described). 
+while renaming (e.g. the one I just described). 
