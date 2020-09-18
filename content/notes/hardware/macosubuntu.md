@@ -20,10 +20,10 @@ because I care about my computer, I update it frequently and I'm actually
 capable of solving this kind of issues, so WTF? This whole situation makes me
 wonder what people unable to deal with this kind of problem would do... My guess
 is they would go to an fancy Apple store to either get it fixed :moneybag: or
-get a new shinny Mac :moneybag::moneybag::moneybag:! Anyway, as the time went on, I started to feel frustrated and as I was not a big fan of [MacOS Mojave](https://www.apple.com/ca/fr/macos/mojave/) (it brings nothing I need and I haven't noted any improvement). Given this I decided 2 things:
+get a new shinny Mac :moneybag::moneybag::moneybag:! Anyway, as the time went on, I started to feel frustrated and as I was not a big fan of [MacOS Mojave](https://www.apple.com/ca/fr/macos/mojave/) (it brings nothing I need and I haven't noted any improvement). Given this I decided:
 
-1. get rid of Mojave and clean install High Sierra on one partition;
-2. install Ubuntu 18.04 on a second one.
+1. to get rid of Mojave and clean install High Sierra on one partition;
+2. to install Ubuntu 18.04 on a second one.
 
 
 
@@ -34,7 +34,7 @@ This is a two steps procedure detailed in several posts (e.g. [here](https://set
 
 1. create a bootable installer (the easiest way is to use a USB stick) which requires to [download the installer for High Sierra and use the 'createinstallmedia' command in a terminal](https://support.apple.com/en-us/HT201372);
 
-2. use the bootable installer, i.e. rebooting the Mac while holding the Option ket (`alt`) and then boot on the installer which guides you through all the steps.
+2. use the bootable installer, i.e. rebooting the Mac while holding the Option key (`alt`) and then boot on the installer which guides you through all the steps.
 
 Note that as I wanted to create a second partition with Ubuntu I had to use
 [Disk Utility](https://support.apple.com/en-ca/guide/disk-utility/welcome/mac)
@@ -78,7 +78,7 @@ here is what I did:
 
 ```sh
 $ sudo umount /dev/<disk?>
-$ dd if=./ubuntu-18.04.2-desktop-amd64.iso of=<disk?> bs=4m && sync
+$ sudo dd if=./ubuntu-18.04.2-desktop-amd64.iso of=<disk?> bs=4m && sync
 ```
 
 where `<disk?>` was replaced by `disk1` in my case. For the records, I would have done the following on Debian:
