@@ -152,7 +152,7 @@ how to retrieve info about about windows, check [`xwininfo`](https://linux.die.n
 
 1. The solution I came up with is far from being perfect, but it works well and it is a good starting point. If I improve it in a near future, I'll write another note about this!
 
-2. Looks like Wayland is meant to replace X.org, so I'd better think about a solution that would work on Wayland... Again, IMHO, the best approach would not depend on a specific window manager.
+2. Looks like Wayland is meant to replace X.org, so I'd better think about a solution that would work on Wayland... Again, IMHO, the best approach should not depend on a specific window manager.
 
 
-## That's all folks!
+### That's all folks!
