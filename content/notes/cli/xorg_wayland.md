@@ -2,6 +2,7 @@
 title: "Send a set of command lines to GNOME Terminal with Wayland"
 date: 2020-09-20
 tags: [Atom, cli, gnome-terminal, window manager, xclip, xdotool, xsel]
+draft: true
 ---
 
 ## Context
