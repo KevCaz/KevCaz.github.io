@@ -1,0 +1,10 @@
+name: "Nutrient-Driven Instability at a Distance"
+year: 2020
+category: "Research Compendium"
+description: "Analysis + Figures for DOI: 10.1101/2020.04.20.050302"
+github: McCannLab/NDID
+badges:
+  ghactions:
+    reposlug: McCannLab/NDID
+    workflow: Check
+  zenodo: 287106212
