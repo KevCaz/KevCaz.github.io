@@ -1,4 +1,39 @@
 movies:
+  
+  - roto: tv/kipo_and_the_age_of_wonderbeasts/s01
+    url_img: https://resizing.flixster.com/Qm01Q0PCsx95MLN0TO9S-2rRLOs=/206x305/v1.dDs2MzgzMTg7ajsxODYwOTsxMjAwOzE2NTA7MjU1MA
+    year: 2020
+    yearout: 2020
+    
+  - roto: m/die_hard
+    url_img: https://resizing.flixster.com/NbLHIcyry0fErwQIS3nP4DYJmbM=/206x305/v2/https://flxt.tmsimg.com/assets/p10255_p_v10_as.jpg
+    year: 2020
+    yearout: 1988
+      
+  - roto: m/die_hard_2_1990
+    url_img: https://resizing.flixster.com/6fQ1XHGjUJkfyywNBwVuGjQAuyQ=/206x305/v2/https://flxt.tmsimg.com/assets/p12600_p_v10_af.jpg
+    year: 2020
+    yearout: 1990
+          
+  - roto: m/die_hard_with_a_vengeance
+    url_img: https://resizing.flixster.com/3qbUk3A7Yf2EFn2QYr_fsLPqC84=/206x305/v2/https://flxt.tmsimg.com/assets/p16784_p_v10_ao.jpg
+    year: 2020
+    yearout: 1995
+    
+  - roto: m/live_free_or_die_hard
+    url_img: https://resizing.flixster.com/BCI5l79oJXknSAC8RSTCX2zBz2k=/206x305/v2/https://flxt.tmsimg.com/assets/p166035_p_v10_ac.jpg
+    year: 2020
+    yearout: 2007
+  
+  - roto: m/die_hard
+    url_img: https://resizing.flixster.com/NbLHIcyry0fErwQIS3nP4DYJmbM=/206x305/v2/https://flxt.tmsimg.com/assets/p10255_p_v10_as.jpg
+    year: 2020
+    yearout: 1988
+      
+  - roto: m/lemony_snicket
+    url_img: https://resizing.flixster.com/isUF8_hWGuvtpdr6IDyTGMsflbI=/206x305/v2/https://flxt.tmsimg.com/assets/p35191_p_v10_aa.jpg
+    year: 2020
+    yearout: 2014
 
   - roto: tv/brooklyn_nine_nine
     url_img: https://resizing.flixster.com/6b7TAQSnXGvGdDQUoryZiqEeHsg=/206x305/v1.dDsxMzQ4NTg7ajsxODQ5NjsxMjAwOzE1MzY7MjA0OA
@@ -178,7 +213,6 @@ movies:
     director: Rawson Marshall Thurber
     year: 2020
     yearout: 2016
-
 
   - roto: m/toy_story_4
     url_img: https://resizing.flixster.com/Nptiw_sHA7d_TownyjvMrsxUK24=/fit-in/200x296.2962962962963/v1.bTsxMzAyMzkxNjtqOzE4MzMwOzEyMDA7MTA4NjsxNjA5
