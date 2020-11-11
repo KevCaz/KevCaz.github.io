@@ -1,5 +1,20 @@
 movies:
   
+  - roto: m/psycho
+    url_img: https://resizing.flixster.com/v_K71ZmJSwUOq07BPt5lkvDv8hE=/206x305/v2/https://flxt.tmsimg.com/assets/p283_p_v13_an.jpg
+    year: 2020
+    yearout: 2019
+    
+  - roto: m/1023854-witness
+    url_img: https://resizing.flixster.com/VVGSkS_V57Ma5XV3zpkM10zCOvI=/206x305/v2/https://flxt.tmsimg.com/assets/p8671_p_v13_af.jpg
+    year: 2020
+    yearout: 1985
+  
+  - roto: m/knives_out
+    url_img: https://resizing.flixster.com/51Q8Wm5zvrn0VcEv7fRhuf6DXgY=/206x305/v2/https://resizing.flixster.com/mxWCkewT0pWYekfI7x9Y8QKPh14=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzVlNDRiYTk4LTNmYjAtNDdlYi04ZGU0LTZiYjU3ODVjNWRkNi53ZWJw
+    year: 2020
+    yearout: 2019
+  
   - roto: tv/kipo_and_the_age_of_wonderbeasts/s01
     url_img: https://resizing.flixster.com/Qm01Q0PCsx95MLN0TO9S-2rRLOs=/206x305/v1.dDs2MzgzMTg7ajsxODYwOTsxMjAwOzE2NTA7MjU1MA
     year: 2020

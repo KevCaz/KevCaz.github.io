@@ -37,4 +37,4 @@ I was then able to use then in [spell-check](https://github.com/atom/spell-check
 ![](/notes/atom/assets/locales.png)
 
 Everything works just fine now! Note that [hunspell](http://hunspell.github.io/)
-is also use for Firefox and Thunderbird :smirk:!
+is also used by Firefox and Thunderbird :smirk:!
