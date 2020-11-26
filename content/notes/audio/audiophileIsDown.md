@@ -2,6 +2,8 @@
 title: "Even more internet radio stations"
 date: 2019-03-15
 tags: [Rhythmbox, audio, internet radio]
+edit: 
+  - Change the zen lounge stream URL (2019-11-25)
 ---
 
 As mentioned in a [previous post](/notes/audio/moreradio/), I love listening to internet radios and a few months ago I discovered Audiophile radios which I've enjoyed very much for four months. But it looks like Audiophile is down now :cry: (hopefully just temporarily). So, today I spent some time looking for more internet radio stations that offer high quality streams and I found those valuable links:
@@ -43,7 +45,7 @@ Note that I found them looking on the internet, especially on [InternetRadio](ht
   - http://mediaserv38.live-streams.nl:8027/live
 
 # Ambient
-  - http://server.thezenlounge.jp:8000/radio_320.ogg
+  - http://server.thezenlounge.jp/radio/8000/radio_320.ogg
   - http://192.240.102.198:14244/listen.pls?sid=1
   - http://176.31.107.8:9019/listen.pls?sid=1
 
