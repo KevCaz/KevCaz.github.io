@@ -1,4 +1,23 @@
 books:
+  
+- title: Aurevoir La-haut
+  author: Pierre lemaitre
+  url_img: "https://m.media-amazon.com/images/I/51h9KP+PiKL._SY346_.jpg"
+  type: roman
+  year: 2020
+  year_out: 2013
+  comments: 'A venir'
+  
+- title: L'Élégance du hérisson
+  author: Muriel Barbery
+  url_img: "https://images-na.ssl-images-amazon.com/images/I/31ZlG8vsxBL._SX336_BO1,204,203,200_.jpg"
+  type: roman
+  year: 2020
+  year_out: 2006
+  info:
+    url: https://fr.wikipedia.org/wiki/L%27%C3%89l%C3%A9gance_du_h%C3%A9risson
+    name: "Article Wikipedia"
+  comments: "Je suis tombé sur ce livre et comme on m'en avait déjà parlé, j'ai décidé de le lire. Personnellement, bien que j'ai passé des moments de lecture relativement agrébales, je dois avouer avoir été quelque peu déçu. Sans revenir sur l'histoire (voir le lien Wikipedia ci-dessus), ce qui m'a géné dans le récit c'est que la culture et l'intelligence des deux personnages principaux les amènent à une forme de condescendance, et ça, ça vient me chercher.  Ma lecture n'est peut-être pas la bonne, c'est néanmois le sentiment que j'ai éprouvé et le souvenir que j'en garde. Cela étant dit, je retiens aussi deux messages plus rassurants. Le premier est une forme d'universalisme: intelligence et culture n'ont ni âge, ni sexe, ni couleur, ni classe sociale. Le second insiste sur les puissances de l'art (des arts?) et notamment sa capacité à enrichir notre quotidien."
 
 - title: Les Furtifs
   author: Alain Damasio
@@ -47,7 +66,7 @@ books:
   info:
     url: https://www.franceinter.fr/emissions/affaires-sensibles/affaires-sensibles-24-avril-2018
     name: "Gomorra : le silence ou la mort, Affaires Sensibles, France Inter"
-  comments: "Le récit est dense, rempli de noms, de détails envoyé par couches succéssives avec relativement une articulation que je n'ai pas trouvé particulièrement claire. Comme si l'auteur était pressé, comme s'il éprouvait le besoin urgent de tout raconter, de tout révéler. Et ces révélations ont d'ailleurs coûté cher à l'auteur qui doit vivre vec un garde du corps en permannce. Mais elles sont là les révélations, dans ces pages, utiles pour comprendre *le système* et elles procurent maintes raisons d'être écoeuré. La première est de voir comment certains individus se batissent des empires sur le dos du bien commun avec un mépris complet de la vie humaine. La seconde est de sentir que lutter contre ce système est tout simplement vain. Je suis content d'avoir lu ce livre mais révolté par le système mafieux qui y est décrit."
+  comments: "Le récit est dense, rempli de noms et détails envoyés par couches succéssives avec relativement une articulation que je n'ai pas trouvé particulièrement claire. Comme si l'auteur était pressé, comme s'il éprouvait le besoin urgent de tout raconter, de tout révéler. Et ces révélations ont d'ailleurs coûté cher à l'auteur qui doit vivre vec un garde du corps en permannce. Mais elles sont là les révélations, dans ces pages, utiles pour comprendre *le système* et elles procurent maintes raisons d'être écoeuré. La première est de voir comment certains individus se batissent des empires sur le dos du bien commun avec un mépris complet de la vie humaine. La seconde est de sentir que lutter contre ce système est tout simplement vain. Je suis content d'avoir lu ce livre mais révolté par le système mafieux qui y est décrit."
 
 
 - title: "Livret de Famille"
@@ -56,7 +75,7 @@ books:
   type: "roman partiellement autobiographique"
   year: 2019
   year_out: 1977
-  comments: "Je suis encore dans la reflexion pour comprendre ce que j'ai aimé et ce que j'ai pas aimé. J'ai trouvé plusieurs articles sur le sujet mais pas encore un bon pour mieux me faire comprendre ce que j'au lu!"
+  comments: "Je suis encore dans la reflexion pour comprendre ce que j'ai aimé et ce que j'ai pas aimé. J'ai trouvé plusieurs articles sur le sujet mais pas un qui m'aide à me faire comprendre ce que j'au lu!"
 
 - title: "La zone du Dehors"
   author: Alain Damasio

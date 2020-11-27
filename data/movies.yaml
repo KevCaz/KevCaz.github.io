@@ -1,9 +1,19 @@
 movies:
   
+  - roto: m/the_shape_of_water_2017
+    url_img: https://resizing.flixster.com/rK21KIwEeMXCEXFH1wAiFYv-nSI=/206x305/v2/https://resizing.flixster.com/7xpFiFaJI7j_Mwred_S3BdD02fg=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzL2RmNjViZTE4LTQ1MGEtNDRhZC1hZTQwLWM4MTY4YTBmZmVlZi53ZWJw
+    year: 2020
+    yearout: 2019
+    
+  - roto: m/inspector_maigret
+    url_img: https://img.over-blog-kiwi.com/2/53/37/55/20191229/ob_78a8cc_maigret-tend-un-piege.jpg
+    year: 2020
+    yearout: 1958
+  
   - roto: m/psycho
     url_img: https://resizing.flixster.com/v_K71ZmJSwUOq07BPt5lkvDv8hE=/206x305/v2/https://flxt.tmsimg.com/assets/p283_p_v13_an.jpg
     year: 2020
-    yearout: 2019
+    yearout: 1960
     
   - roto: m/1023854-witness
     url_img: https://resizing.flixster.com/VVGSkS_V57Ma5XV3zpkM10zCOvI=/206x305/v2/https://flxt.tmsimg.com/assets/p8671_p_v13_af.jpg
