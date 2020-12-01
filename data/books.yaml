@@ -1,12 +1,15 @@
 books:
   
 - title: Aurevoir La-haut
-  author: Pierre lemaitre
+  author: Pierre Lemaitre
   url_img: "https://m.media-amazon.com/images/I/51h9KP+PiKL._SY346_.jpg"
   type: roman
   year: 2020
   year_out: 2013
-  comments: 'A venir'
+  info:
+    url: https://fr.wikipedia.org/wiki/Au_revoir_l%C3%A0-haut
+    name: "Article Wikipedia"
+  comments: "Un roman qui se déroule à la sortie de la première guerre mondiale et qui portent sur les destins croisés de deux poilus et leur lieutenant. Ce que je retiens de ce livre, c'est le travail formidable pour nous transmettre sentiments et émotions, notamment une forte empathie pour les deux poilus qui ne se remettent pas d'une guerre qui les a fracassé et une extrême aversion pour le lieutenant qui a finalement réussi à profiter de cette sinistre période. Aussi les personnages sont finement travaillés et l'orchestration de ces derniers est, à mon sens, très réussie. Enfin, j'ai aussi particulièrement apprécié la construction de la narration avec deux fils principaux utilisés intelligemment: tantôt ils évoluent indépendamment, tantôt ils se télescopent, le tout donnant un suspens qui nous fait dévorer le bouquin! Pour finir, je voudrais mentioner que j'ai mis l'adaptation au grand écran par le duo Lemaitre/Dupontel sur ma towatch list, quant aux deux autres romans de la trilogie, ils sont sur ma toread list!"
   
 - title: L'Élégance du hérisson
   author: Muriel Barbery
