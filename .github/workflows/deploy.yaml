@@ -5,7 +5,7 @@ on:
     branches:
     - dev
   schedule:
-    - cron: '48 4 * * 1-2'
+    - cron: '48 4 * * 1'
 
 jobs:
   build-deploy:
@@ -22,7 +22,7 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.75.1'
+        hugo-version: '0.80.0'
         extended: true
     - name: Build website
       run: hugo --minify
