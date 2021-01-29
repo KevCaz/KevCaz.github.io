@@ -12,7 +12,17 @@ reason why I partnered up with colleagues/friends to start
 tools for ecologists. I try to post on this blog regularly medium-size articles
 and I decided to report short notes here (I may compile some of them for a post
 on [inSileco](https://insileco.github.io/)). Note that I am currently [working
-on Debian Buster](https://insileco.github.io/2018/06/18/my-r-setup-on-debian/),
+on Debian](https://insileco.github.io/2018/06/18/my-r-setup-on-debian/) (see below for my current configuration),
 and hence the content of the notes below may sometimes be valid only the
 distribution I am using (*e.g.* keyboard shortcuts). Finally, the complete list
 of tags used throughout these notes is available [here](/tags/).
+
+<details>
+<summary>Current config.</summary>
+
+```.sh
+$ uname -a 
+Linux debkev 5.10.0-1-amd64 #1 SMP Debian 5.10.4-1 (2020-12-31) x86_64 GNU/Linux
+```
+
+</details>
