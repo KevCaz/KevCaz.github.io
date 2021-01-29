@@ -33,7 +33,7 @@
 
           {{ if .comments }}
             <i class="far fa-comment"></i>&nbsp;
-            {{ .comments }}
+            {{ .comments | markdownify }}
           {{ end }}
 
         </div>

@@ -1,5 +1,16 @@
 books:
   
+- title: Vingt Mille Lieues sous les mers 
+  author: Jules Verne
+  url_img: "https://images-na.ssl-images-amazon.com/images/I/51DroPYVpkL._SX303_BO1,204,203,200_.jpg"
+  type: roman
+  year: 2020
+  year_out: 1869-1870
+  info:
+    url: Vingt Mille Lieues sous les mers
+    name: "Article Wikipedia"
+  comments: "Monument de la science-fiction, on en parle un peu plus avec mes amis de radioRAB https://radiorab.github.io/post/2020/podcast_004/!"
+  
 - title: Aurevoir La-haut
   author: Pierre Lemaitre
   url_img: "https://m.media-amazon.com/images/I/51h9KP+PiKL._SY346_.jpg"

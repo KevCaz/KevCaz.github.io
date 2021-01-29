@@ -30,6 +30,11 @@ movies:
     year: 2020
     yearout: 2020
     
+    roto: m/zodiac
+    url_img: https://resizing.flixster.com/MUisKq8BTZCwwwS69gxpApiJjqU=/206x305/v2/https://flxt.tmsimg.com/NowShowing/55349/55349_aa.jpg
+    year: 2020
+    yearout: 2007
+    
   - roto: m/die_hard
     url_img: https://resizing.flixster.com/NbLHIcyry0fErwQIS3nP4DYJmbM=/206x305/v2/https://flxt.tmsimg.com/assets/p10255_p_v10_as.jpg
     year: 2020
