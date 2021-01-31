@@ -12,7 +12,7 @@ For this 100<sup>th</sup> SilicoNote/post, I have decided to share some notes ab
 
 As far as I remembered, I have built 5 different versions of my personal
 website. I decided to get a website when I was doing my PhD, back in 2014 (not a
-100% about sur about the timeline), in order to share some of my work. With my
+100% about sure about the timeline), in order to share some of my work. With my
 (very) modest skills I built a first website using CSS, HTML and a bit of PHP,
 no framework of any sort, no static site generators either. It was hosted by
 1and1 (which is now [Ionos](https://www.ionos.com/), apparently) and I used to
@@ -22,7 +22,7 @@ didn't take a screenshot! It lasted a year or so before I worked on a
 second version.
 
 In 2015, I rebuilt my personal website with [Jekyll](https://jekyllrb.com/),
-which was a big improvement: I was able to write posts more efficiently cause I
+which was a big improvement: I was able to write posts more efficiently because I
 wrote them with [Markdown](https://en.wikipedia.org/wiki/Markdown) and I was
 able to use GitHub to version my website (now [archived on
 GitHub](https://github.com/KevCaz/KevCazWebsite)) and to host it on [GitHub
@@ -72,7 +72,7 @@ I achieved those goals by working a week or two on my theme: [funkyflex](https:/
 
 ### First thing: the design 
 
-I am glad that I thought about the design first, cause it helped me building the website step by step with a clear goal for the visual rendering. In my mind,
+I am glad that I thought about the design first, because it helped me build the website step by step with a clear goal for the visual rendering. In my mind,
 I had to get the following design elements right:  
 
 - a main navigation bar on the left side, 
@@ -80,7 +80,7 @@ I had to get the following design elements right:
 - a secondary/contextual navigation bar to help navigating through the page content;
 - the home page had to include an academic mission statement
 
-By the way, I looked at various website to get ideas and I would like to mention the one by [Régis Philibert](https://regisphilibert.com/fr/) cause not only it contains great posts about Hugo, it also has an awesome design! 
+By the way, I looked at various website to get ideas and I would like to mention the one by [Régis Philibert](https://regisphilibert.com/fr/) because not only it contains great posts about Hugo, it also has an awesome design! 
 
 
 
@@ -88,7 +88,7 @@ By the way, I looked at various website to get ideas and I would like to mention
 
 I am pleased that I've spent time learning [Sass](https://sass-lang.com/), using its features made my work with CSS way more efficient. The nice and clear [tutorials](https://grafikart.fr/tutoriels/sass) by Garfikart (this French is a rock star!) made my learning of Sass super easy, and the integration [Sass/Hugo](https://gohugo.io/hugo-pipes/scss-sass/) is already well documented! Have a look at the [assets/scss](https://github.com/KevCaz/funkyflex/tree/master/assets/scss) folder of my theme to check out what I've done!
 
-I am also glad I took some time to learn a bit more about responsive web design and media queries. I have learned how to use [flexbox](https://grafikart.fr/tutoriels/flexbox-806) which helped me making my theme lighter as I didn't need to rely on external frameworks (such as Boostrap), which is pretty neat!
+I am also glad I took some time to learn a bit more about responsive web design and media queries. I have learned how to use [flexbox](https://grafikart.fr/tutoriels/flexbox-806) which helped me make my theme lighter as I didn't need to rely on external frameworks (such as Boostrap), which is pretty neat!
 
 At some point, I asked some friends how to attach more infos to a URL. Doesn't make sense, right? Well that was my way of describing it... you know, on many platforms nowadays (e.g. Slack), when a URL is shared, it often comes with a text and/or an image! Turns out this is a protocol, [the Open Graph protocol](https://ogp.me/), and it is fairly easy to use, and so I did use in the file [header.html](https://github.com/KevCaz/funkyflex/blob/9189be9e81edd1d223d8aff1251b6551cb5610aa/layouts/partials/head.html#L42-L48) of my theme and I even made it an optional parameter for having specific text/image for posts in my website (see [head_custom.html](https://github.com/KevCaz/KevCaz.github.io/blob/772c1c6205e759ecd503ba82341c7c615b426b78/layouts/partials/head_custom.html))! 
 
@@ -114,7 +114,7 @@ could, which was a very sensible choice of mine! Lucky me, when I worked on this
 project, [Hugo 60](https://gohugo.io/news/0.60.0-relnotes/) just came out which
 was bringing new improvements! One of the major new feature was that Hugo became
 [Common Mark compliant](https://gohugo.io/news/0.60.0-relnotes/) as it uses
-[goldmark](https://github.com/yuin/goldmark) (Markdown parser written in Go)
+[goldmark](https://github.com/yuin/goldmark) (a Markdown parser written in Go)
 ever since. I had the opportunity to embrace this new feature and one detail
 I'll surely keep in mind is that one must use the following in `config.toml`
 
@@ -143,7 +143,7 @@ and [peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages)!
 
 ### I've learned even more
 
-There are a myriad of things that I've learned and I won't detail here. From
+There are a myriad of things that I've learned and won't detail here. From
 little technical details, such as the [difference between `rem` and
 `em`](https://stackoverflow.com/questions/13941275/how-does-rem-differ-from-em-in-css)
 to technologies I was not even aware of, such as [KaTeX](https://katex.org/) for
