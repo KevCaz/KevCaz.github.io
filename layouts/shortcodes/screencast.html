@@ -1,10 +1,5 @@
 <center>
-  <video width='
-    {{ if .Get "width" }}
-      {{ .Get "width" }}
-    {{ else }}
-      100%
-    {{ end }}'
+  <video width='{{ .Get "width" | default "100%" }}'
   controls>
     <source src="{{ .Get `src` }}" type="video/webm">
     Your browser does not support the video tag.
