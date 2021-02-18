@@ -140,24 +140,19 @@ lineNos = true
     weight = 5
 [[menu.main]]
     parent = "perso"
-    name = "Books I read and liked"
+    name = "Books"
     url = "/perso/books"
     weight = 1
 [[menu.main]]
     parent = "perso"
-    name = "Movies I watched and liked"
+    name = "Movies"
     url = "/perso/movies"
     weight = 2
 [[menu.main]]
     parent = "perso"
-    name = "Opinions I dare to share"
+    name = "Opinions"
     url = "/perso/opinions"
     weight = 3
-[[menu.main]]
-    parent = "perso"
-    name = "Even more personal"
-    url = "/perso/famille"
-    weight = 4
 
 
 # Taxonomies.
