@@ -29,7 +29,7 @@ sc.db                              schemacrawler.colormap.properties  schemacraw
 
 ```sh
 $ schemacrawler \
---server=sqlite --database=share/db/insil_compta.db \
+--server=sqlite --database=share/test.db \
 --info-level=maximum \
 --command=schema --output-format=png --output-file=share/graph_max.png
 ```
@@ -51,7 +51,7 @@ https://www.schemacrawler.com/docker-image.html
 ## Creating a bash function
 
 
-to make an enture alis for thaht s need to extend the docker image.
+to make an enture alis for that s need to extend the docker image.
 Not sure there is a simple way, may need to extent the image first.
 Will follow up on this.
 and run it at the begingi another nore. 
