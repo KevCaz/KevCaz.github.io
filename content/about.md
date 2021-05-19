@@ -32,7 +32,7 @@ communities. -->
 I am currently a post-doctoral fellow in [the McCann
 Lab](http://www.mccannlab.ca) at the [University of
 Guelph](https://www.uoguelph.ca/). The easiest way to contact me
-is to send me an email (:arrow_right: <a href="mailto:kevin.cazelles@gmail.com?subject=Paper%20Request&amp;body=Dear%20Kevin%2C%20%0A%0AMessage%0A%0ASincerely%2C"><i
+is to send me an email (:arrow_right: <a href="mailto:kevin.cazelles@gmail.com?subject=Contact&amp;body=Dear%20Kevin%2C%20%0A%0AMessage%0A%0ASincerely%2C"><i
 class='far fa-envelope'></i></a>, but you can also reach me at the following
 phone numbers **+1 519 824 4120 (ext. 53700)**.
 
