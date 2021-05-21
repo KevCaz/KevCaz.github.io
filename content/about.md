@@ -2,11 +2,19 @@
 title: "<i class='far fa-address-card'></i> About"
 ---
 
+{{< mozaic >}}
+
+{{< mozaic-element 60 >}}
+
 {{< bd-avatar >}}
+
+{{< /mozaic-element >}}
+
+{{< mozaic-element 40 >}}
 
 ## About me
 
-I'm **Kevin Cazelles** and for over six years now, I have been tackling
+I'm **Kevin Cazelles** and for over seven years now, I have been tackling
 research challenges in various areas of ecology. I have mainly been focusing on
 theory in macro-ecology and network ecology (check out my [PhD
 dissertation <i class="fas fa-file-pdf" aria-hidden="true"></i>](/docs/thesekc.pdf)) but I have also been working on various
@@ -22,14 +30,23 @@ to tangible challenges such as the impact of global change on ecological
 communities. -->
 
 
+{{< /mozaic-element >}}
 
-## Contact
+{{< /mozaic >}}
+
+
+
+{{< vspace 40 >}}
+
+
 
 {{< mozaic >}}
 
 {{< mozaic-element 36 >}}
 
-I am currently a post-doctoral fellow in [the McCann
+## Contact
+
+I am currently a research associate, working with [the McCann
 Lab](http://www.mccannlab.ca) at the [University of
 Guelph](https://www.uoguelph.ca/). The easiest way to contact me
 is to send me an email (:arrow_right: <a href="mailto:kevin.cazelles@gmail.com?subject=Contact&amp;body=Dear%20Kevin%2C%20%0A%0AMessage%0A%0ASincerely%2C"><i
