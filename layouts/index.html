@@ -19,17 +19,13 @@
         <div class="ctn-main-content">
 
             <div class="ctt-main-content">
-
                 <div class="ctt-main-content">
-
-                    <div class="home-main">
-
-                    <h1 id="title-home">Welcome!</h1>
-
-
-                    <div class="ctn-home">
-
-                        <div class="ctn-home-half">
+                  
+                  <div class="home-main">
+                  <h1 id="title-home">Welcome!</h1>
+                  
+                  <div class="ctn-home">
+                      <div class="ctn-home-half">
                         <div class="mission">
                         <h2 id="skip">I am Kevin Cazelles, an ecologist who uses</h2>
                         <h3 id="skip">
@@ -43,48 +39,46 @@
                             conserve ecosystem functions and biodiversity that are essential to our good health and well being.
                         </h3>
                         </div>
-                        </div>
-
-                        <div class="ctn-home-half">
-                            <center>
-                                <img src="img/wordcloud.png" alt="wordcloud" width="92%"></img>
-                            </center>
-                        </div>
-                    </div>
-
-                    <h1 id="title-home" class="addto-second-navbar">News</h1>
-
-                    <div class="ctn-home flexstart">
-
-                    <div class="ctn-home-bighalf">
+                      </div>
+                      <div class="ctn-home-half">
+                        <center>
+                          <img src="img/wordcloud.png" alt="wordcloud" width="92%"></img>
+                        </center>
+                      </div>
+                  </div>
 
 
-                    <h3> <i class="fas fa-code" aria-hidden="true"></i> Latest
-                    <a href="/notes/">Siliconotes</a></h3>
+                  <div class="ctn-home flexstart">
+
+                    <div class="ctn-home-news">
+                      <h3> <i class="fas fa-code" aria-hidden="true"></i> Latest
+                        <a href="/notes/">Siliconotes</a></h3>
                         <div class="listings">
-                        <ol>
-                        {{ range where .Site.Pages.ByDate.Reverse ".Type" "==" "notes" | first 8 }}
-                        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-                        {{ end }}
-                        </ol>
+                          <ol>
+                            {{ range where .Site.Pages.ByDate.Reverse ".Type" "==" "notes" | first 10 }}
+                            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                            {{ end }}
+                          </ol>
+                        </div>
                     </div>
 
+                  <div class="ctn-home-news">
                     <h3><i class="fas fa-tree" aria-hidden="true"></i> Latest <a href="/econotes/">Econotes</a></h3>
-                        <div class="listings">
-                        <ol>
-                        {{ range where .Site.Pages.ByDate.Reverse ".Type" "==" "econotes" | first 4 }}
-                        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                      <div class="listings">
+                      <ol>
+                      {{ range where .Site.Pages.ByDate.Reverse ".Type" "==" "econotes" | first 4 }}
+                      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                       {{ end }}
-                        </ol>
-                        </div>
-                    </div>
+                      </ol>
+                      </div>
+                  </div>
 
-                    <div class="ctn-home-smallhalf">
-                    <center>
-                      <a class="twitter-timeline" href="https://twitter.com/{{ .Site.Params.twitter }}" data-width="92%" data-height="600" data-chrome="nofooter noborders hoheader transparent">
-                        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                      </a>
-                    </center>
+                    <div class="ctn-home-news">
+                      <center>
+                        <a class="twitter-timeline" href="https://twitter.com/{{ .Site.Params.twitter }}" data-width="100%" data-height="600" data-chrome="nofooter noborders hoheader transparent">
+                          <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </a>
+                      </center>
                     </div>
 
                 </div>

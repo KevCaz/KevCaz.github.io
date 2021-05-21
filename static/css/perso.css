@@ -26,7 +26,7 @@ img, iframe, video {
 #title-home {
   font-family: "AMA";
   text-align: center;
-  font-size: 3.2rem;
+  font-size: 2.8rem;
 	margin-top: .1rem;
 }
 
@@ -73,23 +73,24 @@ img, iframe, video {
 }
 .ctn-home-half {
   display: block;
-  width: 40%;
+  width: 48%;
 }
 
-.ctn-home-bighalf {
+
+.ctn-home-news {
   display: block;
-  width: 59%;
+  width: 33%;
 }
 
-.ctn-home-bighalf h3, .ctn-home-half h3 {
+.ctn-home-news h3, .ctn-home-half h3 {
 	margin-bottom: .2rem;
 	margin-top: .2rem;
 }
 
-.ctn-home-smallhalf {
-  display: block;
-  width: 30%;
+.ctn-home-news ol {
+  padding-left: 4px;
 }
+
 
 .ctn-book {
   margin-top: 1vh;
@@ -158,7 +159,7 @@ img, iframe, video {
 
 
 @media screen and (max-width: 1200px) {
-  .ctn-home-half, .ctn-home-bighalf, .ctn-home-smallhalf {
+  .ctn-home-news, .ctn-home-half, .ctn-home-bighalf, .ctn-home-smallhalf {
     width: 100%;
     margin-bottom: 2vh;
   }
