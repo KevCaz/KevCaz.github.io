@@ -2,6 +2,7 @@
 title: "Set up your own webradio"
 date: 2021-05-02
 tags: [icecast, liquidsoap, mixxx, fapg, audio, internet radio]
+draft: true
 ---
 
 Three friends and I have decided to start a webradio so we could listen to musique, 

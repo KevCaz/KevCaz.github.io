@@ -22,7 +22,7 @@ of tags used throughout these notes is available [here](/tags/).
 
 ```.sh
 $ uname -a 
-Linux debkev 5.10.0-2-amd64 #1 SMP Debian 5.10.9-1 (2021-01-20) x86_64 GNU/Linux
+Linux debkev 5.10.0-6-amd64 #1 SMP Debian 5.10.28-1 (2021-04-09) x86_64 GNU/Linux
 ```
 
 </details>
