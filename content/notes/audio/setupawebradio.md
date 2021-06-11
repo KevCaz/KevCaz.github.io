@@ -6,7 +6,7 @@ draft: true
 ---
 
 Three friends and I have decided to start a webradio so we could listen to musique, 
-mix live and even air podcasts of our own. I thought that would be a long and hard way to reach that goal. Turned out that was not that complicate thanks to the great open souces available. Here I just want to report back the steps to foow. I don't want to go into details, just give the key element. 
+mix live and even air podcasts of our own. I thought that would be a long and hard way to reach that goal. Turned out that was not that complicate thanks to the great open souces available. Here I just want to report back the steps to follow. I don't want to go into details, just give the key element. 
 
 
 ## Rent a server 
