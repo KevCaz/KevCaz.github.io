@@ -30,6 +30,11 @@
   background-color: #fff193;
 }
 
+.justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 
 
 @font-face {

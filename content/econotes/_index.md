@@ -4,5 +4,5 @@ layout: list
 date: 2014-10-08
 ---
 
-This is where I gathered blog post and notes that regards ecology.
+This is where I jot notes that about some topics in ecology.
 

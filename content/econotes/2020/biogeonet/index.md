@@ -103,6 +103,6 @@ late to share your codes
 
 
 
-[^note1]: Gravel et. al. (2011) {{< doi "0.1111/j.1461-0248.2011.01667.x" >}}
+[^note1]: Gravel et. al. (2011) {{< doi "10.1111/j.1461-0248.2011.01667.x" >}}
 [^note2]: for more details, see the [Supplementary
 Information](https://kevcaz.github.io/biogeonet/articles/Cazelles_2016_SI.html).
