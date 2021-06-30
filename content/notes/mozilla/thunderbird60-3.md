@@ -1,7 +1,7 @@
 ---
 title: "Thunderbird v60.3.0 solves them all!"
 date: 2018-11-08
-tags: [R, if, efficiency]
+tags: [Debian, Thunderbird, installation, bug fix]
 ---
 
 As I mentioned in [a previous note](/notes/mozilla/olderthuderbirdversion/), when
