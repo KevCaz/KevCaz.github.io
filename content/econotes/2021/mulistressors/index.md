@@ -15,7 +15,7 @@ stressors frameworks attempt to account for their diversity and their joint
 effects (stressors may have antagonistic or synergistic effects). Most of such
 frameworks (if not all) are species-based, meaning that they account for the
 sensitivity of species to the stressors and the intensity of the stressor (e.g.,
-Halpern 2019[^hp]) but not for the ecological relationship among species.
+Halpern 2019[^hp]) but not for the ecological relationships among species.
 However, it is a truism to say that species are not independent and therefore
 approaches that neglect ecological interactions may lead to inaccurate
 predictions. That is why we've put a lot of efforts in combining food web
@@ -44,17 +44,17 @@ Note that the latter quantifies the non-additivity of the pathway of effect.
 
 
 The interpretation of these two quantities is rather straightforward. For a given pathway, a species with a high trophic sensitivity is strongly affected by 
-stressors (if the value is negative, then abundances are negatively impacted and if the value is positive then species are positively impacted). Also, high trophic amplification values mean that there are strong non-additive effects (though the exact interpretation of the signed values depends on the sign of the trophic sensitivity). So we had these two quantities for the three species for every motif. Once those metrics defined, we show the relationship between the two for all pathway of effects and there is actually a lot of variation among motifs :arrow_down:.
+stressors (if the value is negative, then abundances are negatively impacted and if the value is positive then species are positively impacted). Also, high trophic amplification values mean that there are strong non-additive effects (though the exact interpretation of the signed values depends on the sign of the trophic sensitivity). So we had these two quantities for the three species in every motif. Once those metrics defined, we show the relationship between the two for all pathway of effects and there is actually a lot of variation among motifs :arrow_down:.
 
 
-{{< figcenter fig5.png 80 "Figure 5 from Beauchesne et al. (2021), see the paper for the original caption. The central panel presents the average values for the different species in different motifs. The other (smaller) panels show the relationship between the same relationship for all pathways of effect for a given species in a given motif. Note that not only the motif matters, but the position within it does too."  >}}
+{{< figcenter fig5.png 80 "Figure 5 from Beauchesne et al. (2021), see the paper for the original caption. The central panel presents the average values for the different species in different motifs. The other (smaller) panels show the same relationship for all pathways of effect for a given species in a given motif. Note that not only the motif matters, but the position within it does too."  >}}
 
 
 In order to obtain the **trophic sensitivity** and the **trophic amplification**
 for species in a complex network, for each species, we performed a **motif
 census** (see [motifcensus](https://github.com/KevCaz/motifcensus) for an <i
 class="fab fa-r-project" aria-hidden="true"></i> implementation) and then sum
-all the corresponding values if **trophic sensitivity** and  **trophic
+all the corresponding values of **trophic sensitivity** and  **trophic
 amplification** :arrow_down:.
 
 
@@ -67,7 +67,7 @@ We then apply this framework on real marine ecological networks that represent t
 {{< figcenter fig7.png 60 "Figure 7 from Beauchesne et al. (2021), see the paper for the original caption. Species with strong negative values, such as the Atlantic cod, have their abundances strongly and negatively impacted by stressors. For such species a positive or a negative value indicates the presence of non-additive effect. For species on the left side of the chart, a positive amplification values means that non-linear effects dampen the impact of multi-stressors on abundance." >}}
 
 
-We actually say much more in the paper, so if you want to learn I suggest you read it through! This was a lot of work, we had a lot of feedback for the reviewers to make the paper as clear as possible. I hope we've succeeded in doing that, and I hope you'll be as excited as we are about the research avenues this study unveils! By the way, David did his best to make this study reproducible, see :arrow_right: https://zenodo.org/record/5014237#.YPhE8iUpD0o so you know where to start if you want to work on this :wink:.
+We actually say much more in the paper, so if you want to learn I suggest you read it through! This was a lot of work, we had a lot of feedback from the reviewers to make the paper as clear as possible. I hope we've succeeded in doing that, and I hope you'll be as excited as we are about the research avenues this study unveils! By the way, David did his best to make this study reproducible, see :arrow_right: https://zenodo.org/record/5014237#.YPhE8iUpD0o so you know where to start if you want to work on this :wink:.
 
 
 
@@ -76,4 +76,4 @@ We actually say much more in the paper, so if you want to learn I suggest you re
 
 [^hp]: Halpern (2019) {{< doi "10.1038/s41598-019-47201-9" >}}
 
-[^nb]: Note that the number of parameters vary with the motif, there are up to 9 parameters (for motifs that includes all interactions).
+[^nb]: Note that the number of parameters varies with the motif, there are up to 9 parameters (for motifs that includes all interactions).
