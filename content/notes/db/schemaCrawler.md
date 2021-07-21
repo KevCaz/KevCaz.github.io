@@ -1,3 +1,8 @@
+---
+title: "schemacrawler"
+date: 2021-07-21
+draft: true
+---
 
 sudo
 
