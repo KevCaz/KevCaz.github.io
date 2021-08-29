@@ -2,9 +2,9 @@
 title: From bullseye to bookworm
 date: 2021-08-29
 tags: [Linux, Debian, bookworm, release]
-imageOG: bookworm.webp
+imageOG: "./bookworm.webp"
 descriptionOG: |
-  This post explains how I switch from Debian 11 to Debian 12. 
+  This post explains how I updated my Debian machine (from Debian 11 to Debian 12). 
 ---
 
 
