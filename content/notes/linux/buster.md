@@ -1,7 +1,7 @@
 ---
 title: "Debian 10 *buster* released"
 date: 2019-07-09
-tags: [Linux, Debian, buster]
+tags: [Linux, Debian, buster, release]
 ---
 
 I have been on Debian *buster* for more than a year while it was the Debian Testing. After a frozen period that lasted a few months, [*buster* is the new stable Debian distribution since yesterday](https://www.debian.org/News/2019/20190706)!

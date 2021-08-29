@@ -3,6 +3,7 @@ title: "L' ARCHIPEL FRANCAIS"
 subtitle: Semaine du 30 septembre 2019
 date: 2021-02-17
 tags: [essai politique]
+draft: true
 ---
 
 J'ai enfin lu le livre de Jérôme Fourquet "L'archipel français" (publié au Seuil en mars 2019). Je dis "enfin" parce que j'en ai entendu parlé à maintes reprises et que toutes les critiques / résumé que j'ai entenu m'ont vraiment insisté à le lire. Mes attentes étaient peut être un peu trop grandes, quoi qu'il en soit, cette lecture m'a quelque peu mis malà l'aise et j'aimerais expliqué pourquoi. L'auteur rasemmble un certain nombre de donnée ui nourrise sa reflexion, mais l'analyse est pour le moins un peu bancale. 
