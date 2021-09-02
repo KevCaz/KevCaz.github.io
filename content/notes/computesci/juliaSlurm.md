@@ -20,7 +20,7 @@ Julia with [`module`](https://linux.die.net/man/1/module).
 
 ```sh
 $ module load julia/1.4.0
-$ module svae
+$ module save
 ```
 
 Then I [installed all the required

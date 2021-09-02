@@ -20,8 +20,8 @@ of tags used throughout these notes is available [here](/tags/).
 <summary>Current configuration</summary>
 
 ```.sh
-$ uname -a 
-Linux debkev 5.10.0-8-amd64 #1 SMP Debian 5.10.46-4 (2021-08-03) x86_64 GNU/Linux
+$ inxi -S
+System:    Host: debkev Kernel: 5.10.0-8-amd64 x86_64 bits: 64 Desktop: GNOME 3.38.6 Distro: Debian GNU/Linux bookworm/sid
 ```
 
 </details>

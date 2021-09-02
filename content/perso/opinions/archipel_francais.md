@@ -6,9 +6,9 @@ tags: [essai politique]
 draft: true
 ---
 
-J'ai enfin lu le livre de Jérôme Fourquet "L'archipel français" (publié au Seuil en mars 2019). Je dis "enfin" parce que j'en ai entendu parlé à maintes reprises et que toutes les critiques / résumé que j'ai entenu m'ont vraiment insisté à le lire. Mes attentes étaient peut être un peu trop grandes, quoi qu'il en soit, cette lecture m'a quelque peu mis malà l'aise et j'aimerais expliqué pourquoi. L'auteur rasemmble un certain nombre de donnée ui nourrise sa reflexion, mais l'analyse est pour le moins un peu bancale. 
+J'ai enfin lu le livre de Jérôme Fourquet "L'archipel français" (publié au Seuil en mars 2019). Je dis "enfin" parce que j'en ai entendu parlé à maintes reprises et que toutes les critiques j'ai entendu m'ont vraiment insisté à le lire. Mes attentes étaient peut être un peu trop grandes, quoi qu'il en soit, cette lecture m'a quelque peu mis malà l'aise et j'aimerais expliqué pourquoi. L'auteur rasemmble un certain nombre de donnée ui nourrise sa reflexion, mais l'analyse est pour le moins un peu bancale. 
 
-Jérôme Fourquet est directeur du département Opinion de l'[IFOP](https://www.ifop.com/) (Institut Français d'Opinion Publique). Et à la lecture du sous-titre "Naissance d'une nation multiple et divisée" on pense que l'auteur va nous dressé un portrait du changent de structrue de la france. Mais très sincerement j'ai vraiment eu peine à voir cela. Une forme de sythese et opitnio. 
+Jérôme Fourquet est directeur du département Opinion de l'[IFOP](https://www.ifop.com/) (Institut Français d'Opinion Publique). Et à la lecture du sous-titre "Naissance d'une nation multiple et divisée" on pense que l'auteur va nous dressé un portrait du changement de structrue de la france. Mais très sincèrement j'ai vraiment eu peine à voir cela. Une forme de sythese et opitnio. 
 
 
 > En effet, ce à quoi nous sommes en train d’assister est tout simplement une mise en conformité du paysage électoral et de l’offre politique avec les nouveaux clivages économiques, sociaux et sociétaux qui parcourent notre pays depuis au moins une trentaine d’années. Ce constat vaut pour la France, mais aussi pour les principales démocraties occidentales. (p. 273)
@@ -44,3 +44,25 @@ plus de 60 grahique, 30 tableaux 35 cartes, chavun amène des info intéressante
 https://www.luipresident.fr/
 
 les promesses pas tewnu par exemple la taxe d'ahibation
+
+
+le tatouage... 
+
+Mais, quelle média ils lisent? 
+
+procration sans sexualité
+
+plus de prêtres... inversement de pretres qui partent et qui revienne,t
+
+
+carte des Kevin autonomication politqitq couche populaire. 
+
+chacun dans son coind
+
+https://www.insee.fr/fr/statistiques/2540004?sommaire=4767262
+
+
+
+- 1983 
+- 2005
+- 2015
