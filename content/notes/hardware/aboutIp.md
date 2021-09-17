@@ -27,7 +27,7 @@ and Ipv6
 
 A range of IP for instance if with a submask 255.255.255.0 255 IP
 
-So one public IP. There are many loking add website and can be seen simply using `curl`, e.g. 
+So one public IP. There are many looking add website and can be seen simply using `curl`, e.g. 
 
 ```sh
 $ curl ifconfig.me
