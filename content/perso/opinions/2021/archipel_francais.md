@@ -1,14 +1,13 @@
 ---
 title: "L' ARCHIPEL FRANCAIS"
-subtitle: Semaine du 30 septembre 2019
-date: 2021-02-17
+date: 2021-09-18
 tags: [essai politique]
 draft: true
 ---
 
-J'ai enfin lu le livre de Jérôme Fourquet "L'archipel français" (publié au Seuil en mars 2019). Je dis "enfin" parce que j'en ai entendu parlé à maintes reprises et que toutes les critiques j'ai entendu m'ont vraiment insisté à le lire. Mes attentes étaient peut être un peu trop grandes, quoi qu'il en soit, cette lecture m'a quelque peu mis malà l'aise et j'aimerais expliqué pourquoi. L'auteur rasemmble un certain nombre de donnée ui nourrise sa reflexion, mais l'analyse est pour le moins un peu bancale. 
+J'ai enfin lu le livre de Jérôme Fourquet "L'archipel français" (publié au Seuil en mars 2019). Je dis "enfin" parce que j'en ai entendu parlé à maintes reprises et que toutes les critiques j'ai entendu m'ont vraiment insisté à le lire. Mes attentes étaient peut être un peu trop grandes, quoi qu'il en soit, cette lecture m'a quelque peu mis malà l'aise et j'aimerais expliqué pourquoi. L'auteur rasemmble un certain nombre de donnée qui nourrise sa reflexion, mais l'analyse est pour le moins un peu bancale. 
 
-Jérôme Fourquet est directeur du département Opinion de l'[IFOP](https://www.ifop.com/) (Institut Français d'Opinion Publique). Et à la lecture du sous-titre "Naissance d'une nation multiple et divisée" on pense que l'auteur va nous dressé un portrait du changement de structrue de la france. Mais très sincèrement j'ai vraiment eu peine à voir cela. Une forme de sythese et opitnio. 
+Jérôme Fourquet est directeur du département Opinion de l'[IFOP](https://www.ifop.com/) (Institut Français d'Opinion Publique). Et à la lecture du sous-titre "Naissance d'une nation multiple et divisée" on pense que l'auteur va nous dressé un portrait du changement de structure de la france. Mais très sincèrement j'ai vraiment eu peine à voir cela. Une forme de sythese et opitnio. 
 
 
 > En effet, ce à quoi nous sommes en train d’assister est tout simplement une mise en conformité du paysage électoral et de l’offre politique avec les nouveaux clivages économiques, sociaux et sociétaux qui parcourent notre pays depuis au moins une trentaine d’années. Ce constat vaut pour la France, mais aussi pour les principales démocraties occidentales. (p. 273)

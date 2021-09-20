@@ -7,3 +7,5 @@ gh-pages*
 resources/_gen/
 .vscode/
 _draft
+_inprep
+_resources

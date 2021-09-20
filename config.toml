@@ -135,7 +135,7 @@ lineNos = true
     weight = 3
 
 [[menu.main]]
-    name = "<i class='fas fa-person-booth'></i> Personal stuff"
+    name = "<i class='fas fa-person-booth'></i> Miscelleneous"
     identifier = "perso"
     weight = 5
 [[menu.main]]

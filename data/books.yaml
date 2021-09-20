@@ -1,5 +1,17 @@
 books:
   
+- title: La guerre des métaux rares
+  author: Guillaume Pitron
+  url_img: "http://www.editionslesliensquiliberent.fr/images/livre_moyen_585.png"
+  type: enquête
+  year: 2021
+  year_out: 2018
+  info:
+    url: https://www.youtube.com/watch?v=2lHTHINmNVk
+    name: "Entrevue de l'auteur sur Thinkerview"
+  comments: "J'ai fait un commentaire sur ce livre qui m'a captivé dans la section [Opinions](../opinions/2021/metauxrares) de ce site."
+  
+  
 - title: Vingt Mille Lieues sous les mers 
   author: Jules Verne
   url_img: "https://images-na.ssl-images-amazon.com/images/I/51DroPYVpkL._SX303_BO1,204,203,200_.jpg"
@@ -7,9 +19,9 @@ books:
   year: 2020
   year_out: 1869-1870
   info:
-    url: Vingt Mille Lieues sous les mers
+    url: https://fr.wikipedia.org/wiki/Vingt_Mille_Lieues_sous_les_mers
     name: "Article Wikipedia"
-  comments: "Monument de la science-fiction, on en parle un peu plus avec mes amis de radioRAB http://radio-rab.com/podcasts/2020/podcast_004/!"
+  comments: "Monument de la science-fiction, on en parle un peu plus avec mes amis de radioRAB http://radio-rab.com/podcasts/2020/podcast_004/ !"
   
 - title: Aurevoir La-haut
   author: Pierre Lemaitre
