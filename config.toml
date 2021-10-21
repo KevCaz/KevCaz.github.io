@@ -106,11 +106,6 @@ lineNos = true
     name = "Teaching"
     url = "/teaching/"
     weight = 6
-  [[menu.main]]
-    parent = "research"
-    name = "Resume"
-    url = "/resume/"
-    weight = 7
 
 
 [[menu.main]]

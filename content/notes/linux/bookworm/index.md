@@ -1,5 +1,5 @@
 ---
-title: From bullseye to bookworm
+title: From Bullseye to Bookworm
 date: 2021-08-29
 tags: [Linux, Debian, bookworm, release]
 imageOG: "./bookworm.webp"

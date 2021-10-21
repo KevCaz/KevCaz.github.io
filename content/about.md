@@ -29,11 +29,27 @@ leaving. As such, I do my best to apply the results of abstract investigations
 to tangible challenges such as the impact of global change on ecological
 communities. -->
 
+##### Curriculum Vitae  
+
+{{< mozaic >}}
+
+{{< mozaic-element 48 >}}
+
+:uk: English version [<i class="fab fa-html5" aria-hidden="true"></i>](https://kevcaz.github.io/CV/cv_en.html) [<i class="fas fa-file-pdf" aria-hidden="true"></i>](https://kevcaz.github.io/CV/cv_en.pdf)
+
+{{< /mozaic-element >}}
+
+{{< mozaic-element 48 >}}
+
+:fr: French version [<i class="fas fa-file-pdf" aria-hidden="true"></i>](/docs/cv/CV_KevCaz_fr.pdf)
+
 
 {{< /mozaic-element >}}
 
 {{< /mozaic >}}
 
+
+{{< /mozaic >}}
 
 
 {{< vspace 40 >}}
@@ -46,8 +62,7 @@ communities. -->
 
 ## Contact
 
-I am currently a research associate, working with [the McCann
-Lab](http://www.mccannlab.ca) at the [University of
+I am currently a research associate, working with [Pr. Kevin S. McCann](http://www.mccannlab.ca) at the [University of
 Guelph](https://www.uoguelph.ca/). The easiest way to contact me
 is to send me an email (:arrow_right: <a href="mailto:kevin.cazelles@gmail.com?subject=Contact&amp;body=Dear%20Kevin%2C%20%0A%0AMessage%0A%0ASincerely%2C"><i
 class='far fa-envelope'></i></a>, but you can also reach me at the following
@@ -58,7 +73,7 @@ phone numbers **+1 519 824 4120 (ext. 53700)**.
 {{< mozaic-element 64 >}}
 
 <center>
-<iframe width="88%" height="280px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-80.2331864833832%2C43.526638681485345%2C-80.22391676902772%2C43.53334379663221&amp;layer=mapnik&amp;marker=43.529991332235%2C-80.22855162620544" style="border: 6px solid #0d122f;"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=43.52999&amp;mlon=-80.22855#map=17/43.52999/-80.22855&amp;layers=N">View Larger Map</a></small>
+<iframe width="88%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-80.2331864833832%2C43.526638681485345%2C-80.22391676902772%2C43.53334379663221&amp;layer=mapnik&amp;marker=43.529991332235%2C-80.22855162620544" style="border: 6px solid #0d122f;"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=43.52999&amp;mlon=-80.22855#map=17/43.52999/-80.22855&amp;layers=N">View Larger Map</a></small>
 <center>
 
 {{< /mozaic-element >}}
