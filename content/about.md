@@ -35,13 +35,13 @@ communities. -->
 
 {{< mozaic-element 48 >}}
 
-:uk: English version [<i class="fab fa-html5" aria-hidden="true"></i>](https://kevcaz.github.io/CV/cv_en.html) [<i class="fas fa-file-pdf" aria-hidden="true"></i>](https://kevcaz.github.io/CV/cv_en.pdf)
+:uk: English version [<i class="fab fa-html5" aria-hidden="true"></i>](https://kevcaz.github.io/CV/cv_main_en.html) [<i class="fas fa-file-pdf" aria-hidden="true"></i>](https://kevcaz.github.io/CV/cv_main_en.pdf)
 
 {{< /mozaic-element >}}
 
 {{< mozaic-element 48 >}}
 
-:fr: French version [<i class="fas fa-file-pdf" aria-hidden="true"></i>](/docs/cv/CV_KevCaz_fr.pdf)
+:fr: French version [<i class="fab fa-html5" aria-hidden="true"></i>](https://kevcaz.github.io/CV/cv_main_fr.html) [<i class="fas fa-file-pdf" aria-hidden="true"></i>](https://kevcaz.github.io/CV/cv_main_fr.pdf)
 
 
 {{< /mozaic-element >}}
