@@ -123,3 +123,7 @@
 	0% {top: 0; opacity: 1;}
 	100% {top: 1500px; opacity: 0}
 }
+
+#love, #love2 {
+  color: #eb19b0;
+}
