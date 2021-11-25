@@ -18,9 +18,9 @@ I then used flatpak to install Fractal. I must stress that the installation was 
 
 Neat, right!? But what is flatpak exactly? Another package manager meant to replace `apt-get`? Not really, flatpak was created to [ease desktop application delivery in Linux](https://www.zdnet.com/article/the-future-of-linux-desktop-application-delivery-is-flatpak-and-snap/) (only in Linux). It uses container technology to deliver applications inside a desktop session (see the [FAQ](https://flatpak.org/faq) for more details). This removes major limitations that have been around for some time in the Linux world. Indeed, with such technology, application developers don't need to worry about how their applications will be distributed accros Linux distributions, at least for [28 distributions](https://flatpak.org/setup). All they need to do is to [create a manifest and use `flatpak-builder`](https://docs.flatpak.org/en/latest/first-build.html) and their application is ready to go on 28 distributions! 
 
-This is a significant step towards making application updates easy in Linux[^note2]. Mainly because with this technology, there is no longer a need of one maintainer per distribution per package (desktop application packages are big packages and I guess they are hard to maintain). The easiness of building and shipping application with this kind of technology ultimately allows users to quickly have access to the newest release of the application and package maintainers get a reduced workload, so they can spend more time on other projects. 
+This is a significant step towards making application updates easy in Linux[^note2]. Mainly because there is no longer a need of one maintainer per distribution per package (desktop application packages are big packages and I guess they are hard to maintain). The easiness of building and shipping application with this kind of technology ultimately allows users to quickly have access to the newest release of the application and package maintainers get a reduced workload, so they can spend more time on other projects. 
 
-I wouldn't say flatpak is new because the [project origins go back in 2007](https://github.com/flatpak/flatpak/wiki/Flatpak's-History), but it has certainly matured since that time and it has reached a high maturity level with the release of its application store, 
+I wouldn't say flatpak is new, because the [project origins go back in 2007](https://github.com/flatpak/flatpak/wiki/Flatpak's-History), but it has certainly matured since that time and it has reached a high maturity level with the release of its application store, 
 [flathub](https://flathub.org) in July 2017. With Flathub it is now super easy to cherry pick and install the set of desktop applications you need is with a few clear and concise command lines (e.g. [VLC](https://flathub.org/apps/details/org.videolan.VLC), [QGIS](https://flathub.org/apps/details/org.qgis.qgis), etc.). All you need to do is to add Flathub as a repository 
 
 
@@ -28,7 +28,7 @@ I wouldn't say flatpak is new because the [project origins go back in 2007](http
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
-and then use the installation command line provided on the web page of the application.For instance, for Fractal, the installation becomes: 
+and then use the installation command line provided on the web page of the application.For instance, for [Fractal](https://wiki.gnome.org/Apps/Fractal), the installation becomes: 
 
 ```.sh
 flatpak install -y flathub org.gnome.Fractal
@@ -47,7 +47,7 @@ flatpak install -y flathub \
   com.simplenote.Simplenote org.qgis.qgis org.gnome.Fractal
 ```
 
-Note that because it is a simple command to run the application, one can created alias easily, which mean I can use the same command line to launch one application : 
+Note that because it is a simple command to run the application, one can created aliases easily, which mean I can use the same command line to launch one application: 
 
 ```.sh
 alias vlc='flatpak run org.videolan.VLC'
@@ -83,10 +83,10 @@ Uninstall complete.
 ```
 
 
-:clap: :clap: :clap: I'm glad I've spent some time understanding Flatpak and using it. It is already part of setup now and I am confident that I'll be using it for months. I might dig deeper in future posts to understand what could possibly be the downside of using Flatpak (e.g. I wonder whether there are some performance costs) and also to understand what are the differences between Snap, Flatpak and [AppImage](https://appimage.org/)[^note3]. I'll certain report my findings here!
+:clap: :clap: :clap: I'm glad I've spent some time understanding Flatpak and using it. It is already part of my setup now and I am confident that I'll be using it for months. I might dig deeper in future posts to understand what could possibly be the downside of using Flatpak (e.g. I wonder whether there are some performance costs) and also to understand what are the differences between Snap, Flatpak and [AppImage](https://appimage.org/)[^note3]. I'll certainly report my findings here!
 
 
 
 [^note2]: a major limitations of most Linux distributions [according to Linus Torvald](https://www.youtube.com/watch?v=5PmHRSeA2c8).
 
-[^note3]: there is at least one discussion about this on [Ask Ubuntu](https://askubuntu.com/questions/866511/what-are-the-differences-between-snaps-appimage-flatpak-and-others)
+[^note3]: there is at least one discussion about this on [Ask Ubuntu](https://askubuntu.com/questions/866511/what-are-the-differences-between-snaps-appimage-flatpak-and-others).
