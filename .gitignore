@@ -9,3 +9,4 @@ resources/_gen/
 _draft
 _inprep
 _resources
+.hugo_build.lock
