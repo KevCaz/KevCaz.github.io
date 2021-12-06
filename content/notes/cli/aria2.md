@@ -4,10 +4,10 @@ date: 2019-05-10
 tags: [cli, transfer protocol, download, web]
 ---
 
-People at [TecMint](https://www.tecmint.com/) wrote great posts and gatherhui tons of tips about Linux. Recently, they twitted about [aria2](https://aria2.github.io/):
+People at [TecMint](https://www.tecmint.com/) write great posts and gather tons of tips about Linux. Recently, they twitted about [aria2](https://aria2.github.io/):
 
 
-{{< tweet 1122753025477464065 >}}
+{{< tweet tecmint 1122753025477464065 >}}
 
 I gave it a try, and it's pretty sweet :smile:! With a simple command line, you can download any file using any of the most common transfer protocols!. Even though it is unlikely that I'll substitute [wget](https://www.gnu.org/software/wget/) and [curl](https://curl.haxx.se/) for aria2, it is certainly a CLI tool I'll use on a regular basis.
 
