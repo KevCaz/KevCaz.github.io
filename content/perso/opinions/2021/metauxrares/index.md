@@ -2,7 +2,6 @@
 title: "LA GUERRE DES METAUX RARES `[LIVRE]`"
 date: 2021-09-18
 tags: [enquête, resources, geopolitique]
-draft: false
 ---
 
 {{< figcenter cover_poche.jpg 26 "Couverture de l'édition de poche de [*La guerre des métaux rares*](http://www.editionslesliensquiliberent.fr/livre-La_guerre_des_m%C3%A9taux_rares-9791020905741-1-1-0-1.html) de Guillaume Pitron paru le 10/01/2018 aux éditions *Les liens qui libèrent* (ISBN : 979-10-209-0574-1)." >}}

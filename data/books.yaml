@@ -1,4 +1,16 @@
 books:
+
+- title: Après l'Empire
+  author: Emmanuel Tood
+  url_img: "https://images-na.ssl-images-amazon.com/images/I/41PM0ADT3YL._SX317_BO1,204,203,200_.jpg"
+  type: essai
+  year: 2021
+  year_out: 2002
+  isbn: 978-20-703-1300-6
+  info:
+    url: https://fr.wikipedia.org/wiki/Apr%C3%A8s_l%27empire
+    name: "Article de Wikipédia"
+  comments: "Comme à son habitude, Emmanuel Todd nous montre comment l'histoire, la démographie et la macro-économie sont des clés essentielles pour comprendre la géopolitique. En 1976, dans *La Chute Finale*, il anticipait la fin de l'URSS qui se produira en 1991. En 2002, il passe un scanner aux États-Unis et le diagnostique est sans appel: les États-Unis n'ont plus l'importance qu'ils avaient au début des années 1990, les États-Unis sont *littéralement* un empire en déclin. La démonstration est claire: les États-Unis sont désindustrialisés et vivent sous perfusion de capitaux étrangers, les valeurs qu'ils défendent sont en recul, leur politique étrangère et désastreuse ('Axe du Mal', tentative d'isolement de la Russie, ...), etc. Vingt ans après sa parution, force est de constater que les États-Unis continuent sur cette trajectoire, Trump (lui même une manifestation du déclin?) n'a pas réindustrialisé les États-Unis, la politique étrangère des États-Unis des vingt dernières années a eu des conséquences désastreuses sur de nombreux pays du Moyen-Orient, la Russie est en grande forme et revancharde, etc. Bref, Emmanuel Todd avait vu juste, il avait bien identifié les forces en présence, leur importance relative et dans quelle sens elles jouaient. Au tableau peint en 2002, il manque seulement la Chine dont le rôle est probablement aujourd'hui plus important que ce que l'auteur avait anticipé. tl;dr: Il faut lire Emmanuel Todd."
   
 - title: La guerre des métaux rares
   author: Guillaume Pitron
@@ -23,7 +35,7 @@ books:
     name: "Article Wikipedia"
   comments: "Monument de la science-fiction, on en parle un peu plus avec mes amis de radioRAB http://radio-rab.com/podcasts/2020/podcast_004/ !"
   
-- title: Aurevoir La-haut
+- title: Au revoir La-haut
   author: Pierre Lemaitre
   url_img: "https://m.media-amazon.com/images/I/51h9KP+PiKL._SY346_.jpg"
   type: roman
@@ -32,7 +44,7 @@ books:
   info:
     url: https://fr.wikipedia.org/wiki/Au_revoir_l%C3%A0-haut
     name: "Article Wikipedia"
-  comments: "Un roman qui se déroule à la sortie de la première guerre mondiale et qui portent sur les destins croisés de deux poilus et leur lieutenant. Ce que je retiens de ce livre, c'est le travail formidable pour nous transmettre sentiments et émotions, notamment une forte empathie pour les deux poilus qui ne se remettent pas d'une guerre qui les a fracassé et une extrême aversion pour le lieutenant qui a finalement réussi à profiter de cette sinistre période. Aussi les personnages sont finement travaillés et l'orchestration de ces derniers est, à mon sens, très réussie. Enfin, j'ai aussi particulièrement apprécié la construction de la narration avec deux fils principaux utilisés intelligemment: tantôt ils évoluent indépendamment, tantôt ils se télescopent, le tout donnant un suspens qui nous fait dévorer le bouquin! Pour finir, je voudrais mentioner que j'ai mis l'adaptation au grand écran par le duo Lemaitre/Dupontel sur ma towatch list, quant aux deux autres romans de la trilogie, ils sont sur ma toread list!"
+  comments: "Un roman qui se déroule à la sortie de la première guerre mondiale et qui portent sur les destins croisés de deux poilus et leur lieutenant. Ce que je retiens de ce livre, c'est le travail formidable pour nous transmettre sentiments et émotions, notamment une forte empathie pour les deux poilus qui ne se remettent pas d'une guerre qui les a fracassé et une extrême aversion pour le lieutenant qui a finalement réussi à profiter de cette sinistre période. Aussi les personnages sont finement travaillés et l'orchestration de ces derniers est, à mon sens, très réussie. Enfin, j'ai aussi particulièrement apprécié la construction de la narration avec deux fils principaux utilisés intelligemment: tantôt ils évoluent indépendamment, tantôt ils se télescopent, le tout donnant un suspens qui nous fait dévorer le bouquin! Pour finir, je voudrais mentionner que j'ai mis l'adaptation au grand écran par le duo Lemaitre/Dupontel sur ma towatch list, quant aux deux autres romans de la trilogie, ils sont sur ma toread list!"
   
 - title: L'Élégance du hérisson
   author: Muriel Barbery
