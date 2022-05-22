@@ -41,4 +41,4 @@ Then I updated my [gist to set up my debian machine accordingly](https://gist.gi
 As I use R very frequently, my next step is to read [*An Introduction to Rocker: Docker Containers for R*](https://journal.r-project.org/archive/2017/RJ-2017-065/index.html)
 Carl Boettiger and Dirk Eddelbuettel and also the nice tutorial by Colin Fay he mentions in one of his recent tweets.
 
-{{< tweet 1082006268653568001 >}}
+{{< tweet user="_ColinFay" id="1082006268653568001" >}}

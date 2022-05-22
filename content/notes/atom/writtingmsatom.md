@@ -9,7 +9,7 @@ It actually makes a ton of sense to me as I write my manuscripts in Markdown and
 Atom is provided with many powerful features (specific packages, shortcuts, etc.) that once combined make my writing very efficient (I like to think so). Recently, Timothée Poisot shared a very cool setup:
 
 <center>
-  {{< twitter 993892491849060352 >}}
+  {{< twitter user="tpoi" id="993892491849060352" >}}
 </center>
 
 

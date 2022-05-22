@@ -42,7 +42,7 @@ R> rc
 
 Yep, >1500! Dirk Eddelbuettel mentioned this recently:
 
-{{< twitter 1063051483661381633 >}}
+{{< twitter user="eddelbuettel" id="1063051483661381633" >}}
 
 
 A last example, the full list of packages

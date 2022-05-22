@@ -7,7 +7,7 @@ imageOG: fig1.png
 
 Our latest work[^db] led by [David Beauchesne](https://www.researchgate.net/profile/David-Beauchesne) is out since yesterday in [Ecology Letters](https://onlinelibrary.wiley.com/doi/abs/10.1111/ele.13841?campaign=wolearlyview) :partying_face:! This paper introduces a framework that allows the exploration of the impact of multiple stressors on food webs.
 
-{{< tweet 1417528951552024579 >}}
+{{< tweet user="d_beauchesne" id="1417528951552024579" >}}
 
 
 In the Anthropocene, human activities impact species is various ways. Multiple
@@ -43,7 +43,7 @@ Note that the latter quantifies the non-additivity of the pathway of effect.
 {{< figcenter fig1.png 80 "Figure 1 from Beauchesne et al. (2021), see the paper for the original caption. Panel (a) present a 6-species food web with trophic interactions and the effects of stressors. Panels (b-d) detail of the different effects for one 3-species motif. For this motif, there is only stressor 'trawling' that directly affects one species, the Atlantic cod, though it may  impact several ecological processes, i.e. several parameters in the LV model. The pathway of effect basically describes how stressors impact species, that is it gives us the link between the stressors and the parameters of the LV models impacted."  >}}
 
 
-The interpretation of these two quantities is rather straightforward. For a given pathway, a species with a high trophic sensitivity is strongly affected by 
+The interpretation of these two quantities is rather straightforward. For a given pathway, a species with a high trophic sensitivity is strongly affected by
 stressors (if the value is negative, then abundances are negatively impacted and if the value is positive then species are positively impacted). Also, high trophic amplification values mean that there are strong non-additive effects (though the exact interpretation of the signed values depends on the sign of the trophic sensitivity). So we had these two quantities for the three species in every motif. Once those metrics defined, we show the relationship between the two for all pathway of effects and there is actually a lot of variation among motifs :arrow_down:.
 
 
@@ -61,7 +61,7 @@ amplification** :arrow_down:.
 {{< figcenter fig3.png 60 "Figure 3 from Beauchesne et al. (2021), see the paper for the original caption. For the Atlantic cod, we first recorded all the motifs it is present in (panel A). For the 4 motifs recorded, we sum the **trophic sensitivity** and the **trophic amplification** to obtain the value for the trophic network (panel B)." >}}
 
 
-We then apply this framework on real marine ecological networks that represent the St-Lawrence system in the mid-1980s. Notably, we show that applying our framework can reveal species (or group of species) particularly vulnerable to multiple stressors :arrow_down:. 
+We then apply this framework on real marine ecological networks that represent the St-Lawrence system in the mid-1980s. Notably, we show that applying our framework can reveal species (or group of species) particularly vulnerable to multiple stressors :arrow_down:.
 
 
 {{< figcenter fig7.png 60 "Figure 7 from Beauchesne et al. (2021), see the paper for the original caption. Species with strong negative values, such as the Atlantic cod, have their abundances strongly and negatively impacted by stressors. For such species a positive or a negative value indicates the presence of non-additive effect. For species on the left side of the chart, a positive amplification values means that non-linear effects dampen the impact of multi-stressors on abundance." >}}
