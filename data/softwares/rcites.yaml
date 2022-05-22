@@ -4,13 +4,11 @@ category: "R package"
 description: "Access information from the Speciesplus database"
 website: "https://ropensci.github.io/rcites/"
 badges:
-  travis:
-    branch: master
-  appveyor:
-    status: kgimo4v7rvtpkp5e
-    repo: ropensci/rcites
+  ghactions:
+     reposlug: ropensci/rcites
+     workflow: R-CMD-check
   codecov:
-    repo: gh/ropensci/rcites
+      repo: gh/ropensci/rmangal
   repostatus: active
   ropensci: 244
   cran: rcites

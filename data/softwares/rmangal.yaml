@@ -4,11 +4,10 @@ category: "R package"
 description: "Retrieve data from MANGAL."
 website: "https://ropensci.github.io/rmangal/"
 badges:
-  travis:
-    repo: ropensci/rmangal
-  appveyor:
-    status: mibs2ni969xiqgrd
-    repo: ropensci/rmangal
+  badges:
+    ghactions:
+       reposlug: ropensci/rmangal
+       workflow: R-CMD-check
   codecov:
     repo: gh/ropensci/rmangal
   repostatus: active

@@ -4,11 +4,10 @@ category: "R package"
 description: "Collection of graphics functions."
 website: "http://insileco.github.io/graphicsutils/"
 badges:
-  travis:
-    repo: inSileco/graphicsutils
-  appveyor:
-    status: 330p7f0djhpl998q
-    repo: inSileco/graphicsutils
+  badges:
+    ghactions:
+       reposlug: inSileco/graphicsutils
+       workflow: R-CMD-check
   codecov:
     repo: gh/inSileco/graphicsutils
   repostatus: active

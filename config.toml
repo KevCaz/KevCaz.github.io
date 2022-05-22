@@ -42,7 +42,9 @@ lineNos = true
   # Date format (refer to Go's date format: http://flippinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
   date_format = "Mon, Jan 2, 2006"
-  footer = "Website built with <a href='https://gohugo.io/'>Hugo</a>. <br><i class='fas fa-code'></i> available on <a href='https://github.com/KevCaz/KevCaz.github.io'><i class='fab fa-github'></i></a>. <br>Content under <a href='https://creativecommons.org/publicdomain/zero/1.0'><i class='fab fa-creative-commons'></i> <i class='fab fa-creative-commons-zero'></i></a> unless otherwise specified."
+  footer = "Website built with <a href='https://gohugo.io/'>Hugo</a>.<br><i class='fas fa-code'></i> available on <a href='https://github.com/KevCaz/KevCaz.github.io'><i class='fab fa-github'></i></a>."
+  copyright = "<br>Content under <a href='https://creativecommons.org/publicdomain/zero/1.0'><i class='fab fa-creative-commons'></i><i class='fab fa-creative-commons-zero'></i></a> unless otherwise specified."
+  latestbuild = true
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
@@ -67,19 +69,14 @@ lineNos = true
     url = "/"
     weight = 1
   [[menu.main]]
-    identifier = "about"
-    name = "<i class='fas fa-id-card'></i> About"
-    url = "/about/"
-    weight = 2
-  [[menu.main]]
     identifier = "research"
     name = "<i class='fas fa-microscope'></i> Research"
     url = "/research/"
-    weight = 3
+    weight = 2
   [[menu.main]]
     parent = "research"
-    name = "Projects"
-    url = "/projects/"
+    name = "About my research"
+    url = "/about_my_research/"
     weight = 1
   [[menu.main]]
     parent = "research"

@@ -3,11 +3,9 @@ github: KevCaz/ecoocc
 category: "R package"
 description: "Occurrence and cooccurrence analysis in ecology"
 badges:
-  travis:
-    repo: KevCaz/ecoocc
-  appveyor:
-    status: qeywntin8yma0jb0
-    repo: KevCaz/ecoocc
+  ghactions:
+     reposlug: KevCaz/ecoocc
+     workflow: R-CMD-check
   codecov:
     repo: gh/KevCaz/ecoocc
   repostatus: concept

@@ -4,11 +4,9 @@ category: "R package"
 description: "Miscelleneous R functions."
 website: "http://insileco.github.io/inSilecoMisc/"
 badges:
-  travis:
-    branch: master
-  appveyor:
-    status: x5ngkcflyfiixr37
-    repo: inSileco/inSilecoMisc
+  ghactions:
+     reposlug: inSileco/inSilecoMisc
+     workflow: R-CMD-check
   codecov:
     repo: gh/inSileco/inSilecoMisc
   repostatus: active

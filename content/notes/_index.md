@@ -1,11 +1,10 @@
 ---
 title: "<i class='fas fa-code-branch'></i> SilicoNotes"
-date: 2018-09-01
+date: 2022-04-22
 ---
 
-In my professional life, I mainly write about ecology (see the [publications
-section](../publications)) but I spend a fair amount of my time on my computer
-looking at new freeware, new computational tools, new programming langages, etc.
+In my professional life, I spend a fair amount of my time on my computer
+looking at new freeware, new computational tools, new programming languages, etc.
 to find better practices and share them with colleagues. That is the
 reason why I partnered up with colleagues/friends to start
 [inSileco](https://blog.insileco.io/), a blog that focuses on computational
@@ -22,8 +21,8 @@ of tags used throughout these notes is available [here](/tags/).
 ```.sh
 $ inxi -S
 System:
-  Host: deb Kernel: 5.15.0-2-amd64 x86_64 bits: 64 Desktop: GNOME 41.2
-    Distro: Debian GNU/Linux bookworm/sid
+  Host: deb Kernel: 5.17.0-1-amd64 arch: x86_64 bits: 64 Desktop: Cinnamon
+    v: 5.2.7 Distro: Debian GNU/Linux bookworm/sid
 ```
 
 </details>
