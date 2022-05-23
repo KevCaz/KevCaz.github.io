@@ -1,6 +1,6 @@
 ---
 title: "<i class='fas fa-code-branch'></i> SilicoNotes"
-date: 2022-04-22
+date: 2020-01-01
 ---
 
 In my professional life, I spend a fair amount of my time on my computer
