@@ -1,15 +1,27 @@
 movies:
   
-  - roto: tv/messiah/s01
-    url_img: https://resizing.flixster.com/18Cr2g67DZAYlnycBKOUS54Iwxs=/206x305/v1.dDs2Mjc4Nzk7ajsxODc3MjsxMjAwOzEwODA7MTM1MA
-    year: 2021
-    yearout: 2019
-  
-  - roto: m/man_bites_dog
-    url_img: https://resizing.flixster.com/X-Pgzb5Ifk5vzdZFUxoPzmvyH8U=/300x300/v2/https://flxt.tmsimg.com/assets/p18643_v_h9_aa.jpg
-    year: 2021
-    yearout: 1992
-  
+  - roto: m/the_power_of_the_dog
+    url_img: https://resizing.flixster.com/pKVD08M1Wuc24_fd7_WL8DJDHHA=/206x305/v2/https://resizing.flixster.com/Rk7fdyOXFyc7Wn1iDsHMPH6OVjE=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzJiNjQ0YWVlLTFhZmQtNGQwYy05NzlhLTY1NDExZTQxNWU0Zi5qcGc=
+    director: Jane Campion
+    year: 2023
+    yearout: 2021
+
+  - roto: /m/glass_onion_a_knives_out_mystery
+    url_img: https://resizing.flixster.com/GkpphZcYhvWa15d3JhNbY9NlxzQ=/206x305/v2/https://resizing.flixster.com/Mtg-vEUajN8oamKcLLI7hZT-Rhs=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2FhYTcxNzNkLTExYzItNDk1NC1iNDNmLWViMDRlYjg5NzliNC5qcGc=
+    director: Rian Johnson
+    year: 2023
+    yearout: 2022
+
+  - roto: tv/better_call_saul
+    url_img: https://resizing.flixster.com/yXeC-5C5qgOKe78pj4aG0lXJ0go=/206x305/v2/https://flxt.tmsimg.com/assets/p10492751_b_v13_ak.jpg
+    year: 2023
+    yearout: 2015
+
+  - roto: tv/ozark
+    url_img: https://resizing.flixster.com/WpM6gj21EIoYoyKLcbhkMp02KbY=/206x305/v2/https://resizing.flixster.com/3ko6zO6791p1QPOXHUI2eCwmHXQ=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMDIyOTBmN2QtMzM0Yi00ODUxLWE0MWYtMmViYWJiOGViZjRkLmpwZw==
+    year: 2023
+    yearout: 2017
+
   
   - roto: m/the_shape_of_water_2017
     url_img: https://resizing.flixster.com/rK21KIwEeMXCEXFH1wAiFYv-nSI=/206x305/v2/https://resizing.flixster.com/7xpFiFaJI7j_Mwred_S3BdD02fg=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzL2RmNjViZTE4LTQ1MGEtNDRhZC1hZTQwLWM4MTY4YTBmZmVlZi53ZWJw

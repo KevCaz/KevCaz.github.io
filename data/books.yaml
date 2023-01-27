@@ -1,5 +1,35 @@
 books:
 
+- title: Les Particules Élémentaires
+  author: Michel Houellebecq
+  url_img: "https://images-na.ssl-images-amazon.com/images/I/41n227ikPSL._SX307_BO1,204,203,200_.jpg"
+  type: roman
+  year: 2022
+  year_out: 1998
+  isbn: 2-290-30305-4
+  info:
+    url: https://fr.wikipedia.org/wiki/Les_Particules_%C3%A9l%C3%A9mentaires
+    name: "Article de Wikipédia"
+  comments: "En fermant ce livre, je me suis questionné de longues minutes sur la signification de toute cette prose... Non pas tant qu'un sens global soit absolument nécessaire, mais il serait dommage de faire preuve de paresse intellectuelle alors que [Houellebecq est reconnu comme un fin observateur de notre temps](https://quadrant.org.au/magazine/2020/07-08/the-prophetic-pessimism-of-michel-houellebecq/).
+  Le récit met en parallèle la vie de deux hommes, Bruno et Michel (deux aspects de la personnalité de l'auteur?), qui ont pour seul point commun leur mère qui ne les a ni désirés, ni élevés. 
+  D'un côté Bruno, professeur de lettre au parcours empreint de malchance et de frustrations sexuelles et de l'autre Michel, physicien de formation, chercheur en biologie moléculaire absorbé par ces recherches. \n
+
+  Au-delà des nombreuses scènes de sexe -- dont il est parfois difficile de mesurer la pertinence, à ceci prêt que chez Houellebecq, il y a un lien étroit entre la sexualité et le status socio-économiques des individus -- le livre est une critique sévère de la société française post 1968. Le processus de libéralisation des individus aboutit finalement à une atomisation de ces derniers qui souffrent de cette refonte des relations inter-individuelles qui ne tiennent finalement plus que des lois du marché (le sexe étant qu'un des domaines régis par le marché). Dans le romain, nous sommes témoin de la dérive de Bruno qui, au fil des frustrations répétées, dérive vers la folie. Michel, quant à lui, pose les problèmes de relations humaines comme étant une imperfection propre à l'espèce, imperfection qu'il propose de corriger avec ces recherches. Radicalisant ainsi le problème, la solution serait de nature biomathématique.
+  
+  Enfin, un dernier mot pour dire que le livre a été adapté sous forme d'un téléfilm réalisé par Antoine Garceau, produit par France 2, voir https://www.allocine.fr/article/fichearticle_gen_carticle=18706429.html·"
+
+- title: Plateforme
+  author: Michel Houellebecq
+  url_img: "https://images.archambault.ca/images/PG/1099/1099026-gf.jpg?404=default&w=400"
+  type: roman
+  year: 2022
+  year_out: 2001
+  isbn: 978-22-900-2852-0
+  info:
+    url: https://fr.wikipedia.org/wiki/Plateforme_(roman)
+    name: "Article de Wikipédia"
+  comments: "Critique acerbe du néolibéralisme et du monde du travail à travers l'essor du tourisme occidential de masse. Je recommande chaudement l'écoute de [*L’économie selon... Houellebecq*](https://www.radiofrance.fr/franceculture/podcasts/entendez-vous-l-eco/l-economie-selon-houellebecq-3311234) (*Entendez-vous l'éco*, France Culture) qui ne porte pas spéciquement sur *Plateforme*, mais donne d'importantes clefs de compréhension du roman, notamment que l'exigence de liberté absolue (de marché, de consommation) a pour contrepartie la souffrance."
+
 - title: Après l'Empire
   author: Emmanuel Tood
   url_img: "https://images-na.ssl-images-amazon.com/images/I/41PM0ADT3YL._SX317_BO1,204,203,200_.jpg"
@@ -11,7 +41,7 @@ books:
     url: https://fr.wikipedia.org/wiki/Apr%C3%A8s_l%27empire
     name: "Article de Wikipédia"
   comments: "Comme à son habitude, Emmanuel Todd nous montre comment l'histoire, la démographie et la macro-économie sont des clés essentielles pour comprendre la géopolitique. En 1976, dans *La Chute Finale*, il anticipait la fin de l'URSS qui se produira en 1991. En 2002, il passe un scanner aux États-Unis et le diagnostique est sans appel: les États-Unis n'ont plus l'importance qu'ils avaient au début des années 1990, les États-Unis sont *littéralement* un empire en déclin. La démonstration est claire: les États-Unis sont désindustrialisés et vivent sous perfusion de capitaux étrangers, les valeurs qu'ils défendent sont en recul, leur politique étrangère et désastreuse ('Axe du Mal', tentative d'isolement de la Russie, ...), etc. Vingt ans après sa parution, force est de constater que les États-Unis continuent sur cette trajectoire, Trump (lui même une manifestation du déclin?) n'a pas réindustrialisé les États-Unis, la politique étrangère des États-Unis des vingt dernières années a eu des conséquences désastreuses sur de nombreux pays du Moyen-Orient, la Russie est en grande forme et revancharde, etc. Bref, Emmanuel Todd avait vu juste, il avait bien identifié les forces en présence, leur importance relative et dans quelle sens elles jouaient. Au tableau peint en 2002, il manque seulement la Chine dont le rôle est probablement aujourd'hui plus important que ce que l'auteur avait anticipé. tl;dr: Il faut lire Emmanuel Todd."
-  
+
 - title: La guerre des métaux rares
   author: Guillaume Pitron
   url_img: "http://www.editionslesliensquiliberent.fr/images/livre_moyen_585.png"
@@ -22,9 +52,9 @@ books:
     url: https://www.youtube.com/watch?v=2lHTHINmNVk
     name: "Entrevue de l'auteur sur Thinkerview"
   comments: "La lecture du livre de Guillaume Pitron est indispensable pour ceux qui veulent véritablement comprendre les enjeux derrière les métaux rares, notamment ceux de la transition écologique. En délocalisant la pollution liée à l’extraction de ces derniers, l’occident a offert à l’empire du milieu de nombreux savoirs industriels sur lesquels la Chine devrait prospérer pendant des décennies. Pour en savoir plus, J'ai fait un commentaire sur ce livre qui m'a captivé dans la section [Opinions](../opinions/2021/metauxrares) de ce site."
-  
-  
-- title: Vingt Mille Lieues sous les mers 
+
+
+- title: Vingt Mille Lieues sous les mers
   author: Jules Verne
   url_img: "https://images-na.ssl-images-amazon.com/images/I/51DroPYVpkL._SX303_BO1,204,203,200_.jpg"
   type: roman
@@ -34,7 +64,7 @@ books:
     url: https://fr.wikipedia.org/wiki/Vingt_Mille_Lieues_sous_les_mers
     name: "Article Wikipedia"
   comments: "Monument de la science-fiction, on en parle un peu plus avec mes amis de radioRAB http://radio-rab.com/podcasts/2020/podcast_004/ !"
-  
+
 - title: Au revoir La-haut
   author: Pierre Lemaitre
   url_img: "https://m.media-amazon.com/images/I/51h9KP+PiKL._SY346_.jpg"
@@ -45,7 +75,7 @@ books:
     url: https://fr.wikipedia.org/wiki/Au_revoir_l%C3%A0-haut
     name: "Article Wikipedia"
   comments: "Un roman qui se déroule à la sortie de la première guerre mondiale et qui portent sur les destins croisés de deux poilus et leur lieutenant. Ce que je retiens de ce livre, c'est le travail formidable pour nous transmettre sentiments et émotions, notamment une forte empathie pour les deux poilus qui ne se remettent pas d'une guerre qui les a fracassé et une extrême aversion pour le lieutenant qui a finalement réussi à profiter de cette sinistre période. Aussi les personnages sont finement travaillés et l'orchestration de ces derniers est, à mon sens, très réussie. Enfin, j'ai aussi particulièrement apprécié la construction de la narration avec deux fils principaux utilisés intelligemment: tantôt ils évoluent indépendamment, tantôt ils se télescopent, le tout donnant un suspens qui nous fait dévorer le bouquin! Pour finir, je voudrais mentionner que j'ai mis l'adaptation au grand écran par le duo Lemaitre/Dupontel sur ma towatch list, quant aux deux autres romans de la trilogie, ils sont sur ma toread list!"
-  
+
 - title: L'Élégance du hérisson
   author: Muriel Barbery
   url_img: "https://images-na.ssl-images-amazon.com/images/I/31ZlG8vsxBL._SX336_BO1,204,203,200_.jpg"
