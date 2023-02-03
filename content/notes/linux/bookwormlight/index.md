@@ -17,4 +17,4 @@ install Debian on my Lenovo T470p :arrow_down:. It works well, as always!
 
 <br>
 
-<script src="https://gist.github.com/KevCaz/8c4074549d460c3f4cab168b3f6c63ab.js"></script>
+<script src="https://gist.github.com/KevCaz/8c4074549d460c3f4cab168b3f6c63ab/7de12d7045532a53a58d2f124e83485d409654c5.js"></script>
