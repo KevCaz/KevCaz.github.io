@@ -1,11 +1,22 @@
 movies:
 
+  - roto: m/nomadland
+    url_img: https://resizing.flixster.com/0a_Yc2rV5bRMQvg3vlVDNGeEOCw=/206x305/v2/https://resizing.flixster.com/7TTnMSfqk40GyhbZ_ael5N4Zp9o=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzJjOWRjNGVkLTIwNDAtNDlmZS04MDM5LTNjYzM0ZDFlODhhMy5qcGc=
+    year: 2023
+    yearout: 2021
+    director: "Chloé Zhao"
+
   - roto: m/wild_at_heart
     url_img: https://resizing.flixster.com/YUYuThY1Pv7PEpkprMYt247DQyU=/206x305/v2/https://flxt.tmsimg.com/assets/p12493_p_v8_aj.jpg
     director: David Lynch
     year: 2023
     yearout: 1990
-  
+
+  - roto: tv/inside_job_2021
+    url_img: https://resizing.flixster.com/WKvHxPmTK--OJ7TTmusizQ2MLFU=/206x305/v2/https://resizing.flixster.com/409TGxX1Sz7Yj3XhuCrQ4rMQq_I=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMGM3YTFjMTctNGI0ZC00ZjBiLWIzM2EtNjhlMTlmOGZmYmQzLmpwZw==
+    year: 2023
+    yearout: 2021
+
   - roto: m/the_power_of_the_dog
     url_img: https://resizing.flixster.com/pKVD08M1Wuc24_fd7_WL8DJDHHA=/206x305/v2/https://resizing.flixster.com/Rk7fdyOXFyc7Wn1iDsHMPH6OVjE=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzJiNjQ0YWVlLTFhZmQtNGQwYy05NzlhLTY1NDExZTQxNWU0Zi5qcGc=
     director: Jane Campion
@@ -22,11 +33,35 @@ movies:
     year: 2023
     yearout: 2017
 
-  - roto: tv/inside_job_2021
-    url_img: https://resizing.flixster.com/WKvHxPmTK--OJ7TTmusizQ2MLFU=/206x305/v2/https://resizing.flixster.com/409TGxX1Sz7Yj3XhuCrQ4rMQq_I=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMGM3YTFjMTctNGI0ZC00ZjBiLWIzM2EtNjhlMTlmOGZmYmQzLmpwZw==
+  - roto: tv/guillermo_del_toros_cabinet_of_curiosities
+    url_img: https://resizing.flixster.com/Hm26VoIjCo7mUroJECTExdx2PcQ=/206x305/v2/https://resizing.flixster.com/roluxihKzjj6vRYBIlY_SehifZQ=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvOWJmNmI4OWQtYjJiNC00OGY1LTgyNWQtMTI5MmZhNTNhMDc5LmpwZw==
     year: 2023
-    yearout: 2021
+    yearout: 2012
 
+
+  - roto: tv/alice_in_borderland
+    url_img: https://resizing.flixster.com/yjGI9b0Skp_-kzYJ3rP58WMxgAg=/206x305/v2/https://resizing.flixster.com/rWtqHDZMYDwWm0ftq35YQzAwzQw=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMTY4YjA5N2YtZGJkMS00Njk0LThlNzAtYTc3OWY0NTI0ZWI0LmpwZw==
+    year: 2022
+    yearout: 2020
+
+  - roto: m/enola_holmes_2
+    url_img: https://resizing.flixster.com/wkZlN-559Um4N-Ug_pJFbHf-dfI=/206x305/v2/https://resizing.flixster.com/nxpZCgH2NGiTawUjapmFtuLrspc=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzIzZjY2Y2JhLWIxNDAtNDliYy05N2QxLTU2MDJmMGMzNWUxZi5qcGc=
+    year: 2022
+    yearout: 2022
+    director: "Harry Bradbeer"
+
+  - roto: m/enola_holmes
+    url_img: https://resizing.flixster.com/iSC6DrexN_Rfj16kXhLxjX3TAeA=/206x305/v2/https://resizing.flixster.com/Engm8DlYjNBgSDG7w11SMC7tEeM=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzcxYzJmNTJmLTFlMzQtNGJmNS1hN2MxLWQ4ZjI4MDJhZTcyOS53ZWJw
+    year: 2022
+    yearout: 2020
+    director: "Harry Bradbeer"
+
+
+  - roto: m/the_king_2019
+    url_img: https://resizing.flixster.com/6q_EFoHzivWPqeg-ghkfOCqeWO0=/206x305/v2/https://flxt.tmsimg.com/assets/p16653361_p_v8_aa.jpg
+    year: 2022
+    yearout: 2022
+    director: "David Michôd"
 
   - roto: /m/glass_onion_a_knives_out_mystery
     url_img: https://resizing.flixster.com/GkpphZcYhvWa15d3JhNbY9NlxzQ=/206x305/v2/https://resizing.flixster.com/Mtg-vEUajN8oamKcLLI7hZT-Rhs=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2FhYTcxNzNkLTExYzItNDk1NC1iNDNmLWViMDRlYjg5NzliNC5qcGc=
@@ -44,10 +79,59 @@ movies:
     year: 2022
     yearout: 2022
 
-  - roto: /tv/locke_and_key
-    url_img: https://resizing.flixster.com/XO_LGRiuFIzx1OymN5dSiIJ3ie8=/206x305/v2/https://flxt.tmsimg.com/assets/p17699280_b_v13_al.jpg
+  - roto: m/and_now_for_something_completely_different
+    url_img: https://resizing.flixster.com/Cm-Wzu98tKgNjGYjpJssb4nfhxc=/206x305/v2/https://flxt.tmsimg.com/assets/p5778_p_v8_aa.jpg
     year: 2022
-    yearout: 2022
+    yearout: 1972
+    
+
+  - roto: m/monty_pythons_life_of_brian
+    url_img: https://resizing.flixster.com/kD_rn6jpxrrSLIhRFWdnCE_Hr4U=/206x305/v2/https://flxt.tmsimg.com/assets/p4669_p_v8_aa.jpg
+    year: 2022
+    yearout: 1979
+
+  - roto: m/monty_python_and_the_holy_grail
+    url_img: https://resizing.flixster.com/QCzOp8GLFHnXOk573lgJpLq8hRk=/206x305/v2/https://flxt.tmsimg.com/assets/p629_p_v8_af.jpg
+    year: 2022
+    yearout: 1975
+
+
+  - roto: tv/young_sheldon
+    url: https://resizing.flixster.com/FTwwtInQV2E3DtMemh4NEek7JCs=/206x305/v2/https://flxt.tmsimg.com/assets/p13923677_b_v13_bb.jpg
+    year: 2022
+    yearout: 2017
+
+  - roto: /tv/love_death_robots
+    url_img: https://resizing.flixster.com/jTpbfuSatgjQi2MxDXzaMrUvVNI=/206x305/v2/https://resizing.flixster.com/77JxONhWZf0OHznUsn4B7-jB8SY=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjQyNjAyOC53ZWJw
+    year: 2022
+    yearout: 2019
+
+  - roto: tv/peaky_blinders
+    url_img: https://resizing.flixster.com/CzGSVjJeg8yFD-sttP3mkLSVuxw=/206x305/v2/https://flxt.tmsimg.com/assets/p10182728_b_v13_bd.jpg
+    year: 2022
+    yearout: 2013
+
+  - roto: tv/squid_game
+    url_img: https://resizing.flixster.com/3vRP1nkXLAN-luYoisSPrJRaLNE=/206x305/v2/https://flxt.tmsimg.com/assets/p20492187_b_v8_ah.jpg
+    year: 2021
+    yearout: 2021
+
+  - roto: /m/i_lost_my_body
+    url_img: https://resizing.flixster.com/__PAdjTWs0cUGDOHlxp7dObjJ-w=/206x305/v2/https://resizing.flixster.com/rLStvDG5zyDdRVuYloWahbkLrEE=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2NjZDQ0NGY5LTdiZmYtNDMyNC05ZDQ4LWVjOGIzYzM3NDQ4NS53ZWJw
+    director: Jérémy Clapin
+    year: 2021
+    yearout: 2019
+
+  - roto: tv/the_last_dance
+    url_img: https://resizing.flixster.com/BpdaZ8xwtSsKOwYUDPFenqyBhf8=/206x305/v2/https://resizing.flixster.com/DUYELfx6kR7kZHMO4H6FT97Uai0=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjcwMDQ5NC53ZWJw
+    year: 2021
+    yearout: 2020
+
+
+  - roto: tv/tiger_king
+    url_img: https://resizing.flixster.com/yk5K62tUnX_wMx26IHIlkdULoMA=/206x305/v2/https://resizing.flixster.com/bNmLEWp95yq7-XnaMivyiHZxWzc=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjY4MTcyOS53ZWJw
+    year: 2021
+    yearout: 2019
 
   
   - roto: m/the_shape_of_water_2017
