@@ -21,8 +21,8 @@ of tags used throughout these notes is available [here](/tags/).
 ```.sh
 $ inxi -S
 System:
-  Host: deb Kernel: 5.17.0-1-amd64 arch: x86_64 bits: 64 Desktop: Cinnamon
-    v: 5.2.7 Distro: Debian GNU/Linux bookworm/sid
+  Host: bender Kernel: 5.19.0-32-generic x86_64 bits: 64 Desktop: GNOME 42.5
+    Distro: Ubuntu 22.04.1 LTS (Jammy Jellyfish)
 ```
 
 </details>
