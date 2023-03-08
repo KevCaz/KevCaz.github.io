@@ -1,5 +1,17 @@
 movies:
 
+  - roto: m/groundhog_day
+    url_img: https://resizing.flixster.com/SIxJLGnUZ89zM_QAeYS9eGJjkrs=/206x305/v2/https://flxt.tmsimg.com/assets/p14569_p_v8_ay.jpg
+    year: 2023
+    yearout: 1993
+    director: "Harold Ramis"
+
+  - roto: m/tenet
+    url_img: https://resizing.flixster.com/wJZ_Z4-fE4ZXS89SOOvk5jVDOI0=/206x305/v2/https://resizing.flixster.com/zHrh5Wu9CxOi55eiImv27H-7zMw=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzliMTVjNTkwLTA1ZTUtNDEyMS04NmNmLTBiMzA2OThhMGY0MC5qcGc=
+    year: 2023
+    yearout: 2020
+    director: "Christopher Nolan"
+
   - roto: m/nomadland
     url_img: https://resizing.flixster.com/0a_Yc2rV5bRMQvg3vlVDNGeEOCw=/206x305/v2/https://resizing.flixster.com/7TTnMSfqk40GyhbZ_ael5N4Zp9o=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzJjOWRjNGVkLTIwNDAtNDlmZS04MDM5LTNjYzM0ZDFlODhhMy5qcGc=
     year: 2023
