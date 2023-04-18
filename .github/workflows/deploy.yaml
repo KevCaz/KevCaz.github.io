@@ -1,4 +1,4 @@
-name: github pages
+name: build website
 
 on:
   push:
@@ -11,22 +11,17 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Checkout submodules
-      shell: bash
-      run: |
-        auth_header="$(git config --local --get http.https://github.com/.extraheader)"
-        git submodule sync --recursive
-        git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
-
+    - name: checkout
+      uses: actions/checkout@v3
+      with:
+        submodules: true
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.92.2'
+        hugo-version: '0.111.3'
         extended: true
     - name: Build website
       run: hugo --minify
-
     - name: Deploy website
       uses: peaceiris/actions-gh-pages@v3
       with:
