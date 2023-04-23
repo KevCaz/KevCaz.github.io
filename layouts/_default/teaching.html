@@ -19,7 +19,7 @@
     {{ range $i, $e := .author}}
     {{ $let := .given | truncate 1 "." }}
     {{ if (and (eq .family "Cazelles") (eq $let $letk)) }}
-    <b><span style="color: #b95821;">
+    <b><span style="color: {{ $.Site.Params.col_emphase }};">
         {{ .family }} {{ $let }}</span></b>{{ if eq $len2 $i }}.{{ else }},{{ end }}
     {{ else }}
     {{ .family }} {{ $let }}{{ if eq $len2 $i }}{{ else }},{{ end }}
@@ -79,7 +79,7 @@
     {{ range $i, $e := .author}}
     {{ $let := .given | truncate 1 "." }}
     {{ if (and (eq .family "Cazelles") (eq $let $letk)) }}
-    <b><span style="color: #b95821;">
+    <b><span style="color: {{ $.Site.Params.col_emphase }};">
         {{ .family }} {{ $let }}</span></b>{{ if eq $len2 $i }}.{{ else }},{{ end }}
     {{ else }}
     {{ .family }} {{ $let }}{{ if eq $len2 $i }}{{ else }},{{ end }}

@@ -17,7 +17,7 @@ defaultContentLanguageInSubdir = false
 unsafe = true
 
 [markup.highlight]
-style = "dracula"
+style = "rose-pine-dawn"
 lineNos = true
 
 
@@ -45,6 +45,7 @@ lineNos = true
   footer = "Website built with <a href='https://gohugo.io/'>Hugo</a>.<br><i class='fas fa-code'></i> available on <a href='https://github.com/KevCaz/KevCaz.github.io'><i class='fab fa-github'></i></a>."
   copyright = "<br>Content under <a href='https://creativecommons.org/publicdomain/zero/1.0'><i class='fab fa-creative-commons'></i><i class='fab fa-creative-commons-zero'></i></a> unless otherwise specified."
   latestbuild = true
+  col_emphase = "#b4637a"
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)

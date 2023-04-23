@@ -1,5 +1,5 @@
 ---
-title: Next Cloud server on a Raspberry Pi 3B
+title: Nextcloud server on a Raspberry Pi 3B
 date: 2022-01-05
 tags: [raspberry pi, nextcloud] 
 ---
@@ -32,17 +32,12 @@ Then I opened and used Raspberry Pi Image which is very intuitive interface. Tha
  
 
 
-
-
-
-
 ## Basic settings
 
 Once the microSD card ready, I inserted it in my Raspberry Pi and started the device. For this step, I use it as a personal computer, meaning that I used a keyboard, a mouse and a screen. That way I was able to [enable SSH](https://phoenixnap.com/kb/enable-ssh-raspberry-pi) (this is the only step that is actually *not* needed for what follows, if you are only interested in Nextcloud you can skip the rest of this section) and to check out the graphical interface, which is pretty nice! I decided to have a look at the recommended software and I was happy to see that [we can now install Visual Studio on a Raspberry Pi](https://www.raspberrypi.com/news/visual-studio-code-comes-to-raspberry-pi/)! I install it along with LibreOffice and Mathematica, I just thought that having some software installed wouldn't hurt in case somebody needs to do some work on it at some point. 
 
 
 {{< figcenter "img/vscode.png" 100 "Visual Studio on my Raspberry Pi model 3B." >}}
-
 
 
 At that point, I realized than several tools were already installed, e.g.
@@ -107,7 +102,6 @@ This is how I knew that I needed to use the `ARMv7` image of `duf`.
 
 
 
-
 ## Connect to my Raspberry Pi via SSH 
 
 After the installation described above, I shut my Raspberry Pi down, and moved it next to my box, no keyboard, no mouse and no screen. And then I went back on my Debian machine. At this point I needed to locate my Raspberry Pi on my local network. Fortunately there are network tools to do so seamlessly, [`arp-scan`](https://linux.die.net/man/1/arp-scan) is one of then that I was able to install using `apt-get`
@@ -128,7 +122,7 @@ In the output I found something like this
 192.168.1.25	b8:27:eb:f6:48:76	Raspberry Pi Foundation
 ```
 
-actually there were two lines like this because the wi-fi was up (and I [disabled it] by editing [disable the wi-fi](https://raspberrytips.com/disable-wifi-raspberry-pi/) by editing `/boot/config`). So there I knew that I could connect to my Rapsberry Pi with the following commad. 
+actually there were two lines like this because the wi-fi was up (and I [disabled it] by editing [disable the wi-fi](https://raspberrytips.com/disable-wifi-raspberry-pi/) by editing `/boot/config`). So there I knew that I could connect to my Rapsberry Pi with the following command. 
 
 ```sh 
 ssh pi@192.168.1.25
@@ -140,7 +134,7 @@ Note that instead of looking for the right IP address, it is possible to use [mu
 ssh pi@raspberrypi.local
 ```
 
-The last thing I've done is that I added one of my public ssh keys to my Raspberry Pi to avoid typing my password in every time I connect to i. This is [well-explained in a post by Py My Life Up](https://pimylifeup.com/raspberry-pi-ssh-keys/):
+The last thing I've done is that I added one of my public ssh keys to my Raspberry Pi to avoid typing my password in every time I connect to it. This is [well-explained in a post by Py My Life Up](https://pimylifeup.com/raspberry-pi-ssh-keys/):
 
 1. generate a ssh pair of keys with `ssh-keygen`, 
 2. copy a public key to your Raspberry Pi using `ssh-copy-id`.
