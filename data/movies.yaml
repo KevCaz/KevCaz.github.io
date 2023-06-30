@@ -1,5 +1,23 @@
 movies:
 
+  - roto: m/be_kind_rewind
+    url_img: https://resizing.flixster.com/Art0Y8kFDwgQEivQdTpWre-6KxU=/206x305/v2/https://flxt.tmsimg.com/assets/p170971_p_v8_ab.jpg
+    year: 2023
+    yearout: 2008
+    director: "Michel Gondry"
+
+  - roto: m/clerks
+    url_img: https://resizing.flixster.com/7L1GDzE1rDcjDIATj7Kf5hPNINc=/206x305/v2/https://flxt.tmsimg.com/assets/p15365_p_v8_aa.jpg
+    year: 2023
+    yearout: 1994
+    director: " Kevin Smith"
+
+  - roto: m/a_fish_called_wanda
+    url_img: https://resizing.flixster.com/7vlf_gKBEkIOxXeuzMaDdDVOgaA=/206x305/v2/https://flxt.tmsimg.com/assets/p10230_p_v8_ba.jpg
+    year: 2023
+    yearout: 
+    director: " Charles Crichton, John Cleese "
+
   - roto: m/groundhog_day
     url_img: https://resizing.flixster.com/SIxJLGnUZ89zM_QAeYS9eGJjkrs=/206x305/v2/https://flxt.tmsimg.com/assets/p14569_p_v8_ay.jpg
     year: 2023
