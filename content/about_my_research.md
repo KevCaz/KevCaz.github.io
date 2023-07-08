@@ -3,7 +3,7 @@ title: "<i class='fas fa-project-diagram'></i> About my research"
 ---
 
 <div class="mission">
-I am Kevin Cazelles, I have been an ecologist for 10 years who used
+I am Kevin Cazelles, I am a scientist who uses
 
 algebra, analysis, probability, statistics, data science and computational science
 
@@ -22,7 +22,7 @@ conserve ecosystem functions and biodiversity that are essential to our good hea
 
 {{< mozaic-element 45 >}}
 
-As a quantitative ecologist, I used to tackle research challenges in various
+As a quantitative ecologist, I tackle research challenges in various
 areas of ecology. I mainly focused on theory in macro-ecology and
 network ecology (check out my [PhD dissertation <i class="fas fa-file-pdf"
 aria-hidden="true"></i>](/docs/thesekc.pdf)) but I also worked on

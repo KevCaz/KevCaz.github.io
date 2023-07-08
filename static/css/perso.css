@@ -34,6 +34,7 @@ img, iframe, video {
 
 .ctn-home {
 	padding: .6rem;
+  border: 4px solid #0d122f;
 }
 .ctn-home-half {
   display: block;
@@ -42,7 +43,9 @@ img, iframe, video {
 
 .ctn-home-news {
   display: block;
-  width: 44%;
+  width: 48%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .ctn-home-news h3, .ctn-home-half h3 {
