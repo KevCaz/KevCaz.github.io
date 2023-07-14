@@ -1,5 +1,17 @@
 movies:
 
+  - roto: m/midnight_in_paris
+    url_img: https://resizing.flixster.com/dHrOm83gONCP6RbhAMw1NjisdoM=/206x305/v2/https://flxt.tmsimg.com/NowShowing/103248/103248_aa.jpg
+    year: 2023
+    yearout: 2011
+    director: "Woody Allen"
+
+  - roto: /m/the_intern
+    url_img: https://resizing.flixster.com/bTxruxAmBh34MicTrpqhj6_zgRg=/206x305/v2/https://flxt.tmsimg.com/NowShowing/148432/148432_aa.jpg
+    year: 2023
+    yearout: 2015
+    director: "Nancy Meyers"
+
   - roto: m/be_kind_rewind
     url_img: https://resizing.flixster.com/Art0Y8kFDwgQEivQdTpWre-6KxU=/206x305/v2/https://flxt.tmsimg.com/assets/p170971_p_v8_ab.jpg
     year: 2023
