@@ -14,8 +14,8 @@
         {{ .family }} {{ $let }}{{ if eq $len2 $i }}{{ else }},{{ end }}
       {{ end }}
     {{ end }}
-    {{ range .issued }}
-      ({{ .year }}).
+    {{ with .issued }}
+      ({{ substr . 0 4 }}).
     {{ end }}
     <b>{{ .title }}</b>
     {{ if .container }}
@@ -24,7 +24,7 @@
     {{ if .volume }}
       <em>{{ .volume }}</em>{{ if .issue }}({{ .issue }}){{ end }}
     {{ end }}
-    {{ if .DOI }}<i class='ai ai-doi'></i> <a href="{{ .URL }}">{{ .DOI }}</a>{{ end }}
+    {{ if .doi }}<i class='ai ai-doi'></i> <a href="{{ .url }}">{{ .doi }}</a>{{ end }}
     <a href="mailto:kevin.cazelles@gmail.com?subject=Paper%20Request&amp;body=Dear%20Kevin%2C%20%0A%0AI%20would%20like%20to%20have%20a%20copy%20of%20the%20following%20paper%3A%20%22{{ .title }}%22.%0A%0ASincerely%2C"><i class='far fa-envelope'></i></a>
   </li>
   {{ end }}
