@@ -132,3 +132,15 @@ Solving environment: done
 ```
 
 ... :tada: it worked! 
+
+
+#### Follow up (2023-08-05)
+
+I ran into this problem as I was trying to install the [Seaborn](https://github.com/JuliaPy/Seaborn.jl) package. That to the issue '[Current (v2.3.2) PyPlot fails installation with private miniconda Python](https://github.com/JuliaPy/PyPlot.jl/issues/317)' I updated Conda
+
+```julia
+using Conda
+Conda.update()
+```
+
+then I reinstall Matplotlib, then Seaborn and it all worked!
