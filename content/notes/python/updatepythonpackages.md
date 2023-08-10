@@ -35,5 +35,3 @@ $ conda update --all
 ```
 
 to update all installed packages. 
-
-

@@ -3,6 +3,11 @@ img, iframe, video {
   margin: 1rem 0rem 1rem 0rem;
 }
 
+.article-main details {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
 .mission {
   font-family: "AMA";
   text-align: center;
