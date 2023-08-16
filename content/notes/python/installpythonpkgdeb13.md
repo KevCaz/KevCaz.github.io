@@ -57,7 +57,6 @@ alias P='venv; ipython'
 
 
 
-
 <details>
 <summary>Configuration</summary>
 
