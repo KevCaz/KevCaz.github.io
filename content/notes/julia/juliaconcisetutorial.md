@@ -3,6 +3,7 @@ title: Some Julia language elements to keep in mind
 date: 2023-08-16
 categories: [tutorial]
 tags: [julia, tutorial, documentation]
+math: true
 ---
 
 As I am jumping on a project where I will code mainly in Julia, I thought it was worth spending some time to remind myself about core Julia's features. I have already spent some reading reading [Julia's documentation](https://docs.julialang.org/en/v1/) which is great and definitively worth reading, but I was looking for something shorter and found '[Julia language: a concise tutorial](https://syl1.gitbook.io/julia-language-a-concise-tutorial/)' ([Github repository available here](https://github.com/sylvaticus/juliatutorial)), which by the way is listed in the [Julia tutorials page](https://julialang.org/learning/tutorials/). IMHO, this is a good resource to get started with Julia (only a few hours to go through) as well as a good refresher course. Below I took some notes that should mainly act as a personal reminder, but might be useful for other. 
@@ -10,7 +11,7 @@ As I am jumping on a project where I will code mainly in Julia, I thought it was
 
 ## Using Greek letters
 
-In Julia variables can be Greek letters. I used to switch to the Greek keyboard to type these, but there is also the option to use the LaTex syntax + tabulation, e.g. type `\alpha` then `Tab` to get `α` in the prompt.
+In Julia variables can be Greek letters. I used to switch to the Greek keyboard to type these, but there is also the option to use the LaTex syntax + tabulation, e.g. type `\alpha` then `Tab\` to get `α` in the prompt. This actually also applies to various LaTeX symbols, e.g. `\in` for $\in$ or `\infty` for $\infty$.
 
 
 ## Double loops

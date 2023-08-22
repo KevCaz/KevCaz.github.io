@@ -12,6 +12,10 @@ figcaption {
   margin-bottom: 2rem;
 }
 
+.software-mozaic-unit img {
+  border: 0px !important;
+}
+
 
 .article-main details {
   margin-top: 2rem;

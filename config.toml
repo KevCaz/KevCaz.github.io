@@ -21,141 +21,135 @@ style = "rose-pine-dawn"
 lineNos = true
 
 
-
 [params]
-  authorname = "Kevin Cazelles"
-  role = "Post-doctoral fellow in theoretical and computational ecology [@McCann Lab](https://mccannlab.ca/)"
-  organization = "Department of Integrated Biology, University of Guelph"
-  organization_url = "https://www.uoguelph.ca/ib/"
-  github = "KevCaz"
-  rss = true
-  stackoverflow = "8038778"
-  orcid = "0000-0001-6619-9874"
-  researchgate = "Kevin_Cazelles"
-  twitter = "KCazelles"
-  googlescholar = "xzvcu7cAAAAJ&hl"
-  mastodon = "@KCazelles"
-  address = "Department of Integrative Biology, Summerlee Science Complex, University of Guelph, Guelph, ON N1G 2W1"
-  office_hours = "Send me an email for setting an appointment."
-  email = "kcazelle@uoguelph.ca"
-  phone = "+1 519 824 4120 (ext. 53700)"
-  # Date format (refer to Go's date format: http://flippinggodateformat.com )
-  # Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format = "Mon, Jan 2, 2006"
-  footer = "Website built with <a href='https://gohugo.io/'>Hugo</a>.<br><i class='fas fa-code'></i> available on <a href='https://github.com/KevCaz/KevCaz.github.io'><i class='fab fa-github'></i></a>."
-  copyright = "<br>Content under <a href='https://creativecommons.org/publicdomain/zero/1.0'><i class='fab fa-creative-commons'></i><i class='fab fa-creative-commons-zero'></i></a> unless otherwise specified."
-  latestbuild = true
-  col_emphase = "#b4637a"
+authorname = "Kevin Cazelles"
+role = "Post-doctoral fellow in theoretical and computational ecology [@McCann Lab](https://mccannlab.ca/)"
+organization = "Department of Integrated Biology, University of Guelph"
+organization_url = "https://www.uoguelph.ca/ib/"
+github = "KevCaz"
+rss = true
+stackoverflow = "8038778"
+orcid = "0000-0001-6619-9874"
+researchgate = "Kevin_Cazelles"
+googlescholar = "xzvcu7cAAAAJ&hl"
+mastodon = "@KCazelles"
+address = "Department of Integrative Biology, Summerlee Science Complex, University of Guelph, Guelph, ON N1G 2W1"
+office_hours = "Send me an email for setting an appointment."
+email = "kcazelle@uoguelph.ca"
+phone = "+1 519 824 4120 (ext. 53700)"
+# Date format (refer to Go's date format: http://flippinggodateformat.com )
+# Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+date_format = "Mon, Jan 2, 2006"
+footer = "Website built with <a href='https://gohugo.io/'>Hugo</a>.<br><i class='fas fa-code'></i> available on <a href='https://github.com/KevCaz/KevCaz.github.io'><i class='fab fa-github'></i></a>."
+copyright = "<br>Content under <a href='https://creativecommons.org/publicdomain/zero/1.0'><i class='fab fa-creative-commons'></i><i class='fab fa-creative-commons-zero'></i></a> unless otherwise specified."
+latestbuild = true
+col_emphase = "#b4637a"
 
-  # Link custom CSS and JS assets
-  #   (relative to /static/css and /static/js respectively)
-  custom_css = [
-    "perso.css",
-    "family.css",
-  ]
-  custom_js  = [
-  ]
+# Link custom CSS and JS assets
+#   (relative to /static/css and /static/js respectively)
+custom_css = ["perso.css", "family.css"]
+custom_js = []
 
 
 # Navigation Links
 
 [permalinks]
-    post = "/:year/:month/:day/:slug/"
+post = "/:year/:month/:day/:slug/"
 
 
 [menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "<i class='fas fa-home'></i> Home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    identifier = "research"
-    name = "<i class='fas fa-microscope'></i> Research"
-    url = "/research/"
-    weight = 2
-  [[menu.main]]
-    parent = "research"
-    name = "About my research"
-    url = "/about_my_research/"
-    weight = 1
-  [[menu.main]]
-    parent = "research"
-    name = "Publications"
-    url = "/publications/"
-    weight = 2
-  [[menu.main]]
-    parent = "research"
-    name = "Software"
-    url = "/software/"
-    weight = 3
-  [[menu.main]]
-    parent = "research"
-    name = "Software"
-    url = "/software/"
-    weight = 4
-  [[menu.main]]
-    parent = "research"
-    name = "Talks & Posters"
-    url = "/talks/"
-    weight = 5
-  [[menu.main]]
-    parent = "research"
-    name = "Teaching"
-    url = "/teaching/"
-    weight = 6
+[[menu.main]]
+identifier = "home"
+name = "<i class='fas fa-home'></i> Home"
+url = "/"
+weight = 1
+[[menu.main]]
+identifier = "research"
+name = "<i class='fas fa-microscope'></i> Research"
+url = "/research/"
+weight = 2
+[[menu.main]]
+parent = "research"
+name = "About my research"
+url = "/about_my_research/"
+weight = 1
+[[menu.main]]
+parent = "research"
+name = "Publications"
+url = "/publications/"
+weight = 2
+[[menu.main]]
+parent = "research"
+name = "Software"
+url = "/software/"
+weight = 3
+[[menu.main]]
+parent = "research"
+name = "Software"
+url = "/software/"
+weight = 4
+[[menu.main]]
+parent = "research"
+name = "Talks & Posters"
+url = "/talks/"
+weight = 5
+[[menu.main]]
+parent = "research"
+name = "Teaching"
+url = "/teaching/"
+weight = 6
 
 
 [[menu.main]]
-    name = "<i class='fas fa-blog'></i> Blog"
-    identifier = "blog"
-    url = "/econotes/"
-    weight = 4
+name = "<i class='fas fa-blog'></i> Blog"
+identifier = "blog"
+url = "/econotes/"
+weight = 4
 [[menu.main]]
-    parent = "blog"
-    name = "EcoNotes"
-    url = "/econotes/"
-    weight = 1
+parent = "blog"
+name = "EcoNotes"
+url = "/econotes/"
+weight = 1
 [[menu.main]]
-    parent = "blog"
-    name = "SilicoNotes"
-    url = "/notes/"
-    weight = 2
+parent = "blog"
+name = "SilicoNotes"
+url = "/notes/"
+weight = 2
 [[menu.main]]
-    parent = "blog"
-    name = "inSilecoBlog"
-    url = "https://insileco.github.io/"
-    weight = 3
+parent = "blog"
+name = "inSilecoBlog"
+url = "https://insileco.github.io/"
+weight = 3
 
 [[menu.main]]
-    name = "<i class='fas fa-person-booth'></i> Miscelleneous"
-    identifier = "perso"
-    weight = 5
+name = "<i class='fas fa-person-booth'></i> Miscelleneous"
+identifier = "perso"
+weight = 5
 [[menu.main]]
-    parent = "perso"
-    name = "Books"
-    url = "/perso/books"
-    weight = 1
+parent = "perso"
+name = "Books"
+url = "/perso/books"
+weight = 1
 [[menu.main]]
-    parent = "perso"
-    name = "Movies"
-    url = "/perso/movies"
-    weight = 2
+parent = "perso"
+name = "Movies"
+url = "/perso/movies"
+weight = 2
 [[menu.main]]
-    parent = "perso"
-    name = "Opinions"
-    url = "/perso/opinions"
-    weight = 3
+parent = "perso"
+name = "Opinions"
+url = "/perso/opinions"
+weight = 3
 
 
 # Taxonomies.
 [taxonomies]
-  tag = "tags"
-  topic = "topics"
-  # category = "categories"
+tag = "tags"
+topic = "topics"
+# category = "categories"
 
 # Languages
 # Create a [languages.X] block for each language you want, where X is the language ID.
 # Configure the English version of the website.
 [languages.en]
-  languageCode = "en-us"
+languageCode = "en-us"
