@@ -9,10 +9,9 @@ to find better practices and share them with colleagues. That is the
 reason why I partnered up with colleagues/friends to start
 [inSileco](https://blog.insileco.io/), a blog that focuses on computational
 tools for ecologists. I try to post on this blog regularly medium-size articles
-and I decided to report short notes here. Note that I am currently [working
-on Debian](https://blog.insileco.io/2018/06/18/my-r-setup-on-debian/) (see below for my current configuration),
-and hence the content of the notes below may sometimes be valid only the
-distribution I am using (*e.g.* keyboard shortcuts). Finally, the complete list
+and I decided to report short notes here. Note that I am working mostly on Debian and Ubuntu (see below for my current configuration),
+and hence the content of the notes below may sometimes be valid only for the
+distribution I am currently using (*e.g.* keyboard shortcuts). Finally, the complete list
 of tags used throughout these notes is available [here](/tags/).
 
 <details>
@@ -21,8 +20,8 @@ of tags used throughout these notes is available [here](/tags/).
 ```.sh
 $ inxi -S
 System:
-  Host: deblen Kernel: 6.4.0-1-amd64 arch: x86_64 bits: 64
-  Desktop: GNOME v: 43.6 Distro: Debian GNU/Linux trixie/sid
+  Host: ubudel Kernel: 6.5.0-10-generic arch: x86_64 bits: 64 Desktop: GNOME
+    v: 45.0 Distro: Ubuntu 23.10 (Mantic Minotaur)
 ```
 
 </details>
