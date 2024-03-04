@@ -1,7 +1,7 @@
 ---
 title: "Modify and combine a set of files in one"
 date: 2018-10-29
-tags: [GNU, core utilities, Unix, head, tail]
+tags: [cli, GNU, core utilities, Unix, head, tail]
 ---
 
 

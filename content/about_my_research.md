@@ -32,6 +32,8 @@ faced a wide spectrum of technical problems and have acquired a very
 broad set of quantitative skills including wavelets analysis, biodiversity
 analysis, network analysis, Bayesian statistics, etc.
 
+<center><img src="/img/ORCID.png" alt="orcid_qr" width="20%"></img></center>
+
 {{< /mozaic-element >}}
 
 {{< mozaic-element 55 >}}
