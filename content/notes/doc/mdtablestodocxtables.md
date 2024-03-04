@@ -48,4 +48,4 @@ This did not solve the issue but I quickly found a two-steps work around. First 
 $ pandoc file.md file.odt
 ```
 
-Second I used Libreoffice to do the conversion! This does not solve the issue but it's a good work around (good enough for me).
+Second I used LibreOffice to do the conversion! This does not solve the issue but it's a good work around (good enough for me).

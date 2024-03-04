@@ -1,8 +1,8 @@
 static/_inprep/
 static/old
+static/tmp
 old
 public/
-.DS_Store
 gh-pages*
 resources/_gen/
 .vscode/
@@ -10,3 +10,4 @@ _draft
 _inprep
 _resources
 .hugo_build.lock
+TODO.md

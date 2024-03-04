@@ -59,7 +59,7 @@ the Rscript `scr_extract.R` takes 3 arguments:
 - the first one are the task identifiers (`$SLURM_ARRAY_TASK_ID`) managed by
   Slurm and, given the setup I described above, this argument varies with the
   node!
-- the second and third arguments are handled by GNU parallel so that, on each node, it generates the same four combinations (i.e. (1,1), (1,2), (2,1), (2,2)), each of which is run by one of the four CPUs alloacated per node.
+- the second and third arguments are handled by GNU parallel so that, on each node, it generates the same four combinations (i.e. (1,1), (1,2), (2,1), (2,2)), each of which is run by one of the four CPUs allocated per node.
 
 :warning: Note that if `SBATCH --ntasks-per-node=1` is used without specifying
 the number of CPUs per task, only one CPU will be allocated, making `parallel`

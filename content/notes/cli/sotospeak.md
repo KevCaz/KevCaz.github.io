@@ -1,7 +1,7 @@
 ---
 title: "Make your computer talk!"
 date: 2018-10-20
-tags: [Linux, spd-say, espeak, speech synthesizer, cli]
+tags: [Linux, cli, spd-say, espeak, speech synthesizer]
 ---
 
 When I was on MacOS, I really enjoyed the command [say](https://www.tekrevue.com/tip/make-your-mac-talk-say-command/)  to make my macOS speak (another bad reason to procrastinate) and I was looking

@@ -8,7 +8,7 @@ tags: [R, bite operators, logical operators]
 Recently, I reviewed a paper that introduces a package, so I [reviewed the code](https://github.com/txm676/sars/pull/24) and noticed that the authors
 often used `&&` (and) and `||` (or) whereas only `&` and `|` were required. I guess this is due to:
 
-1. other programming langage;
+1. other programming language;
 2. the fact that for vectors of one element in R `&` and `&&` are equivalent (same for `|` and `||`).
 
 Regarding point 1, we could take [C](https://en.wikipedia.org/wiki/C_(programming_language)

@@ -1,7 +1,7 @@
 ---
 title: "Extract a range of pages from a pdf file"
 date: 2019-05-30
-tags: [pdftk, pdf, cli]
+tags: [cli, pdftk, pdf]
 ---
 
 Today, I was looking for a way to extract pages from a pdf file with the command

@@ -2,6 +2,8 @@
 title: "Beware of `apply()` outputs!"
 date: 2020-07-01
 tags: [R, apply]
+edits: 
+  - Clarify text (2024-03-04)
 ---
 
 
@@ -13,7 +15,7 @@ Let's consider the following data frame.
 R> df0 <- data.frame(v1 = letters[1:3], v2 = 1:3)
 ```
 
-And let's assume I need to convert all columns, irrespecive of their class, to
+And let's assume I need to convert all columns, irrespective of their class, to
 columns of character strings (this example is somewhat contrived, but
 illustrates well the issue). As passing `df0` to `as.character()` is clearly not
 the solution:
@@ -48,9 +50,7 @@ R> res0[1, 1]
 [1] "a"
 ```
 
-All good. Note that `stringAsFactors = FALSE` is still needed if you are using R<4.0.0 (otherwise you get a data frame of factors).
-
-Now let's consider the case with a data frame of one row:
+All good. Note that `stringAsFactors = FALSE` is still needed if you are using R<4.0.0 (otherwise you get factors, not strings). Now let's consider the case with a data frame of one row:
 
 
 ```R
@@ -107,6 +107,4 @@ v1 v2
 
 like so, columns are treated as list elements and `as.data.frame.list()` works just fine on the list returned by the `lapply()` call.
 
-
 <i class="fab fa-r-project"></i> ... it's ok, I will keep working with you, I would do my best reading the doc carefully... but damn... sometimes you're killing me.
-

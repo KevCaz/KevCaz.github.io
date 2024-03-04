@@ -32,5 +32,5 @@ devtools::check_failures        devtools::check_rhub
 We now have access to [rhub](https://builder.r-hub.io/) via
 [devtools](https://cran.r-project.org/web/packages/devtools/index.html), that's
 neat :fireworks:! I knew it'd happen at some point, but did not know it was
-already availabl!, everything is going very fast, am I the only one struggling
+already available!, everything is going very fast, am I the only one struggling
 to keep up?

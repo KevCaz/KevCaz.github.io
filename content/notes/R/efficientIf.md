@@ -4,7 +4,6 @@ date: 2018-10-30
 tags: [R, if, efficiency]
 ---
 
-
 Recently, I was looking at an R function and found a if statement that looks something like this:
 
 ```R

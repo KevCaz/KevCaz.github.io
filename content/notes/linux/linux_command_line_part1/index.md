@@ -1,7 +1,7 @@
 ---
 title: "Reading 'The Linux command line' - Part I"
 date: 2024-03-04
-tags: [Linux, reading, cli]
+tags: [Linux, book, cli]
 ---
 
 I have been using the command line for more than 10 years now, I started on MacOS[^termac] and I increased my usage of the Terminal when I switched to Linux. 
