@@ -1,0 +1,520 @@
+<!doctype html><html lang=en-us><head><title>KevCaz's Website</title><link rel=stylesheet href=https://kevcaz.github.io/css/main.min.2e0874d93dedc5b86cd2d2b471abad3b89e2cad618d46f8b7d6ef32f24918729.css media=screen><link rel=stylesheet href=../../../../css/perso.css><link rel=stylesheet href=../../../../css/family.css><meta name=author content="Kevin Cazelles"><meta name=institution content="Department of Integrated Biology, University of Guelph"><meta name=news_keywords content="[raspberry pi ansible nextcloud]"><meta property="og:site_name" content="KevCaz's Website"><meta property="og:title" content="Ansible playbook for setting up Nextcloud on a Raspberry Pi 3B"><meta property="og:image" content="https://kevcaz.github.io/img/imgOG/kevcaz_og.png"><meta property="og:description" content="Kevin Cazelles's website"></head><body><div class=page><div class=ctn-sidebar-primary><div class=ctt-sidebar-primary><h1>KevCaz's Website</h1><div class=primary-sidebar-premenu><h2><i class='fas fa-align-center'></i> <button onclick='dropDown("p-s-menu")'> Menu</button></h2></div><div class=primary-sidebar-menu id=p-s-menu><h2><a href=../../../../><i class='fas fa-home'></i> Home</a></h2><h2><a onclick='dropDown("dropdown-research")' href=javascript:void(0)><i class='fas fa-microscope'></i> Research</a></h2><div class=dropdown id=dropdown-research><h3><a href=../../../../about_my_research/>About my research</a></h3><h3><a href=../../../../publications/>Publications</a></h3><h3><a href=../../../../software/>Software</a></h3><h3><a href=../../../../talks/>Talks & Posters</a></h3><h3><a href=../../../../teaching/>Teaching</a></h3></div><h2 id=current-dropdown><a onclick='dropDown("dropdown-blog")' href=javascript:void(0)><i class='fas fa-blog'></i> Blog</a></h2><div class=dropdown-current id=dropdown-blog><h3><a href=../../../../econotes/>EcoNotes</a></h3><h3 id=current><a href=../../../../notes/>SilicoNotes</a></h3><h3><a href=https://insileco.github.io/>inSilecoBlog</a></h3></div><h2><a onclick='dropDown("dropdown-perso")' href=javascript:void(0)><i class='fas fa-person-booth'></i> Miscelleneous</a></h2><div class=dropdown id=dropdown-perso><h3><a href=../../../../perso/books>Books</a></h3><h3><a href=../../../../perso/movies>Movies</a></h3><h3><a href=../../../../perso/opinions>Opinions</a></h3></div></div><div class=footer><hr id=hr-footer align=left><div class=social-media-banner><a href=https://github.com/KevCaz><i class='fab fab fa-github-square'></i></a>
+<a href=https://stackoverflow.com/users/8038778><i class='fab fa-stack-overflow'></i></a>
+<a href=https://mastodon.social/@KCazelles><i class='fab fa-mastodon'></i></a>
+<a href=http://orcid.org/0000-0001-6619-9874><i class='ai ai-orcid-square'></i></a>
+<a href="https://scholar.google.ca/citations?user=xzvcu7cAAAAJ%26hl"><i class='ai ai-google-scholar-square'></i></a>
+<a href=https://www.researchgate.net/profile/Kevin_Cazelles><i class='ai ai-researchgate-square'></i></a>
+<a href=https://kevcaz.github.io/index.xml><i class="fas fa-rss-square"></i></a></div><div class=footer-custom>Website built with <a href=https://gohugo.io/>Hugo</a>.<br><i class='fas fa-code'></i> available on <a href=https://github.com/KevCaz/KevCaz.github.io><i class='fab fa-github'></i></a>.<br>Content under <a href=https://creativecommons.org/publicdomain/zero/1.0><i class='fab fa-creative-commons'></i><i class='fab fa-creative-commons-zero'></i></a> unless otherwise specified.<br>Latest build: 06 Mar 2024 17:06 UTC</div></div></div></div><div class=ctn-main-content><div class=ctt-main-content><div class=article-meta><h1 id=title>Ansible playbook for setting up Nextcloud on a Raspberry Pi 3B</h1><h3 class=date>April 23, 2023<div class=tags><i class="fas fa-tags" aria-hidden=true></i> &nbsp;
+<a href=../../../../tags/raspberry-pi><kbd class=item-tag>raspberry pi</kbd></a>
+<a href=../../../../tags/ansible><kbd class=item-tag>ansible</kbd></a>
+<a href=../../../../tags/nextcloud><kbd class=item-tag>nextcloud</kbd></a></div></div><div class=article-main><p>I recently got a new SD card for my Raspberry Pi 3B, so I had to reinstall Nextcloud and I took the opportunity to create an <a href=https://www.ansible.com/>Ansible</a> playbook for it. I basically went through the steps described in my previous note <a href=https://kevcaz.github.io/notes/2022/01/2022-01-05_nextcloud_server_on/ title="Go to this post">&lsquo;Nextcloud server on a Raspberry Pi 3B&rsquo;</a> and I turned them into a playbook. If you want to get an idea of what is Ansible, check out the <a href=https://en.wikipedia.org/wiki/Ansible_(software)>Wikipedia article</a> and for what follows, let&rsquo;s keep in mind the following:</p><blockquote><p>Ansible helps to manage multiple machines by selecting portions of Ansible&rsquo;s inventory stored in simple plain text files. The inventory is configurable, and target machine inventory can be sourced dynamically or from cloud-based sources in different formats (YAML, INI).</p></blockquote><h1 id=pre-requisites>Pre-requisites</h1><h3 id=set-up-the-sd-card-with-raspberry-pi-os>Set-up the SD card with Raspberry Pi OS</h3><ol><li>Install Raspberry Pi OS which is straightforward with <a href=https://www.raspberrypi.com/software/>Imager</a>, you will follow several steps in one of then you can
+require a ssh-server to be set up.</li></ol><div class=highlight><div style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=display:flex><span>sudo apt install rpi-imager
+</span></span></code></pre></td></tr></table></div></div><h3 id=use-a-static-id>Use a static ID</h3><p>This is done by editing <code>/etc/dhcpcd.conf</code> see <a href=https://pimylifeup.com/raspberry-pi-static-ip-address/>&lsquo;How to Setup a Raspberry Pi Static IP Address&rsquo;</a>.</p><h3 id=install-ansible>Install Ansible</h3><p>On my Ubuntu 22.04 machine, I did the following</p><div class=highlight><div style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=display:flex><span>$ apt install ansible 
+</span></span></code></pre></td></tr></table></div></div><p>to install Ansible and then</p><div class=highlight><div style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=display:flex><span>$ ansible-galaxy collection install community.mysql
+</span></span></code></pre></td></tr></table></div></div><p>to install the Ansible modules for mySQL used to install the <a href=https://docs.nextcloud.com/server/latest/admin_manual/configuration_database/linux_database_configuration.html>MariaDB database for Nextcloud</a>.</p><h1 id=my-playbook>My playbook</h1><p>Below are the two YAML files I used to reinstall Nextcloud. In both files I added links to documentation pages and Stack Overflow answers that helped develop my playbook. There is also a section &lsquo;Notes&rsquo; below that provides further details on specific topics.</p><h2 id=inventory-file>Inventory file</h2><p>In my case the inventory is pretty simple, my Ubuntu machine was the <em>controller node</em> (in Ansible jargon) and my Raspberry Pi 3B was the <em>managed node</em> named &lsquo;my_raspberry&rsquo; below. Note that the content of the inventory file can be directly integrated in the playbook (I personally prefer having two files).</p><div class=highlight><div style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">19
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#d7827e>all</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>  <span style=color:#d7827e>hosts</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>my_raspberry</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>remote_user</span><span style=color:#797593>:</span> <span style=color:#ea9d34>pi_user</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>ansible_host</span><span style=color:#797593>:</span> <span style=color:#ea9d34>192.168</span><span style=color:#ea9d34>.XXX.XXX</span>
+</span></span><span style=display:flex><span>  <span style=color:#d7827e>vars</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>ansible_connection</span><span style=color:#797593>:</span> <span style=color:#ea9d34>ssh</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>ansible_ssh_user</span><span style=color:#797593>:</span> <span style=color:#ea9d34>pi_user</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>ansible_ssh_private_key_file</span><span style=color:#797593>:</span> <span style=color:#ea9d34>/home/user/.ssh/id_rsa</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>ansible_python_interpreter</span><span style=color:#797593>:</span> <span style=color:#ea9d34>/usr/bin/python3</span>
+</span></span><span style=display:flex><span>    <span style=color:#9893a5># encrypted password for the nextcloud database</span>
+</span></span><span style=display:flex><span>    <span style=color:#9893a5># https://docs.ansible.com/ansible/latest/vault_guide/vault_encrypting_content.html</span>
+</span></span><span style=display:flex><span>    <span style=color:#9893a5># see section &#39;note below&#39;</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>db_password</span><span style=color:#797593>:</span> !<span style=color:#ea9d34>vault |</span>
+</span></span><span style=display:flex><span>          <span style=color:#ea9d34>$ANSIBLE_VAULT;1.1;AES256</span>
+</span></span><span style=display:flex><span>          <span style=color:#ea9d34>38623364643532613461383939663739356439396261623465626136646365336338633463636562</span>
+</span></span><span style=display:flex><span>          <span style=color:#ea9d34>3363343831383335623832643032323036653162346536330a373636333133376466653561346333</span>
+</span></span><span style=display:flex><span>          <span style=color:#ea9d34>30383661663833396433313465353238343532363763663861643637373836363233653631346432</span>
+</span></span><span style=display:flex><span>          <span style=color:#ea9d34>3533393164353365340a623438626462356437633334653136346236316531633039626331373833</span>
+</span></span></code></pre></td></tr></table></div></div><h2 id=playbook>Playbook</h2><p>This playbook reproduces the steps describes in <a href=https://pimylifeup.com/raspberry-pi-nextcloud-server/>https://pimylifeup.com/raspberry-pi-nextcloud-server/</a>. Note that I added tags to identify different parts of the installation.</p><div class=highlight><div style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">  1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">  2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">  3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">  4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">  5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">  6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">  7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">  8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">  9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 23
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 24
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 25
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 26
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 27
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 28
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 29
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 30
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 31
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 32
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 33
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 34
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 35
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 36
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 37
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 38
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 39
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 40
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 41
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 42
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 43
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 44
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 45
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 46
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 47
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 48
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 49
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 50
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 51
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 52
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 53
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 54
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 55
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 56
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 57
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 58
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 59
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 60
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 61
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 62
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 63
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 64
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 65
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 66
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 67
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 68
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 69
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 70
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 71
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 72
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 73
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 74
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 75
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 76
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 77
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 78
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 79
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 80
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 81
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 82
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 83
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 84
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 85
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 86
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 87
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 88
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 89
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 90
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 91
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 92
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 93
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 94
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 95
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 96
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 97
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 98
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 99
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">100
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">101
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">102
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">103
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">104
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">105
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">106
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">107
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">108
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">109
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">110
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">111
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">112
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">113
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">114
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">115
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">116
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">117
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">118
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">119
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">120
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">121
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">122
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">123
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">124
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">125
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">126
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">127
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">128
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">129
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">130
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">131
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">132
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">133
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">134
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">135
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">136
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">137
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">138
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">139
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">140
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">141
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">142
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">143
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">144
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">145
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">146
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">147
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">148
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">149
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">150
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">151
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">152
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">153
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">154
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">155
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">156
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">157
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">158
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">159
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">160
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">161
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">162
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">163
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">164
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">165
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">166
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">167
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">168
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">169
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">170
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">171
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">172
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">173
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">174
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">175
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">176
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">177
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">178
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">179
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">180
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">181
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">182
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">183
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">184
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">185
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">186
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">187
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">188
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">189
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">190
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">191
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">192
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">193
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">194
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">195
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">196
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">197
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">198
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">199
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">200
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">201
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">202
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">203
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">204
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">205
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">206
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">207
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">208
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">209
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">210
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">211
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">212
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">213
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">214
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">215
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">216
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">217
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">218
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">219
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">220
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">221
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span>- <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>Set up basic</span>
+</span></span><span style=display:flex><span>  <span style=color:#d7827e>become</span><span style=color:#797593>:</span> <span style=color:#286983>yes</span>
+</span></span><span style=display:flex><span>  <span style=color:#d7827e>hosts</span><span style=color:#797593>:</span> <span style=color:#ea9d34>all</span>
+</span></span><span style=display:flex><span>  <span style=color:#d7827e>tasks</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5># update+ upgrde apt </span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5># use tags never to not do it, use always when upgrade is desired</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5># https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_module.html</span>
+</span></span><span style=display:flex><span>  - <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>Update and upgrade</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>apt</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>update_cache</span><span style=color:#797593>:</span> <span style=color:#286983>true</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>cache_valid_time</span><span style=color:#797593>:</span> <span style=color:#ea9d34>7200</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>upgrade</span><span style=color:#797593>:</span> <span style=color:#ea9d34>dist</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>tags</span><span style=color:#797593>:</span> <span style=color:#ea9d34>never</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5>#--------------------- PHP</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5># https://www.tal.org/tutorials/setup-php-7-or-8-apache-raspberry-pi</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5># https://pimylifeup.com/raspberry-pi-latest-php/</span>
+</span></span><span style=display:flex><span>  - <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>Install lsb-release</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>apt</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>        <span style=color:#d7827e>pkg</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>          - <span style=color:#ea9d34>lsb-release</span>
+</span></span><span style=display:flex><span>        <span style=color:#d7827e>state</span><span style=color:#797593>:</span> <span style=color:#ea9d34>latest</span>
+</span></span><span style=display:flex><span>        <span style=color:#d7827e>cache_valid_time</span><span style=color:#797593>:</span> <span style=color:#ea9d34>7200</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>tags</span><span style=color:#797593>:</span> <span style=color:#ea9d34>php</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5># https://docs.ansible.com/ansible/latest/collections/ansible/builtin/shell_module.html</span>
+</span></span><span style=display:flex><span>  - <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>Get distribution name</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>shell</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>cmd</span><span style=color:#797593>:</span> <span style=color:#ea9d34>lsb_release -cs</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>register</span><span style=color:#797593>:</span> <span style=color:#ea9d34>command_output</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>tags</span><span style=color:#797593>:</span> <span style=color:#ea9d34>php</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5># create variable host_release_name</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5># https://docs.ansible.com/ansible/latest/collections/ansible/builtin/set_fact_module.html</span>
+</span></span><span style=display:flex><span>  - <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>Create host_release_name variable</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>set_fact</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>host_release_name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>&#34;{{ command_output.stdout }}&#34;</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>tags</span><span style=color:#797593>:</span> <span style=color:#ea9d34>php</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5># https://docs.ansible.com/ansible/latest/collections/ansible/builtin/get_url_module.html</span>
+</span></span><span style=display:flex><span>  - <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>Get GPG key for PHP repository </span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>get_url</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>url</span><span style=color:#797593>:</span> <span style=color:#ea9d34>https://packages.sury.org/php/apt.gpg</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>dest</span><span style=color:#797593>:</span> <span style=color:#ea9d34>/usr/share/keyrings/suryphp-archive-keyring.gpg</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>tags</span><span style=color:#797593>:</span> <span style=color:#ea9d34>php</span>
+</span></span><span style=display:flex><span>  - <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>Add PHP repository</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>apt_repository</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>repo</span><span style=color:#797593>:</span> <span style=color:#ea9d34>&#34;deb [signed-by=/usr/share/keyrings/suryphp-archive-keyring.gpg] https://packages.sury.org/php/ {{ host_release_name }} main&#34;</span> 
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>state</span><span style=color:#797593>:</span> <span style=color:#ea9d34>present</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>tags</span><span style=color:#797593>:</span> <span style=color:#ea9d34>php</span>
+</span></span><span style=display:flex><span>  - <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>Install php8.1</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>apt</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>pkg</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>        - <span style=color:#ea9d34>php8.1</span>
+</span></span><span style=display:flex><span>        - <span style=color:#ea9d34>php8.1-gd </span>
+</span></span><span style=display:flex><span>        - <span style=color:#ea9d34>php8.1-sqlite3 </span>
+</span></span><span style=display:flex><span>        - <span style=color:#ea9d34>php8.1-curl </span>
+</span></span><span style=display:flex><span>        - <span style=color:#ea9d34>php8.1-zip </span>
+</span></span><span style=display:flex><span>        - <span style=color:#ea9d34>php8.1-xml </span>
+</span></span><span style=display:flex><span>        - <span style=color:#ea9d34>php8.1-mbstring </span>
+</span></span><span style=display:flex><span>        - <span style=color:#ea9d34>php8.1-mysql</span>
+</span></span><span style=display:flex><span>        - <span style=color:#ea9d34>php8.1-bz2 </span>
+</span></span><span style=display:flex><span>        - <span style=color:#ea9d34>php8.1-intl </span>
+</span></span><span style=display:flex><span>        - <span style=color:#ea9d34>php8.1-smbclient </span>
+</span></span><span style=display:flex><span>        - <span style=color:#ea9d34>php8.1-imap</span>
+</span></span><span style=display:flex><span>        - <span style=color:#ea9d34>php8.1-gmp </span>
+</span></span><span style=display:flex><span>        - <span style=color:#ea9d34>php8.1-bcmath </span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>state</span><span style=color:#797593>:</span> <span style=color:#ea9d34>latest</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>cache_valid_time</span><span style=color:#797593>:</span> <span style=color:#ea9d34>7200</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>tags</span><span style=color:#797593>:</span> <span style=color:#ea9d34>php</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5># https://docs.ansible.com/ansible/latest/collections/ansible/builtin/lineinfile_module.html</span>
+</span></span><span style=display:flex><span>  - <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>Change PHP post_max_size</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>lineinfile</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>path</span><span style=color:#797593>:</span> <span style=color:#ea9d34>/etc/php/8.1/apache2/php.ini</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>regexp</span><span style=color:#797593>:</span> <span style=color:#ea9d34>&#39;^post_max_size =&#39;</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>line</span><span style=color:#797593>:</span> <span style=color:#ea9d34>&#39;post_max_size = 2048M&#39;</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>tags</span><span style=color:#797593>:</span> <span style=color:#ea9d34>php</span>
+</span></span><span style=display:flex><span>  - <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>Change PHP upload_max_filesize</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>lineinfile</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>path</span><span style=color:#797593>:</span> <span style=color:#ea9d34>/etc/php/8.1/apache2/php.ini</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>regexp</span><span style=color:#797593>:</span> <span style=color:#ea9d34>&#39;^upload_max_filesize =&#39;</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>line</span><span style=color:#797593>:</span> <span style=color:#ea9d34>&#39;upload_max_filesize = 2048M&#39;</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>tags</span><span style=color:#797593>:</span> <span style=color:#ea9d34>php</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5>#--------------------- APACHE 2</span>
+</span></span><span style=display:flex><span>  - <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>Install apache 2</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>apt</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>pkg</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>        - <span style=color:#ea9d34>apache2</span>
+</span></span><span style=display:flex><span>        - <span style=color:#ea9d34>libapache2-mod-php8.1</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>state</span><span style=color:#797593>:</span> <span style=color:#ea9d34>latest</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>cache_valid_time</span><span style=color:#797593>:</span> <span style=color:#ea9d34>7200</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>tags</span><span style=color:#797593>:</span> <span style=color:#ea9d34>apache</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5># https://docs.ansible.com/ansible/latest/collections/ansible/builtin/service_module.html</span>
+</span></span><span style=display:flex><span>  - <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>restart apache2</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>service</span><span style=color:#797593>:</span> 
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>apache2</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>state</span><span style=color:#797593>:</span> <span style=color:#ea9d34>restarted</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>tags</span><span style=color:#797593>:</span> <span style=color:#ea9d34>apache</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5>#--------------------- MYSQL</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5># https://pimylifeup.com/raspberry-pi-mysql/</span>
+</span></span><span style=display:flex><span>  - <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>Install MySQL</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>apt</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>pkg</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>        - <span style=color:#ea9d34>mariadb-server</span>
+</span></span><span style=display:flex><span>        - <span style=color:#ea9d34>python3-pymysql </span>
+</span></span><span style=display:flex><span>        - <span style=color:#ea9d34>default-libmysqlclient-dev</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>state</span><span style=color:#797593>:</span> <span style=color:#ea9d34>latest</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>tags</span><span style=color:#797593>:</span> <span style=color:#ea9d34>sql</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5># https://stackoverflow.com/questions/25136498/ansible-answers-to-mysql-secure-installation</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5># https://docs.ansible.com/ansible/latest/collections/community/mysql/mysql_db_module.html</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5># /run/mysqld/mysqld.sock is very important on Linux otherwise errors are thrown</span>
+</span></span><span style=display:flex><span>  - <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>Removes test database</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>community.mysql.mysql_db</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>test </span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>state</span><span style=color:#797593>:</span> <span style=color:#ea9d34>absent</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>login_unix_socket</span><span style=color:#797593>:</span> <span style=color:#ea9d34>/run/mysqld/mysqld.sock</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>tags</span><span style=color:#797593>:</span> <span style=color:#ea9d34>sql</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5># https://docs.ansible.com/ansible/latest/collections/community/mysql/mysql_user_module.html</span>
+</span></span><span style=display:flex><span>  - <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>Removes all anonymous accounts</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>community.mysql.mysql_user</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>&#39;&#39;</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>host_all</span><span style=color:#797593>:</span> <span style=color:#286983>true</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>login_unix_socket</span><span style=color:#797593>:</span> <span style=color:#ea9d34>/run/mysqld/mysqld.sock</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>state</span><span style=color:#797593>:</span> <span style=color:#ea9d34>absent</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>tags</span><span style=color:#797593>:</span> <span style=color:#ea9d34>sql</span>
+</span></span><span style=display:flex><span>  - <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>Create nextclouddb</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>community.mysql.mysql_db</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>nextclouddb</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>login_unix_socket</span><span style=color:#797593>:</span> <span style=color:#ea9d34>/run/mysqld/mysqld.sock</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>state</span><span style=color:#797593>:</span> <span style=color:#ea9d34>present</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>tags</span><span style=color:#797593>:</span> <span style=color:#ea9d34>sql</span>
+</span></span><span style=display:flex><span>  - <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>Create nexcloudadmin user</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>community.mysql.mysql_user</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>nextcloudadmin</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>password</span><span style=color:#797593>:</span> <span style=color:#ea9d34>&#34;{{ db_password }}&#34;</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>priv</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>        <span style=color:#d7827e>&#39;nextclouddb.*&#39;</span><span style=color:#797593>:</span> <span style=color:#ea9d34>&#39;ALL,GRANT&#39;</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>login_unix_socket</span><span style=color:#797593>:</span> <span style=color:#ea9d34>/run/mysqld/mysqld.sock</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>state</span><span style=color:#797593>:</span> <span style=color:#ea9d34>present</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>tags</span><span style=color:#797593>:</span> <span style=color:#ea9d34>sql</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5>#--------------------- NEXTCLOUD</span>
+</span></span><span style=display:flex><span>  - <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>Download nextcloudadmin</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>get_url</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>url</span><span style=color:#797593>:</span> <span style=color:#ea9d34>https://download.nextcloud.com/server/releases/latest.tar.bz2</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>dest</span><span style=color:#797593>:</span> <span style=color:#ea9d34>/tmp/latest_nextcloud.tar.bz2</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>tags</span><span style=color:#797593>:</span> <span style=color:#ea9d34>nextcloud</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5># https://docs.ansible.com/ansible/latest/collections/ansible/builtin/unarchive_module.html</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5># NB: this takes some time cause of all work done to ensure idempotency, </span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5># see https://github.com/ansible/ansible/issues/38267</span>
+</span></span><span style=display:flex><span>  - <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>Extract nextcloud archive</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>unarchive</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>src</span><span style=color:#797593>:</span> <span style=color:#ea9d34>/tmp/latest_nextcloud.tar.bz2</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>creates</span><span style=color:#797593>:</span> <span style=color:#ea9d34>/var/www/nextcloud/</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>dest</span><span style=color:#797593>:</span> <span style=color:#ea9d34>/var/www</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>copy</span><span style=color:#797593>:</span> <span style=color:#286983>no</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>owner</span><span style=color:#797593>:</span> <span style=color:#ea9d34>www-data </span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>group</span><span style=color:#797593>:</span> <span style=color:#ea9d34>www-data</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>mode</span><span style=color:#797593>:</span> <span style=color:#ea9d34>&#34;750&#34;</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>tags</span><span style=color:#797593>:</span> <span style=color:#ea9d34>nextcloud</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5># https://docs.ansible.com/ansible/latest/collections/ansible/builtin/copy_module.html</span>
+</span></span><span style=display:flex><span>  - <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>Copy local nextcloud.conf </span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>copy</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>src</span><span style=color:#797593>:</span> <span style=color:#ea9d34>nextcloud.conf</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>dest</span><span style=color:#797593>:</span> <span style=color:#ea9d34>/etc/apache2/sites-available/</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>owner</span><span style=color:#797593>:</span> <span style=color:#ea9d34>root</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>group</span><span style=color:#797593>:</span> <span style=color:#ea9d34>root</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>mode</span><span style=color:#797593>:</span> <span style=color:#ea9d34>&#39;0644&#39;</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>backup</span><span style=color:#797593>:</span> <span style=color:#286983>yes</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>tags</span><span style=color:#797593>:</span> <span style=color:#ea9d34>nextcloud</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5>#--------------------- NEXTCLOUD PART 2</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5># https://serverfault.com/questions/1064669/mv-command-did-not-rename-but-move-into-existing-directory-from-ansible</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5># https://docs.ansible.com/ansible/latest/collections/ansible/builtin/stat_module.html</span>
+</span></span><span style=display:flex><span>  - <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>Check if new data folder</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>stat</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>path</span><span style=color:#797593>:</span> <span style=color:#ea9d34>/var/nextcloud/data</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>register</span><span style=color:#797593>:</span> <span style=color:#ea9d34>dest_folder</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>tags</span><span style=color:#797593>:</span> <span style=color:#ea9d34>nextcloudp2</span>
+</span></span><span style=display:flex><span>  - <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>Move data directory</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>shell</span><span style=color:#797593>:</span> 
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>cmd</span><span style=color:#797593>:</span> <span style=color:#797593>|</span><span style=color:#ea9d34>
+</span></span></span><span style=display:flex><span><span style=color:#ea9d34>        mkdir -p /var/nextcloud
+</span></span></span><span style=display:flex><span><span style=color:#ea9d34>        mv /var/www/nextcloud/data /var/nextcloud/data</span>        
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>warn</span><span style=color:#797593>:</span> <span style=color:#286983>false</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>when</span><span style=color:#797593>:</span> <span style=color:#ea9d34>not dest_folder.stat.exists</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>tags</span><span style=color:#797593>:</span> <span style=color:#ea9d34>nextcloudp2</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5># https://docs.ansible.com/ansible/latest/collections/ansible/builtin/file_module.html</span>
+</span></span><span style=display:flex><span>  - <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>Ensure that data has the right ownership</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>file</span><span style=color:#797593>:</span> 
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>path</span><span style=color:#797593>:</span> <span style=color:#ea9d34>/var/nextcloud/data</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>state</span><span style=color:#797593>:</span> <span style=color:#ea9d34>directory</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>recurse</span><span style=color:#797593>:</span> <span style=color:#286983>yes</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>owner</span><span style=color:#797593>:</span> <span style=color:#ea9d34>www-data</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>group</span><span style=color:#797593>:</span> <span style=color:#ea9d34>www-data </span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>when</span><span style=color:#797593>:</span> <span style=color:#ea9d34>not dest_folder.stat.exists</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>tags</span><span style=color:#797593>:</span> <span style=color:#ea9d34>nextcloudp2</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5># https://docs.ansible.com/ansible/latest/collections/ansible/builtin/lineinfile_module.html</span>
+</span></span><span style=display:flex><span>  - <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>Redirect data folder properly</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>lineinfile</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>path</span><span style=color:#797593>:</span> <span style=color:#ea9d34>/var/www/nextcloud/config/config.php</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>regexp</span><span style=color:#797593>:</span> <span style=color:#ea9d34>&#34;datadirectory&#34;</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>line</span><span style=color:#797593>:</span> <span style=color:#ea9d34>&#34;&#39;datadirectory&#39; =&gt; &#39;/var/nextcloud/data&#39;,&#34;</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>backup</span><span style=color:#797593>:</span> <span style=color:#286983>yes</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>tags</span><span style=color:#797593>:</span> <span style=color:#ea9d34>nextcloudp2</span>
+</span></span><span style=display:flex><span>  - <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>Enable nextcloud</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>command</span><span style=color:#797593>:</span> <span style=color:#ea9d34>a2ensite nextcloud.conf</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>tags</span><span style=color:#797593>:</span> <span style=color:#ea9d34>nextcloudp2</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5>#--------------------- UFW</span>
+</span></span><span style=display:flex><span>  - <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>Install the Uncomplicated Firewall (ufw)</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>apt</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>pkg</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>        - <span style=color:#ea9d34>ufw</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>state</span><span style=color:#797593>:</span> <span style=color:#ea9d34>latest</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>update_cache</span><span style=color:#797593>:</span> <span style=color:#286983>true</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>tags</span><span style=color:#797593>:</span> <span style=color:#ea9d34>ufw</span>
+</span></span><span style=display:flex><span>  - <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>Allow port 80 and 443</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>command</span><span style=color:#797593>:</span> <span style=color:#ea9d34>ufw allow 80,443/tcp</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>tags</span><span style=color:#797593>:</span> <span style=color:#ea9d34>ufw</span>
+</span></span><span style=display:flex><span>  <span style=color:#9893a5>#--------------------- CERTBOT</span>
+</span></span><span style=display:flex><span>  - <span style=color:#d7827e>name</span><span style=color:#797593>:</span> <span style=color:#ea9d34>Install certbot</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>apt</span><span style=color:#797593>:</span> 
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>pkg</span><span style=color:#797593>:</span>
+</span></span><span style=display:flex><span>        - <span style=color:#ea9d34>python3-certbot-apache</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>state</span><span style=color:#797593>:</span> <span style=color:#ea9d34>latest</span>
+</span></span><span style=display:flex><span>      <span style=color:#d7827e>update_cache</span><span style=color:#797593>:</span> <span style=color:#286983>true</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>tags</span><span style=color:#797593>:</span> <span style=color:#ea9d34>certbot</span>
+</span></span></code></pre></td></tr></table></div></div><h2 id=play-it>Play it</h2><p>To run the entire playbook, I run the following command:</p><div class=highlight><div style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=display:flex><span>$ ansible-playbook --vault-password-file psw_tmp --inventory-file inventory.yaml tasks.yaml
+</span></span></code></pre></td></tr></table></div></div><p>Since I added tags, I can easily target a specific part of the installation, e.g.</p><div class=highlight><div style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=display:flex><span>$ ansible-playbook --vault-password-file psw_tmp --inventory-file inventory.yaml tasks.yaml --tags <span style=color:#ea9d34>&#34;apache&#34;</span>
+</span></span></code></pre></td></tr></table></div></div><p>or a combination of parts:</p><div class=highlight><div style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=display:flex><span>$ ansible-playbook --vault-password-file psw_tmp --inventory-file inventory.yaml tasks.yaml --tags <span style=color:#ea9d34>&#34;apache,php&#34;</span>
+</span></span></code></pre></td></tr></table></div></div><h2 id=notes>Notes</h2><h3 id=encryption>Encryption</h3><p>I run the following command to encrypt <code>db_password</code>:</p><div class=highlight><div style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=display:flex><span>$ cat db_password_file <span style=color:#797593>|</span> ansible-vault encrypt_string --vault-password-file psw_tmp --stdin-name <span style=color:#ea9d34>&#39;db_password&#39;</span>
+</span></span></code></pre></td></tr></table></div></div><p>where <code>db_password_file</code> is a file containing the password for the database and <code>psw_tmp</code> is a file including the password used for encryption (see <a href=https://docs.ansible.com/ansible/latest/vault_guide/index.html>Ansible vault</a> for further details).</p><h3 id=local-files>Local files</h3><p>There are 3 files used in this playbook that I am not sharing:</p><ul><li><code>db_password_file</code> (see above)</li><li><code>psw_tmp</code> (see above)</li><li><code>nextcloud.conf</code> (see <a href=https://docs.nextcloud.com/server/latest/admin_manual/installation/source_installation.html>Installation on Linux</a>)</li></ul><h3 id=issues-with-mariadb-installation>Issues with MariaDB installation</h3><p>As I was working on my playbook I did something wrong with the root user and as a result I was not able to install the database properly, so I had to remove mariad-sb server:</p><div class=highlight><div style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=display:flex><span>$ apt purge mariadb-server 
+</span></span><span style=display:flex><span>$ apt autoremove
+</span></span></code></pre></td></tr></table></div></div><p>But I also had to remove other packages which were not purged, I identified them with the following:</p><div class=highlight><div style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=display:flex><span>$ sudo dpkg -l <span style=color:#797593>|</span> grep mariadb 
+</span></span></code></pre></td></tr></table></div></div><p>One important line with community.mysql modules on Linux is:</p><div class=highlight><div style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=display:flex><span>login_unix_socket: /run/mysqld/mysqld.sock
+</span></span></code></pre></td></tr></table></div></div><p>Not entirely sure I understand why, but see issue <a href=https://github.com/ansible-collections/community.mysql/issues/358>#358</a> on GitHub.</p><h3 id=post-actions>Post actions</h3><p>This playbook does not complete the installation, there are several steps to carry out afterward, in a nutshell:</p><ol><li>adding your domain in <code>trusted_domains</code> in <code>/var/www/nextcloud/config/config.php</code>;</li><li>grabbing a SSL certificate, basically running <code>sudo certbot --apache</code>;</li><li>setting Nextcloud (admin account, applications, etc.).</li></ol><h3 id=ansible>Ansible</h3><p>Ansible is great and fairly easy to use, which amazes me given all the work it does.</p><h1 id=references>References</h1><p>There are tons of good posts about Ansible online and the <a href=https://docs.ansible.com/ansible/>documentation</a> is thorough, below are listed the references I used as I was developing my playbook.</p><h3 id=get-started>Get started</h3><p>Three posts that were very helpful to get me started:</p><ul><li><a href=https://opensource.com/article/20/9/raspberry-pi-ansible>Manage your Raspberry Pi fleet with Ansible</a>;</li><li><a href="http://hackerpublicradio.org/eps.php?id=3080">Ansible ping</a>;</li><li><a href=https://seanjziegler.com/managing-an-rpi-cluster-with-ansible/>How to manage a Raspberry Pi Cluster with Ansible</a>.</li></ul><h3 id=ansible-documentation-pages>Ansible documentation pages</h3><p>This is a table that includes all pages listed in the playbook above as comments and additional pages in the documentation that I found very useful to develop this playbook.</p><table><thead><tr><th style=text-align:left>Type</th><th style=text-align:left>Page</th></tr></thead><tbody><tr><td style=text-align:left>General</td><td style=text-align:left>Create your <a href=https://docs.ansible.com/ansible/latest/network/getting_started/first_playbook.html>First playbook</a></td></tr><tr><td style=text-align:left>General</td><td style=text-align:left>Learn about <a href=https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_privilege_escalation.html>privilege escalation</a></td></tr><tr><td style=text-align:left>General</td><td style=text-align:left>Learn about <a href=https://docs.ansible.com/ansible/latest/vault_guide/index.html>Ansible vault</a></td></tr><tr><td style=text-align:left>General</td><td style=text-align:left>Learn how to use <a href=https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_tags.html>tags</a></td></tr><tr><td style=text-align:left>General</td><td style=text-align:left>Learn about <a href=https://docs.ansible.com/ansible/latest/vault_guide/index.html>Ansible vault</a></td></tr><tr><td style=text-align:left>Built-in</td><td style=text-align:left>Module <a href=https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_module.html>apt</a></td></tr><tr><td style=text-align:left>Built-in</td><td style=text-align:left>Module <a href=https://docs.ansible.com/ansible/latest/collections/ansible/builtin/shell_module.html>shell</a></td></tr><tr><td style=text-align:left>Built-in</td><td style=text-align:left>Module <a href=https://docs.ansible.com/ansible/latest/collections/ansible/builtin/set_fact_module.html>set_fact</a></td></tr><tr><td style=text-align:left>Built-in</td><td style=text-align:left>Module <a href=https://docs.ansible.com/ansible/latest/collections/ansible/builtin/get_url_module.html>get_url</a></td></tr><tr><td style=text-align:left>Built-in</td><td style=text-align:left>Module <a href=https://docs.ansible.com/ansible/latest/collections/ansible/builtin/service_module.html>service</a></td></tr><tr><td style=text-align:left>Built-in</td><td style=text-align:left>Module <a href=https://docs.ansible.com/ansible/latest/collections/ansible/builtin/unarchive_module.html>unarchive</a></td></tr><tr><td style=text-align:left>Built-in</td><td style=text-align:left>Module <a href=https://docs.ansible.com/ansible/latest/collections/ansible/builtin/stat_module.html>stat</a></td></tr><tr><td style=text-align:left>Built-in</td><td style=text-align:left>Module <a href=https://docs.ansible.com/ansible/latest/collections/ansible/builtin/copy_module.html>copy</a></td></tr><tr><td style=text-align:left>Built-in</td><td style=text-align:left>Module <a href=https://docs.ansible.com/ansible/latest/collections/ansible/builtin/file_module.html>file</a></td></tr><tr><td style=text-align:left>Built-in</td><td style=text-align:left>Module <a href=https://docs.ansible.com/ansible/latest/collections/ansible/builtin/lineinfile_module.html>lineinfile</a></td></tr><tr><td style=text-align:left>Community MySQL</td><td style=text-align:left>Module <a href=https://docs.ansible.com/ansible/latest/collections/community/mysql/mysql_db_module.html>mysql_db</a></td></tr><tr><td style=text-align:left>Community MySQL</td><td style=text-align:left>Module <a href=https://docs.ansible.com/ansible/latest/collections/community/mysql/mysql_user_module.html>mysql_user</a></td></tr></tbody></table></div></div><div class=footer2><hr id=hr-footer align=left><div class=social-media-banner><a href=https://github.com/KevCaz><i class='fab fab fa-github-square'></i></a>
+<a href=https://stackoverflow.com/users/8038778><i class='fab fa-stack-overflow'></i></a>
+<a href=https://mastodon.social/@KCazelles><i class='fab fa-mastodon'></i></a>
+<a href=http://orcid.org/0000-0001-6619-9874><i class='ai ai-orcid-square'></i></a>
+<a href="https://scholar.google.ca/citations?user=xzvcu7cAAAAJ%26hl"><i class='ai ai-google-scholar-square'></i></a>
+<a href=https://www.researchgate.net/profile/Kevin_Cazelles><i class='ai ai-researchgate-square'></i></a>
+<a href=https://kevcaz.github.io/index.xml><i class="fas fa-rss-square"></i></a></div><div class=footer-custom>Website built with <a href=https://gohugo.io/>Hugo</a>.<br><i class='fas fa-code'></i> available on <a href=https://github.com/KevCaz/KevCaz.github.io><i class='fab fa-github'></i></a>.<br>Content under <a href=https://creativecommons.org/publicdomain/zero/1.0><i class='fab fa-creative-commons'></i><i class='fab fa-creative-commons-zero'></i></a> unless otherwise specified.<br>Latest build: 06 Mar 2024 17:06 UTC</div></div></div><div class=ctn-sidebar-secondary><div class=ctt-sidebar-secondary><h1><a href=#><i class='far fas fa-chevron-up'></i></a></h1><script src=../../../../js/sidebar-secondary.js></script><h1><a onclick=scrollToBottom()><i class='far fas fa-chevron-down'></i></a></h1></div></div></div><script src=../../../../js/sidebar-primary-dropdown.js></script>
+<script>scrollingElement=document.scrollingElement||document.body;function scrollToBottom(){scrollingElement.scrollTop=scrollingElement.scrollHeight}</script></body></html>
