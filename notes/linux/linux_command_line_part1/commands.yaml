@@ -1,0 +1,276 @@
+- cmd: df
+  desc: "report file system space usage" 
+  opt: ["-h"] 
+  categ: "monitor"
+  use: 1
+
+- cmd: du
+  desc: "estimate file space usage" 
+  opt: ["-s", "-h"] 
+  categ: "monitor"
+  use: 2
+
+- cmd: free
+  desc: "display amount of free and used memory in the system" 
+  opt: ["-h"]
+  categ: "monitor"
+  use: 1
+
+- cmd: pwd
+  desc: "print name of current/working directory" 
+  opt: "" 
+  categ: "navigate"
+  use: 3
+
+- cmd: cd
+  desc: "change the shell working directory" 
+  opt: "" 
+  categ: "navigate"
+  use: 3
+
+- cmd: ls
+  desc: "list directory contents" 
+  opt: ["-ls", "-t", "-h", "--reverse"] 
+  categ: "navigate"
+  use: 3
+
+- cmd: file
+  desc: "determine file type" 
+  opt: "" 
+  categ: "inform"
+  use: 3
+
+- cmd: less
+  desc: "a pager" 
+  opt: "" 
+  categ: "manipulate"
+  use: 3
+
+- cmd: cp
+  desc: "copy files and directories" 
+  opt: ["-a", "-r", "-i", "-u", "-v"] 
+  categ: "manage files"
+  use: 3
+
+- cmd: mv
+  desc: "move (rename) files" 
+  opt: ["-i", "-u", "-v"] 
+  categ: "manage files"
+  use: 3
+
+- cmd: mkdir
+  desc: "create new directory" 
+  opt: ["-h", "-m"]
+  categ: "manage files"
+  use: 3
+
+- cmd: ln
+  desc: "make links between files" 
+  opt: ["-s", "-r", "-v"]
+  categ: "manage files"
+  use: 1
+
+- cmd: rm
+  desc: "remove files or directories"
+  opt: ["-i", "-r", "-f", "-vq"] 
+  categ: "manage files"
+  use: 3
+
+- cmd: type
+  desc: "display information about command type" 
+  opt: "" 
+  categ: "inform"
+  use: 1
+
+- cmd: which
+  desc: "locate a command" 
+  opt: "" 
+  categ: "inform"
+  use: 2
+
+- cmd: help
+  desc: "display information about builtin commands" 
+  opt: ""  
+  categ: "inform"
+  use: 1
+
+- cmd: man
+  desc: "an interface to the system reference manuals" 
+  opt: "" 
+  categ: "inform"
+  use: 3
+
+- cmd: apropos
+  desc: "search the manual page names and descriptions" 
+  opt: "" 
+  categ: "inform"
+  use: 1
+
+- cmd: info
+  desc: "read Info documents" 
+  opt: ""  
+  categ: "inform"
+  use: 1
+
+- cmd: whatis
+  desc: "display one‐line manual page descriptions" 
+  opt: ""  
+  categ: "inform"
+  use: 1
+
+- cmd: cat
+  desc: "concatenate files and print on the standard output" 
+  opt: ["-n"]   
+  categ: "manipulate"
+  use: 3
+
+- cmd: sort
+  desc: "sort lines of text files" 
+  opt: ["-r"]  
+  categ: "manipulate"
+  use: 1
+
+- cmd: uniq
+  desc: "report or omit repeated lines" 
+  opt: ["-c", "-D"]
+  categ: "manipulate"
+  use: 1
+
+- cmd: shuf
+  desc: "generate random permutations" 
+  opt: ["-r"]  
+  categ: "manipulate"
+  use: 1
+
+- cmd: grep
+  desc: "print lines that match patterns" 
+  opt: ["-e", "-i", "-f"]  
+  categ: "search"
+  use: 3
+
+- cmd: wc
+  desc: "print newline, word, and byte counts for each file" 
+  opt: ["-c", "-m", "-l", "-w"]  
+  categ: "manipulate"
+  use: 2
+
+- cmd: head
+  desc: "output the first part of files" 
+  opt: ["-n"]  
+  categ: "manipulate"
+  use: 2
+
+- cmd: tail
+  desc: "output the last part of files" 
+  opt: ["-n"]  
+  categ: "manipulate"
+  use: 2
+
+- cmd: tee
+  desc: "read from standard input and write to standard output and files" 
+  opt: ""  
+  categ: "manipulate"
+  use: 2
+
+- cmd: id
+  desc: "print real and effective user and group IDs" 
+  opt: ["-u", "-g", "-G"]  
+  categ: "permission"
+  use: 1
+
+- cmd: chmod
+  desc: "change file mode bits" 
+  opt: "" 
+  categ: "permission"
+  use: 2
+
+- cmd: umask
+  desc: "set file mode creation mask" 
+  opt: "" 
+  categ: "permission"
+  use: 1
+
+- cmd: su
+  desc: "run a command with substitute user and group ID" 
+  opt: ["-c"]  
+  categ: "permission"
+  use: 3
+
+- cmd: sudo
+  desc: "execute a command as another user" 
+  opt: ["-u"]  
+  categ: "permission"
+  use: 3
+
+- cmd: chown
+  desc: "change file owner and group" 
+  opt: "" 
+  categ: "permission"
+  use: 2
+
+- cmd: chgrp
+  desc: "change group ownership" 
+  opt: "" 
+  categ: "permission"
+  use: 1
+
+- cmd: passwd
+  desc: "change user password" 
+  opt: "" 
+  categ: "permission"
+  use: 1
+
+- cmd: top
+  desc: "display Linux processes" 
+  opt: "" 
+  categ: "monitor"
+  use: 3
+
+- cmd: jobs
+  desc: "display status of jobs." 
+  opt: "" 
+  categ: "monitor"
+  use: 2
+
+- cmd: bg
+  desc: "Move job to the background" 
+  opt: ""
+  categ: "monitor"
+  use: 2
+
+- cmd: fg
+  desc: "Move job to the foreground" 
+  opt: ""
+  categ: "monitor"
+  use: 2
+
+- cmd: kill
+  desc: "send a signal to a process" 
+  opt: ["-l", "-INT", "-9"]  
+  categ: "monitor"
+  use: 3
+
+- cmd: killall
+  desc: " kill processes by name" 
+  opt: ["-g", "-i"]  
+  categ: "monitor"
+  use: 1
+
+- cmd: shutdown
+  desc: "halt, power off or reboot the machine" 
+  opt: ["-r", "-c"]  
+  categ: "monitor"
+  use: 3
+
+- cmd: date
+  desc: "print or set the system date and time" 
+  opt: ["-u"]
+  categ: "date"
+  use: 2
+# how frequently
+
+- cmd: cal
+  desc: "displays a calendar" 
+  opt: ["-j", "-3"]
+  categ: "date"
+  use: 1

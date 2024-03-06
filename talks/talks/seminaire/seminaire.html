@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+  <title> Comment les interactions écologiques affectent-elles la distribution des espèces? </title>
+  <meta charset="utf-8">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+  <!-- Add font awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+  <style>
+  @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+  @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+  @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+  @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,400italic,300,300italic,500,500italic,700,700italic);
+
+  body {
+    font-family: 'Ubuntu';
+    font-weight: lighter;
+  }
+
+  h1, h2, h3 {
+    font-weight: medium;
+  }
+
+  .remark-slide-content {
+    font-size: 1.4em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .remark-slide-content h1 { font-size: 1.6em; }
+  .remark-slide-content h2 { font-size: 1.45em; }
+  .remark-slide-content h3 { font-size: 1.3em; }
+
+  .footnote {
+    bottom: 1em;
+  }
+
+  .large{
+    font-size: 1.3em;
+  }
+
+  .alert{
+    color: #ee2650;
+  }
+
+  a > code {
+    color: #50b5d5;
+  }
+
+  .remark-code, .remark-inline-code {
+    color:  #50b5d5;
+    background: #000000;
+    font-family: 'Ubuntu Mono';
+  }
+
+  .vertical-align {
+    display: flex;
+    align-items: center;
+  }
+
+  .remark-slide-number{
+    opacity: 0;
+    /*opacity: 0.25;*/
+  }
+
+  .style1 {
+    background: #000000;
+    color: #f3f3f3;
+    text-shadow: 0 0 2px #333;
+  }
+  .style1 h1, .style1 h2 {
+    color: #f3f3f3;
+  }
+
+  .style1 a {
+    color: #f3f3f3
+    background: #44758a;
+  }
+
+
+  .style2 {
+    background: #44758a;
+    color: #000000;
+  }
+  .style2 h1, .style2 h2 {
+    color: #f3f3f3;
+    line-height: 1em;
+    font-size: 2.2em;
+  }
+
+  .style2 h3 {
+    font-size: 1.6em;
+  }
+
+  .style2 a {
+    color: #232323;
+    background: #44758a;
+  }
+
+  </style>
+
+</head>
+
+
+<!-- cd /Users/kcazelles/Github/decktape -->
+<!-- ./bin/phantomjs decktape.js -s 1600x900 file:///Users/kcazelles/Dropbox/Seminaire/seminaire.html#1 /Users/kcazelles/Dropbox/Seminaire/Seminaire.pdf -->
+
+
+
+
+
+
+
+
+
+
+
+<body>
+
+  <textarea id="source">
+
+    name: title
+    layout: true
+    class: center, middle, style1
+    ---
+    # Comment les interactions écologiques affectent-elles la répartition géographique des espèces?
+    <hr />
+    <br />
+    ## Séminaire (BIO9020)
+    .left[### Jeudi 21 avril 2016, Rimouski]
+    <br /><br />
+    ![:scale 60%](./img/bg.png)
+    <br /><br />
+
+
+    ##[- Kévin Cazelles -](http://kevincazelles.fr)
+
+
+    ---
+    name: style2
+    layout: true
+    class: center, middle, style2
+    ---
+    count: false
+    # CONTEXTE
+    <hr/>
+    ### Biogéographie et interactions écologiques
+
+    ---
+    name: style1
+    layout: true
+    class: style1
+
+    ---
+    # Répartition géographique des espèces
+    <hr/><br/>
+    .center[![:scale 105%](./fig/fig1.png)]
+
+    ???
+    Espèces et sites
+
+    ---
+    # Espace géographique
+    <hr/><br/>
+    .center[![:scale 100%](./fig/fig2.png)]
+
+    ---
+    # Quatre sources d'explication
+    <hr/><br/>
+    ## 1. Les facteurs pédoclimatiques
+    --
+
+    <br/>
+    ## 2. Le mouvement des espèces
+    --
+
+    <br/>
+    ## 3. Les interactions biotiques
+    --
+
+    <br/>
+    ## 4. L'évolution
+
+    ???
+    4 = dimension temporelle large échelle biogéographique historique
+    je n'aborderais pas les questions reltives à l'évolution
+    ---
+    #  1. Les facteurs pédoclimatiques
+    <hr/><br/>
+    .center[![:scale 100%](./fig/fig3.png)]
+
+    ???
+    On fait une inférence non pas sur l'espace mais sur les facteurs climatiques.
+    On change d'espace ; classiquement température / préciptation / nature des sols
+
+    ---
+    #  2. Les capacités de dispersion
+    <hr/><br/>
+    .center[![:scale 87%](./fig/fig4.png)]
+
+
+    ---
+    #  Le filtre abiotique
+    <hr/><br/>
+    .center[![:scale 105%](./fig/fig1.png)]
+
+    ???
+    C'est l'idée des SDM !!
+
+    ---
+    #  Les modèles de distribution d'espèces
+    <hr/><br/>
+    .center[![:scale 105%](./fig/fig5.png)]
+
+    ???
+    L'overlap mais que dit-il ?
+
+    ---
+    #  3. Le filtre biotique
+    <hr/><br/>
+
+    ##1. Interaction entre A et B
+    --
+
+    ##2. Impact sur la démographie
+    --
+
+    ##3. Risque d'extinction locale
+    --
+
+    <br/>
+    .center[![:scale 80%](./fig/fig6b.png)]
+
+
+    ???
+    pékan arrive au Bic et l'éteint mais il grouille à Forillon
+    Principe fondamental de l'écologie
+
+    ---
+    #  Filtres et échelles spatiales
+    <hr/><br/>
+    <!-- .center[![:scale 70%](./img/vision.png)] -->
+    .center[![:scale 90%](./fig/fig6.png)]
+
+    <br/>
+    .right[[McGill, B. J. (2010). *Science*.](http://doi.org/10.1126/science.1188528)]
+
+    ???
+    Cette vision me pause problème
+    Paradoxale
+
+
+    ---
+    # Une question
+    <hr/><br/>
+
+    ## 1. Distribution = somme des présences
+    --
+
+    <br/>
+    ## 2. Facteurs biotiques et abiotiques majeurs localement.
+    --
+
+    <br/>
+    ## 3. Comment l'effet des interactions peut-il disparaître?
+    --
+
+    <br/>
+    # .center[UN PROBLÈME MÉTHODOLOGIQUE?]
+
+    ???
+    Une primauté
+    variation à grande échelle des facteurs climatiques...
+    Ne pas faire dire plus au SDM qu'ils ne devraient...
+    paradox lié à un problème méthogologique ?
+    On regrade à nouveaux cela...
+
+    ---
+    #  Des prédictions fiables ?
+    <hr/><br/>
+    .center[![:scale 100%](./fig/fig7.png)]
+
+
+    ---
+    #  Enjeux de ma thèse
+    <hr/><br/>
+    --
+
+    <br/>
+    ## 1. Introduction des interactions en biogéographie théorique
+    --
+
+    <br/>
+    ## 2. Dériver des attendus théoriques sur les co-occurrences
+    --
+
+    <br/>
+    ## 3. Explorer des données adéquates
+
+
+
+
+
+
+
+
+
+
+
+
+    ---
+    name: style2
+    layout: true
+    class: center, middle, style2
+    ---
+    count: false
+    # CHAPITRE 1
+    <hr />
+    ### Théorie de la biogéographie des îles et réseaux écologiques
+
+
+    ---
+    name: style1
+    layout: true
+    class: style1
+
+    ---
+    # Le modèle de MacArthur et Wilson (1963, 1967)
+    <hr/><br/>
+    .center[![:scale 100%](./fig/fig8.png)]
+
+
+    ---
+    # Propriétés du modèle
+    <hr/><br/>
+
+    ## 1. Évolution et capacités de dispersion
+    --
+
+    <br/>
+    ## 2. Relation diversité locale / diversité régionale
+    --
+
+    <br/>
+    ## 3. Pas de contraintes abiotiques
+    --
+
+    <br/>
+    ## 4. Pas de contraintes biotiques : `\(P(X_{i},X_{j})=P(X_{i})P(X_{j})\)`
+
+    ???
+    Attention, ça marche bien..
+
+    ---
+    # Lever l'hypothèse d'indépendance
+    <hr/><br/>
+
+
+    ###- Gravel *et al.* (2011). [Trophic theory of island biogeography](http://doi.org/10.1111/j.1461-0248.2011.01667.x). *Ecology Letters*
+    <br/>
+
+    --
+    ## - 2 règles additionnelles :
+      ###  &nbsp;&nbsp; 1. Sur une île sans proie, un prédateur ne peut s'établir,
+      ###  &nbsp;&nbsp; 2. À l'extinction de sa dernière proie, un prédateur s'éteint.
+    <br/>
+
+    --
+    ## `\(P(X_{i},X_{j}) \neq P(X_{i})P(X_{j})\)`
+
+    ???
+    première étape pour lever l'hypothèse.
+
+    ---
+    # Dépendance à l'environnement et aux interactions
+    <hr/><br/>
+    .center[![:scale 100%](./fig/fig9.png)]
+
+    --
+    # `\(P(X_{1,t+dt},....,X_{n,t+dt} | X_{1,t},....,X_{n,t})=f(R,E)\)`
+
+    ---
+    # Des contraintes biotiques et abiotiques
+    <hr/><br/>
+    .center[![:scale 100%](./fig/fig10a.png)]
+
+    ## `\(P(X_{1,t+dt},....,X_{n,t+dt} | X_{1,t},....,X_{n,t})=f(R,E)\)`
+
+    ---
+    # Des contraintes biotiques et abiotiques
+    <hr/><br/>
+    .center[![:scale 100%](./fig/fig10b.png)]
+
+    ## `\(P(X_{1,t+dt},....,X_{n,t+dt} | X_{1,t},....,X_{n,t})=f(R,E)\)`
+
+
+    ---
+    # Des contraintes biotiques et abiotiques
+    <hr/><br/>
+    .center[![:scale 100%](./fig/fig10c.png)]
+
+    ## `\(P(X_{1,t+dt},....,X_{n,t+dt} | X_{1,t},....,X_{n,t})=f(R,E)\)`
+
+
+    ---
+    # Des contraintes biotiques et abiotiques
+    <hr/><br/>
+    .center[![:scale 100%](./fig/fig10d.png)]
+
+    ## `\(P(X_{1,t+dt},....,X_{n,t+dt} | X_{1,t},....,X_{n,t})=f(R,E)\)`
+
+
+    ---
+    # Des contraintes biotiques et abiotiques
+    <hr/><br/>
+    .center[![:scale 100%](./fig/fig10e.png)]
+
+    ## `\(P(X_{1,t+dt},....,X_{n,t+dt} | X_{1,t},....,X_{n,t})=f(R,E)\)`
+
+
+    ---
+    # Des contraintes biotiques et abiotiques
+    <hr/><br/>
+    .center[![:scale 100%](./fig/fig10f.png)]
+
+    ## `\(P(X_{1,t+dt},....,X_{n,t+dt} | X_{1,t},....,X_{n,t})=f(R,E)\)`
+
+    .right[[Cazelles K., *et al.* (2016) *Ecography*.](http://doi.org/10.1111/ecog.01714)]
+
+
+
+
+
+
+
+
+
+    ---
+    name: style2
+    layout: true
+    class: center middle, style2
+    ---
+    count: false
+    # CHAPITRE 2
+    <hr />
+    ### Réseaux trophiques et co-occurrence
+
+
+    ---
+    name: style1
+    layout: true
+    class: style1
+
+    ---
+    # La co-occurrence
+    <hr/><br/>
+
+    ## 1. La distribution de 2 espèces : `\(P(X_{i},X_{j})\)`
+    --
+
+    <br/>
+    ## 2. Historiquement, problème de compétition (Diamond, 1975)
+    --
+
+    <br/>
+    ## 3. Une distribution en forme de damier
+
+    ???
+    Si de telle manière alors elles intéragissent.
+
+    ---
+    # Distribution en damier
+    <hr/><br/>
+    .center[![:scale 60%](./fig/fig11.png)]
+
+
+    ---
+    # Distribution en damier
+    <hr/><br/>
+    .center[![:scale 60%](./fig/fig12.png)]
+
+    ???
+    `\(C_{ij} = (r_i- S_{ij}) (r_j - S_{ij})\)`
+
+    <!--
+    # Distribution en damier
+    <hr/><br/>
+    .center[![:scale 60%](./fig/fig13.png)] -->
+
+
+
+
+    ---
+    # Quelle idée avons-nous eu?
+    <hr/><br/>
+
+    ## `\(P(X_{i},X_{j})\)` vs. `\(P(X_{i})P(X_{j})\)`
+    ## pour des réseaux trophiques simulés
+    --
+
+
+    <br/>
+    <br/>
+
+    ## Pour y arriver :
+
+    ### &nbsp;&nbsp; 1. Construction des réseaux
+    ### &nbsp;&nbsp; 2. Théorie trophique de la biogéographie des îles
+
+
+    ???
+    $C_{ij} = (r_i- S_{ij}) (r_j - S_{ij})$
+
+
+    ---
+    # Chemin trophique le plus court (ordre)
+    <hr/><br/>
+    .center[![:scale 100%](./fig/fig14a.png)]
+
+    ---
+    # Chemin trophique le plus court (ordre)
+    <hr/><br/>
+    .center[![:scale 100%](./fig/fig14b.png)]
+
+    ---
+    # Chemin trophique le plus court (ordre)
+    <hr/><br/>
+    .center[![:scale 100%](./fig/fig14c.png)]
+
+
+
+    ---
+    # Co-occurrence dans un réseau trophique
+    <hr/>
+    .center[![:scale 100%](./fig/fig15.png)]
+
+    .right[[Cazelles K., *et al.* (2016) *Journal of Theoretical Ecology*.](http://doi.org/10.1111/ecog.01714)]
+
+
+    ---
+    # Co-occurrence dans un réseau trophique
+    <hr/><br/>
+    .center[![:scale 100%](./fig/fig16.png)]
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ---
+    name: style2
+    layout: true
+    class: center, middle, style2
+
+    ---
+    count: false
+    # CHAPITRE 3
+    <hr />
+    ### Co-occurrence et réseaux écologiques observés
+
+
+    ---
+    name: style1
+    layout: true
+    class: style1
+
+    ---
+    # Colibris / Plantes pollinisées
+    <hr/>
+    .center[![:scale 80%](./fig/map_hbirds.jpeg)]
+
+    .right[[Martín González., *et al.* (2015). *Global Ecology and Biogeography*](http://doi.org/10.1111/geb.12355)]
+
+    ---
+    # Communauté aquatique des Sarracénies pourpres
+    <hr/><br/>
+    .center[![:scale 100%](./fig/map_pitcher.jpeg)]
+
+    .right[[Baiser, B., *et al.* (2012). *Global Ecology and Biogeography*](http://doi.org/10.1111/j.1466-8238.2011.00705.x)]
+
+    ---
+    # Saules / Herbivores / Parasitoïdes
+    <hr/>
+    .center[![:scale 60%](./fig/map_salix.jpeg)]
+
+
+    ---
+    # Rappel
+    <hr/><br/>
+    .center[![:scale 100%](./fig/fig16.png)]
+
+    ???
+    Diviser par la bonne quantité
+
+    ---
+    # Z-score
+    <hr/><br/>
+
+    # Z-score=$$\frac{\text{"Nombre de co-occurrence entre i et j"}-\mu}{\sigma}$$
+    --
+
+    ## `\(\mu\)` et `\(\sigma\)` obtenus sous hypothèse d'indépendance :
+    --
+
+    ## &nbsp;&nbsp; 1. Environnement homogène
+    --
+
+    ## &nbsp;&nbsp; 2. Environnement non homogène
+    --
+
+    ### &nbsp;&nbsp;&nbsp;&nbsp; a. Modèles Linéaires Généralisés  (GLM)
+    --
+
+    ### &nbsp;&nbsp;&nbsp;&nbsp; b. Forêts Aléatoires  (RF)
+
+    ---
+    # Z-score
+    <hr/>
+    .center[![:scale 100%](./fig/fig17.png)]
+
+
+
+    ---
+    # Colibris / Plantes pollinisées
+    <hr/>
+    .center[![:scale 100%](./fig/fig20.png)]
+
+
+    ---
+    # Communautés aquatiques des Saracénies
+    <hr/>
+    .center[![:scale 100%](./fig/fig21.png)]
+
+
+    ---
+    # Saules / Herbivores / Parasitoïdes
+    <hr/>
+    .center[![:scale 100%](./fig/fig22.png)]
+
+
+    ---
+    # Saules / Herbivores //  Herbivores / Parasitoïdes
+    <hr/><br/><br/>
+    .center[![:scale 100%](./fig/fig23.png)]
+
+    ---
+    # Saules / Herbivores //  Herbivores / Parasitoïdes
+    <hr/><br/><br/>
+    .center[![:scale 100%](./fig/fig24.png)]
+    --
+
+    ## - ajouter la connaissance biologique du système,
+    --
+
+    ## - d'autres propriétés des réseaux à explorer.
+
+    ???
+    De la biologie borde!
+
+
+    ---
+    # Colibris / Plantes pollinisées
+    <hr/>
+    .center[![:scale 100%](./fig/fig20.png)]
+
+
+    ---
+    # Communautés aquatiques des Saracénies
+    <hr/>
+    .center[![:scale 100%](./fig/fig21.png)]
+
+
+
+
+
+
+
+
+
+    ---
+    name: style2
+    layout: true
+    class: center, middle, style2
+    ---
+    # PERSPECTIVES
+    <hr />
+    ### Vers une théorie plus intégrative en biogéographie
+
+
+    ---
+    name: style1
+    layout: true
+    class: style1
+
+    ---
+    # Distribution : pas besoin des interactions ?
+    <hr/><br/><br/><br/>
+
+    .center[![:scale 100%](./fig/fig23.png)]
+    --
+
+    #  .center[Ne pas supposer *a priori* l'indépendance]
+
+
+    ---
+    # Importance des interactions à large échelles
+    <hr/><br/>
+
+    --
+    ## 1. Problème d'identification.
+    <br/>
+    --
+
+    ## 2. Besoin de plus de données?
+    <br/>
+    --
+
+    ## 3. Nécessite de meilleurs outils.
+    <br/>
+
+
+
+    ---
+    # Améliorer nos prédictions
+    <hr/><br/>
+    .center[![:scale 105%](./fig/fig7.png)]
+
+    ???
+    JSDM : un premier pas
+
+    ---
+    # Une biogéographie moins correlative, plus mécanistique
+    <hr/><br/>
+
+    --
+    ## 1. S'échapper des contingences pour trouver des règles.
+    <br/>
+
+    --
+    ## 2. Les traits fonctionnels, un espoir?
+    <br/>
+
+    --
+    ## 3. Quelle unité étudiée aux échelles biogéographiques?
+
+    --
+    .center[![:scale 75%](./fig/fig25.png)]
+
+
+    ---
+    # Une biogéographie moins correlative, plus mécanistique
+    <hr/><br/>
+    ## 1. S'échapper des contingences pour trouver des règles.
+    <br/>
+    ## 2. Les traits fonctionnels, un espoir?
+    <br/>
+    ## 3. Quelle unité étudiée aux échelles biogéographiques?
+
+    .center[![:scale 75%](./fig/fig26.png)]
+
+
+
+
+    ---
+    name: style2
+    layout: true
+    class: middle, style2
+    ---
+    ##.center[PUBLICATIONS ASSOCIÉES]
+    <hr />
+
+    1. Cazelles K. (2014) [La Biodiversité en territoire isolée](http://accromath.uqam.ca/2014/02/la-biodiversite-en-territoires-isoles/). *Accromath*.
+    2. Cazelles, K., *et al.* (2016) [On the integration of biotic interaction and environmental constraints at the biogeographical scale](http://doi.org/10.1111/ecog.01714). *Ecography*.
+    3. Cazelles, K., Araújo, M. B., Mouquet, N., & Gravel, D. (2016). [A theory for species co-occurrence in interaction networks](http://doi.org/10.1007/s12080-015-0281-9). *Theoretical Ecology*
+    3. Cazelles, K., et al. (2016). [Do ecological interaction impact geographical distributions of species?](). *in prep*.
+    <!-- 4. Massol *et al.*, [Island biogeography of spatially structured food webs](), *Advances in ecological research*. -->
+
+    ##.center[CONFÉRENCES]
+    <hr />
+    - Cazelles, K., *et al.* (2014) [Integration of ecological networks in a theoretical stochastic model of biogeography](). British Ecological Society - Société Française d'Ecologie - Lille, France
+    - Cazelles K., *et al.* (2015) [Integration of ecological networks in a theoretical stochastic model of biogeography](). Canadian Society for Ecology and Evolution - Saskatoon, Canada.
+    - Cazelles K., *et al.* (2015) [Do ecological interaction impact geographical distributions of species?]() Centre de la Science de la Biodiversité du Québec - Montréal, Canada.Evora
+    - Cazelles K., *et al.* (2016) [Do ecological interaction impact geographical distributions of species?]() Ecological Society of America - Fort Lauderdale, Etats-Unis.
+
+
+
+    ---
+    name: style2
+    layout: true
+    class: center, middle, style2
+    ---
+    # FIN
+    <hr/>
+    ###Je vous remercie pour votre écoute.
+
+
+
+
+
+
+    <!-- The codelines below strat the slideshow described above  -->
+
+  </textarea>
+  <script src="http://gnab.github.io/remark/downloads/remark-latest.min.js" type="text/javascript"></script>
+  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured" type="text/javascript"></script>
+  <script type="text/javascript">
+
+    // Macros
+    remark.macros.scale = function (percentage) {
+      var url = this;
+      return '<img src="' + url + '" style="width: ' + percentage + '" />';
+    };
+    var slideshow = remark.create();
+
+    // Setup MathJax
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    });
+    MathJax.Hub.Queue(function() {
+      $(MathJax.Hub.getAllJax()).map(function(index, elem) {
+        return(elem.SourceElement());
+      }).parent().addClass('has-jax');
+    });
+
+    MathJax.Hub.Configured();
+
+  </script>
+</body>
+</html>

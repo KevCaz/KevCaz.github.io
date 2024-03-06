@@ -1,0 +1,92 @@
+<!doctype html><html lang=en-us><head><title>KevCaz's Website</title><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css integrity=sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js integrity=sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz crossorigin=anonymous></script>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js integrity=sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI crossorigin=anonymous onload=renderMathInElement(document.body)></script>
+<script>document.addEventListener("DOMContentLoaded",function(){renderMathInElement(document.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1}]})})</script><link rel=stylesheet href=https://kevcaz.github.io/css/main.min.2e0874d93dedc5b86cd2d2b471abad3b89e2cad618d46f8b7d6ef32f24918729.css media=screen><link rel=stylesheet href=../../../css/perso.css><link rel=stylesheet href=../../../css/family.css><meta name=author content="Kevin Cazelles"><meta name=institution content="Department of Integrated Biology, University of Guelph"><meta name=news_keywords content="[biogeography network ecology theory of island biogeography research compendium code]"><meta property="og:site_name" content="KevCaz's Website"><meta property="og:title" content="Never too late to publish your code!"><meta property="og:image" content="https://kevcaz.github.io/img/imgOG/tableBits.png"><meta property="og:description" content="Kevin Cazelles's website"></head><body><div class=page><div class=ctn-sidebar-primary><div class=ctt-sidebar-primary><h1>KevCaz's Website</h1><div class=primary-sidebar-premenu><h2><i class='fas fa-align-center'></i> <button onclick='dropDown("p-s-menu")'> Menu</button></h2></div><div class=primary-sidebar-menu id=p-s-menu><h2><a href=../../../><i class='fas fa-home'></i> Home</a></h2><h2><a onclick='dropDown("dropdown-research")' href=javascript:void(0)><i class='fas fa-microscope'></i> Research</a></h2><div class=dropdown id=dropdown-research><h3><a href=../../../about_my_research/>About my research</a></h3><h3><a href=../../../publications/>Publications</a></h3><h3><a href=../../../software/>Software</a></h3><h3><a href=../../../talks/>Talks & Posters</a></h3><h3><a href=../../../teaching/>Teaching</a></h3></div><h2 id=current-dropdown><a onclick='dropDown("dropdown-blog")' href=javascript:void(0)><i class='fas fa-blog'></i> Blog</a></h2><div class=dropdown-current id=dropdown-blog><h3 id=current><a href=../../../econotes/>EcoNotes</a></h3><h3><a href=../../../notes/>SilicoNotes</a></h3><h3><a href=https://insileco.github.io/>inSilecoBlog</a></h3></div><h2><a onclick='dropDown("dropdown-perso")' href=javascript:void(0)><i class='fas fa-person-booth'></i> Miscelleneous</a></h2><div class=dropdown id=dropdown-perso><h3><a href=../../../perso/books>Books</a></h3><h3><a href=../../../perso/movies>Movies</a></h3><h3><a href=../../../perso/opinions>Opinions</a></h3></div></div><div class=footer><hr id=hr-footer align=left><div class=social-media-banner><a href=https://github.com/KevCaz><i class='fab fab fa-github-square'></i></a>
+<a href=https://stackoverflow.com/users/8038778><i class='fab fa-stack-overflow'></i></a>
+<a href=https://mastodon.social/@KCazelles><i class='fab fa-mastodon'></i></a>
+<a href=http://orcid.org/0000-0001-6619-9874><i class='ai ai-orcid-square'></i></a>
+<a href="https://scholar.google.ca/citations?user=xzvcu7cAAAAJ%26hl"><i class='ai ai-google-scholar-square'></i></a>
+<a href=https://www.researchgate.net/profile/Kevin_Cazelles><i class='ai ai-researchgate-square'></i></a>
+<a href=https://kevcaz.github.io/index.xml><i class="fas fa-rss-square"></i></a></div><div class=footer-custom>Website built with <a href=https://gohugo.io/>Hugo</a>.<br><i class='fas fa-code'></i> available on <a href=https://github.com/KevCaz/KevCaz.github.io><i class='fab fa-github'></i></a>.<br>Content under <a href=https://creativecommons.org/publicdomain/zero/1.0><i class='fab fa-creative-commons'></i><i class='fab fa-creative-commons-zero'></i></a> unless otherwise specified.<br>Latest build: 06 Mar 2024 16:40 UTC</div></div></div></div><div class=ctn-main-content><div class=ctt-main-content><div class=article-meta><h1 id=title>Never too late to publish your code!</h1><h3 class=date>May 17, 2020<div class=tags><i class="fas fa-tags" aria-hidden=true></i> &nbsp;
+<a href=../../../tags/biogeography><kbd class=item-tag>biogeography</kbd></a>
+<a href=../../../tags/network-ecology><kbd class=item-tag>network ecology</kbd></a>
+<a href=../../../tags/theory-of-island-biogeography><kbd class=item-tag>theory of island biogeography</kbd></a>
+<a href=../../../tags/research-compendium><kbd class=item-tag>research compendium</kbd></a>
+<a href=../../../tags/code><kbd class=item-tag>code</kbd></a></div></div><div class=article-main><p>Since 2017, for every article I work on, I now do my best to release the code I
+used to obtain the results presented therein (see my research compendia in the
+<a href=../../../software/>software section</a>). In my humble opinion, this is the least I can
+do cause the numerical part of a study (often a large part of my work) is
+relatively easy to reproduce, though it requires some time to master the tools
+to do so. As I now perceived reproducibility of my work as a duty, I felt guilty regarding a paper I published back in 2015.</p><p>In <a href=https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.01714>&ldquo;On the integration of biotic interaction and environmental constraints at
+the biogeographical
+scale&rdquo;</a>, my
+co-authors and I extended the classical <a href=https://en.wikipedia.org/wiki/The_Theory_of_Island_Biogeography>Theory of Island Biogeography
+(TIB)</a> and the
+<em>Trophic TIB</em><sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup> published in 2011. We show that the TIB and the TTIB are
+generalizable using a Markov chain<sup id=fnref:2><a href=#fn:2 class=footnote-ref role=doc-noteref>2</a></sup> and I remember spending a lot of time
+on the numerical implementation, which is the reason why I had regrets not
+releasing the code.</p><p>As I still had some of the original code in a good shape, in 2017, I created a
+GitHub repository, <a href=https://github.com/KevCaz/biogeonet>biogeonet</a> to share
+this code. But I did not have the energy to complete the code so one could
+easily reproduce the analysis in the paper. Two years after the first commit, I
+finally found the energy thanks to one of <a href=https://oliviergimenez.wordpress.com/>Olivier
+Gimenez</a>&rsquo;s tweets.</p><blockquote class=twitter-tweet><p lang=en dir=ltr>This makes me realize that I still have to finish cleaning up the code related to a paper we published back in 2016 (<a href=https://t.co/5LJLrLZdoW>https://t.co/5LJLrLZdoW</a>) on a similar topic. Not 100% done, but most functions are available and documented <a href=https://t.co/yMNnNnIWcl>https://t.co/yMNnNnIWcl</a></p>&mdash; Kevin Cazelles (@KCazelles) <a href="https://twitter.com/KCazelles/status/1250597732366143489?ref_src=twsrc%5Etfw">April 16, 2020</a></blockquote><script async src=https://platform.twitter.com/widgets.js></script><p>He basically reminded me the importance of releasing numerical implementations,
+even if they are >4 years old! I am aware that it is likely that nobody has ever
+tried to reproduce my study but it does not mean that I shouldn&rsquo;t help a
+potential somebody to do so, and I am also aware that this person may be future
+me. Moreover, working on a computational study often means to find new
+computational tricks that can be helpful to others. For instance, for this
+study, I had used <a href=http://www.rcpp.org/>Rcpp</a> for the first time, others in my
+discipline may have considered using it and so my code could be one more example
+of how to use it! Also, while working on this code, I discovered the power of
+working with <a href=https://en.wikipedia.org/wiki/Bit>bits</a> and it was a very
+important trick for the entire implementation.</p><p>TIB and bits operators, &mldr; why? Because as I dealt with all possible
+combinations of presence/absence of $n$ species in a community, I figured it
+could be done using bits. Let say I have a 3 species community, working with
+presence/absence, there are $2^3 = 8$ combinations, let&rsquo;s refer to them as $0,
+1, &mldr; 7$. Now, let&rsquo;s write them as 3 digits binary numbers, i.e $0 = 000$, $1 =
+001$, &mldr; $7 = 111$ and let&rsquo;s consider that first bit represents first species
+(species 1), the second bit, species 2 and the third bit species 3. In this
+case, the bit binary representation of the number of a given state holds all the
+presence/absence information I needed. Plus, summing the bits that equal 1 gave
+the species richness of a given community, as shown in the table below.</p><table><thead><tr><th style=text-align:left>State</th><th style=text-align:left>Species 3</th><th style=text-align:left>Species 2</th><th style=text-align:left>Species 1</th><th style=text-align:left>Total richness</th></tr></thead><tbody><tr><td style=text-align:left>0</td><td style=text-align:left>0</td><td style=text-align:left>0</td><td style=text-align:left>0</td><td style=text-align:left>0</td></tr><tr><td style=text-align:left>1</td><td style=text-align:left>0</td><td style=text-align:left>0</td><td style=text-align:left>1</td><td style=text-align:left>1</td></tr><tr><td style=text-align:left>2</td><td style=text-align:left>0</td><td style=text-align:left>1</td><td style=text-align:left>0</td><td style=text-align:left>1</td></tr><tr><td style=text-align:left>3</td><td style=text-align:left>0</td><td style=text-align:left>1</td><td style=text-align:left>1</td><td style=text-align:left>2</td></tr><tr><td style=text-align:left>4</td><td style=text-align:left>1</td><td style=text-align:left>0</td><td style=text-align:left>0</td><td style=text-align:left>1</td></tr><tr><td style=text-align:left>5</td><td style=text-align:left>1</td><td style=text-align:left>0</td><td style=text-align:left>1</td><td style=text-align:left>2</td></tr><tr><td style=text-align:left>6</td><td style=text-align:left>1</td><td style=text-align:left>1</td><td style=text-align:left>0</td><td style=text-align:left>2</td></tr><tr><td style=text-align:left>7</td><td style=text-align:left>1</td><td style=text-align:left>1</td><td style=text-align:left>1</td><td style=text-align:left>3</td></tr></tbody></table><p>Dealing with bits is no less that one of the foundations of computer science,
+and so, in various programming languages, there are specific operators to
+manipulate them called <a href=https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/>bitewise
+operators</a> and I have
+used them extensively for this study. For instance, I created a simple function
+to sum bits (see
+<a href=https://github.com/KevCaz/biogeonet/blob/master/src/buildMarkov.cpp>buildMarkov.cpp</a>):</p><div class=highlight><div style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">8
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span><span style=color:#286983>int</span> <span style=color:#d7827e>countBit1</span><span style=color:#797593>(</span><span style=color:#286983>int</span> <span style=color:#d7827e>x</span><span style=color:#797593>)</span> <span style=color:#797593>{</span>
+</span></span><span style=display:flex><span>		<span style=color:#286983>int</span> <span style=color:#d7827e>n</span> <span style=color:#797593>=</span> <span style=color:#ea9d34>0</span><span style=color:#797593>;</span>
+</span></span><span style=display:flex><span>		<span style=color:#286983>while</span> <span style=color:#797593>(</span><span style=color:#d7827e>x</span> <span style=color:#797593>!=</span> <span style=color:#ea9d34>0</span><span style=color:#797593>)</span> <span style=color:#797593>{</span>
+</span></span><span style=display:flex><span>				<span style=color:#d7827e>n</span> <span style=color:#797593>+=</span> <span style=color:#797593>(</span><span style=color:#d7827e>x</span> <span style=color:#797593>&amp;</span> <span style=color:#ea9d34>1</span><span style=color:#797593>);</span> <span style=color:#9893a5>// is the last bit 1? 1 if true, 0 otherwise
+</span></span></span><span style=display:flex><span><span style=color:#9893a5></span>				<span style=color:#d7827e>x</span> <span style=color:#797593>=</span> <span style=color:#797593>(</span><span style=color:#d7827e>x</span> <span style=color:#797593>&gt;&gt;</span> <span style=color:#ea9d34>1</span><span style=color:#797593>);</span> <span style=color:#9893a5>// 1 but shift to the right, e.g. 101 (i.e. 5) =&gt; 010 (2)
+</span></span></span><span style=display:flex><span><span style=color:#9893a5></span>		<span style=color:#797593>}</span>
+</span></span><span style=display:flex><span>		<span style=color:#286983>return</span> <span style=color:#d7827e>n</span><span style=color:#797593>;</span>
+</span></span><span style=display:flex><span><span style=color:#797593>}</span>
+</span></span></code></pre></td></tr></table></div></div><p>With the <a href=https://kevcaz.github.io/biogeonet/>code available on GitHub</a>, you
+can see all the bit tricks I have used! Also, as I had worked on a bunch of
+equations, I was looking for a way to publish them online and it turned out it
+is very easy to do so with <a href=https://kevcaz.github.io/biogeonet/>pkgdown</a>: I
+created a vignette and now you can see the entire <a href=https://kevcaz.github.io/biogeonet/articles/Cazelles_2016_SI.html>supplementary
+information</a>
+nicely formatted.</p><p>I&rsquo;m happy that I took some time to do this even though it was not always easy to
+take some time to work on something that should have been done years ago&mldr; That
+said, going through this old code gave me ideas about possible future projects!
+Overall, I&rsquo;d say it was pretty useful! So, well, I guess it is never too
+late to share your codes</p><div class=footnotes role=doc-endnotes><hr><ol><li id=fn:1><p>Gravel et. al. (2011) <i class='ai ai-doi'></i> <a href=https://doi.org/10.1111/j.1461-0248.2011.01667.x title=https://doi.org/10.1111/j.1461-0248.2011.01667.x>10.1111/j.1461-0248.2011.01667.x</a>
+&#160;<a href=#fnref:1 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li><li id=fn:2><p>for more details, see the <a href=https://kevcaz.github.io/biogeonet/articles/Cazelles_2016_SI.html>Supplementary
+Information</a>.&#160;<a href=#fnref:2 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li></ol></div></div></div><div class=footer2><hr id=hr-footer align=left><div class=social-media-banner><a href=https://github.com/KevCaz><i class='fab fab fa-github-square'></i></a>
+<a href=https://stackoverflow.com/users/8038778><i class='fab fa-stack-overflow'></i></a>
+<a href=https://mastodon.social/@KCazelles><i class='fab fa-mastodon'></i></a>
+<a href=http://orcid.org/0000-0001-6619-9874><i class='ai ai-orcid-square'></i></a>
+<a href="https://scholar.google.ca/citations?user=xzvcu7cAAAAJ%26hl"><i class='ai ai-google-scholar-square'></i></a>
+<a href=https://www.researchgate.net/profile/Kevin_Cazelles><i class='ai ai-researchgate-square'></i></a>
+<a href=https://kevcaz.github.io/index.xml><i class="fas fa-rss-square"></i></a></div><div class=footer-custom>Website built with <a href=https://gohugo.io/>Hugo</a>.<br><i class='fas fa-code'></i> available on <a href=https://github.com/KevCaz/KevCaz.github.io><i class='fab fa-github'></i></a>.<br>Content under <a href=https://creativecommons.org/publicdomain/zero/1.0><i class='fab fa-creative-commons'></i><i class='fab fa-creative-commons-zero'></i></a> unless otherwise specified.<br>Latest build: 06 Mar 2024 16:40 UTC</div></div></div><div class=ctn-sidebar-secondary><div class=ctt-sidebar-secondary><h1><a href=#><i class='far fas fa-chevron-up'></i></a></h1><script src=../../../js/sidebar-secondary.js></script><h1><a onclick=scrollToBottom()><i class='far fas fa-chevron-down'></i></a></h1></div></div></div><script src=../../../js/sidebar-primary-dropdown.js></script>
+<script>scrollingElement=document.scrollingElement||document.body;function scrollToBottom(){scrollingElement.scrollTop=scrollingElement.scrollHeight}</script></body></html>

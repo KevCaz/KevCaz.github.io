@@ -1,0 +1,49 @@
+<!doctype html><html lang=en-us><head><title>KevCaz's Website</title><link rel=stylesheet href=https://kevcaz.github.io/css/main.min.2e0874d93dedc5b86cd2d2b471abad3b89e2cad618d46f8b7d6ef32f24918729.css media=screen><link rel=stylesheet href=../../../css/perso.css><link rel=stylesheet href=../../../css/family.css><meta name=author content="Kevin Cazelles"><meta name=institution content="Department of Integrated Biology, University of Guelph"><meta name=news_keywords content="[Thunderbird Markdown Markdown-Here]"><meta property="og:site_name" content="KevCaz's Website"><meta property="og:title" content="Writing your emails in Markdown with Thunderbird 78"><meta property="og:image" content="https://kevcaz.github.io/img/imgOG/kevcaz_og.png"><meta property="og:description" content="Kevin Cazelles's website"></head><body><div class=page><div class=ctn-sidebar-primary><div class=ctt-sidebar-primary><h1>KevCaz's Website</h1><div class=primary-sidebar-premenu><h2><i class='fas fa-align-center'></i> <button onclick='dropDown("p-s-menu")'> Menu</button></h2></div><div class=primary-sidebar-menu id=p-s-menu><h2><a href=../../../><i class='fas fa-home'></i> Home</a></h2><h2><a onclick='dropDown("dropdown-research")' href=javascript:void(0)><i class='fas fa-microscope'></i> Research</a></h2><div class=dropdown id=dropdown-research><h3><a href=../../../about_my_research/>About my research</a></h3><h3><a href=../../../publications/>Publications</a></h3><h3><a href=../../../software/>Software</a></h3><h3><a href=../../../talks/>Talks & Posters</a></h3><h3><a href=../../../teaching/>Teaching</a></h3></div><h2 id=current-dropdown><a onclick='dropDown("dropdown-blog")' href=javascript:void(0)><i class='fas fa-blog'></i> Blog</a></h2><div class=dropdown-current id=dropdown-blog><h3><a href=../../../econotes/>EcoNotes</a></h3><h3 id=current><a href=../../../notes/>SilicoNotes</a></h3><h3><a href=https://insileco.github.io/>inSilecoBlog</a></h3></div><h2><a onclick='dropDown("dropdown-perso")' href=javascript:void(0)><i class='fas fa-person-booth'></i> Miscelleneous</a></h2><div class=dropdown id=dropdown-perso><h3><a href=../../../perso/books>Books</a></h3><h3><a href=../../../perso/movies>Movies</a></h3><h3><a href=../../../perso/opinions>Opinions</a></h3></div></div><div class=footer><hr id=hr-footer align=left><div class=social-media-banner><a href=https://github.com/KevCaz><i class='fab fab fa-github-square'></i></a>
+<a href=https://stackoverflow.com/users/8038778><i class='fab fa-stack-overflow'></i></a>
+<a href=https://mastodon.social/@KCazelles><i class='fab fa-mastodon'></i></a>
+<a href=http://orcid.org/0000-0001-6619-9874><i class='ai ai-orcid-square'></i></a>
+<a href="https://scholar.google.ca/citations?user=xzvcu7cAAAAJ%26hl"><i class='ai ai-google-scholar-square'></i></a>
+<a href=https://www.researchgate.net/profile/Kevin_Cazelles><i class='ai ai-researchgate-square'></i></a>
+<a href=https://kevcaz.github.io/index.xml><i class="fas fa-rss-square"></i></a></div><div class=footer-custom>Website built with <a href=https://gohugo.io/>Hugo</a>.<br><i class='fas fa-code'></i> available on <a href=https://github.com/KevCaz/KevCaz.github.io><i class='fab fa-github'></i></a>.<br>Content under <a href=https://creativecommons.org/publicdomain/zero/1.0><i class='fab fa-creative-commons'></i><i class='fab fa-creative-commons-zero'></i></a> unless otherwise specified.<br>Latest build: 06 Mar 2024 16:40 UTC</div></div></div></div><div class=ctn-main-content><div class=ctt-main-content><div class=article-meta><h1 id=title>Writing your emails in Markdown with Thunderbird 78</h1><h3 class=date>January 31, 2021<div class=tags><i class="fas fa-tags" aria-hidden=true></i> &nbsp;
+<a href=../../../tags/thunderbird><kbd class=item-tag>Thunderbird</kbd></a>
+<a href=../../../tags/markdown><kbd class=item-tag>Markdown</kbd></a>
+<a href=../../../tags/markdown-here><kbd class=item-tag>Markdown-Here</kbd></a></div></div><div class=article-main><p>For more than three years now, I have been written most of my emails in
+Markdown! How so? I have been using the <a href=https://markdown-here.com/>Markdown
+Here</a> add-on for Thunderbird. As explained in the
+<a href=https://markdown-here.com/features.html>&lsquo;features&rsquo; page</a> of the extension
+website:</p><blockquote><p>Markdown Here is an extension for Chrome, Firefox, Safari, Opera, Thunderbird, and Postbox. With it, you can write email in Markdown, and then click a button (or context menu item, or use a hotkey) to render the email into good-looking, fully formatted text (HTML, technically).</p></blockquote><p>It adds an <i class="fab fa-markdown" aria-hidden=true></i> button that I can
+click on to render Markdown in HTML, making my email looking pretty good, check
+out the screencast ⬇️</p><center><video width=80% controls>
+<source src=./mailinmarkdown.webm type=video/webm>Your browser does not support the video tag.</video></center><p>The only issue that I have encountered so far, is that it&rsquo;s not super easy to
+find a working Markdown Here add-on for newer Thunderbird versions, and when I
+switched to Thunderbird 78 (current version below, for clarity) I struggled once
+again.</p><div class=highlight><div style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-.sh data-lang=.sh><span style=display:flex><span>$ thunderbird -v   
+</span></span><span style=display:flex><span>Thunderbird 78.6.1
+</span></span></code></pre></td></tr></table></div></div><p>The reason for this is actually quite simple, <a href=https://github.com/adam-p/markdown-here>Adam
+Pritchard</a>, the creator of the
+extension, has disappeared (see issue
+<a href=https://github.com/adam-p/markdown-here/issues>#644</a> on GitHub). So when comes
+a new version of Thunderbird, I can only hope that someone with the right skills
+will be able to update the existing code to support the newer version of
+Thunderbird. Fortunately, this time, <a href=https://github.com/jfx2006>Rob Lemley, a.k.a.
+jfx2006</a> (who is part of the Thunderbird core
+development team) came to the rescue. He added Thunderbird 78 support in his
+fork and released a <a href=https://github.com/jfx2006/markdown-here/releases/tag/v2.13.4_mailext>working add-on (<code>.xpi</code>
+file)</a>.
+So now I am very pleased to use Markdown Here, along with the <a href=https://blog.thunderbird.net/2020/07/whats-new-in-thunderbird-78/>great features
+brought by Thunderbird
+78</a>.</p><p>Looks like many people are using Markdown Here (~50k stars on GitHub is a lot)
+and now, at least one member of the Thunderbird core development is aware of the
+enthusiasm of the community for this extension. That is why I am hoping that
+such feature will eventually be part of the application it-self (I may be just
+hoping too much here). Anyway, Markdown Here is a great extension and I am
+extremely grateful to Adam Pritchard, wherever he is!</p></div></div><div class=footer2><hr id=hr-footer align=left><div class=social-media-banner><a href=https://github.com/KevCaz><i class='fab fab fa-github-square'></i></a>
+<a href=https://stackoverflow.com/users/8038778><i class='fab fa-stack-overflow'></i></a>
+<a href=https://mastodon.social/@KCazelles><i class='fab fa-mastodon'></i></a>
+<a href=http://orcid.org/0000-0001-6619-9874><i class='ai ai-orcid-square'></i></a>
+<a href="https://scholar.google.ca/citations?user=xzvcu7cAAAAJ%26hl"><i class='ai ai-google-scholar-square'></i></a>
+<a href=https://www.researchgate.net/profile/Kevin_Cazelles><i class='ai ai-researchgate-square'></i></a>
+<a href=https://kevcaz.github.io/index.xml><i class="fas fa-rss-square"></i></a></div><div class=footer-custom>Website built with <a href=https://gohugo.io/>Hugo</a>.<br><i class='fas fa-code'></i> available on <a href=https://github.com/KevCaz/KevCaz.github.io><i class='fab fa-github'></i></a>.<br>Content under <a href=https://creativecommons.org/publicdomain/zero/1.0><i class='fab fa-creative-commons'></i><i class='fab fa-creative-commons-zero'></i></a> unless otherwise specified.<br>Latest build: 06 Mar 2024 16:40 UTC</div></div></div><div class=ctn-sidebar-secondary><div class=ctt-sidebar-secondary><h1><a href=#><i class='far fas fa-chevron-up'></i></a></h1><script src=../../../js/sidebar-secondary.js></script><h1><a onclick=scrollToBottom()><i class='far fas fa-chevron-down'></i></a></h1></div></div></div><script src=../../../js/sidebar-primary-dropdown.js></script>
+<script>scrollingElement=document.scrollingElement||document.body;function scrollToBottom(){scrollingElement.scrollTop=scrollingElement.scrollHeight}</script></body></html>

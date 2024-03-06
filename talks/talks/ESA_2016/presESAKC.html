@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+  <title> Do ecological interactions impact geographic distributions of species? </title>
+  <meta charset="utf-8">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+  <!-- Add font awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+  <style>
+  @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+  @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+  @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+  @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,400italic,300,300italic,500,500italic,700,700italic);
+
+  body {
+    font-family: 'Ubuntu';
+    font-weight: lighter;
+  }
+
+  h1, h2, h3 {
+    font-weight: medium;
+  }
+
+  .remark-slide-content {
+    font-size: 1.4em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .remark-slide-content h1 { font-size: 1.6em; }
+  .remark-slide-content h2 { font-size: 1.45em; }
+  .remark-slide-content h3 { font-size: 1.3em; }
+
+  .footnote {
+    bottom: 1em;
+  }
+
+  .large{
+    font-size: 1.3em;
+  }
+
+  .alert{
+    color: #ee2650;
+  }
+
+  a > code {
+    color: #50b5d5;
+  }
+
+  .remark-code, .remark-inline-code {
+    color:  #50b5d5;
+    background: #000000;
+    font-family: 'Ubuntu Mono';
+  }
+
+  .vertical-align {
+    display: flex;
+    align-items: center;
+  }
+
+  .remark-slide-number{
+    opacity: 0;
+    /*opacity: 0.25;*/
+  }
+
+  .style1 {
+    background: #000000;
+    color: #f3f3f3;
+    text-shadow: 0 0 2px #333;
+  }
+  .style1 h1, .style1 h2 {
+    color: #f3f3f3;
+  }
+
+  .style1 a {
+    color: #50b5d5;
+    background: #000000;
+  }
+
+
+  .style2 {
+    background: #50b5d5;
+    color: #000000;
+  }
+  .style2 h1, .style2 h2 {
+    color: #f3f3f3;
+    line-height: 1em;
+    font-size: 2.2em;
+  }
+
+  .style2 h3 {
+    font-size: 1.6em;
+  }
+
+  .style2 a {
+    color: #232323;
+    background: #50b5d5;
+  }
+
+  </style>
+
+</head>
+
+
+<!-- cd /Users/KevCaz/Github/decktape -->
+<!-- ./bin/phantomjs decktape.js -s 1280x720 file:////Users/KevCaz/ownCloud/presESA/presESA.html#1 /Users/KevCaz/ownCloud/presESA/presESA.pdf -->
+
+
+
+
+
+
+
+
+
+
+
+<body>
+
+  <textarea id="source">
+
+    name: title
+    layout: true
+    class: center, middle, style1
+    ---
+    # Do ecological interactions impact geographic distributions of species?
+    <hr />
+    <br />
+    ## 2016 ESA Annual Meeting, Fort Lauderdale
+    ### Wednesday, August 10
+    <br /><br />
+    ![:scale 60%](./img/bg.png)
+    <br /><br />
+
+
+    ### Kévin Cazelles &nbsp; &nbsp; [http://kevincazelles.fr](http://kevincazelles.fr) &nbsp;&nbsp; [<i class="fa fa-github fa-2x" aria-hidden="true"></i>](https://github.com/KevCaz)
+    ### Nicolas Mouquet, David Mouillot & Dominique Gravel
+
+
+    ---
+    name: style2
+    layout: true
+    class: center, middle, style2
+    ---
+    count: false
+    # CONTEXT
+    <hr/>
+    ### Biogeography and ecological interactions
+
+    ---
+    name: style1
+    layout: true
+    class: style1
+
+    ---
+    # Geographic distribution
+    <hr/><br/>
+    .center[![:scale 105%](./fig/fig1.png)]
+
+    ???
+    Espèces et sites
+
+
+    ---
+    # Four categories of factors shaping distributions
+    <hr/><br/>
+    ## 1. Climatic + edaphic
+    --
+
+    <br/>
+    ## 2. Dispersion (landscape structure / dispersion capacities)
+    --
+
+    <br/>
+    ## 3. Ecological interactions
+    --
+
+    <br/>
+    ## 4. Evolution
+
+    ???
+    4 = dimension temporelle large échelle biogéographique historique
+    je n'aborderais pas les questions reltives à l'évolution
+    ---
+    #  1. Climatic
+    <hr/><br/>
+    .center[![:scale 100%](./fig/fig3.png)]
+
+    ???
+    On fait une inférence non pas sur l'espace mais sur les facteurs climatiques.
+    On change d'espace ; classiquement température / préciptation / nature des sols
+
+    ---
+    #  2. Dispersion
+    <hr/><br/>
+    .center[![:scale 87%](./fig/fig4.png)]
+
+
+    ---
+    # Species Distribution Models
+    <hr/><br/>
+    .center[![:scale 105%](./fig/fig5.png)]
+
+    ???
+    L'overlap mais que dit-il ?
+
+    ---
+    #  3. Ecological interactions
+    <hr/><br/>
+
+    ## - B feeds on A
+    --
+
+    <br/>
+    .center[![:scale 80%](./fig/fig6b.png)]
+
+    --
+    ## - Extinction probabilities impacted
+
+
+    ---
+    # A matter of spatial scale?
+    <hr/><br/>
+    .center[![:scale 87%](./fig/fig6.png)]
+
+    <br/>
+    .right[[McGill, B. J. (2010). *Science*.](http://doi.org/10.1126/science.1188528)]
+
+    ---
+    # A matter of spatial scale?
+    <hr/><br/>
+    .center[![:scale 87%](./fig/fig6c.png)]
+
+    <br/>
+    .right[[McGill, B. J. (2010). *Science*.](http://doi.org/10.1126/science.1188528)]
+    .right[[Gotelli, N. J. (2010). *PNAS*.](http://www.pnas.org/cgi/doi/10.1073/pnas.0914089107)]
+
+
+
+
+
+    ---
+    # Ecological information within static occurrence data?
+    <hr/><br/>
+
+    --
+    ## 1971: Brown, J. H. [Mechanisms of Competitive Exclusion Between Two Species of Chipmunks](http://doi.org/10.2307/1934589). Ecology.
+    ### `\(\rightarrow\)` 2 chipmunks species + behavior + tree density = exclusion
+    --
+
+    <br/>
+    ## 2014: Araújo, M. B., & Rozenfeld, A. [The geographic scaling of biotic interactions](http://doi.org/10.1111/j.1600-0587.2013.00643.x). Ecography.
+    ### `\(\rightarrow\)` positive interactions easier to detect when scalling up
+
+    --
+
+    <br/>
+
+    ## 2016: Do ecological interactions impact geographic distributions of species?
+
+
+
+
+
+
+
+
+
+
+
+    ---
+    name: style2
+    layout: true
+    class: center, middle, style2
+    ---
+    count: false
+    # THEORY
+    <hr />
+    ### Interactions and co-occurrence
+
+    ---
+    name: style1
+    layout: true
+    class: style1
+
+    ---
+    # Co-occurrence
+    <hr/><br/>
+
+    ## - Observed co-occurrence : `\(P(X_{A},X_{B})\)`
+    --
+
+    ## - Independent co-occurrence : `\(P(X_{A})P(X_{B})\)`
+    --
+
+    ## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`\(P(X_{A},X_{B})\)` vs. `\(P(X_{A})P(X_{B})\)`
+
+    --
+    <br/>
+    ### Historically, species in competition [Diamond, 1975]()
+    ### `\(\rightarrow\)` *Checkerboard* distribution
+    ### `\(\rightarrow\)` *C-score*
+
+    ???
+    Si de telle manière alors elles intéragissent.
+
+    ---
+    # *Checkerboard* distribution
+    <hr/><br/>
+    .center[![:scale 60%](./fig/fig12.png)]
+
+
+    ???
+    $C_{ij} = (r_i- S_{ij}) (r_j - S_{ij})$
+    C-score but for competition only
+
+
+    ---
+    # Z-score (standardized co-occurrence)
+    <hr/><br/>
+
+    # $$\frac{\text{"observed co-occurence"}-\mu}{\sigma}$$
+    --
+
+    ## `\(\mu \rightarrow\)` expected co-occurrence
+    ## `\(\sigma \rightarrow\)` standard deviation associated
+    --
+
+    <br/>
+
+    ## Scenarios
+    --
+
+    ### &nbsp;&nbsp; 1. Sites are identical (Homogeneous, [Veech 2013](http://doi.wiley.com/10.1111/j.1466-8238.2012.00789.x))
+    --
+
+    ### &nbsp;&nbsp; 2. Environmental conditions are taken into account (SDM)
+    --
+
+    ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. Generalised Linear Model (GLM)
+    --
+
+    ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. Random Forest (RF)
+
+
+
+    ---
+    # Shorthest path
+    <hr/><br/>
+    .center[![:scale 100%](./fig/fig14a.png)]
+
+    ---
+    # Shorthest path
+    <hr/><br/>
+    .center[![:scale 100%](./fig/fig14b.png)]
+
+    ---
+    # Shorthest path
+    <hr/><br/>
+    .center[![:scale 100%](./fig/fig14c.png)]
+
+
+    ---
+    # Shortest path + co-occurrence
+    <hr/><br/>
+
+    ## 1. Distributions + network
+    ### `\(\rightarrow\)` Nice datasets
+    --
+
+    ## 2. SDM for all species
+    ### `\(\rightarrow\)` Integrating physiological requirements
+    --
+
+    ## 3. Network topology
+    ### `\(\rightarrow\)` Shortest path for all pairs and mean degree in
+    --
+
+    ## 4. Co-occurrence for all pairs (3 scenarios)
+    ### `\(\rightarrow\)` Look at distribution of Z-score
+
+
+
+
+
+    ---
+    # Expectations
+    <hr/>
+    .center[![:scale 95%](./fig/fig17.png)]
+
+    .right[[Cazelles K., *et al.* (2016) *Journal of Theoretical Ecology*.](http://doi.org/10.1111/ecog.01714)]
+
+
+    ---
+    # Expectations
+    <hr/>
+    .center[![:scale 95%](./fig/fig18.png)]
+
+    .right[[Cazelles K., *et al.* (2016) *Journal of Theoretical Ecology*.](http://doi.org/10.1111/ecog.01714)]
+
+
+
+
+
+
+
+
+
+    ---
+    name: style2
+    layout: true
+    class: center, middle, style2
+
+
+    ---
+    count: false
+    # APPLICATION
+    <hr />
+    ### Real datasets
+
+
+    ---
+    name: style1
+    layout: true
+    class: style1
+
+    ---
+    # Salix / Herbivores / Parasitoids (>150 species)
+    <hr/>
+    .center[![:scale 60%](./fig/map_salix.jpeg)]
+
+    ---
+    # 10 Hummingbirds / 52 host plants on 32 islands
+    <hr/>
+    .center[![:scale 80%](./fig/map_hbirds.jpeg)]
+
+    .right[[Martín González., *et al.* (2015). *Global Ecology and Biogeography*](http://doi.org/10.1111/geb.12355)]
+
+    ---
+    # Micro-organisms community of the Pitcher plants leafs (>50 species)
+    <hr/><br/>
+    .center[![:scale 100%](./fig/map_pitcher.jpeg)]
+
+    .right[[Baiser, B., *et al.* (2012). *Global Ecology and Biogeography*](http://doi.org/10.1111/j.1466-8238.2011.00705.x)]
+
+
+
+    ---
+    # Salix / Herbivores
+
+    .center[![:scale 100%](./fig/figR1.png)]
+
+    ---
+    # Herbivores / Parasitoids
+
+    .center[![:scale 100%](./fig/figR2.png)]
+
+
+    ---
+    # Hummingbirds / host plants
+
+    .center[![:scale 100%](./fig/figR3.png)]
+
+
+    ---
+    # Pitcher plants leafs community
+
+    .center[![:scale 100%](./fig/figR4.png)]
+
+
+
+
+
+
+
+    ---
+    name: style2
+    layout: true
+    class: center, middle, style2
+    ---
+    # CONCLUSION
+    <hr />
+    ### Integrating interaction in biogeography
+
+
+
+    ---
+    name: style1
+    layout: true
+    class: style1
+
+    ---
+    # So, do ecological interactions impact geographic distributions of species?
+    <hr/><br/>
+
+    # YES
+
+    --
+
+    # Can we detect them is static occurrence data?
+
+    ## `\(\rightarrow\)` it may be a matter of network topology.
+
+    <br/>
+    --
+
+    ## 1. `\(\rightarrow\)` in networks with high connectance, species can be considered as independent.
+
+    --
+
+    ## 2. `\(\rightarrow\)` species separated by more than one link can be considered as independent.
+
+    ???
+    I feel like everyone feels so but the problem concerns predictions
+
+    ---
+    #  Are our predictions reliable?
+    <hr/><br/>
+    .center[![:scale 100%](./fig/fig7.png)]
+
+    ---
+    #  Are our predictions reliable?
+    <hr/><br/>
+
+    --
+
+    ## `\(\rightarrow\)` as long as interactions are abundant enough
+
+    <br/>
+
+    --
+
+    ### `\(\rightarrow\)` if species assemblages move together
+
+    --
+
+    <!-- Russell Lande -->
+
+    <br/>
+    ## `\(\rightarrow\)`How likely it is?
+    ### Not very much I guess.
+
+
+
+    ---
+    # Toward a more integrative biogeography
+    <hr/><br/>
+
+    --
+    ### - We should not assume *a priori* that species are independent units
+
+
+    --
+    <br/>
+
+    ### - Not only a spatial scale matter ...
+
+    --
+    ### ... but also a matter of relevant biological unit for biogeography.
+
+
+    --
+    .center[![:scale 75%](./fig/fig25.png)]
+
+
+    ---
+    # Toward a more integrative biogeography
+    <hr/><br/>
+
+
+    ### - We should not assume *a priori* that species are independent units
+
+
+    <br/>
+
+    ### - Not only a spatial scale matter ...
+
+
+    ### ... but also a matter of relevant biological unit for biogeography.
+
+
+    .center[![:scale 75%](./fig/fig26.png)]
+
+
+
+
+    ---
+    name: style2
+    layout: true
+    class: style2
+
+    ---
+    # ACKNOWLEDGMENT
+
+    <hr />
+
+    ## People
+
+    - Tomas Roslin
+    - Benjamin Baiser
+    - Bo Dalsgaard
+    - Louise J. Lehmann
+    - Allan Timmermann
+    - Ana M Martín González
+    - Andrea Baquer
+
+    <br/>
+    ## Funding agencies
+
+    ### - FRQNT
+    ### - Frontenac
+
+
+
+    ---
+    name: style2
+    layout: true
+    class: center, middle, style2
+    ---
+    # THANK YOU FOR YOUR ATTENTION
+    <hr/>
+    ### Any question?
+
+
+
+    ---
+    name: style1
+    layout: true
+    class: style1
+
+    ---
+
+
+    ---
+    # Co-occurrence and shortest path
+    <hr/>
+    .center[![:scale 100%](./fig/fig15.png)]
+
+    .right[[Cazelles K., *et al.* (2016) *Journal of Theoretical Ecology*.](http://doi.org/10.1111/ecog.01714)]
+
+    ---
+
+
+
+
+
+    <!-- The codelines below strat the slideshow described above  -->
+
+  </textarea>
+  <script src="http://gnab.github.io/remark/downloads/remark-latest.min.js" type="text/javascript"></script>
+  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured" type="text/javascript"></script>
+  <script type="text/javascript">
+
+    // Macros
+    remark.macros.scale = function (percentage) {
+      var url = this;
+      return '<img src="' + url + '" style="width: ' + percentage + '" />';
+    };
+    var slideshow = remark.create();
+
+    // Setup MathJax
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    });
+    MathJax.Hub.Queue(function() {
+      $(MathJax.Hub.getAllJax()).map(function(index, elem) {
+        return(elem.SourceElement());
+      }).parent().addClass('has-jax');
+    });
+
+    MathJax.Hub.Configured();
+
+  </script>
+</body>
+</html>
