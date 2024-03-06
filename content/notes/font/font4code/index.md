@@ -24,4 +24,4 @@ in RStudio](
 https://github.com/tonsky/FiraCode/wiki/RStudio-instructions) (see below). I was not aware
 of [programming ligature](https://www.hanselman.com/blog/MonospacedProgrammingFontsWithLigatures.aspx) before using FiraCode, it's really neat.
 
-![FiraCode on RStudio](FiraCodeRStudio.png)
+![FiraCode on RStudio](./FiraCodeRStudio.png)

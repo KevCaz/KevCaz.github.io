@@ -11,7 +11,7 @@ In my opinion, the two main/direct benefits from having an ORCID account are:
 
 1. a web page with details about researcher background and publication (see mine at https://orcid.org/0000-0001-6619-9874 and check out this [previous note on the topic]([dd](/notes/biblio/orcidexportref/)));
 
-2. an ORCID account can be used to log in the web interfaces of various scientific journals so that research have a centralized login and personnal details for various journals (see the log in page of [Global Ecology and Biogeography](https://onlinelibrary.wiley.com/journal/14668238) as an example
+2. an ORCID account can be used to log in the web interfaces of various scientific journals so that research have a centralized login and personal details for various journals (see the log in page of [Global Ecology and Biogeography](https://onlinelibrary.wiley.com/journal/14668238) as an example
 :arrow_down:).
 
 
@@ -19,7 +19,7 @@ In my opinion, the two main/direct benefits from having an ORCID account are:
 
 <br>
 
-There are teo cool R :package: that allow one to retrieve and format a set of
+There are two R :package: that allow one to retrieve and format a set of
 publications from using an ORCID: [rorcid](https://docs.ropensci.org/rorcid)
 retrieve information publicly available on a given ORCID, which includes the
 DOIs of the publications listed and

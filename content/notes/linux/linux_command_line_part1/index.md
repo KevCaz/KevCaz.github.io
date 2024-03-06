@@ -25,7 +25,7 @@ Note that this list is personal, all the 10 first chapters cover important topic
 - softlinks and hardlinks;
 - [permission](https://linuxcommand.org/lc3_lts0090.php) (including the sticky bit).
 
-The following table includes commands that are introduced in the first part (except `du` and `shuf` that I added my-self). 
+The following table[^bd] includes commands that are introduced in the first part (except `du` and `shuf` that I added my-self). 
 Note that there are `bash` commands and if you use a different shell (e.g. `zsh`) some commands may be missing (there are likely equivalent commands available). 
 Options presented in the table are the ones that are either presented in the book, or options that I think are the most important ones (meaning the one you are ore likely to use). 
 The command 'Usage' indicates how frequently I use a given command: one star means daily, 2 means weekly and 3 means every now and then.
@@ -34,6 +34,8 @@ Last, `Category` is my attempt to categorize the commands, in the book commands 
 
 
 [^termac]: Back then, I jotted down some notes about my usage of the terminal https://github.com/inSileco/AvecLeTerminal/tree/master.
+
+[^bd]: Commands are stored in a [yaml file](./commands.yaml) and convert into the table displayed here via a [R script](./make_table.R).
 
 
 

@@ -17,7 +17,7 @@ workflow](https://github.com/McCannLab/McCannLab.github.io/actions)) the
 custom domain was removed and I had to rewrite it every time (see :arrow_down:)
 which was pretty annoying.
 
-{{< imgcenter "cname.png" 70 1 >}}
+{{< imgcenter "./cname.png" 70 1 >}}
 
 
 ## The solution :medal_sports:

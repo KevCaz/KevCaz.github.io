@@ -122,7 +122,7 @@ In the output I found something like this
 192.168.1.25	b8:27:eb:f6:48:76	Raspberry Pi Foundation
 ```
 
-actually there were two lines like this because the wi-fi was up (and I [disabled it] by editing [disable the wi-fi](https://raspberrytips.com/disable-wifi-raspberry-pi/) by editing `/boot/config`). So there I knew that I could connect to my Rapsberry Pi with the following command. 
+actually there were two lines like this because the wi-fi was up (and I [disabled it] by editing [disable the wi-fi](https://raspberrytips.com/disable-wifi-raspberry-pi/) by editing `/boot/config`). So there I knew that I could connect to my Raspberry Pi with the following command. 
 
 ```sh 
 ssh pi@192.168.1.25

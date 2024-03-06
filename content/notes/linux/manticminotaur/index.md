@@ -17,5 +17,5 @@ System:
 ```
 
 
-{{< figcenter update.png 50 "Screenshot of the upgrade process from Lunar Lobster to Mantic Minotaur.">}}
+{{< figcenter "./update.png" 50 "Screenshot of the upgrade process from Lunar Lobster to Mantic Minotaur.">}}
 

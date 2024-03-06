@@ -53,7 +53,7 @@ I think the option names are pretty clear here. The only thing I would like to s
 database:
 
 
-{{< figcenter graph_min.png  >}}
+{{< figcenter "./graph_min.png" >}}
 
 
 As I think the level of details was not high enough, I used the maximum level of details by doing
@@ -69,7 +69,7 @@ $ schemacrawler \
 which return the following `.png` image
 
 
-{{< figcenter graph_max.png >}}
+{{< figcenter "./graph_max.png" >}}
 
 
 which is the kind of schema I actually needed! Pretty neat, isn't it?

@@ -21,6 +21,8 @@ I added these two files below:
   <a>click to display kevcaz.bib</a>
 </summary>
 
+Click [here](../assets/kevcaz.bib) to download it.
+
 ```latex
 % kevcaz.bib
 @Article{	 alroy_new_2015,
@@ -59,6 +61,8 @@ I added these two files below:
 <summary>
   <a>click to display coauthor.bib</a>
 </summary>
+
+Click [here](../assets/coauthor.bib) to download it.
 
 ```latex
 % coauthor.bib
@@ -123,12 +127,14 @@ Where :
  - option `-d` comments out duplicates
  - option `-o` indicate the name of the output files.
 
- Below is the final file with two comments of my own:
+Below is the final file with two comments of my own:
 
 <details>
 <summary>
   <a>click to display biblio_sorted.bib</a>
 </summary>
+
+Click [here](../assets/biblio_sorted.bib) to download it.
 
 ```latex
 % biblio_sorted

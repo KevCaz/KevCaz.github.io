@@ -81,7 +81,7 @@ convert -append -background transparent assets/perca_flavescens.png assets/salve
 
 Love this trick! Two short remarks to end this note:
 
-1. there are many programming langages that [interface ImageMagick](https://imagemagick.org/script/develop.php);
+1. there are many programming languages that [interface ImageMagick](https://imagemagick.org/script/develop.php);
 2. the R :package: [patchwork](https://github.com/thomasp85/patchwork) is making this kind of operation really easy with ggplot2.
 
 <br>

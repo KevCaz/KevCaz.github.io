@@ -1,5 +1,5 @@
 ---
-title: "My video shortcode"
+title: "My Hugo shortcode for video"
 date: 2018-09-27
 tags: [Hugo, website, shortcode, video]
 ---
@@ -35,13 +35,13 @@ open video format for the web (and the default format of screencast in
 [GNOME](https://www.gnome.org/)). From now on, I include my screencast like so:
 
 ```html
-{{</* screencast src="/notes/atom/assets/multicursors.webm" */>}}
+{{</* screencast src="assets/myvideo.webm" */>}}
 ```
 
 and if I want to modify the width, I simply do:
 
 ```html
-{{</* screencast src="/notes/atom/assets/multicursors.webm" width="50%" */>}}
+{{</* screencast src="assets/myvideo.webm" width="50%" */>}}
 ```
 
 Quite convenient, isn't it?

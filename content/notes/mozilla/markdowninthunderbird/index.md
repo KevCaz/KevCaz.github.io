@@ -19,7 +19,7 @@ click on to render Markdown in HTML, making my email looking pretty good, check
 out the screencast :arrow_down: 
 
 
-{{< screencast src="mailinmarkdown.webm" width="80%" >}}
+{{< screencast src="./mailinmarkdown.webm" width="80%" >}}
 
 
 The only issue that I have encountered so far, is that it's not super easy to

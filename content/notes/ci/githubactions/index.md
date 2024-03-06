@@ -66,11 +66,11 @@ jobs:
 which worked well:
 
 
-![](ghactions00.png)
+![](./ghactions00.png)
 
 After ~3min, the job was completed and the website deployed :tada:.
 
-![](ghactions01.png)
+![](./ghactions01.png)
 
 
 Something that is worth noticing is that it is designed to work with [Docker](https://www.docker.com/) which makes GitHub Actions quite powerful because setting up an environment becomes *almost* trivial! In my case, I basically needed Linux + R + publishing stuff, and this only required the following two lines (thanks to the great work of the [Rocker](https://www.rocker-project.org/) team :clap:):

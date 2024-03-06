@@ -13,10 +13,10 @@ $ apt install flatpak
 
 I then used flatpak to install Fractal. I must stress that the installation was seamless and that the information displayed during it was clear and helpful.
 
-{{< figcenter flatpakfirst.png 80 "Screenshot of my first installation with flatpak.">}}
+{{< figcenter "./flatpakfirst.png" 80 "Screenshot of my first installation with flatpak.">}}
 
 
-Neat, right!? But what is flatpak exactly? Another package manager meant to replace `apt-get`? Not really, flatpak was created to [ease desktop application delivery in Linux](https://www.zdnet.com/article/the-future-of-linux-desktop-application-delivery-is-flatpak-and-snap/) (only in Linux). It uses container technology to deliver applications inside a desktop session (see the [FAQ](https://flatpak.org/faq) for more details). This removes major limitations that have been around for some time in the Linux world. Indeed, with such technology, application developers don't need to worry about how their applications will be distributed accros Linux distributions, at least for [28 distributions](https://flatpak.org/setup). All they need to do is to [create a manifest and use `flatpak-builder`](https://docs.flatpak.org/en/latest/first-build.html) and their application is ready to go on 28 distributions! 
+Neat, right!? But what is flatpak exactly? Another package manager meant to replace `apt-get`? Not really, flatpak was created to [ease desktop application delivery in Linux](https://www.zdnet.com/article/the-future-of-linux-desktop-application-delivery-is-flatpak-and-snap/) (only in Linux). It uses container technology to deliver applications inside a desktop session (see the [FAQ](https://flatpak.org/faq) for more details). This removes major limitations that have been around for some time in the Linux world. Indeed, with such technology, application developers don't need to worry about how their applications will be distributed across Linux distributions, at least for [28 distributions](https://flatpak.org/setup). All they need to do is to [create a manifest and use `flatpak-builder`](https://docs.flatpak.org/en/latest/first-build.html) and their application is ready to go on 28 distributions! 
 
 This is a significant step towards making application updates easy in Linux[^note2]. Mainly because there is no longer a need of one maintainer per distribution per package (desktop application packages are big packages and I guess they are hard to maintain). The easiness of building and shipping application with this kind of technology ultimately allows users to quickly have access to the newest release of the application and package maintainers get a reduced workload, so they can spend more time on other projects. 
 
@@ -34,7 +34,7 @@ and then use the installation command line provided on the web page of the appli
 flatpak install -y flathub org.gnome.Fractal
 ```
 
-Tchao extra external personal package archives (PPA) for slack & microsoft teams & co! Now on I'll use Flatpak and I've already edited my 
+Tchao extra external personal package archives (PPA) for Slack & Microsoft teams & co! Now on I'll use Flatpak and I've already edited my 
 [installDebian.sh gist](https://gist.github.com/KevCaz/29536740b9150383a9d543ec1be96103#file-installdebian-sh-L62-L73) accordingly.
 
 

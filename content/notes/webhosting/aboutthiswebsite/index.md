@@ -49,7 +49,7 @@ consider creating my own theme, which I did in the third Hugo version (so the
 are looking at (well, at least if it is an update relatively close to [commit
 `a2baec2`](https://github.com/KevCaz/KevCaz.github.io/commit/0ddcfc7556bd082b82ffdf953265cafc0932eee9)). I'd like to share what I've learned building this 5<sup>th</sup> version in what follows. 
 
-{{< figcenter "look_012021.png" 100 "Screenshot of the home page of this website (localhost, January 29<sup>th</sup> 2021, commit [a2baec2](https://github.com/KevCaz/KevCaz.github.io/commit/0ddcfc7556bd082b82ffdf953265cafc0932eee9))" >}}
+{{< figcenter "./look_012021.png" 100 "Screenshot of the home page of this website (localhost, January 29<sup>th</sup> 2021, commit [a2baec2](https://github.com/KevCaz/KevCaz.github.io/commit/0ddcfc7556bd082b82ffdf953265cafc0932eee9))" >}}
 
 
 
@@ -93,7 +93,7 @@ I am also glad I took some time to learn a bit more about responsive web design 
 At some point, I asked some friends how to attach more infos to a URL. Doesn't make sense, right? Well that was my way of describing it... you know, on many platforms nowadays (e.g. Slack), when a URL is shared, it often comes with a text and/or an image! Turns out this is a protocol, [the Open Graph protocol](https://ogp.me/), and it is fairly easy to use, and so I did use in the file [header.html](https://github.com/KevCaz/funkyflex/blob/9189be9e81edd1d223d8aff1251b6551cb5610aa/layouts/partials/head.html#L42-L48) of my theme and I even made it an optional parameter for having specific text/image for posts in my website (see [head_custom.html](https://github.com/KevCaz/KevCaz.github.io/blob/772c1c6205e759ecd503ba82341c7c615b426b78/layouts/partials/head_custom.html))! 
 
 
-{{< figcenter "shared_on_slack.png" 60 "URL of my home page shared on Slack." >}}
+{{< figcenter "./shared_on_slack.png" 60 "URL of my home page shared on Slack." >}}
 
 
 Finally, even though I had (and still have) very limited JavaScript skills, I
