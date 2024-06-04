@@ -30,7 +30,7 @@ easily reproduce the analysis in the paper. Two years after the first commit, I
 finally found the energy thanks to one of  [Olivier
 Gimenez](https://oliviergimenez.wordpress.com/)'s tweets.
 
-{{< tweet oaggimenez 1250597732366143489 >}}
+{{< tweet user="oaggimenez" id="1250597732366143489" >}}
 
 He basically reminded me the importance of releasing numerical implementations,
 even if they are >4 years old! I am aware that it is likely that nobody has ever

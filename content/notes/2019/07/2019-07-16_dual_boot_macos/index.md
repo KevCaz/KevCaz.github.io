@@ -62,7 +62,7 @@ After this, the first part was completed :white_check_mark:.
 
 There are several blog posts/tutorials covering this, see for instance [the post on Lifewire](https://www.lifewire.com/dual-boot-linux-and-mac-os-4125733). In a nutshell, the installation of Ubuntu requires to:
 
-1. create a bootable installer for [Ubuntu 18.04 - *Bionic Beaver*](http://releases.ubuntu.com/18.04/);
+1. create a bootable installer for [Ubuntu 18.04 - *Bionic Beaver*](releases.ubuntu.com/18.04/);
 
 2. use the bootable installer;
 
@@ -71,8 +71,8 @@ I actually tried to create a bootable installer on my Debian computer but MacOS
 was not capable of recognizing the installer (did not try to solve this issue,
 that just irritates me). So I did it on my freshly MacOS High Sierra partition,
 i.e. after I [downloaded the Ubuntu desktop
-image]((http://releases.ubuntu.com/18.04/)), I used the `dd` command to create
-the installer on my USD stick. Note that I got the right location, `disk1`,
+image](http://releases.ubuntu.com/18.04/), I used the `dd` command to create
+the installer on my USB stick. Note that I got the right location, `disk1`,
 using `diskutil list` in a terminal (I would have used `lsblk` on Debian). So
 here is what I did:
 
@@ -90,7 +90,7 @@ $ sudo dd bs=4M if=./ubuntu-18.04.2-desktop-amd64.iso of=/dev/<sda?> conv=fdatas
 
 where `<sda?>` would have been `sda1` (again, in my case). Once the Ubuntu
 installer created I rebooted and held `alt` to launch the Ubuntu installer. The
-tricky part was to find the right partition so I used the partition manager to select the right partition (for me it was `sda4` and I needed to first remove it with `-` to turn it into free space which I used to install Ubuntu. Once done, I installed several packages:
+tricky part was to find the right partition so I used the partition manager to select the right partition (for me it was `sda4`) and I needed to first remove it with `-` to turn it into free space which I used to install Ubuntu. Once done, I installed several packages:
 
 ```sh
 # apt-get update && apt-get upgrade

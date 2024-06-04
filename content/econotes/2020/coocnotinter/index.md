@@ -8,7 +8,7 @@ math: true
 
 This note is a short comment on the paper [Guillaume Blanchet](https://www.researchgate.net/profile/F_Guillaume_Blanchet), [Dominique Gravel](http://ielab.recherche.usherbrooke.ca/) and I recently published in [Ecology Letters](https://onlinelibrary.wiley.com/journal/14610248).
 
-{{< tweet KCazelles 1263081538004160514 >}}
+{{< tweet user="KCazelles" id="1263081538004160514" >}}
 
 
 
@@ -58,7 +58,7 @@ optional set of environmental variables.
 
 # A quick point about the supplementary information
 
-IMHO, the SI of the paper is rather long for making fairly understandable points. I feel confortable saying this as I wrote most (if not all) of it. So here I would like to go straight to the point.
+IMHO, the SI of the paper is rather long for making fairly understandable points. I feel comfortable saying this as I wrote most (if not all) of it. So here I would like to go straight to the point.
 
 Let $X_A$ and $X_B$ be the random variables of the occurrence of $A$ and $B$
 respectively and let $E$ denote an abiotic factor, finally, $P(X_A, X_B | E)$

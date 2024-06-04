@@ -7,8 +7,6 @@ imageOG: fig1.png
 
 Our latest work[^db] led by [David Beauchesne](https://www.researchgate.net/profile/David-Beauchesne) is out since yesterday in [Ecology Letters](https://onlinelibrary.wiley.com/doi/abs/10.1111/ele.13841?campaign=wolearlyview) :partying_face:! This paper introduces a framework that allows the exploration of the impact of multiple stressors on food webs.
 
-{{< tweet user="d_beauchesne" id="1417528951552024579" >}}
-
 
 In the Anthropocene, human activities impact species is various ways. Multiple
 stressors frameworks attempt to account for their diversity and their joint
@@ -47,7 +45,7 @@ The interpretation of these two quantities is rather straightforward. For a give
 stressors (if the value is negative, then abundances are negatively impacted and if the value is positive then species are positively impacted). Also, high trophic amplification values mean that there are strong non-additive effects (though the exact interpretation of the signed values depends on the sign of the trophic sensitivity). So we had these two quantities for the three species in every motif. Once those metrics defined, we show the relationship between the two for all pathway of effects and there is actually a lot of variation among motifs :arrow_down:.
 
 
-{{< figcenter fig5.png 80 "Figure 5 from Beauchesne et al. (2021), see the paper for the original caption. The central panel presents the average values for the different species in different motifs. The other (smaller) panels show the same relationship for all pathways of effect for a given species in a given motif. Note that not only the motif matters, but the position within it does too."  >}}
+{{< figcenter fig5.png 80 "Figure 5 from Beauchesne et al. (2021), see the paper for the original caption. The central panel presents the average values for the different species in different motifs. The other (smaller) panels show the same relationship for all pathways of effect for a given species in a given motif. Note that not only the motif matters, but the position within it does too." >}}
 
 
 In order to obtain the **trophic sensitivity** and the **trophic amplification**

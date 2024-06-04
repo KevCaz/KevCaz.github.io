@@ -20,8 +20,8 @@ of tags used throughout these notes is available [here](/tags/).
 ```.sh
 $ inxi -S
 System:
-  Host: ubudel Kernel: 6.5.0-21-generic arch: x86_64 bits: 64 Desktop: GNOME
-    v: 45.2 Distro: Ubuntu 23.10 (Mantic Minotaur)
+  Host: ubudel Kernel: 6.8.0-35-generic arch: x86_64 bits: 64
+  Desktop: GNOME v: 46.0 Distro: Ubuntu 24.04 LTS (Noble Numbat)
 ```
 
 </details>
