@@ -1,7 +1,7 @@
 ---
 title: "Concatenate audio files with FFmpeg"
 date: 2020-10-24
-tags: [ffmpeg, audio, format, concatenate]
+tags: [FFmpeg, audio, format, concatenate]
 ---
 
 Yesterday I needed to combine several audio files and I figured out to do this

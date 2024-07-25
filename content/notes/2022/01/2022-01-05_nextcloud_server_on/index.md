@@ -184,13 +184,13 @@ Once those were done, I went on my DSN provider, I created an [A record](https:/
 wget -qO- https://ipecho.net/plain ; echo  
 ```
 
-Then I opened ports 80 and 43, 
+Then I opened ports 80 and 443, 
 
 ```sh
 $ sudo ufw allow 80,443/tcp
 ```
 
-and then I set up the [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) on my rooter to my Rapsberry Pi. Last, I used [Let's Encrypt](https://letsencrypt.org/) via `certbot` in the `python3-certbot-apache` (see this other [post by Py My Life Up](https://pimylifeup.com/raspberry-pi-ssl-lets-encrypt/))
+and then I set up the [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) on my rooter to my Raspberry Pi. Last, I used [Let's Encrypt](https://letsencrypt.org/) via `certbot` in the `python3-certbot-apache` (see this other [post by Py My Life Up](https://pimylifeup.com/raspberry-pi-ssl-lets-encrypt/))
 
 
 ```sh

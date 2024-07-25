@@ -1,7 +1,7 @@
 ---
 title: "Use FFmpeg!"
 date: 2018-09-13
-tags: [ffmpeg, video, audio, format, freeware]
+tags: [FFmpeg, video, audio, format, freeware]
 ---
 
 As mentioned on its website, [FFmpeg](https://www.ffmpeg.org/) is:
