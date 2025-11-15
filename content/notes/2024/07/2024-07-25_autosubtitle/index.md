@@ -11,7 +11,7 @@ When I thought about automating the generation of subtitles for a minute, I was 
 
 I was quickly referred to [Capte](https://www.capte.co/) that does exactly that. It is free for a short period after which you have to pay for the service. At that point, a third thought came to my mind: "there should be an open source version of the tool". A quick search on Reddit led me to
 [`auto_subtitle`](https://github.com/m1guelpf/auto-subtitle) built by [Miguel
-Piedrafita](https://miguel.build/) that leverages [Whisper made by OpenAI](https://openai.com/index/whisper/) and [FFmpeg](https://www.ffmpeg.org/). In a simple command line I can obtain a .srt file:
+Piedrafita](https://miguel.build/) that leverages [Whisper made by OpenAI](https://openai.com/index/whisper/) and [FFmpeg](https://www.ffmpeg.org/). In a simple command line, I can obtain a .srt file:
 
 ```sh
 $ auto_subtitle my_movies_spanish.mp4 --output_dir ./subs --output_srt TRUE --srt_only TRUE

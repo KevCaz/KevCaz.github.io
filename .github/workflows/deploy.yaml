@@ -16,9 +16,9 @@ jobs:
       with:
         submodules: true
     - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
+      uses: peaceiris/actions-hugo@v3
       with:
-        hugo-version: '0.123.7'
+        hugo-version: '0.144.2'
         extended: true
     - name: Build website
       run: hugo --minify

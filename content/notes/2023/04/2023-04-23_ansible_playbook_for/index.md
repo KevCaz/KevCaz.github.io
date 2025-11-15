@@ -84,7 +84,7 @@ This playbook reproduces the steps describes in https://pimylifeup.com/raspberry
   become: yes
   hosts: all
   tasks:
-  # update+ upgrde apt 
+  # update + upgrade apt 
   # use tags never to not do it, use always when upgrade is desired
   # https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_module.html
   - name: Update and upgrade
@@ -372,11 +372,12 @@ Not entirely sure I understand why, but see issue [#358](https://github.com/ansi
 
 ### Post actions 
 
-This playbook does not complete the installation, there are several steps to carry out afterward, in a nutshell: 
+This playbook does not complete the installation, there are several steps to carry out afterwards, in a nutshell: 
 
 1. adding your domain in `trusted_domains` in `/var/www/nextcloud/config/config.php`;
-1. grabbing a SSL certificate, basically running `sudo certbot --apache`;
-2. setting Nextcloud (admin account, applications, etc.).
+2. restart service `apache2`;
+3. grabbing a SSL certificate, basically running `sudo certbot --apache`;
+4. setting Nextcloud (admin account, applications, etc.).
 
 
 ### Ansible 
