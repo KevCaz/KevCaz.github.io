@@ -5,6 +5,9 @@ date: 2025-11-15
 ---
 
 
+Montréal, le 15 novembre 2025,
+
+
 Le mariage aura lieu le 22 août 2026 au [Baluchon Eco-villégiature](https://baluchon.com/). 
 
 
