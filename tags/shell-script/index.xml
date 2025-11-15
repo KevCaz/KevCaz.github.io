@@ -1,2 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Shell Script on KevCaz's Website</title><link>https://kevcaz.github.io/tags/shell-script/</link><description>Recent content in Shell Script on KevCaz's Website</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Fri, 05 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/shell-script/index.xml" rel="self" type="application/rss+xml"/><item><title>Resize image with Imagemagick</title><link>https://kevcaz.github.io/notes/2018/10/2018-10-05_resize_image_with/</link><pubDate>Fri, 05 Oct 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/10/2018-10-05_resize_image_with/</guid><description>ImageMagick is a time saver! It&amp;rsquo;s designed and extremely powerful for manipulating images with a few command lines. Few weeks ago, I had to resize a bunch of .png images and realize how helpful ImageMagick could be is such case! All I had to do was creating a short shell script very similar to the following lines:
-1 2 3 4 5 mkdir img_resized for f in *.png do convert $f -resize 250x250\&amp;gt; img_resized/${f%.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Shell Script on KevCaz's Website</title><link>https://kevcaz.github.io/tags/shell-script/</link><description>Recent content in Shell Script on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Fri, 05 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/shell-script/index.xml" rel="self" type="application/rss+xml"/><item><title>Resize image with Imagemagick</title><link>https://kevcaz.github.io/notes/2018/10/2018-10-05_resize_image_with/</link><pubDate>Fri, 05 Oct 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/10/2018-10-05_resize_image_with/</guid><description>&lt;p>&lt;a href="https://www.imagemagick.org/script/index.php">ImageMagick&lt;/a> is a time saver!
+It&amp;rsquo;s designed and extremely powerful for manipulating images with a few command lines.
+Few weeks ago, I had to &lt;a href="http://www.imagemagick.org/Usage/resize/#shrink">resize a bunch of &lt;code>.png&lt;/code> images&lt;/a> and realize how helpful
+ImageMagick could be is such case! All I had to do was creating a short
+shell script very similar to the following lines:&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>mkdir img_resized
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#286983">for&lt;/span> f in *.png
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#286983">do&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> convert &lt;span style="color:#d7827e">$f&lt;/span> -resize 250x250&lt;span style="color:#286983">\&amp;gt;&lt;/span> img_resized/&lt;span style="color:#ea9d34">${&lt;/span>&lt;span style="color:#d7827e">f&lt;/span>&lt;span style="color:#797593">%.png&lt;/span>&lt;span style="color:#ea9d34">}&lt;/span>_250.png
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#286983">done&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Note that here, the size is expressed in pixels (&lt;code>250x250&lt;/code>) and only images
+larger than 250 px are shrunk (as I use the &lt;code>&amp;gt;&lt;/code> flag).
+There are many arguments and several ways of using them (&lt;em>e.g.&lt;/em> you
+can use percentage with &lt;code>-resize&lt;/code>), if you are interested in learning more, I
+recommend you have a &lt;a href="https://www.imagemagick.org/script/index.php">look at the documentation of imageMagick&lt;/a>.
+By the way, the R &amp;#x1f4e6; &lt;a href="https://cran.r-project.org/web/packages/magick/index.html">magick&lt;/a>
+proposes a set of bindings to call ImageMagick directly from R.&lt;/p></description></item></channel></rss>

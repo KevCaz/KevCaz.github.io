@@ -1,2 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Shortcode on KevCaz's Website</title><link>https://kevcaz.github.io/tags/shortcode/</link><description>Recent content in Shortcode on KevCaz's Website</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Thu, 27 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/shortcode/index.xml" rel="self" type="application/rss+xml"/><item><title>My Hugo shortcode for video</title><link>https://kevcaz.github.io/notes/2018/09/2018-09-27_my_hugo_shortcode/</link><pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/09/2018-09-27_my_hugo_shortcode/</guid><description>Shortcodes are among my favorite features in Hugo. As I am currently writing several notes a week that often include small screencasts, I thought that the time had come for me to create my own screencast shortcode. Here it is:
-1 2 3 4 5 6 7 8 9 10 11 12 &amp;lt;center&amp;gt; &amp;lt;video width=&amp;#39; {{ if .Get &amp;#34;width&amp;#34; }} {{ .Get &amp;#34;width&amp;#34; }} {{ else }} 100% {{ end }}&amp;#39; controls&amp;gt; &amp;lt;source src=&amp;#34;{{ .</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Shortcode on KevCaz's Website</title><link>https://kevcaz.github.io/tags/shortcode/</link><description>Recent content in Shortcode on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Thu, 27 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/shortcode/index.xml" rel="self" type="application/rss+xml"/><item><title>My Hugo shortcode for video</title><link>https://kevcaz.github.io/notes/2018/09/2018-09-27_my_hugo_shortcode/</link><pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/09/2018-09-27_my_hugo_shortcode/</guid><description>&lt;p>&lt;a href="https://gohugo.io/content-management/shortcodes/">Shortcodes&lt;/a> are among my
+favorite features in &lt;a href="https://gohugo.io/">Hugo&lt;/a>. As I am currently writing
+several notes a week that often include small screencasts, I thought that the
+time had come for me to &lt;a href="https://gohugo.io/templates/shortcode-templates/">create my own screencast shortcode&lt;/a>.
+Here it is:&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#797593">&amp;lt;&lt;/span>&lt;span style="color:#d7827e">center&lt;/span>&lt;span style="color:#797593">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#797593">&amp;lt;&lt;/span>&lt;span style="color:#d7827e">video&lt;/span> &lt;span style="color:#d7827e">width&lt;/span>&lt;span style="color:#797593">=&lt;/span>&lt;span style="color:#ea9d34">&amp;#39;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ea9d34"> {{ if .Get &amp;#34;width&amp;#34; }}
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ea9d34"> {{ .Get &amp;#34;width&amp;#34; }}
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ea9d34"> {{ else }}
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ea9d34"> 100%
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ea9d34"> {{ end }}&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#d7827e">controls&lt;/span>&lt;span style="color:#797593">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#797593">&amp;lt;&lt;/span>&lt;span style="color:#d7827e">source&lt;/span> &lt;span style="color:#d7827e">src&lt;/span>&lt;span style="color:#797593">=&lt;/span>&lt;span style="color:#ea9d34">&amp;#34;{{ .Get `src` }}&amp;#34;&lt;/span> &lt;span style="color:#d7827e">type&lt;/span>&lt;span style="color:#797593">=&lt;/span>&lt;span style="color:#ea9d34">&amp;#34;video/webm&amp;#34;&lt;/span>&lt;span style="color:#797593">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Your browser does not support the video tag.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#797593">&amp;lt;/&lt;/span>&lt;span style="color:#d7827e">video&lt;/span>&lt;span style="color:#797593">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#797593">&amp;lt;/&lt;/span>&lt;span style="color:#d7827e">center&lt;/span>&lt;span style="color:#797593">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>In this shortcode I have named the two arguments available:&lt;/p></description></item></channel></rss>

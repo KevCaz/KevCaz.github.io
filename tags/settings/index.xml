@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Settings on KevCaz's Website</title><link>https://kevcaz.github.io/tags/settings/</link><description>Recent content in Settings on KevCaz's Website</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Sat, 29 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/settings/index.xml" rel="self" type="application/rss+xml"/><item><title>Prompt before opening larges file in Atom</title><link>https://kevcaz.github.io/notes/2018/09/2018-09-29_prompt_before_opening/</link><pubDate>Sat, 29 Sep 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/09/2018-09-29_prompt_before_opening/</guid><description>Many of the projects I am working on include files that are over 5Mo. When I am working with Atom I often click on them (wrongly) and this used to make Atom work hard for nothing &amp;#x1f61e;.
-Your browser does not support the video tag. In the screencast above, for instance, I had to wait for 1 minute to be able to work again, although the file was 5 MB only (atom 1.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Settings on KevCaz's Website</title><link>https://kevcaz.github.io/tags/settings/</link><description>Recent content in Settings on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Sat, 29 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/settings/index.xml" rel="self" type="application/rss+xml"/><item><title>Prompt before opening larges file in Atom</title><link>https://kevcaz.github.io/notes/2018/09/2018-09-29_prompt_before_opening/</link><pubDate>Sat, 29 Sep 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/09/2018-09-29_prompt_before_opening/</guid><description>&lt;p>Many of the projects I am working on include files that are over 5Mo. When
+I am working with &lt;a href="https://atom.io/">Atom&lt;/a> I often click on them (wrongly)
+and this used to make Atom work hard for nothing &amp;#x1f61e;.&lt;/p>
+&lt;center>
+ &lt;video width='100%'
+ controls>
+ &lt;source src="./assets/openlargefile.webm" type="video/webm">
+ Your browser does not support the video tag.
+ &lt;/video>
+&lt;/center>
+
+&lt;p>In the screencast above, for instance, I had to wait for 1 minute to be able
+to work again, although the file was 5 MB only (atom 1.30.0 for the record).
+I did not have such issue with &lt;code>.csv&lt;/code> files as I was using &lt;a href="https://atom.io/packages/tablr">tablr&lt;/a>
+that prompts a message before opening the file. From there I knew that
+what I needed was to make Atom prompt a message before opening large files.
+This was actually &lt;a href="https://github.com/atom/atom/issues/10086">already implemented&lt;/a>
+&amp;#x1f604; all I had to do was change the default value (40 MB), I set it
+to 1 MB.&lt;/p></description></item></channel></rss>

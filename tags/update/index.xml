@@ -1,3 +1,74 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Update on KevCaz's Website</title><link>https://kevcaz.github.io/tags/update/</link><description>Recent content in Update on KevCaz's Website</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Thu, 10 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/update/index.xml" rel="self" type="application/rss+xml"/><item><title>Installing Python packages in Debian Trixie</title><link>https://kevcaz.github.io/notes/2023/08/2023-08-10_installing_python_packages/</link><pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2023/08/2023-08-10_installing_python_packages/</guid><description>I recently switched back to Debian testing and since last June, testing is Debian 13 (codename Trixie). As I was installing a bunch of Python packages, I got the following error:
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 $ pip install numpy error: externally-managed-environment × This environment is externally managed ╰─&amp;gt; To install Python packages system-wide, try apt install python3-xyz, where xyz is the package you are trying to install.</description></item><item><title>Updating all your Python packages</title><link>https://kevcaz.github.io/notes/2020/01/2020-01-05_updating_all_your/</link><pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2020/01/2020-01-05_updating_all_your/</guid><description>Even if I do not frequently code in Python, my setup includes several packages of this programming language. While I was looking for a simple way to update all installed packages, I found this thread on stack overflow which helps me writing the following alias in my zsh profile:
-1 2 3 alias updpy=&amp;#39;for i in $(pip list --outdated --format=columns |tail -n +3|cut -d&amp;#34; &amp;#34; -f1) do pip install --user $i --upgrade done&amp;#39; Now, when I enter updpy in my Terminal, all installed Python packages are updated.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Update on KevCaz's Website</title><link>https://kevcaz.github.io/tags/update/</link><description>Recent content in Update on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Thu, 10 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/update/index.xml" rel="self" type="application/rss+xml"/><item><title>Installing Python packages in Debian Trixie</title><link>https://kevcaz.github.io/notes/2023/08/2023-08-10_installing_python_packages/</link><pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2023/08/2023-08-10_installing_python_packages/</guid><description>&lt;p>I recently switched back to Debian testing and since last June, testing is Debian 13 (codename Trixie). As I was installing a bunch of Python packages, I got the following error:&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>$ pip install numpy
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>error: externally-managed-environment
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>× This environment is externally managed
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>╰─&amp;gt; To install Python packages system-wide, try apt install
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> python3-xyz, where xyz is the package you are trying to
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> install.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> If you wish to install a non-Debian-packaged Python package,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> create a virtual environment using python3 -m venv path/to/venv.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> sure you have python3-full installed.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> If you wish to install a non-Debian packaged Python application,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> it may be easiest to use pipx install xyz, which will manage a
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> virtual environment &lt;span style="color:#286983">for&lt;/span> you. Make sure you have pipx installed.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> See /usr/share/doc/python3.11/README.venv &lt;span style="color:#286983">for&lt;/span> more information.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>note: If you believe this is a mistake, please contact your Python installation 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>or OS distribution provider. You can override this, at the risk of breaking 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>your Python installation or OS, by passing --break-system-packages.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>hint: See PEP &lt;span style="color:#ea9d34">668&lt;/span> &lt;span style="color:#286983">for&lt;/span> the detailed specification.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>As it turned out, Debian &lt;a href="https://salsa.debian.org/python-team/packages/python-pip/-/blob/master/debian/NEWS">has adopted PEP 668&lt;/a> a few months ago. In a nutshell, the PEP 668 is motivated by the fact that most distros ship Python and install Python packages via their own package manager (e.g. &lt;code>apt&lt;/code> on Debian) and that there are potential conflicts between these packages and the ones installed via &lt;code>pip&lt;/code>. For instance, the following command line shows that I have almost 200 python packages installed via &lt;code>apt&lt;/code> (as mentioned above they start via &lt;code>python3-&lt;/code> or &lt;code>python-&lt;/code>).&lt;/p></description></item><item><title>Updating all your Python packages</title><link>https://kevcaz.github.io/notes/2020/01/2020-01-05_updating_all_your/</link><pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2020/01/2020-01-05_updating_all_your/</guid><description>&lt;p>Even if I do not frequently code in Python, my setup includes several packages
+of this programming language. While I was looking for a simple way to update
+all installed packages, I found &lt;a href="https://stackoverflow.com/questions/2720014/how-to-upgrade-all-python-packages-with-pip">this thread on stack
+overflow&lt;/a>
+which helps me writing the following alias in my zsh profile:&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d7827e">alias&lt;/span> &lt;span style="color:#d7827e">updpy&lt;/span>&lt;span style="color:#797593">=&lt;/span>&lt;span style="color:#ea9d34">&amp;#39;for i in $(pip list --outdated --format=columns |tail -n +3|cut -d&amp;#34; &amp;#34; -f1)
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ea9d34"> do pip install --user $i --upgrade
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ea9d34">done&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Now, when I enter &lt;code>updpy&lt;/code> in my Terminal, all installed Python packages are
+updated. Pretty sweet &amp;#x1f604;! Note that if you are using Python more often
+that I do, you may benefit from installing the package manager
+&lt;a href="https://conda.io/en/latest/">Conda&lt;/a>. With Conda, all you need to do is:&lt;/p></description></item></channel></rss>

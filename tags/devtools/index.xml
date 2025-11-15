@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devtools on KevCaz's Website</title><link>https://kevcaz.github.io/tags/devtools/</link><description>Recent content in Devtools on KevCaz's Website</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Thu, 23 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/devtools/index.xml" rel="self" type="application/rss+xml"/><item><title>Sent your R package to package builder via devtools</title><link>https://kevcaz.github.io/notes/2019/05/2019-05-23_sent_your_r/</link><pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2019/05/2019-05-23_sent_your_r/</guid><description>As I was sending a minor patch to rcites, I use devtools::build_win() and got the following warning message:
-Warning message: &amp;#39;devtools::build_win&amp;#39; is deprecated. And the message suggested to check out check_win_*, and I so did a quick check:
-1 R&amp;gt; devtools::check once tab typed, the following function names were prompted:
-1 2 3 4 devtools::check_built devtools::check_cran devtools::check_win_oldrelease devtools::check_man devtools::check devtools::check_win_release devtools::check_win_devel devtools::check_dep_version devtools::check_failures devtools::check_rhub We now have access to rhub via devtools, that&amp;rsquo;s neat &amp;#x1f386;!</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devtools on KevCaz's Website</title><link>https://kevcaz.github.io/tags/devtools/</link><description>Recent content in Devtools on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Thu, 23 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/devtools/index.xml" rel="self" type="application/rss+xml"/><item><title>Sent your R package to package builder via devtools</title><link>https://kevcaz.github.io/notes/2019/05/2019-05-23_sent_your_r/</link><pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2019/05/2019-05-23_sent_your_r/</guid><description>&lt;p>As I was sending a minor patch to &lt;a href="https://github.com/ropensci/rcites">rcites&lt;/a>,
+I use &lt;code>devtools::build_win()&lt;/code> and got the following warning message:&lt;/p>
+&lt;pre tabindex="0">&lt;code>Warning message:
+&amp;#39;devtools::build_win&amp;#39; is deprecated.
+&lt;/code>&lt;/pre>&lt;p>And the message suggested to check out &lt;code>check_win_*&lt;/code>, and I so did a quick
+check:&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-R" data-lang="R">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d7827e">R&lt;/span>&lt;span style="color:#797593">&amp;gt;&lt;/span> &lt;span style="color:#d7827e">devtools&lt;/span>&lt;span style="color:#797593">::&lt;/span>&lt;span style="color:#d7827e">check&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>once &lt;code>tab&lt;/code> typed, the following function names were prompted:&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-R" data-lang="R">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d7827e">devtools&lt;/span>&lt;span style="color:#797593">::&lt;/span>&lt;span style="color:#d7827e">check_built&lt;/span> &lt;span style="color:#d7827e">devtools&lt;/span>&lt;span style="color:#797593">::&lt;/span>&lt;span style="color:#d7827e">check_cran&lt;/span> &lt;span style="color:#d7827e">devtools&lt;/span>&lt;span style="color:#797593">::&lt;/span>&lt;span style="color:#d7827e">check_win_oldrelease&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d7827e">devtools&lt;/span>&lt;span style="color:#797593">::&lt;/span>&lt;span style="color:#d7827e">check_man&lt;/span> &lt;span style="color:#d7827e">devtools&lt;/span>&lt;span style="color:#797593">::&lt;/span>&lt;span style="color:#d7827e">check&lt;/span> &lt;span style="color:#d7827e">devtools&lt;/span>&lt;span style="color:#797593">::&lt;/span>&lt;span style="color:#d7827e">check_win_release&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d7827e">devtools&lt;/span>&lt;span style="color:#797593">::&lt;/span>&lt;span style="color:#d7827e">check_win_devel&lt;/span> &lt;span style="color:#d7827e">devtools&lt;/span>&lt;span style="color:#797593">::&lt;/span>&lt;span style="color:#d7827e">check_dep_version&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d7827e">devtools&lt;/span>&lt;span style="color:#797593">::&lt;/span>&lt;span style="color:#d7827e">check_failures&lt;/span> &lt;span style="color:#d7827e">devtools&lt;/span>&lt;span style="color:#797593">::&lt;/span>&lt;span style="color:#d7827e">check_rhub&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>We now have access to &lt;a href="https://builder.r-hub.io/">rhub&lt;/a> via
+&lt;a href="https://cran.r-project.org/web/packages/devtools/index.html">devtools&lt;/a>, that&amp;rsquo;s
+neat &amp;#x1f386;! I knew it&amp;rsquo;d happen at some point, but did not know it was
+already available!, everything is going very fast, am I the only one struggling
+to keep up?&lt;/p></description></item></channel></rss>

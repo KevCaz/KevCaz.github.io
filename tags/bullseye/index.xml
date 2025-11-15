@@ -1,2 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bullseye on KevCaz's Website</title><link>https://kevcaz.github.io/tags/bullseye/</link><description>Recent content in Bullseye on KevCaz's Website</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Fri, 18 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/bullseye/index.xml" rel="self" type="application/rss+xml"/><item><title>Migrating from Buster to Bullseye</title><link>https://kevcaz.github.io/notes/2020/09/2020-09-18_migrating_from_buster/</link><pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2020/09/2020-09-18_migrating_from_buster/</guid><description>In July 2019, Buster became the stable release of Debian and the Bullseye became de facto the new testing distribution. After spending almost 2 years on Buster, I decided last week that it was time to migrate to Bullseye.
-Backing up I frequently backup my files (so far with a simple bash function that copies them to my external hard drive). Plus, I also have a repository, dotfiles, where I stored my configuration files (the ones I can share).</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bullseye on KevCaz's Website</title><link>https://kevcaz.github.io/tags/bullseye/</link><description>Recent content in Bullseye on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Fri, 18 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/bullseye/index.xml" rel="self" type="application/rss+xml"/><item><title>Migrating from Buster to Bullseye</title><link>https://kevcaz.github.io/notes/2020/09/2020-09-18_migrating_from_buster/</link><pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2020/09/2020-09-18_migrating_from_buster/</guid><description>&lt;p>In July 2019, &lt;a href="https://lists.debian.org/debian-announce/2019/msg00003.html">Buster became the stable release of
+Debian&lt;/a> and the
+Bullseye became &lt;em>de facto&lt;/em> the new testing distribution. After spending almost 2
+years on Buster, I decided last week that it was time to migrate to Bullseye.&lt;/p>
+&lt;h2 id="backing-up">Backing up&lt;/h2>
+&lt;p>I frequently backup my files (so far with a simple bash function that copies
+them to my external hard drive). Plus, I also have a &lt;i class="fab fa-github"
+aria-hidden="true">&lt;/i> repository,
+&lt;a href="https://github.com/KevCaz/dotfiles">dotfiles&lt;/a>, where I stored my configuration
+files (the ones I can share). Before the migration, I created a separate backup
+with my regular files and as many configuration files as possible (for instance
+I backed up my &lt;code>.local&lt;/code> folder). For this migration, I was eager to learn how to
+backup my GNOME keybindings as well as the GNOME terminal profiles I used.
+Turned out I only needed one command: &lt;code>dconf&lt;/code> &lt;a href="https://developer.gnome.org/dconf/unstable/dconf-overview.html">see this page on
+developer.gnome.org&lt;/a>
+that I used as follows:&lt;/p></description></item></channel></rss>

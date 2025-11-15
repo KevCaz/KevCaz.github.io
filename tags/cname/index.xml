@@ -1,1 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CNAME on KevCaz's Website</title><link>https://kevcaz.github.io/tags/cname/</link><description>Recent content in CNAME on KevCaz's Website</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Tue, 04 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/cname/index.xml" rel="self" type="application/rss+xml"/><item><title>GitHub pages &amp; custom domain name? Don't forget CNAME! `[SOLVED]`</title><link>https://kevcaz.github.io/notes/2020/02/2020-02-04_github_pages_custom/</link><pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2020/02/2020-02-04_github_pages_custom/</guid><description>The problem ❔ I am maintaining the website of the McCann Lab that is currently hosted on the GitHub Pages. Since I set up the custom domain, I was experiencing a weird issue: after every single deployment even on GitHub Pages (originally done by Travis, now by using a dedicated GitHub Actions workflow) the custom domain was removed and I had to rewrite it every time (see &amp;#x2b07;&amp;#xfe0f;) which was pretty annoying.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CNAME on KevCaz's Website</title><link>https://kevcaz.github.io/tags/cname/</link><description>Recent content in CNAME on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Tue, 04 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/cname/index.xml" rel="self" type="application/rss+xml"/><item><title>GitHub pages &amp; custom domain name? Don't forget CNAME! `[SOLVED]`</title><link>https://kevcaz.github.io/notes/2020/02/2020-02-04_github_pages_custom/</link><pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2020/02/2020-02-04_github_pages_custom/</guid><description>&lt;h2 id="the-problem-">The problem ❔&lt;/h2>
+&lt;p>I am maintaining the website of the &lt;a href="https://mccannlab.ca/">McCann Lab&lt;/a> that is
+currently hosted on the &lt;a href="https://pages.github.com/">GitHub Pages&lt;/a>. Since I set
+up the &lt;a href="https://help.github.com/en/github/working-with-github-pages/configuring-a-custom-domain-for-your-github-pages-site">custom
+domain&lt;/a>,
+I was experiencing a weird issue: after every single deployment even on GitHub
+Pages (originally done by Travis, now by using &lt;a href="https://github.com/McCannLab/McCannLab.github.io/actions">a dedicated GitHub Actions
+workflow&lt;/a>) the
+custom domain was removed and I had to rewrite it every time (see &amp;#x2b07;&amp;#xfe0f;)
+which was pretty annoying.&lt;/p>
+&lt;center>
+ 
+ &lt;img class="frame2" src="./assets/cname.png" width="70%">
+ 
+&lt;/center>
+
+&lt;h2 id="the-solution-medal_sports">The solution &amp;#x1f3c5;&lt;/h2>
+&lt;p>Truth be told, it was not difficult to find the solution! It was already
+reported several times (including this issue on GitHub
+&lt;a href="https://github.com/tschaub/gh-pages/issues/213">gh-pages/issues/213&lt;/a>).
+Basically, one needs to include a &lt;strong>CNAME&lt;/strong> file with the custom domain name
+and for &lt;a href="https://gohugo.io/">Hugo&lt;/a> (the static site generator I use for this
+website), this file should be added in the &lt;code>static&lt;/code> folder. This is actually
+well-explained in the
+&lt;a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#use-a-custom-domain">documentation&lt;/a>, so once again, read the doc!&lt;/p></description></item></channel></rss>

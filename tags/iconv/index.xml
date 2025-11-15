@@ -1,3 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Iconv on KevCaz's Website</title><link>https://kevcaz.github.io/tags/iconv/</link><description>Recent content in Iconv on KevCaz's Website</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Tue, 16 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/iconv/index.xml" rel="self" type="application/rss+xml"/><item><title>From one character encoding to another</title><link>https://kevcaz.github.io/notes/2018/10/2018-10-16_from_one_character/</link><pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/10/2018-10-16_from_one_character/</guid><description>Today I needed to check the character encoding of a file, I found this page that explains how to do this. Basically the command file will give you the info, for instance:
-1 2 $ file example.md example.md: ASCII text options -i for --mime and -b for --brief will give:
-1 2 $ file -bi example.md text/plain; charset=us-ascii I figured out that I needed to convert my file from one character encoding to another and so I used iconv.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Iconv on KevCaz's Website</title><link>https://kevcaz.github.io/tags/iconv/</link><description>Recent content in Iconv on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Tue, 16 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/iconv/index.xml" rel="self" type="application/rss+xml"/><item><title>From one character encoding to another</title><link>https://kevcaz.github.io/notes/2018/10/2018-10-16_from_one_character/</link><pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/10/2018-10-16_from_one_character/</guid><description>&lt;p>Today I needed to check the character encoding of a file, I found &lt;a href="https://www.tecmint.com/convert-files-to-utf-8-encoding-in-linux/">this page that explains how to do this&lt;/a>. Basically the command &lt;code>file&lt;/code> will give you the info, for instance:&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>$ file example.md
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>example.md: ASCII text
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>options &lt;code>-i&lt;/code> for &lt;code>--mime&lt;/code> and &lt;code>-b&lt;/code> for &lt;code>--brief&lt;/code> will give:&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>$ file -bi example.md
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>text/plain&lt;span style="color:#797593">;&lt;/span> &lt;span style="color:#d7827e">charset&lt;/span>&lt;span style="color:#797593">=&lt;/span>us-ascii
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>I figured out that I needed to convert my file from one character encoding to another and so I used &lt;code>iconv&lt;/code>. As mentioned in the link above,
+&lt;code>iconv -l&lt;/code> will give you the list of character encodings &lt;code>iconv&lt;/code> handles. In my case, I needed to convert the file from &lt;a href="https://en.wikipedia.org/wiki/ISO/IEC_8859-1">Latin1, aka iso8859-1&lt;/a>
+to &lt;a href="https://en.wikipedia.org/wiki/UTF-8">UTF-8&lt;/a>, so I used the following command line:&lt;/p></description></item></channel></rss>

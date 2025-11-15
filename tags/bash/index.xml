@@ -1,2 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bash on KevCaz's Website</title><link>https://kevcaz.github.io/tags/bash/</link><description>Recent content in Bash on KevCaz's Website</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Thu, 20 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/bash/index.xml" rel="self" type="application/rss+xml"/><item><title>Running parallel simulations with scripts that take two or more varying parameters</title><link>https://kevcaz.github.io/notes/2020/08/2020-08-20_running_parallel_simulations/</link><pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2020/08/2020-08-20_running_parallel_simulations/</guid><description>Another note about how I work with Slurm! Today, I comment on three strategies to run simulations for which the values taken by two arguments (or more) vary from one simulation to another.
-The problem Let&amp;rsquo;s assume that we run simulations by calling a Julia script myscript.jl that takes p1 as argument, in order to run the simulation on one CPU for a single simulation, I would run the following bas command</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bash on KevCaz's Website</title><link>https://kevcaz.github.io/tags/bash/</link><description>Recent content in Bash on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Thu, 20 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/bash/index.xml" rel="self" type="application/rss+xml"/><item><title>Running parallel simulations with scripts that take two or more varying parameters</title><link>https://kevcaz.github.io/notes/2020/08/2020-08-20_running_parallel_simulations/</link><pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2020/08/2020-08-20_running_parallel_simulations/</guid><description>&lt;p>Another note about how I work with &lt;a href="https://slurm.schedmd.com">Slurm&lt;/a>! Today, I
+comment on three strategies to run simulations for which the values taken by two
+arguments (or more) vary from one simulation to another.&lt;/p>
+&lt;h2 id="the-problem">The problem&lt;/h2>
+&lt;p>Let&amp;rsquo;s assume that we run simulations by calling a
+&lt;a href="https://julialang.org/">Julia&lt;/a> script &lt;code>myscript.jl&lt;/code> that takes &lt;code>p1&lt;/code> as
+argument, in order to run the simulation on one
+&lt;a href="https://en.wikipedia.org/wiki/Central_processing_unit">CPU&lt;/a> for a single
+simulation, I would run the following bas command&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>julia -p &lt;span style="color:#ea9d34">1&lt;/span> myscript.jl p1
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>where I would replace &lt;code>p1&lt;/code> by the right value. To run more than one simulation,
+say 3 for the sake of example, with Slurm I would write a short bash script and use a &lt;a href="https://slurm.schedmd.com/job_array.html">job array&lt;/a> (see
+more details in &lt;a href="../arrayjob">this note&lt;/a>) be it for simple sequence, e.g.&lt;code>1:3&lt;/code>,&lt;/p></description></item></channel></rss>

@@ -1,3 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Units on KevCaz's Website</title><link>https://kevcaz.github.io/tags/units/</link><description>Recent content in Units on KevCaz's Website</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Tue, 06 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/units/index.xml" rel="self" type="application/rss+xml"/><item><title>A simple yet powerful unit converter with R</title><link>https://kevcaz.github.io/notes/2019/08/2019-08-06_a_simple_yet/</link><pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2019/08/2019-08-06_a_simple_yet/</guid><description>I always forget how to convert Fahrenheit to Celsius and conversely, which I find very frustrating &amp;ndash; for the record the current definition is:
-$$T(°F) = T(°C)\frac{9}{5}+32$$
-Yesterday, after looking for the umpteenth times the above equation I decided to create a small function that would handle the conversion. I first thought that I could create a 2-lines function just for this specific unit conversion when I realize that there is a R &amp;#x1f4e6; dedicated to units manipulation: units that depends on the C library libdunits2 and is required to install &amp;#x1f4e6; sf.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Units on KevCaz's Website</title><link>https://kevcaz.github.io/tags/units/</link><description>Recent content in Units on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Tue, 06 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/units/index.xml" rel="self" type="application/rss+xml"/><item><title>A simple yet powerful unit converter with R</title><link>https://kevcaz.github.io/notes/2019/08/2019-08-06_a_simple_yet/</link><pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2019/08/2019-08-06_a_simple_yet/</guid><description>&lt;p>I always forget how to convert
+&lt;a href="https://en.wikipedia.org/wiki/Fahrenheit">Fahrenheit&lt;/a> to Celsius and
+conversely, which I find very frustrating &amp;ndash; for the record the current
+definition is:&lt;/p>
+&lt;p>$$T(°F) = T(°C)\frac{9}{5}+32$$&lt;/p>
+&lt;p>Yesterday, after looking for the umpteenth times the above equation I decided to
+create a small function that would handle the conversion. I first thought that I
+could create a 2-lines function just for this specific unit conversion when I
+realize that there is a R &amp;#x1f4e6; dedicated to units manipulation:
+&lt;a href="https://github.com/r-quantities/units">units&lt;/a> that depends on the C library
+&lt;a href="https://github.com/Unidata/UDUNITS-2">libdunits2&lt;/a> and is required to install
+&amp;#x1f4e6; &lt;a href="https://github.com/r-spatial/sf">sf&lt;/a>. After a couple of minutes
+reading the &lt;a href="https://r-quantities.github.io/units/articles/measurement_units_in_R.html">documentation
+&amp;#x1f4d6;&lt;/a>,
+I figured out how to create a simple but robust unit converter with one line of
+code, and so I did:&lt;/p></description></item></channel></rss>

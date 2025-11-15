@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Spell-Check on KevCaz's Website</title><link>https://kevcaz.github.io/tags/spell-check/</link><description>Recent content in Spell-Check on KevCaz's Website</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Wed, 26 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/spell-check/index.xml" rel="self" type="application/rss+xml"/><item><title>One more scope in spell-check</title><link>https://kevcaz.github.io/notes/2018/09/2018-09-26_one_more_scope/</link><pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/09/2018-09-26_one_more_scope/</guid><description>I often use R markdown within Atom. By default, spell-check does not check .Rmd file and so I needed to add the corresponding scope to the list of grammars checked. It was a two steps process:
-find the scope with the command: Log cursor scope (use the command-palette);
-copy-paste the scope and add it to the list of scopes that are already checked.
-Your browser does not support the video tag.</description></item><item><title>More than one langage with spell-check</title><link>https://kevcaz.github.io/notes/2018/09/2018-09-11_more_than_one/</link><pubDate>Tue, 11 Sep 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/09/2018-09-11_more_than_one/</guid><description>I spend most on my coding and writing time on Atom and as I write in both English and French I use two dictionaries with spell-check. Well, it actually took me a while to understand how to use two different locales on my Debian machine simply because I was lazy enough to not read the README on the Github repository of spell-check. Out of curiosity, I checked out what hunspell is (note that the project is hosted on Github) and then I checked the dictionaries currently installed on my device:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Spell-Check on KevCaz's Website</title><link>https://kevcaz.github.io/tags/spell-check/</link><description>Recent content in Spell-Check on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Wed, 26 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/spell-check/index.xml" rel="self" type="application/rss+xml"/><item><title>One more scope in spell-check</title><link>https://kevcaz.github.io/notes/2018/09/2018-09-26_one_more_scope/</link><pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/09/2018-09-26_one_more_scope/</guid><description>&lt;p>I often use &lt;a href="https://rmarkdown.rstudio.com/">R markdown&lt;/a> within &lt;a href="https://atom.io/">Atom&lt;/a>.
+By default, spell-check does not check &lt;code>.Rmd&lt;/code> file and so I needed to add the
+corresponding scope to the list of grammars checked. It was a two steps process:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>find the scope with the command: &lt;code>Log cursor scope&lt;/code> (use the &lt;a href="https://flight-manual.atom.io/getting-started/sections/atom-basics/#command-palette">command-palette&lt;/a>);&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>copy-paste the scope and add it to the list of scopes that are already checked.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;center>
+ &lt;video width='100%'
+ controls>
+ &lt;source src="./assets/spellcheck.webm" type="video/webm">
+ Your browser does not support the video tag.
+ &lt;/video>
+&lt;/center></description></item><item><title>More than one langage with spell-check</title><link>https://kevcaz.github.io/notes/2018/09/2018-09-11_more_than_one/</link><pubDate>Tue, 11 Sep 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/09/2018-09-11_more_than_one/</guid><description>&lt;p>I spend most on my coding and writing time on &lt;a href="https://atom.io/">Atom&lt;/a> and as
+I write in both English and French I use two dictionaries with &lt;a href="https://github.com/atom/spell-check">spell-check&lt;/a>.
+Well, it actually took me a while to understand how to use two different locales
+on my Debian machine simply because I was lazy enough to not read the &lt;a href="https://github.com/atom/spell-check#debian-ubuntu-and-mint">README
+on the Github repository of spell-check&lt;/a>.
+Out of curiosity, I checked out what &lt;a href="http://hunspell.github.io/">hunspell&lt;/a> is
+(note that the project is hosted on &lt;a href="https://github.com/hunspell/hunspell">Github&lt;/a>)
+and then I checked the dictionaries currently installed on my device:&lt;/p></description></item></channel></rss>

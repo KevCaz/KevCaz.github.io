@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JavaScript on KevCaz's Website</title><link>https://kevcaz.github.io/tags/javascript/</link><description>Recent content in JavaScript on KevCaz's Website</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Wed, 06 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml"/><item><title>Installing Node.js and npm on Debian Buster</title><link>https://kevcaz.github.io/notes/2019/11/2019-11-06_installing_node_js/</link><pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2019/11/2019-11-06_installing_node_js/</guid><description>Node.js was developed to run JavaScript everywhere (as opposed to solely in a web browser) which led to the development of a lot of software written in JavaScript (arguably the most popular programming language, see the survey by StackOverflow and the RedMonk&amp;rsquo;s one). I personally use several pieces of it, for instance gtop and decktape and I install them with the dedicated package manager, namely npm.
-A few days ago, I had a hard time installing decktape &amp;mdash; that I use to convert my HTML presentations to pdf files &amp;mdash; on my Debian Buster computer, and so I decided to do a fresh install of Node.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JavaScript on KevCaz's Website</title><link>https://kevcaz.github.io/tags/javascript/</link><description>Recent content in JavaScript on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Wed, 06 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml"/><item><title>Installing Node.js and npm on Debian Buster</title><link>https://kevcaz.github.io/notes/2019/11/2019-11-06_installing_node_js/</link><pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2019/11/2019-11-06_installing_node_js/</guid><description>&lt;p>&lt;a href="https://nodejs.org/en/">Node.js&lt;/a> was developed to run
+&lt;a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript&lt;/a> everywhere
+(as opposed to solely in a web browser) which led to the development of a lot of
+software written in JavaScript (arguably the most popular programming language,
+see the survey by &lt;a href="https://insights.stackoverflow.com/survey/">StackOverflow&lt;/a>
+and the
+&lt;a href="https://redmonk.com/sogrady/2019/07/18/language-rankings-6-19/">RedMonk&lt;/a>&amp;rsquo;s
+one). I personally use several pieces of it, for instance
+&lt;a href="https://github.com/aksakalli/gtop">gtop&lt;/a> and
+&lt;a href="https://github.com/astefanutti/decktape">decktape&lt;/a> and I install them with the
+dedicated package manager, namely &lt;a href="https://www.npmjs.com/">npm&lt;/a>.&lt;/p>
+&lt;p>A few days ago, I had a hard time installing
+&lt;a href="https://github.com/astefanutti/decktape">decktape&lt;/a> &amp;mdash; that I use to convert my
+HTML presentations to pdf files &amp;mdash; on my Debian Buster computer, and so I
+decided to do a fresh install of Node.js and npm. Fortunately, the topic is well
+covered online, especially in &lt;a href="https://linuxize.com/post/how-to-install-node-js-on-debian-10/">a very clear article posted on
+Linuxize&lt;/a> which
+was very helpful. In a nutshell, there are two simple ways for this
+installation:&lt;/p></description></item></channel></rss>

@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Unzip on KevCaz's Website</title><link>https://kevcaz.github.io/tags/unzip/</link><description>Recent content in Unzip on KevCaz's Website</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Tue, 25 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/unzip/index.xml" rel="self" type="application/rss+xml"/><item><title>Unzip more than one file</title><link>https://kevcaz.github.io/notes/2018/09/2018-09-25_unzip_more_than/</link><pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/09/2018-09-25_unzip_more_than/</guid><description>Few days ago, I was trying to unzip a set of files and it did not work, so I looked up on the internet and found this very detailed post by Chris Jean that explains why
-1 unzip path/*.zip gives you an error whereas
-1 unzip &amp;#39;path/*.zip&amp;#39; works like a charm!
-Thanks Chris!</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Unzip on KevCaz's Website</title><link>https://kevcaz.github.io/tags/unzip/</link><description>Recent content in Unzip on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Tue, 25 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/unzip/index.xml" rel="self" type="application/rss+xml"/><item><title>Unzip more than one file</title><link>https://kevcaz.github.io/notes/2018/09/2018-09-25_unzip_more_than/</link><pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/09/2018-09-25_unzip_more_than/</guid><description>&lt;p>Few days ago, I was trying to unzip a set of files and it did
+not work, so I looked up on the internet and found this very detailed &lt;a href="https://chrisjean.com/unzip-multiple-files-from-linux-command-line/">post by Chris Jean&lt;/a> that explains why&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>unzip path/*.zip
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>gives you an error whereas&lt;/p>
+&lt;div class="highlight">&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>unzip &lt;span style="color:#ea9d34">&amp;#39;path/*.zip&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>works like a charm!&lt;/p>
+&lt;p>Thanks Chris!&lt;/p></description></item></channel></rss>
