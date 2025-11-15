@@ -1,0 +1,10 @@
+github.com/KaTeX/KaTeX v0.16.25 h1:y0BfLWCajh+XJlVT867t38VA/lVaOK2IQsopELObs58=
+github.com/KaTeX/KaTeX v0.16.25/go.mod h1:VI+aE+CVs/VqtbHnuhstfQST46GmrwpXH7LQAzYIouw=
+github.com/KevCaz/funkyflex v0.2.0 h1:fEw9uG1eCxD29yr5cE89OQ2xgTAhUcxHneznLY1Z9Z4=
+github.com/KevCaz/funkyflex v0.2.0/go.mod h1:WOoE+V6w3UNFc+kehh+2M6cZjPmyCnsaW2RjMRZLRco=
+github.com/KevCaz/funkyflex v0.2.1 h1:dslZ7OdAMLKbhl3QmE57DI6LoSxmzAXIcQx06ZL9rXI=
+github.com/KevCaz/funkyflex v0.2.1/go.mod h1:BTL1DLzlKnlCyyUoE1bhoZaPIt9uagEVHV2xxclyEHc=
+github.com/hugomods/hugopress v0.5.0 h1:eQHg1aKnc5StGFnV5H0BORhE0UmHYpaWHnX9QNseHrw=
+github.com/hugomods/hugopress v0.5.0/go.mod h1:CRYvr60xOkZOf4Atkuj+uEj2EH5pjJ39Ws3aJAkoMkA=
+github.com/hugomods/katex v0.3.6 h1:Xl7ruiXuwvEGlz3H02w24B0zRGtHcL4sMc11Ke/aMFE=
+github.com/hugomods/katex v0.3.6/go.mod h1:6ACkMfCEOjLIRwcbS33Yji29C113+zGdBF/5oMfWfZI=

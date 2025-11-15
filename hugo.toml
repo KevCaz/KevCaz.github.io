@@ -9,6 +9,10 @@ footnotereturnlinkcontents = "<sup>^</sup>"
 pygmentsUseClasses = false
 ignoreErrors = ["error-remote-getjson"]
 
+[module]
+  [[module.imports]]
+    path = 'github.com/KevCaz/funkyflex'
+ 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
