@@ -17,11 +17,11 @@ of tags used throughout these notes is available [here](/tags/).
 <details>
 <summary>Current configuration</summary>
 
-```.sh
+```sh
 $ inxi -S
 System:
-  Host: ubudel Kernel: 6.8.0-35-generic arch: x86_64 bits: 64
-  Desktop: GNOME v: 46.0 Distro: Ubuntu 24.04 LTS (Noble Numbat)
+  Host: insil-p3 Kernel: 6.17.0-5-generic arch: x86_64 bits: 64
+  Desktop: GNOME v: 49.0 Distro: Ubuntu 25.10 (Questing Quokka)
 ```
 
 </details>

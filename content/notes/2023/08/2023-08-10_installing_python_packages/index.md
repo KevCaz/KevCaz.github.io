@@ -44,17 +44,28 @@ So if I want to install a new package to do some analysis, `apt` may encounter s
 
 > (We have seen user reports of externally-installed packages being deleted on Debian or a derivative. We suspect this is because the user has previously run sudo pip install --upgrade pip and therefore now has a version of /usr/bin/pip without the Debian patch; standardizing this behavior in upstream package installers would address this problem.)
 
-I am pretty sure I did that many times, because I was not able to install the package I needed, I was lucky that nothing was broken...
+
+I’m pretty sure I did that many times because I couldn’t install the package I needed. Luckily, I didn’t break anything.
 
 
 Anyway, the solution proposes is a standardized mechanism to warn the user that python packages are managed (precisely the message above) and to suggest to use a virtual environment such as [`venv`](https://docs.python.org/3/library/venv.html). And so I installed a virtual environment (see this [thread on StackOverflow](https://stackoverflow.com/questions/75602063/pip-install-r-requirements-txt-is-failing-this-environment-is-externally-manag)
-). Note that using [Conda](https://docs.conda.io/en/latest/) is also a suitable option. To easily trigger the virtual environment I created an alias venc, which I call when I launch Python (I use [ipython](https://ipython.readthedocs.io/en/stable/)).
+). Note that using [Conda](https://docs.conda.io/en/latest/) is also a suitable option. 
+
+
+I first created the virtual environment at the root of my user home directory.
+
+```sh
+python3 -m venv .venv
+```
+
+
+To easily trigger the virtual environment I created an alias venv, which I call when I launch Python (I use [ipython](https://ipython.readthedocs.io/en/stable/)).
+
 
 ```sh
 alias venv='source ~/.venv/bin/activate'
 alias P='venv; ipython'
 ```
-
 
 
 <details>
