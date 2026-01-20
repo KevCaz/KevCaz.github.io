@@ -1,86 +1,86 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release on KevCaz's Website</title><link>https://kevcaz.github.io/tags/release/</link><description>Recent content in Release on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Tue, 04 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/release/index.xml" rel="self" type="application/rss+xml"/><item><title>From Mantic Minotaur to Noble Numbat</title><link>https://kevcaz.github.io/notes/2024/05/2024-05-30_noble_numbat/</link><pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2024/05/2024-05-30_noble_numbat/</guid><description>&lt;center>
- &lt;figure>
- &lt;img class="mg-bot" src="./assets/noble_numbat.png" width="50%" >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release on KevCaz's Website</title><link>https://kevcaz.github.io/tags/release/</link><description>Recent content in Release on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Tue, 04 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/release/index.xml" rel="self" type="application/rss+xml"/><item><title>From Mantic Minotaur to Noble Numbat</title><link>https://kevcaz.github.io/notes/2024/05/2024-05-30_noble_numbat/</link><pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2024/05/2024-05-30_noble_numbat/</guid><description>&lt;center&gt;
+ &lt;figure&gt;
+ &lt;img class="mg-bot" src="./assets/noble_numbat.png" width="50%" &gt;
  
- &lt;figcaption>&lt;div class="highlight justify">&lt;i class="fas fa-info-circle" aria-hidden>&lt;/i> Screenshot of my current desktop wallpaper, &lt;em>Little numbat boy&lt;/em> by @azskalt, see &lt;a href="https://ubuntu.com/blog/the-coronation-of-a-new-mascot-noble-numbat">&lt;em>The Coronation of a New Mascot: Noble Numbat&lt;/em>&lt;/a>.&lt;/div>&lt;/figcaption>
+ &lt;figcaption&gt;&lt;div class="highlight justify"&gt;&lt;i class="fas fa-info-circle" aria-hidden&gt;&lt;/i&gt; Screenshot of my current desktop wallpaper, &lt;em&gt;Little numbat boy&lt;/em&gt; by @azskalt, see &lt;a href="https://ubuntu.com/blog/the-coronation-of-a-new-mascot-noble-numbat"&gt;&lt;em&gt;The Coronation of a New Mascot: Noble Numbat&lt;/em&gt;&lt;/a&gt;.&lt;/div&gt;&lt;/figcaption&gt;
  
- &lt;/figure>
-&lt;/center>
+ &lt;/figure&gt;
+&lt;/center&gt;
 
-&lt;p>After a &lt;a href="https://lists.ubuntu.com/archives/ubuntu-devel-announce/2024-March/001343.htm">freezing phase&lt;/a> that started last March, Ubuntu 24.04 codenamed &lt;strong>Noble Numbat&lt;/strong> was released last April. It comes with a great deal of new features, listed in the release &lt;a href="https://discourse.ubuntu.com/t/ubuntu-24-04-lts-noble-numbat-release-notes/39890">release notes&lt;/a>.&lt;/p>
-&lt;p>As a Mantic Minotaur user, the option to update to Noble Numbat was presented in May, in a window that popped up after a regular update. At first it did not work, so I hit &lt;code>sudo do-release-upgrade&lt;/code> to better understand the problem. I quickly figured out that that the issue stems from a package that I set on hold. After unholding it, the updating process worked like a charm.&lt;/p></description></item><item><title>From Lunar Lobster to Mantic Minotaur</title><link>https://kevcaz.github.io/notes/2023/11/2023-11-05_from_lunar_lobster/</link><pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2023/11/2023-11-05_from_lunar_lobster/</guid><description>&lt;p>I have recently decided to upgrade to the most recent Ubuntu release on my Dell Precision machine, in other words, I wanted to get closer to &lt;a href="https://ubuntu.com/about/release-cycle">Ubuntu&amp;rsquo;s release cycle&lt;/a>. Previously, I would reinstall the latest long time release (LTS) every time a new update pops up (see &lt;a href="https://ubuntu.com/server/docs/upgrade-introduction">the documentation&lt;/a>).
-About 3 months ago, I switched to Ubuntu 23.04 (Lunar Lobster) and yesterday I upgraded to the October&amp;rsquo;s release, &lt;a href="https://ubuntu.com/blog/ubuntu-desktop-23-10-mantic-minotaur-deep-dive">Mantic Minotaur (23.10)&lt;/a>.
-The two upgrades were seamless, I just had to change a setting in the update-manager (see &lt;a href="https://help.ubuntu.com/community/LunarUpgrades">this&lt;/a>) and confirm the upgrade when I got notified. Once the installation completed, I had to edit a couple of source files for which only the latest LTS is available (22.04, a.k.a Jammy Jellyfish).
-Here is my current configuration in a nutshell:&lt;/p></description></item><item><title>From Bullseye to Bookworm</title><link>https://kevcaz.github.io/notes/2021/08/2021-08-29_from_bullseye_to/</link><pubDate>Sun, 29 Aug 2021 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2021/08/2021-08-29_from_bullseye_to/</guid><description>&lt;p>Two weeks ago, &lt;a href="https://wiki.debian.org/DebianBullseye">Bullseye&lt;/a> became the new stable Debian release. As I prefer using Debian testing, today, I jumped on Debian 12 codenamed &lt;a href="https://wiki.debian.org/DebianBookworm">&lt;strong>Bookworm&lt;/strong>&lt;/a>. To do so, I simply updated my &lt;a href="https://wiki.debian.org/SourcesList">source list&lt;/a> by replacing instances of &lt;code>bullseye&lt;/code> by &lt;code>bookworm&lt;/code>, and then I used the combo
-&lt;code>apt update&lt;/code>/ &lt;code>apt upgrade&lt;/code>.&lt;/p>
-&lt;div class="highlight">&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>$ apt-get update
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#797593">[&lt;/span>...&lt;span style="color:#797593">]&lt;/span> 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ apt-get upgrade 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Reading package lists... Done
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Building dependency tree... Done
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Reading state information... Done
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Calculating upgrade... Done
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>The following packages were automatically installed and are no longer required:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> gir1.2-handy-0.0 gnome-getting-started-docs libgcrypt20-dev libgl1-mesa-glx libjuh-java libjurt-java
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> liblibreoffice-java libridl-java libunoloader-java
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Use &lt;span style="color:#ea9d34">&amp;#39;sudo apt autoremove&amp;#39;&lt;/span> to remove them.
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>The following packages have been kept back:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> cryptsetup cryptsetup-bin cryptsetup-initramfs gnome-software &lt;span style="color:#797593">[&lt;/span>...&lt;span style="color:#797593">]&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> udisks2 vlc-plugin-video-output
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>The following packages will be upgraded:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> adwaita-icon-theme aisleriot alsa-topology-conf alsa-ucm-conf anacron &lt;span style="color:#797593">[&lt;/span>...&lt;span style="color:#797593">]&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ea9d34">797&lt;/span> upgraded, &lt;span style="color:#ea9d34">0&lt;/span> newly installed, &lt;span style="color:#ea9d34">0&lt;/span> to remove and &lt;span style="color:#ea9d34">68&lt;/span> not upgraded.
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Need to get &lt;span style="color:#ea9d34">841&lt;/span> MB of archives.
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>After this operation, 43.4 MB of additional disk space will be used.
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Do you want to &lt;span style="color:#286983">continue&lt;/span>? &lt;span style="color:#797593">[&lt;/span>Y/n&lt;span style="color:#797593">]&lt;/span> Y
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>It took a few minutes, then I dealt with the &amp;ldquo;kept back&amp;rdquo; packages with the following:&lt;/p></description></item><item><title>Debian 10 *buster* released</title><link>https://kevcaz.github.io/notes/2019/07/2019-07-09_debian_10_buster/</link><pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2019/07/2019-07-09_debian_10_buster/</guid><description>&lt;p>I have been on Debian &lt;em>buster&lt;/em> for more than a year while it was the Debian Testing. After a frozen period that lasted a few months, &lt;a href="https://www.debian.org/News/2019/20190706">&lt;em>buster&lt;/em> is the new stable Debian distribution since yesterday&lt;/a>!&lt;/p>
-&lt;p>What does this change on my end? Not much! Basically, as I was already using &lt;em>buster&lt;/em> in my &lt;code>/etc/apt/sources.list.d/&lt;/code> file, when I used &lt;code>apt-get update&lt;/code> I got the following message:&lt;/p>
-&lt;div class="highlight">&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>Get:1 http://security.debian.org/debian-security buster/updates InRelease &lt;span style="color:#797593">[&lt;/span>39.1 kB&lt;span style="color:#797593">]&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Get:2 http://deb.debian.org/debian buster InRelease &lt;span style="color:#797593">[&lt;/span>&lt;span style="color:#ea9d34">118&lt;/span> kB&lt;span style="color:#797593">]&lt;/span> 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#797593">[&lt;/span>... NOT SHOWN FOR THE SAKE OF BRIVETY&lt;span style="color:#797593">]&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Reading package lists... Done
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>N: Repository &lt;span style="color:#ea9d34">&amp;#39;http://security.debian.org/debian-security buster/updates InRelease&amp;#39;&lt;/span> changed its &lt;span style="color:#ea9d34">&amp;#39;Version&amp;#39;&lt;/span> value from &lt;span style="color:#ea9d34">&amp;#39;&amp;#39;&lt;/span> to &lt;span style="color:#ea9d34">&amp;#39;10&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>E: Repository &lt;span style="color:#ea9d34">&amp;#39;http://security.debian.org/debian-security buster/updates InRelease&amp;#39;&lt;/span> changed its &lt;span style="color:#ea9d34">&amp;#39;Suite&amp;#39;&lt;/span> value from &lt;span style="color:#ea9d34">&amp;#39;testing&amp;#39;&lt;/span> to &lt;span style="color:#ea9d34">&amp;#39;stable&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>N: This must be accepted explicitly before updates &lt;span style="color:#286983">for&lt;/span> this repository can be applied. See apt-secure&lt;span style="color:#797593">(&lt;/span>8&lt;span style="color:#797593">)&lt;/span> manpage &lt;span style="color:#286983">for&lt;/span> details.
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#797593">[&lt;/span>... NOT SHOWN FOR THE SAKE OF BRIVETY&lt;span style="color:#797593">]&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>As explained &lt;a href="https://superuser.com/questions/1456989/how-to-configure-apt-in-debian-buster-after-release">on &lt;i class="fab fa-stack-exchange">&lt;/i>&lt;/a>, all I had to do was:&lt;/p></description></item></channel></rss>
+&lt;p&gt;After a &lt;a href="https://lists.ubuntu.com/archives/ubuntu-devel-announce/2024-March/001343.htm"&gt;freezing phase&lt;/a&gt; that started last March, Ubuntu 24.04 codenamed &lt;strong&gt;Noble Numbat&lt;/strong&gt; was released last April. It comes with a great deal of new features, listed in the release &lt;a href="https://discourse.ubuntu.com/t/ubuntu-24-04-lts-noble-numbat-release-notes/39890"&gt;release notes&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As a Mantic Minotaur user, the option to update to Noble Numbat was presented in May, in a window that popped up after a regular update. At first it did not work, so I hit &lt;code&gt;sudo do-release-upgrade&lt;/code&gt; to better understand the problem. I quickly figured out that that the issue stems from a package that I set on hold. After unholding it, the updating process worked like a charm.&lt;/p&gt;</description></item><item><title>From Lunar Lobster to Mantic Minotaur</title><link>https://kevcaz.github.io/notes/2023/11/2023-11-05_from_lunar_lobster/</link><pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2023/11/2023-11-05_from_lunar_lobster/</guid><description>&lt;p&gt;I have recently decided to upgrade to the most recent Ubuntu release on my Dell Precision machine, in other words, I wanted to get closer to &lt;a href="https://ubuntu.com/about/release-cycle"&gt;Ubuntu&amp;rsquo;s release cycle&lt;/a&gt;. Previously, I would reinstall the latest long time release (LTS) every time a new update pops up (see &lt;a href="https://ubuntu.com/server/docs/upgrade-introduction"&gt;the documentation&lt;/a&gt;).
+About 3 months ago, I switched to Ubuntu 23.04 (Lunar Lobster) and yesterday I upgraded to the October&amp;rsquo;s release, &lt;a href="https://ubuntu.com/blog/ubuntu-desktop-23-10-mantic-minotaur-deep-dive"&gt;Mantic Minotaur (23.10)&lt;/a&gt;.
+The two upgrades were seamless, I just had to change a setting in the update-manager (see &lt;a href="https://help.ubuntu.com/community/LunarUpgrades"&gt;this&lt;/a&gt;) and confirm the upgrade when I got notified. Once the installation completed, I had to edit a couple of source files for which only the latest LTS is available (22.04, a.k.a Jammy Jellyfish).
+Here is my current configuration in a nutshell:&lt;/p&gt;</description></item><item><title>From Bullseye to Bookworm</title><link>https://kevcaz.github.io/notes/2021/08/2021-08-29_from_bullseye_to/</link><pubDate>Sun, 29 Aug 2021 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2021/08/2021-08-29_from_bullseye_to/</guid><description>&lt;p&gt;Two weeks ago, &lt;a href="https://wiki.debian.org/DebianBullseye"&gt;Bullseye&lt;/a&gt; became the new stable Debian release. As I prefer using Debian testing, today, I jumped on Debian 12 codenamed &lt;a href="https://wiki.debian.org/DebianBookworm"&gt;&lt;strong&gt;Bookworm&lt;/strong&gt;&lt;/a&gt;. To do so, I simply updated my &lt;a href="https://wiki.debian.org/SourcesList"&gt;source list&lt;/a&gt; by replacing instances of &lt;code&gt;bullseye&lt;/code&gt; by &lt;code&gt;bookworm&lt;/code&gt;, and then I used the combo
+&lt;code&gt;apt update&lt;/code&gt;/ &lt;code&gt;apt upgrade&lt;/code&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;17
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;18
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;19
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;20
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ apt-get update
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#797593"&gt;[&lt;/span&gt;...&lt;span style="color:#797593"&gt;]&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ apt-get upgrade 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Reading package lists... Done
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Building dependency tree... Done
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Reading state information... Done
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Calculating upgrade... Done
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;The following packages were automatically installed and are no longer required:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; gir1.2-handy-0.0 gnome-getting-started-docs libgcrypt20-dev libgl1-mesa-glx libjuh-java libjurt-java
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; liblibreoffice-java libridl-java libunoloader-java
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Use &lt;span style="color:#ea9d34"&gt;&amp;#39;sudo apt autoremove&amp;#39;&lt;/span&gt; to remove them.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;The following packages have been kept back:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; cryptsetup cryptsetup-bin cryptsetup-initramfs gnome-software &lt;span style="color:#797593"&gt;[&lt;/span&gt;...&lt;span style="color:#797593"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; udisks2 vlc-plugin-video-output
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;The following packages will be upgraded:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; adwaita-icon-theme aisleriot alsa-topology-conf alsa-ucm-conf anacron &lt;span style="color:#797593"&gt;[&lt;/span&gt;...&lt;span style="color:#797593"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ea9d34"&gt;797&lt;/span&gt; upgraded, &lt;span style="color:#ea9d34"&gt;0&lt;/span&gt; newly installed, &lt;span style="color:#ea9d34"&gt;0&lt;/span&gt; to remove and &lt;span style="color:#ea9d34"&gt;68&lt;/span&gt; not upgraded.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Need to get &lt;span style="color:#ea9d34"&gt;841&lt;/span&gt; MB of archives.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;After this operation, 43.4 MB of additional disk space will be used.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Do you want to &lt;span style="color:#286983"&gt;continue&lt;/span&gt;? &lt;span style="color:#797593"&gt;[&lt;/span&gt;Y/n&lt;span style="color:#797593"&gt;]&lt;/span&gt; Y
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;It took a few minutes, then I dealt with the &amp;ldquo;kept back&amp;rdquo; packages with the following:&lt;/p&gt;</description></item><item><title>Debian 10 *buster* released</title><link>https://kevcaz.github.io/notes/2019/07/2019-07-09_debian_10_buster/</link><pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2019/07/2019-07-09_debian_10_buster/</guid><description>&lt;p&gt;I have been on Debian &lt;em&gt;buster&lt;/em&gt; for more than a year while it was the Debian Testing. After a frozen period that lasted a few months, &lt;a href="https://www.debian.org/News/2019/20190706"&gt;&lt;em&gt;buster&lt;/em&gt; is the new stable Debian distribution since yesterday&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;What does this change on my end? Not much! Basically, as I was already using &lt;em&gt;buster&lt;/em&gt; in my &lt;code&gt;/etc/apt/sources.list.d/&lt;/code&gt; file, when I used &lt;code&gt;apt-get update&lt;/code&gt; I got the following message:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Get:1 http://security.debian.org/debian-security buster/updates InRelease &lt;span style="color:#797593"&gt;[&lt;/span&gt;39.1 kB&lt;span style="color:#797593"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Get:2 http://deb.debian.org/debian buster InRelease &lt;span style="color:#797593"&gt;[&lt;/span&gt;&lt;span style="color:#ea9d34"&gt;118&lt;/span&gt; kB&lt;span style="color:#797593"&gt;]&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#797593"&gt;[&lt;/span&gt;... NOT SHOWN FOR THE SAKE OF BRIVETY&lt;span style="color:#797593"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Reading package lists... Done
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;N: Repository &lt;span style="color:#ea9d34"&gt;&amp;#39;http://security.debian.org/debian-security buster/updates InRelease&amp;#39;&lt;/span&gt; changed its &lt;span style="color:#ea9d34"&gt;&amp;#39;Version&amp;#39;&lt;/span&gt; value from &lt;span style="color:#ea9d34"&gt;&amp;#39;&amp;#39;&lt;/span&gt; to &lt;span style="color:#ea9d34"&gt;&amp;#39;10&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;E: Repository &lt;span style="color:#ea9d34"&gt;&amp;#39;http://security.debian.org/debian-security buster/updates InRelease&amp;#39;&lt;/span&gt; changed its &lt;span style="color:#ea9d34"&gt;&amp;#39;Suite&amp;#39;&lt;/span&gt; value from &lt;span style="color:#ea9d34"&gt;&amp;#39;testing&amp;#39;&lt;/span&gt; to &lt;span style="color:#ea9d34"&gt;&amp;#39;stable&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;N: This must be accepted explicitly before updates &lt;span style="color:#286983"&gt;for&lt;/span&gt; this repository can be applied. See apt-secure&lt;span style="color:#797593"&gt;(&lt;/span&gt;8&lt;span style="color:#797593"&gt;)&lt;/span&gt; manpage &lt;span style="color:#286983"&gt;for&lt;/span&gt; details.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#797593"&gt;[&lt;/span&gt;... NOT SHOWN FOR THE SAKE OF BRIVETY&lt;span style="color:#797593"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;As explained &lt;a href="https://superuser.com/questions/1456989/how-to-configure-apt-in-debian-buster-after-release"&gt;on &lt;i class="fab fa-stack-exchange"&gt;&lt;/i&gt;&lt;/a&gt;, all I had to do was:&lt;/p&gt;</description></item></channel></rss>

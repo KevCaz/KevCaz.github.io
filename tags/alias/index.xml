@@ -1,34 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alias on KevCaz's Website</title><link>https://kevcaz.github.io/tags/alias/</link><description>Recent content in Alias on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/alias/index.xml" rel="self" type="application/rss+xml"/><item><title>Prezto's aliases for git</title><link>https://kevcaz.github.io/notes/2019/11/2019-11-01_prezto_s_aliases/</link><pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2019/11/2019-11-01_prezto_s_aliases/</guid><description>&lt;p>A few days ago, as I was having a look at the list of aliases I use with
-&lt;a href="http://zsh.sourceforge.net/">Zsh&lt;/a>, I realized that there was a ton of aliases
-available that I did not created:&lt;/p>
-&lt;div class="highlight">&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>$ &lt;span style="color:#d7827e">alias&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d7827e">g&lt;/span>&lt;span style="color:#797593">=&lt;/span>git
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d7827e">gCO&lt;/span>&lt;span style="color:#797593">=&lt;/span>&lt;span style="color:#ea9d34">&amp;#39;gCo $(gCl)&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d7827e">gCT&lt;/span>&lt;span style="color:#797593">=&lt;/span>&lt;span style="color:#ea9d34">&amp;#39;gCt $(gCl)&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d7827e">gCa&lt;/span>&lt;span style="color:#797593">=&lt;/span>&lt;span style="color:#ea9d34">&amp;#39;git add $(gCl)&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d7827e">gCe&lt;/span>&lt;span style="color:#797593">=&lt;/span>&lt;span style="color:#ea9d34">&amp;#39;git mergetool $(gCl)&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d7827e">gCl&lt;/span>&lt;span style="color:#797593">=&lt;/span>&lt;span style="color:#ea9d34">&amp;#39;git --no-pager diff --name-only --diff-filter=U&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d7827e">gCo&lt;/span>&lt;span style="color:#797593">=&lt;/span>&lt;span style="color:#ea9d34">&amp;#39;git checkout --ours --&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d7827e">gCt&lt;/span>&lt;span style="color:#797593">=&lt;/span>&lt;span style="color:#ea9d34">&amp;#39;git checkout --theirs --&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#797593">[&lt;/span>...&lt;span style="color:#797593">]&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d7827e">gws&lt;/span>&lt;span style="color:#797593">=&lt;/span>&lt;span style="color:#ea9d34">&amp;#39;git status --ignore-submodules=${_git_status_ignore_submodules} --short&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d7827e">gwx&lt;/span>&lt;span style="color:#797593">=&lt;/span>&lt;span style="color:#ea9d34">&amp;#39;git rm -r&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>I had two thoughts while I was examining those:&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alias on KevCaz's Website</title><link>https://kevcaz.github.io/tags/alias/</link><description>Recent content in Alias on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/alias/index.xml" rel="self" type="application/rss+xml"/><item><title>Prezto's aliases for git</title><link>https://kevcaz.github.io/notes/2019/11/2019-11-01_prezto_s_aliases/</link><pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2019/11/2019-11-01_prezto_s_aliases/</guid><description>&lt;p&gt;A few days ago, as I was having a look at the list of aliases I use with
+&lt;a href="http://zsh.sourceforge.net/"&gt;Zsh&lt;/a&gt;, I realized that there was a ton of aliases
+available that I did not created:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ &lt;span style="color:#d7827e"&gt;alias&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#d7827e"&gt;g&lt;/span&gt;&lt;span style="color:#797593"&gt;=&lt;/span&gt;git
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#d7827e"&gt;gCO&lt;/span&gt;&lt;span style="color:#797593"&gt;=&lt;/span&gt;&lt;span style="color:#ea9d34"&gt;&amp;#39;gCo $(gCl)&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#d7827e"&gt;gCT&lt;/span&gt;&lt;span style="color:#797593"&gt;=&lt;/span&gt;&lt;span style="color:#ea9d34"&gt;&amp;#39;gCt $(gCl)&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#d7827e"&gt;gCa&lt;/span&gt;&lt;span style="color:#797593"&gt;=&lt;/span&gt;&lt;span style="color:#ea9d34"&gt;&amp;#39;git add $(gCl)&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#d7827e"&gt;gCe&lt;/span&gt;&lt;span style="color:#797593"&gt;=&lt;/span&gt;&lt;span style="color:#ea9d34"&gt;&amp;#39;git mergetool $(gCl)&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#d7827e"&gt;gCl&lt;/span&gt;&lt;span style="color:#797593"&gt;=&lt;/span&gt;&lt;span style="color:#ea9d34"&gt;&amp;#39;git --no-pager diff --name-only --diff-filter=U&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#d7827e"&gt;gCo&lt;/span&gt;&lt;span style="color:#797593"&gt;=&lt;/span&gt;&lt;span style="color:#ea9d34"&gt;&amp;#39;git checkout --ours --&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#d7827e"&gt;gCt&lt;/span&gt;&lt;span style="color:#797593"&gt;=&lt;/span&gt;&lt;span style="color:#ea9d34"&gt;&amp;#39;git checkout --theirs --&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#797593"&gt;[&lt;/span&gt;...&lt;span style="color:#797593"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#d7827e"&gt;gws&lt;/span&gt;&lt;span style="color:#797593"&gt;=&lt;/span&gt;&lt;span style="color:#ea9d34"&gt;&amp;#39;git status --ignore-submodules=${_git_status_ignore_submodules} --short&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#d7827e"&gt;gwx&lt;/span&gt;&lt;span style="color:#797593"&gt;=&lt;/span&gt;&lt;span style="color:#ea9d34"&gt;&amp;#39;git rm -r&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;I had two thoughts while I was examining those:&lt;/p&gt;</description></item></channel></rss>

@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Keygen on KevCaz's Website</title><link>https://kevcaz.github.io/tags/keygen/</link><description>Recent content in Keygen on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Sat, 04 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/keygen/index.xml" rel="self" type="application/rss+xml"/><item><title>Generate a ssh key with R</title><link>https://kevcaz.github.io/notes/2020/04/2020-04-04_generate_a_ssh/</link><pubDate>Sat, 04 Apr 2020 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2020/04/2020-04-04_generate_a_ssh/</guid><description>&lt;p>I now frequently use &lt;a href="https://github.com/features/actions">GitHub actions&lt;/a> to
-deploy websites on gh-pages. One way to do so requires to use a &lt;a href="https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key">ssh
-key&lt;/a>
-(the full procedure is well explained, &lt;em>inter alia&lt;/em>, in the README of
-&lt;a href="https://github.com/peaceiris/actions-gh-pages">peaceiris/actions-gh-pages&lt;/a>). As
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Keygen on KevCaz's Website</title><link>https://kevcaz.github.io/tags/keygen/</link><description>Recent content in Keygen on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Sat, 04 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/keygen/index.xml" rel="self" type="application/rss+xml"/><item><title>Generate a ssh key with R</title><link>https://kevcaz.github.io/notes/2020/04/2020-04-04_generate_a_ssh/</link><pubDate>Sat, 04 Apr 2020 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2020/04/2020-04-04_generate_a_ssh/</guid><description>&lt;p&gt;I now frequently use &lt;a href="https://github.com/features/actions"&gt;GitHub actions&lt;/a&gt; to
+deploy websites on gh-pages. One way to do so requires to use a &lt;a href="https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key"&gt;ssh
+key&lt;/a&gt;
+(the full procedure is well explained, &lt;em&gt;inter alia&lt;/em&gt;, in the README of
+&lt;a href="https://github.com/peaceiris/actions-gh-pages"&gt;peaceiris/actions-gh-pages&lt;/a&gt;). As
 I am used to work with the Terminal, when I need such a key, I use the following
-command line:&lt;/p>
-&lt;div class="highlight">&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>$ ssh-keygen -t rsa -b &lt;span style="color:#ea9d34">4096&lt;/span> -C &lt;span style="color:#ea9d34">&amp;#34;&lt;/span>&lt;span style="color:#286983">$(&lt;/span>git config user.email&lt;span style="color:#286983">)&lt;/span>&lt;span style="color:#ea9d34">&amp;#34;&lt;/span> -f gh-pages -N &lt;span style="color:#ea9d34">&amp;#34;&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>which generates two files:&lt;/p></description></item></channel></rss>
+command line:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ ssh-keygen -t rsa -b &lt;span style="color:#ea9d34"&gt;4096&lt;/span&gt; -C &lt;span style="color:#ea9d34"&gt;&amp;#34;&lt;/span&gt;&lt;span style="color:#286983"&gt;$(&lt;/span&gt;git config user.email&lt;span style="color:#286983"&gt;)&lt;/span&gt;&lt;span style="color:#ea9d34"&gt;&amp;#34;&lt;/span&gt; -f gh-pages -N &lt;span style="color:#ea9d34"&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;which generates two files:&lt;/p&gt;</description></item></channel></rss>

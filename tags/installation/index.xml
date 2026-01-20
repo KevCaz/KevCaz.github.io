@@ -1,153 +1,153 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Installation on KevCaz's Website</title><link>https://kevcaz.github.io/tags/installation/</link><description>Recent content in Installation on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Tue, 23 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/installation/index.xml" rel="self" type="application/rss+xml"/><item><title>SSD Upgrade &amp; Ubuntu 25.10 Setup</title><link>https://kevcaz.github.io/notes/2025/12/2025-upgrade-again/</link><pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2025/12/2025-upgrade-again/</guid><description>&lt;h2 id="swapping-my-ssd">Swapping my SSD&lt;/h2>
-&lt;p>I have a Dell Precision 5530, which I really like, except for its storage capacity. I had been hesitating to take it to a service center for an SSD upgrade until a friend told me it was actually very easy because the SSD is easily accessible. So I bought a 2 TB SSD and did the upgrade myself, following this video: &lt;a href="https://www.youtube.com/watch?v=nGS9QDnsxP0">https://www.youtube.com/watch?v=nGS9QDnsxP0&lt;/a>. It really was easy and took less than 10 minutes, even for someone inexperienced like me.&lt;/p></description></item><item><title>From Mantic Minotaur to Noble Numbat</title><link>https://kevcaz.github.io/notes/2024/05/2024-05-30_noble_numbat/</link><pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2024/05/2024-05-30_noble_numbat/</guid><description>&lt;center>
- &lt;figure>
- &lt;img class="mg-bot" src="./assets/noble_numbat.png" width="50%" >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Installation on KevCaz's Website</title><link>https://kevcaz.github.io/tags/installation/</link><description>Recent content in Installation on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Tue, 23 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/installation/index.xml" rel="self" type="application/rss+xml"/><item><title>SSD Upgrade &amp; Ubuntu 25.10 Setup</title><link>https://kevcaz.github.io/notes/2025/12/2025-upgrade-again/</link><pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2025/12/2025-upgrade-again/</guid><description>&lt;h2 id="swapping-my-ssd"&gt;Swapping my SSD&lt;/h2&gt;
+&lt;p&gt;I have a Dell Precision 5530, which I really like, except for its storage capacity. I had been hesitating to take it to a service center for an SSD upgrade until a friend told me it was actually very easy because the SSD is easily accessible. So I bought a 2 TB SSD and did the upgrade myself, following this video: &lt;a href="https://www.youtube.com/watch?v=nGS9QDnsxP0"&gt;https://www.youtube.com/watch?v=nGS9QDnsxP0&lt;/a&gt;. It really was easy and took less than 10 minutes, even for someone inexperienced like me.&lt;/p&gt;</description></item><item><title>From Mantic Minotaur to Noble Numbat</title><link>https://kevcaz.github.io/notes/2024/05/2024-05-30_noble_numbat/</link><pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2024/05/2024-05-30_noble_numbat/</guid><description>&lt;center&gt;
+ &lt;figure&gt;
+ &lt;img class="mg-bot" src="./assets/noble_numbat.png" width="50%" &gt;
  
- &lt;figcaption>&lt;div class="highlight justify">&lt;i class="fas fa-info-circle" aria-hidden>&lt;/i> Screenshot of my current desktop wallpaper, &lt;em>Little numbat boy&lt;/em> by @azskalt, see &lt;a href="https://ubuntu.com/blog/the-coronation-of-a-new-mascot-noble-numbat">&lt;em>The Coronation of a New Mascot: Noble Numbat&lt;/em>&lt;/a>.&lt;/div>&lt;/figcaption>
+ &lt;figcaption&gt;&lt;div class="highlight justify"&gt;&lt;i class="fas fa-info-circle" aria-hidden&gt;&lt;/i&gt; Screenshot of my current desktop wallpaper, &lt;em&gt;Little numbat boy&lt;/em&gt; by @azskalt, see &lt;a href="https://ubuntu.com/blog/the-coronation-of-a-new-mascot-noble-numbat"&gt;&lt;em&gt;The Coronation of a New Mascot: Noble Numbat&lt;/em&gt;&lt;/a&gt;.&lt;/div&gt;&lt;/figcaption&gt;
  
- &lt;/figure>
-&lt;/center>
+ &lt;/figure&gt;
+&lt;/center&gt;
 
-&lt;p>After a &lt;a href="https://lists.ubuntu.com/archives/ubuntu-devel-announce/2024-March/001343.htm">freezing phase&lt;/a> that started last March, Ubuntu 24.04 codenamed &lt;strong>Noble Numbat&lt;/strong> was released last April. It comes with a great deal of new features, listed in the release &lt;a href="https://discourse.ubuntu.com/t/ubuntu-24-04-lts-noble-numbat-release-notes/39890">release notes&lt;/a>.&lt;/p>
-&lt;p>As a Mantic Minotaur user, the option to update to Noble Numbat was presented in May, in a window that popped up after a regular update. At first it did not work, so I hit &lt;code>sudo do-release-upgrade&lt;/code> to better understand the problem. I quickly figured out that that the issue stems from a package that I set on hold. After unholding it, the updating process worked like a charm.&lt;/p></description></item><item><title>From Lunar Lobster to Mantic Minotaur</title><link>https://kevcaz.github.io/notes/2023/11/2023-11-05_from_lunar_lobster/</link><pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2023/11/2023-11-05_from_lunar_lobster/</guid><description>&lt;p>I have recently decided to upgrade to the most recent Ubuntu release on my Dell Precision machine, in other words, I wanted to get closer to &lt;a href="https://ubuntu.com/about/release-cycle">Ubuntu&amp;rsquo;s release cycle&lt;/a>. Previously, I would reinstall the latest long time release (LTS) every time a new update pops up (see &lt;a href="https://ubuntu.com/server/docs/upgrade-introduction">the documentation&lt;/a>).
-About 3 months ago, I switched to Ubuntu 23.04 (Lunar Lobster) and yesterday I upgraded to the October&amp;rsquo;s release, &lt;a href="https://ubuntu.com/blog/ubuntu-desktop-23-10-mantic-minotaur-deep-dive">Mantic Minotaur (23.10)&lt;/a>.
-The two upgrades were seamless, I just had to change a setting in the update-manager (see &lt;a href="https://help.ubuntu.com/community/LunarUpgrades">this&lt;/a>) and confirm the upgrade when I got notified. Once the installation completed, I had to edit a couple of source files for which only the latest LTS is available (22.04, a.k.a Jammy Jellyfish).
-Here is my current configuration in a nutshell:&lt;/p></description></item><item><title>Installing Python packages in Debian Trixie</title><link>https://kevcaz.github.io/notes/2023/08/2023-08-10_installing_python_packages/</link><pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2023/08/2023-08-10_installing_python_packages/</guid><description>&lt;p>I recently switched back to Debian testing and since last June, testing is Debian 13 (codename Trixie). As I was installing a bunch of Python packages, I got the following error:&lt;/p>
-&lt;div class="highlight">&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>$ pip install numpy
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>error: externally-managed-environment
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>× This environment is externally managed
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>╰─&amp;gt; To install Python packages system-wide, try apt install
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> python3-xyz, where xyz is the package you are trying to
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> install.
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> If you wish to install a non-Debian-packaged Python package,
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> create a virtual environment using python3 -m venv path/to/venv.
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> sure you have python3-full installed.
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> If you wish to install a non-Debian packaged Python application,
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> it may be easiest to use pipx install xyz, which will manage a
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> virtual environment &lt;span style="color:#286983">for&lt;/span> you. Make sure you have pipx installed.
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> See /usr/share/doc/python3.11/README.venv &lt;span style="color:#286983">for&lt;/span> more information.
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>note: If you believe this is a mistake, please contact your Python installation 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>or OS distribution provider. You can override this, at the risk of breaking 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>your Python installation or OS, by passing --break-system-packages.
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>hint: See PEP &lt;span style="color:#ea9d34">668&lt;/span> &lt;span style="color:#286983">for&lt;/span> the detailed specification.
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>As it turned out, Debian &lt;a href="https://salsa.debian.org/python-team/packages/python-pip/-/blob/master/debian/NEWS">has adopted PEP 668&lt;/a> a few months ago. In a nutshell, the PEP 668 is motivated by the fact that most distros ship Python and install Python packages via their own package manager (e.g. &lt;code>apt&lt;/code> on Debian) and that there are potential conflicts between these packages and the ones installed via &lt;code>pip&lt;/code>. For instance, the following command line shows that I have almost 200 python packages installed via &lt;code>apt&lt;/code> (as mentioned above they start via &lt;code>python3-&lt;/code> or &lt;code>python-&lt;/code>).&lt;/p></description></item><item><title>What is wrong with Thunderbird?</title><link>https://kevcaz.github.io/notes/2021/06/2021-06-19_what_is_wrong/</link><pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2021/06/2021-06-19_what_is_wrong/</guid><description>&lt;p>Few days ago, as I was trying to refresh my emails, I realize that Thunderbird (Thunderbird &lt;a href="https://www.thunderbird.net/en-US/thunderbird/78.11.0/releasenotes/">78.11.0&lt;/a>) was no longer able to retrieved my mails from Gmail. I tried to understand what was the problem but I wasn&amp;rsquo;t able to figure it out. After a while, I decided to uninstall Thunderbird and reinstall it. Things just got worst I couldn&amp;rsquo;t set any of my email accounts. For my Gmail, I tried to use &lt;a href="https://auth0.com/docs/protocols/protocol-oauth2">OAuth2&lt;/a>, as it is &lt;a href="https://support.mozilla.org/en-US/questions/1269204">recommended&lt;/a> (it used to work for me), but the identification protocol did not work: instead of getting the Gmail interface to login, I got an error message pointing out a lack of security (&lt;code>NS_ERROR_NET_INADEQUATE_SECURITY&lt;/code>)&amp;hellip; As I did not understand why, I decided to stop speeding time on trying to find the origin of the problem. All I can say if that it should be related with the latest patch, &lt;a href="https://metadata.ftp-master.debian.org/changelogs//main/t/thunderbird/thunderbird_78.11.0-1_changelog">78.11.0-1&lt;/a> (and my setup, I guess).&lt;/p></description></item><item><title>Updating all your Python packages</title><link>https://kevcaz.github.io/notes/2020/01/2020-01-05_updating_all_your/</link><pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2020/01/2020-01-05_updating_all_your/</guid><description>&lt;p>Even if I do not frequently code in Python, my setup includes several packages
+&lt;p&gt;After a &lt;a href="https://lists.ubuntu.com/archives/ubuntu-devel-announce/2024-March/001343.htm"&gt;freezing phase&lt;/a&gt; that started last March, Ubuntu 24.04 codenamed &lt;strong&gt;Noble Numbat&lt;/strong&gt; was released last April. It comes with a great deal of new features, listed in the release &lt;a href="https://discourse.ubuntu.com/t/ubuntu-24-04-lts-noble-numbat-release-notes/39890"&gt;release notes&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As a Mantic Minotaur user, the option to update to Noble Numbat was presented in May, in a window that popped up after a regular update. At first it did not work, so I hit &lt;code&gt;sudo do-release-upgrade&lt;/code&gt; to better understand the problem. I quickly figured out that that the issue stems from a package that I set on hold. After unholding it, the updating process worked like a charm.&lt;/p&gt;</description></item><item><title>From Lunar Lobster to Mantic Minotaur</title><link>https://kevcaz.github.io/notes/2023/11/2023-11-05_from_lunar_lobster/</link><pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2023/11/2023-11-05_from_lunar_lobster/</guid><description>&lt;p&gt;I have recently decided to upgrade to the most recent Ubuntu release on my Dell Precision machine, in other words, I wanted to get closer to &lt;a href="https://ubuntu.com/about/release-cycle"&gt;Ubuntu&amp;rsquo;s release cycle&lt;/a&gt;. Previously, I would reinstall the latest long time release (LTS) every time a new update pops up (see &lt;a href="https://ubuntu.com/server/docs/upgrade-introduction"&gt;the documentation&lt;/a&gt;).
+About 3 months ago, I switched to Ubuntu 23.04 (Lunar Lobster) and yesterday I upgraded to the October&amp;rsquo;s release, &lt;a href="https://ubuntu.com/blog/ubuntu-desktop-23-10-mantic-minotaur-deep-dive"&gt;Mantic Minotaur (23.10)&lt;/a&gt;.
+The two upgrades were seamless, I just had to change a setting in the update-manager (see &lt;a href="https://help.ubuntu.com/community/LunarUpgrades"&gt;this&lt;/a&gt;) and confirm the upgrade when I got notified. Once the installation completed, I had to edit a couple of source files for which only the latest LTS is available (22.04, a.k.a Jammy Jellyfish).
+Here is my current configuration in a nutshell:&lt;/p&gt;</description></item><item><title>Installing Python packages in Debian Trixie</title><link>https://kevcaz.github.io/notes/2023/08/2023-08-10_installing_python_packages/</link><pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2023/08/2023-08-10_installing_python_packages/</guid><description>&lt;p&gt;I recently switched back to Debian testing and since last June, testing is Debian 13 (codename Trixie). As I was installing a bunch of Python packages, I got the following error:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;17
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;18
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;19
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;20
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;21
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;22
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;23
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ pip install numpy
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;error: externally-managed-environment
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;× This environment is externally managed
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;╰─&amp;gt; To install Python packages system-wide, try apt install
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; python3-xyz, where xyz is the package you are trying to
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; install.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; If you wish to install a non-Debian-packaged Python package,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; create a virtual environment using python3 -m venv path/to/venv.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; sure you have python3-full installed.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; If you wish to install a non-Debian packaged Python application,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; it may be easiest to use pipx install xyz, which will manage a
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; virtual environment &lt;span style="color:#286983"&gt;for&lt;/span&gt; you. Make sure you have pipx installed.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; See /usr/share/doc/python3.11/README.venv &lt;span style="color:#286983"&gt;for&lt;/span&gt; more information.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;note: If you believe this is a mistake, please contact your Python installation 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;or OS distribution provider. You can override this, at the risk of breaking 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;your Python installation or OS, by passing --break-system-packages.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hint: See PEP &lt;span style="color:#ea9d34"&gt;668&lt;/span&gt; &lt;span style="color:#286983"&gt;for&lt;/span&gt; the detailed specification.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;As it turned out, Debian &lt;a href="https://salsa.debian.org/python-team/packages/python-pip/-/blob/master/debian/NEWS"&gt;has adopted PEP 668&lt;/a&gt; a few months ago. In a nutshell, the PEP 668 is motivated by the fact that most distros ship Python and install Python packages via their own package manager (e.g. &lt;code&gt;apt&lt;/code&gt; on Debian) and that there are potential conflicts between these packages and the ones installed via &lt;code&gt;pip&lt;/code&gt;. For instance, the following command line shows that I have almost 200 python packages installed via &lt;code&gt;apt&lt;/code&gt; (as mentioned above they start via &lt;code&gt;python3-&lt;/code&gt; or &lt;code&gt;python-&lt;/code&gt;).&lt;/p&gt;</description></item><item><title>What is wrong with Thunderbird?</title><link>https://kevcaz.github.io/notes/2021/06/2021-06-19_what_is_wrong/</link><pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2021/06/2021-06-19_what_is_wrong/</guid><description>&lt;p&gt;Few days ago, as I was trying to refresh my emails, I realize that Thunderbird (Thunderbird &lt;a href="https://www.thunderbird.net/en-US/thunderbird/78.11.0/releasenotes/"&gt;78.11.0&lt;/a&gt;) was no longer able to retrieved my mails from Gmail. I tried to understand what was the problem but I wasn&amp;rsquo;t able to figure it out. After a while, I decided to uninstall Thunderbird and reinstall it. Things just got worst I couldn&amp;rsquo;t set any of my email accounts. For my Gmail, I tried to use &lt;a href="https://auth0.com/docs/protocols/protocol-oauth2"&gt;OAuth2&lt;/a&gt;, as it is &lt;a href="https://support.mozilla.org/en-US/questions/1269204"&gt;recommended&lt;/a&gt; (it used to work for me), but the identification protocol did not work: instead of getting the Gmail interface to login, I got an error message pointing out a lack of security (&lt;code&gt;NS_ERROR_NET_INADEQUATE_SECURITY&lt;/code&gt;)&amp;hellip; As I did not understand why, I decided to stop speeding time on trying to find the origin of the problem. All I can say if that it should be related with the latest patch, &lt;a href="https://metadata.ftp-master.debian.org/changelogs//main/t/thunderbird/thunderbird_78.11.0-1_changelog"&gt;78.11.0-1&lt;/a&gt; (and my setup, I guess).&lt;/p&gt;</description></item><item><title>Updating all your Python packages</title><link>https://kevcaz.github.io/notes/2020/01/2020-01-05_updating_all_your/</link><pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2020/01/2020-01-05_updating_all_your/</guid><description>&lt;p&gt;Even if I do not frequently code in Python, my setup includes several packages
 of this programming language. While I was looking for a simple way to update
-all installed packages, I found &lt;a href="https://stackoverflow.com/questions/2720014/how-to-upgrade-all-python-packages-with-pip">this thread on stack
-overflow&lt;/a>
-which helps me writing the following alias in my zsh profile:&lt;/p>
-&lt;div class="highlight">&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d7827e">alias&lt;/span> &lt;span style="color:#d7827e">updpy&lt;/span>&lt;span style="color:#797593">=&lt;/span>&lt;span style="color:#ea9d34">&amp;#39;for i in $(pip list --outdated --format=columns |tail -n +3|cut -d&amp;#34; &amp;#34; -f1)
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ea9d34"> do pip install --user $i --upgrade
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ea9d34">done&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Now, when I enter &lt;code>updpy&lt;/code> in my Terminal, all installed Python packages are
+all installed packages, I found &lt;a href="https://stackoverflow.com/questions/2720014/how-to-upgrade-all-python-packages-with-pip"&gt;this thread on stack
+overflow&lt;/a&gt;
+which helps me writing the following alias in my zsh profile:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#d7827e"&gt;alias&lt;/span&gt; &lt;span style="color:#d7827e"&gt;updpy&lt;/span&gt;&lt;span style="color:#797593"&gt;=&lt;/span&gt;&lt;span style="color:#ea9d34"&gt;&amp;#39;for i in $(pip list --outdated --format=columns |tail -n +3|cut -d&amp;#34; &amp;#34; -f1)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ea9d34"&gt; do pip install --user $i --upgrade
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ea9d34"&gt;done&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Now, when I enter &lt;code&gt;updpy&lt;/code&gt; in my Terminal, all installed Python packages are
 updated. Pretty sweet &amp;#x1f604;! Note that if you are using Python more often
 that I do, you may benefit from installing the package manager
-&lt;a href="https://conda.io/en/latest/">Conda&lt;/a>. With Conda, all you need to do is:&lt;/p></description></item><item><title>SageMath version 8.6 on Debian Buster</title><link>https://kevcaz.github.io/notes/2019/07/2019-07-18_sagemath_version_8/</link><pubDate>Thu, 18 Jul 2019 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2019/07/2019-07-18_sagemath_version_8/</guid><description>&lt;p>This is a short note to follow up on a &lt;a href="../../notes/sage/installsage">previous one&lt;/a> where I reported the steps to install the latest release of &lt;a href="http://www.sagemath.org/">Sage&lt;/a> using the GitHub repository. At that time Sage version 8.3 was not available on Debian Buster but now version 8.6 is available on Buster! Given the set of dependencies of Sage, I guessed it was quite a challenge to pack it up, so &amp;#x1f44f; to the relentless Debian package maintainers because thanks to them all I need to install Sage is:&lt;/p></description></item><item><title>Dual Boot MacOS-Ubuntu</title><link>https://kevcaz.github.io/notes/2019/07/2019-07-16_dual_boot_macos/</link><pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2019/07/2019-07-16_dual_boot_macos/</guid><description>&lt;h2 id="context">Context&lt;/h2>
-&lt;p>I must say that I have been quite unhappy with my old Mac Book Pro (mid 2012)
+&lt;a href="https://conda.io/en/latest/"&gt;Conda&lt;/a&gt;. With Conda, all you need to do is:&lt;/p&gt;</description></item><item><title>SageMath version 8.6 on Debian Buster</title><link>https://kevcaz.github.io/notes/2019/07/2019-07-18_sagemath_version_8/</link><pubDate>Thu, 18 Jul 2019 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2019/07/2019-07-18_sagemath_version_8/</guid><description>&lt;p&gt;This is a short note to follow up on a &lt;a href="../../notes/sage/installsage"&gt;previous one&lt;/a&gt; where I reported the steps to install the latest release of &lt;a href="http://www.sagemath.org/"&gt;Sage&lt;/a&gt; using the GitHub repository. At that time Sage version 8.3 was not available on Debian Buster but now version 8.6 is available on Buster! Given the set of dependencies of Sage, I guessed it was quite a challenge to pack it up, so &amp;#x1f44f; to the relentless Debian package maintainers because thanks to them all I need to install Sage is:&lt;/p&gt;</description></item><item><title>Dual Boot MacOS-Ubuntu</title><link>https://kevcaz.github.io/notes/2019/07/2019-07-16_dual_boot_macos/</link><pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2019/07/2019-07-16_dual_boot_macos/</guid><description>&lt;h2 id="context"&gt;Context&lt;/h2&gt;
+&lt;p&gt;I must say that I have been quite unhappy with my old Mac Book Pro (mid 2012)
 for almost a year now. IIRC, I got it early 2013 and it served me well during my
 PhD but now it is kind of slow &amp;#x1f422; and often behaves weirdly on boot. Last
 weekend fir instance, I got a nasty black screen on boot &amp;#x1f631;. Turns out it
-happens frequently and there are no less than &lt;a href="http://osxdaily.com/2014/11/22/fix-macbook-pro-booting-black-screen/">four different solutions to this
+happens frequently and there are no less than &lt;a href="http://osxdaily.com/2014/11/22/fix-macbook-pro-booting-black-screen/"&gt;four different solutions to this
 issue
-&amp;#x1f631;&lt;/a>
+&amp;#x1f631;&lt;/a&gt;
 (in my case, emptying the PRAM did the job)&amp;hellip; Windows, MacOS, blue screen,
 black screen, yunno&amp;hellip; I found having these issues actually rather worrisome
 because I care about my computer, I update it frequently and I&amp;rsquo;m actually
 capable of solving this kind of issues, so WTF? This whole situation makes me
 wonder what people unable to deal with this kind of problem would do&amp;hellip; My guess
 is they would go to an fancy Apple store to either get it fixed &amp;#x1f4b0; or
-get a new shinny Mac &amp;#x1f4b0;&amp;#x1f4b0;&amp;#x1f4b0;! Anyway, as the time went on, I started to feel frustrated and as I was not a big fan of &lt;a href="https://www.apple.com/ca/fr/macos/mojave/">MacOS Mojave&lt;/a> (it brings nothing I need and I haven&amp;rsquo;t noted any improvement). Given this I decided:&lt;/p></description></item><item><title>My Raspberry Pi 3B</title><link>https://kevcaz.github.io/notes/2019/07/2019-07-12_my_raspberry_pi/</link><pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2019/07/2019-07-12_my_raspberry_pi/</guid><description>&lt;p>Two years ago now, I bought myself a &lt;a href="https://en.wikipedia.org/wiki/Raspberry_Pi">Raspberry Pi
-3B&lt;/a> (back in 2015, I bought a model
-2B and since June of this year, &lt;a href="https://www.raspberrypi.org/products/raspberry-pi-4-model-b/">model 4B is
-out&lt;/a> but has &lt;a href="https://www.theverge.com/2019/7/10/20688655/raspberry-pi-4-usb-c-port-bug-e-marked-cables-audio-accessory-charging">some
-issues&lt;/a>).
+get a new shinny Mac &amp;#x1f4b0;&amp;#x1f4b0;&amp;#x1f4b0;! Anyway, as the time went on, I started to feel frustrated and as I was not a big fan of &lt;a href="https://www.apple.com/ca/fr/macos/mojave/"&gt;MacOS Mojave&lt;/a&gt; (it brings nothing I need and I haven&amp;rsquo;t noted any improvement). Given this I decided:&lt;/p&gt;</description></item><item><title>My Raspberry Pi 3B</title><link>https://kevcaz.github.io/notes/2019/07/2019-07-12_my_raspberry_pi/</link><pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2019/07/2019-07-12_my_raspberry_pi/</guid><description>&lt;p&gt;Two years ago now, I bought myself a &lt;a href="https://en.wikipedia.org/wiki/Raspberry_Pi"&gt;Raspberry Pi
+3B&lt;/a&gt; (back in 2015, I bought a model
+2B and since June of this year, &lt;a href="https://www.raspberrypi.org/products/raspberry-pi-4-model-b/"&gt;model 4B is
+out&lt;/a&gt; but has &lt;a href="https://www.theverge.com/2019/7/10/20688655/raspberry-pi-4-usb-c-port-bug-e-marked-cables-audio-accessory-charging"&gt;some
+issues&lt;/a&gt;).
 Even if don&amp;rsquo;t use it as much as I would like to, this small computer never
 ceases to amaze me! The concept is awesome, the education goals are meaningful
 and timely and the community is great, just check out the official website
-&lt;a href="https://www.raspberrypi.org/">https://www.raspberrypi.org/&lt;/a>.&lt;/p></description></item><item><title>Julia v1.1-rc1 from source</title><link>https://kevcaz.github.io/notes/2019/01/2019-01-13_julia_v1_1/</link><pubDate>Sun, 13 Jan 2019 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2019/01/2019-01-13_julia_v1_1/</guid><description>&lt;p>Learning more about Julia is one of the many things I attempt to do in 2019 &amp;#x1f604;. Few weeks ago, I &lt;a href="../../notes/julia/juliav1/">installed Julia 1.0.0&lt;/a> using the GitHub repository and I decided to checkout how easy it would be to upgrade to the version to &lt;a href="https://github.com/JuliaLang/julia/blob/v1.1.0-rc1/NEWS.md">v1.1.0-rc1&lt;/a>
-(note that &amp;ldquo;rc&amp;rdquo; stands for &lt;a href="https://en.wikipedia.org/wiki/Software_release_life_cycle#Release_candidate">release candidate&lt;/a>). It was quite easy, all I had to do was:&lt;/p>
-&lt;pre tabindex="0">&lt;code>git checkout master
+&lt;a href="https://www.raspberrypi.org/"&gt;https://www.raspberrypi.org/&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Julia v1.1-rc1 from source</title><link>https://kevcaz.github.io/notes/2019/01/2019-01-13_julia_v1_1/</link><pubDate>Sun, 13 Jan 2019 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2019/01/2019-01-13_julia_v1_1/</guid><description>&lt;p&gt;Learning more about Julia is one of the many things I attempt to do in 2019 &amp;#x1f604;. Few weeks ago, I &lt;a href="../../notes/julia/juliav1/"&gt;installed Julia 1.0.0&lt;/a&gt; using the GitHub repository and I decided to checkout how easy it would be to upgrade to the version to &lt;a href="https://github.com/JuliaLang/julia/blob/v1.1.0-rc1/NEWS.md"&gt;v1.1.0-rc1&lt;/a&gt;
+(note that &amp;ldquo;rc&amp;rdquo; stands for &lt;a href="https://en.wikipedia.org/wiki/Software_release_life_cycle#Release_candidate"&gt;release candidate&lt;/a&gt;). It was quite easy, all I had to do was:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;git checkout master
 git pull
 git checkout v1.1.0-rc1
 make
-&lt;/code>&lt;/pre>&lt;p>1h13min42sec latter, julia 1.1 was installed.&lt;/p></description></item><item><title>Thunderbird v60.3.0 solves them all!</title><link>https://kevcaz.github.io/notes/2018/11/2018-11-08_thunderbird_v60_3/</link><pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/11/2018-11-08_thunderbird_v60_3/</guid><description>&lt;p>As I mentioned in &lt;a href="../../notes/mozilla/olderthuderbirdversion/">a previous note&lt;/a>, when
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;1h13min42sec latter, julia 1.1 was installed.&lt;/p&gt;</description></item><item><title>Thunderbird v60.3.0 solves them all!</title><link>https://kevcaz.github.io/notes/2018/11/2018-11-08_thunderbird_v60_3/</link><pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/11/2018-11-08_thunderbird_v60_3/</guid><description>&lt;p&gt;As I mentioned in &lt;a href="../../notes/mozilla/olderthuderbirdversion/"&gt;a previous note&lt;/a&gt;, when
 I installed the version 60.0-3 of Thunderbird I was no longer able to write new
 emails and so I had to downgrade to v.52.9.1. Since that time, things have gotten
 worst as I was no longer able to get hyperlinks opening the corresponding page
 in my web browser &amp;#x1f631;. I did not look for a fix, I simply coped with it waiting
 for an update. Yesterday, at last, I installed 60.3.0 and it solves all my issues,
-everything is back to normal &amp;#x1f386;!&lt;/p></description></item><item><title>Back to Thunderbird 52.9.1!</title><link>https://kevcaz.github.io/notes/2018/09/2018-09-18_back_to_thunderbird/</link><pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/09/2018-09-18_back_to_thunderbird/</guid><description>&lt;p>Recently, Firefox 60 and &lt;a href="https://www.thunderbird.net/en-US/">Thunderbird 60&lt;/a>
+everything is back to normal &amp;#x1f386;!&lt;/p&gt;</description></item><item><title>Back to Thunderbird 52.9.1!</title><link>https://kevcaz.github.io/notes/2018/09/2018-09-18_back_to_thunderbird/</link><pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/09/2018-09-18_back_to_thunderbird/</guid><description>&lt;p&gt;Recently, Firefox 60 and &lt;a href="https://www.thunderbird.net/en-US/"&gt;Thunderbird 60&lt;/a&gt;
 were made available for Debian Testing and I installed them. While I was and
 still am happy with Firefox 60, when I tried Thunderbird I had some issues&amp;hellip;
 Basically, I was not able to send a message and one of my favorite add-on,
-&lt;a href="https://markdown-here.com/index.html">Markdown-Here&lt;/a>, was not available
+&lt;a href="https://markdown-here.com/index.html"&gt;Markdown-Here&lt;/a&gt;, was not available
 for this version &amp;#x1f622;. So, I needed to get the previous version back.
-I searched for an answer and found &lt;a href="https://askubuntu.com/questions/138284/how-to-downgrade-a-package-via-apt-get">this
-one&lt;/a>,
-very helpful! So I checked the version available using &lt;code>apt-cache policy&lt;/code>:&lt;/p></description></item><item><title>My Lenovo T470p</title><link>https://kevcaz.github.io/notes/2018/09/2018-09-14_my_lenovo_t470p/</link><pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/09/2018-09-14_my_lenovo_t470p/</guid><description>&lt;p>When I switched from MacOS to Debian, I had no idea what laptop to buy
+I searched for an answer and found &lt;a href="https://askubuntu.com/questions/138284/how-to-downgrade-a-package-via-apt-get"&gt;this
+one&lt;/a&gt;,
+very helpful! So I checked the version available using &lt;code&gt;apt-cache policy&lt;/code&gt;:&lt;/p&gt;</description></item><item><title>My Lenovo T470p</title><link>https://kevcaz.github.io/notes/2018/09/2018-09-14_my_lenovo_t470p/</link><pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/09/2018-09-14_my_lenovo_t470p/</guid><description>&lt;p&gt;When I switched from MacOS to Debian, I had no idea what laptop to buy
 so I searched for some information on the Internet. As expected it was hard
 to find reliable sources of information among websites that are obviously not
-neutral. After a few hours on the net, I ended up buying a &lt;a href="https://www.notebookcheck.net/Lenovo-ThinkPad-T470p-Core-i7-GeForce-940MX-Laptop-Review.226802.0.html">Lenovo ThinkPad T470p&lt;/a>
-and &lt;a href="https://insileco.github.io/2018/01/21/setting-my-debian-stretch-up/">installed Debian on&lt;/a>,
-so far so good, very happy I made this choice.&lt;/p>
-&lt;p>Now that I am on several Debian mailing lists, it actually seems that Debian
+neutral. After a few hours on the net, I ended up buying a &lt;a href="https://www.notebookcheck.net/Lenovo-ThinkPad-T470p-Core-i7-GeForce-940MX-Laptop-Review.226802.0.html"&gt;Lenovo ThinkPad T470p&lt;/a&gt;
+and &lt;a href="https://insileco.github.io/2018/01/21/setting-my-debian-stretch-up/"&gt;installed Debian on&lt;/a&gt;,
+so far so good, very happy I made this choice.&lt;/p&gt;
+&lt;p&gt;Now that I am on several Debian mailing lists, it actually seems that Debian
 users generally appreciate Lenovo as a brand and more particularly the
-&lt;a href="https://en.wikipedia.org/wiki/ThinkPad">ThinkPad&lt;/a> line of laptop. I retain
-some advice from the mails Debian users are exchanging:&lt;/p></description></item><item><title>Building Sage 8.3 from sources on Debian Testing</title><link>https://kevcaz.github.io/notes/2018/09/2018-09-10_building_sage_8/</link><pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/09/2018-09-10_building_sage_8/</guid><description>&lt;p>&lt;a href="http://www.sagemath.org/">Sage&lt;/a> is a powerful mathematics software I use
+&lt;a href="https://en.wikipedia.org/wiki/ThinkPad"&gt;ThinkPad&lt;/a&gt; line of laptop. I retain
+some advice from the mails Debian users are exchanging:&lt;/p&gt;</description></item><item><title>Building Sage 8.3 from sources on Debian Testing</title><link>https://kevcaz.github.io/notes/2018/09/2018-09-10_building_sage_8/</link><pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/09/2018-09-10_building_sage_8/</guid><description>&lt;p&gt;&lt;a href="http://www.sagemath.org/"&gt;Sage&lt;/a&gt; is a powerful mathematics software I use
 to do symbolic computation. Currently, there is no version available for Debian
-Testing, meaning you can either &lt;a href="https://packages.debian.org/search?keywords=sagemath">install the version available for the stable
-release or cherry pick the package available for Sid&lt;/a>.
-Well I was not able to &lt;code>sudo apt-get&lt;/code> the package for Stretch so I decided
-to use the same approach as I did for Julia (see &lt;a href="../../notes/julia/juliav1">this previous note&lt;/a>).
-Basically, the sources of sage are &lt;a href="https://github.com/sagemath/sage">mirrored on Github&lt;/a>
-so one can clone the repository:&lt;/p></description></item><item><title>Building Julia 1.0.0 from sources on Debian Testing</title><link>https://kevcaz.github.io/notes/2018/09/2018-09-06_building_julia_1/</link><pubDate>Thu, 06 Sep 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/09/2018-09-06_building_julia_1/</guid><description>&lt;p>You may have already heard about &lt;a href="https://julialang.org/">Julia&lt;/a>. Well, I am not
+Testing, meaning you can either &lt;a href="https://packages.debian.org/search?keywords=sagemath"&gt;install the version available for the stable
+release or cherry pick the package available for Sid&lt;/a&gt;.
+Well I was not able to &lt;code&gt;sudo apt-get&lt;/code&gt; the package for Stretch so I decided
+to use the same approach as I did for Julia (see &lt;a href="../../notes/julia/juliav1"&gt;this previous note&lt;/a&gt;).
+Basically, the sources of sage are &lt;a href="https://github.com/sagemath/sage"&gt;mirrored on Github&lt;/a&gt;
+so one can clone the repository:&lt;/p&gt;</description></item><item><title>Building Julia 1.0.0 from sources on Debian Testing</title><link>https://kevcaz.github.io/notes/2018/09/2018-09-06_building_julia_1/</link><pubDate>Thu, 06 Sep 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/09/2018-09-06_building_julia_1/</guid><description>&lt;p&gt;You may have already heard about &lt;a href="https://julialang.org/"&gt;Julia&lt;/a&gt;. Well, I am not
 (yet) a regular user but Julia&amp;rsquo;s performances are impressive, the langage is
 well-thought and the community is growing super fast, I therefore pay careful
-attention to what&amp;rsquo;s happening on their side. Recently, &lt;a href="https://juliacomputing.com/press/2018/08/10/Julia-1.0-Released.html">version 1.0.0&lt;/a>
-was released, so I decided to replace my &lt;a href="https://packages.debian.org/fr/strecth/julia">local version v0.4.7.9&lt;/a> I installed with &lt;code>apt-get&lt;/code> (note that currently &lt;a href="https://packages.debian.org/fr/sid/julia">v0.7.0-2 is available for Sid&lt;/a>).&lt;/p>
-&lt;p>There are two ways to install Julia for Debian without &lt;code>apt-get&lt;/code>.
-First one is to go on the website and download the &lt;a href="https://julialang.org/downloads/platform.html#generic-binaries">Generic Linux Binaries for x86&lt;/a>. Second
-is to follow the guidelines on the &lt;a href="https://github.com/JuliaLang/julia">README file of the Github repository&lt;/a> to compile Julia from sources. That is what I did, starting by cloning the repository:&lt;/p></description></item></channel></rss>
+attention to what&amp;rsquo;s happening on their side. Recently, &lt;a href="https://juliacomputing.com/press/2018/08/10/Julia-1.0-Released.html"&gt;version 1.0.0&lt;/a&gt;
+was released, so I decided to replace my &lt;a href="https://packages.debian.org/fr/strecth/julia"&gt;local version v0.4.7.9&lt;/a&gt; I installed with &lt;code&gt;apt-get&lt;/code&gt; (note that currently &lt;a href="https://packages.debian.org/fr/sid/julia"&gt;v0.7.0-2 is available for Sid&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;There are two ways to install Julia for Debian without &lt;code&gt;apt-get&lt;/code&gt;.
+First one is to go on the website and download the &lt;a href="https://julialang.org/downloads/platform.html#generic-binaries"&gt;Generic Linux Binaries for x86&lt;/a&gt;. Second
+is to follow the guidelines on the &lt;a href="https://github.com/JuliaLang/julia"&gt;README file of the Github repository&lt;/a&gt; to compile Julia from sources. That is what I did, starting by cloning the repository:&lt;/p&gt;</description></item></channel></rss>

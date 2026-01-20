@@ -1,59 +1,59 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bookworm on KevCaz's Website</title><link>https://kevcaz.github.io/tags/bookworm/</link><description>Recent content in Bookworm on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Fri, 03 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/bookworm/index.xml" rel="self" type="application/rss+xml"/><item><title>Debian Bookworm setup -- update</title><link>https://kevcaz.github.io/notes/2023/02/2023-02-03_debian_bookworm_setup/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2023/02/2023-02-03_debian_bookworm_setup/</guid><description>&lt;p>I recently lent someone my Lenovo T470p and when I got it back, I decided to install
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bookworm on KevCaz's Website</title><link>https://kevcaz.github.io/tags/bookworm/</link><description>Recent content in Bookworm on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Fri, 03 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/bookworm/index.xml" rel="self" type="application/rss+xml"/><item><title>Debian Bookworm setup -- update</title><link>https://kevcaz.github.io/notes/2023/02/2023-02-03_debian_bookworm_setup/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2023/02/2023-02-03_debian_bookworm_setup/</guid><description>&lt;p&gt;I recently lent someone my Lenovo T470p and when I got it back, I decided to install
 Debian back on it (I installed Ubuntu 22.04 to make it easier to use for a non-Linux user).
-I went through all the installation seamlessly, but I was not able to have the wifi working. I knew it was related to &lt;code>firmware-iwlwifi&lt;/code>, but I was unable to install it.
-As it turned out, the package was not available for bookworm (found this but looking at &lt;a href="https://packages.debian.org/search?keywords=iwlwifi)">https://packages.debian.org/search?keywords=iwlwifi)&lt;/a>, probably due to some bugs (see &lt;a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=firmware-iwlwifi;dist=unstable)">https://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=firmware-iwlwifi;dist=unstable)&lt;/a>.&lt;/p></description></item><item><title>Debian Bookworm setup</title><link>https://kevcaz.github.io/notes/2022/05/2022-05-22_debian_bookworm_setup/</link><pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2022/05/2022-05-22_debian_bookworm_setup/</guid><description>&lt;p>I recently decided to re-install my computer and I took the opportunity to
-create a &lt;a href="https://gist.github.com/">gist&lt;/a> that includes light version of my
+I went through all the installation seamlessly, but I was not able to have the wifi working. I knew it was related to &lt;code&gt;firmware-iwlwifi&lt;/code&gt;, but I was unable to install it.
+As it turned out, the package was not available for bookworm (found this but looking at &lt;a href="https://packages.debian.org/search?keywords=iwlwifi%29"&gt;https://packages.debian.org/search?keywords=iwlwifi)&lt;/a&gt;, probably due to some bugs (see &lt;a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=firmware-iwlwifi;dist=unstable%29"&gt;https://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=firmware-iwlwifi;dist=unstable)&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Debian Bookworm setup</title><link>https://kevcaz.github.io/notes/2022/05/2022-05-22_debian_bookworm_setup/</link><pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2022/05/2022-05-22_debian_bookworm_setup/</guid><description>&lt;p&gt;I recently decided to re-install my computer and I took the opportunity to
+create a &lt;a href="https://gist.github.com/"&gt;gist&lt;/a&gt; that includes light version of my
 Debian 11 set-up, i.e. all the tools I used the most. Once again during the
-install (I use a &lt;a href="https://cdimage.debian.org/cdimage/weekly-builds/">Debian weekly build installation
-image&lt;/a>) did not keep things
+install (I use a &lt;a href="https://cdimage.debian.org/cdimage/weekly-builds/"&gt;Debian weekly build installation
+image&lt;/a&gt;) did not keep things
 light as I let several pieces of software be installed during the setup (e.g.
 LibreOffice, Inkscape). So here goes the 4th version of my bash script to
-install Debian on my Lenovo T470p &amp;#x2b07;&amp;#xfe0f;. It works well, as always!&lt;/p></description></item><item><title>From Bullseye to Bookworm</title><link>https://kevcaz.github.io/notes/2021/08/2021-08-29_from_bullseye_to/</link><pubDate>Sun, 29 Aug 2021 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2021/08/2021-08-29_from_bullseye_to/</guid><description>&lt;p>Two weeks ago, &lt;a href="https://wiki.debian.org/DebianBullseye">Bullseye&lt;/a> became the new stable Debian release. As I prefer using Debian testing, today, I jumped on Debian 12 codenamed &lt;a href="https://wiki.debian.org/DebianBookworm">&lt;strong>Bookworm&lt;/strong>&lt;/a>. To do so, I simply updated my &lt;a href="https://wiki.debian.org/SourcesList">source list&lt;/a> by replacing instances of &lt;code>bullseye&lt;/code> by &lt;code>bookworm&lt;/code>, and then I used the combo
-&lt;code>apt update&lt;/code>/ &lt;code>apt upgrade&lt;/code>.&lt;/p>
-&lt;div class="highlight">&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>$ apt-get update
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#797593">[&lt;/span>...&lt;span style="color:#797593">]&lt;/span> 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ apt-get upgrade 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Reading package lists... Done
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Building dependency tree... Done
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Reading state information... Done
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Calculating upgrade... Done
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>The following packages were automatically installed and are no longer required:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> gir1.2-handy-0.0 gnome-getting-started-docs libgcrypt20-dev libgl1-mesa-glx libjuh-java libjurt-java
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> liblibreoffice-java libridl-java libunoloader-java
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Use &lt;span style="color:#ea9d34">&amp;#39;sudo apt autoremove&amp;#39;&lt;/span> to remove them.
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>The following packages have been kept back:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> cryptsetup cryptsetup-bin cryptsetup-initramfs gnome-software &lt;span style="color:#797593">[&lt;/span>...&lt;span style="color:#797593">]&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> udisks2 vlc-plugin-video-output
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>The following packages will be upgraded:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> adwaita-icon-theme aisleriot alsa-topology-conf alsa-ucm-conf anacron &lt;span style="color:#797593">[&lt;/span>...&lt;span style="color:#797593">]&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ea9d34">797&lt;/span> upgraded, &lt;span style="color:#ea9d34">0&lt;/span> newly installed, &lt;span style="color:#ea9d34">0&lt;/span> to remove and &lt;span style="color:#ea9d34">68&lt;/span> not upgraded.
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Need to get &lt;span style="color:#ea9d34">841&lt;/span> MB of archives.
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>After this operation, 43.4 MB of additional disk space will be used.
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Do you want to &lt;span style="color:#286983">continue&lt;/span>? &lt;span style="color:#797593">[&lt;/span>Y/n&lt;span style="color:#797593">]&lt;/span> Y
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>It took a few minutes, then I dealt with the &amp;ldquo;kept back&amp;rdquo; packages with the following:&lt;/p></description></item></channel></rss>
+install Debian on my Lenovo T470p &amp;#x2b07;&amp;#xfe0f;. It works well, as always!&lt;/p&gt;</description></item><item><title>From Bullseye to Bookworm</title><link>https://kevcaz.github.io/notes/2021/08/2021-08-29_from_bullseye_to/</link><pubDate>Sun, 29 Aug 2021 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2021/08/2021-08-29_from_bullseye_to/</guid><description>&lt;p&gt;Two weeks ago, &lt;a href="https://wiki.debian.org/DebianBullseye"&gt;Bullseye&lt;/a&gt; became the new stable Debian release. As I prefer using Debian testing, today, I jumped on Debian 12 codenamed &lt;a href="https://wiki.debian.org/DebianBookworm"&gt;&lt;strong&gt;Bookworm&lt;/strong&gt;&lt;/a&gt;. To do so, I simply updated my &lt;a href="https://wiki.debian.org/SourcesList"&gt;source list&lt;/a&gt; by replacing instances of &lt;code&gt;bullseye&lt;/code&gt; by &lt;code&gt;bookworm&lt;/code&gt;, and then I used the combo
+&lt;code&gt;apt update&lt;/code&gt;/ &lt;code&gt;apt upgrade&lt;/code&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;17
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;18
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;19
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;20
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ apt-get update
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#797593"&gt;[&lt;/span&gt;...&lt;span style="color:#797593"&gt;]&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ apt-get upgrade 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Reading package lists... Done
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Building dependency tree... Done
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Reading state information... Done
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Calculating upgrade... Done
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;The following packages were automatically installed and are no longer required:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; gir1.2-handy-0.0 gnome-getting-started-docs libgcrypt20-dev libgl1-mesa-glx libjuh-java libjurt-java
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; liblibreoffice-java libridl-java libunoloader-java
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Use &lt;span style="color:#ea9d34"&gt;&amp;#39;sudo apt autoremove&amp;#39;&lt;/span&gt; to remove them.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;The following packages have been kept back:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; cryptsetup cryptsetup-bin cryptsetup-initramfs gnome-software &lt;span style="color:#797593"&gt;[&lt;/span&gt;...&lt;span style="color:#797593"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; udisks2 vlc-plugin-video-output
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;The following packages will be upgraded:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; adwaita-icon-theme aisleriot alsa-topology-conf alsa-ucm-conf anacron &lt;span style="color:#797593"&gt;[&lt;/span&gt;...&lt;span style="color:#797593"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ea9d34"&gt;797&lt;/span&gt; upgraded, &lt;span style="color:#ea9d34"&gt;0&lt;/span&gt; newly installed, &lt;span style="color:#ea9d34"&gt;0&lt;/span&gt; to remove and &lt;span style="color:#ea9d34"&gt;68&lt;/span&gt; not upgraded.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Need to get &lt;span style="color:#ea9d34"&gt;841&lt;/span&gt; MB of archives.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;After this operation, 43.4 MB of additional disk space will be used.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Do you want to &lt;span style="color:#286983"&gt;continue&lt;/span&gt;? &lt;span style="color:#797593"&gt;[&lt;/span&gt;Y/n&lt;span style="color:#797593"&gt;]&lt;/span&gt; Y
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;It took a few minutes, then I dealt with the &amp;ldquo;kept back&amp;rdquo; packages with the following:&lt;/p&gt;</description></item></channel></rss>

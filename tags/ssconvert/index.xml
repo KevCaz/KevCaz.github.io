@@ -1,23 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ssconvert on KevCaz's Website</title><link>https://kevcaz.github.io/tags/ssconvert/</link><description>Recent content in Ssconvert on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Tue, 15 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/ssconvert/index.xml" rel="self" type="application/rss+xml"/><item><title>Merge .csv files into a single .xlsx file with ssconvert</title><link>https://kevcaz.github.io/notes/2019/01/2019-01-15_merge_csv_files/</link><pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2019/01/2019-01-15_merge_csv_files/</guid><description>&lt;p>In a previous note, I explained &lt;a href="../../notes/gnu/xlsx2csv/">how to convert &lt;code>.xlsx&lt;/code> into &lt;code>.csv&lt;/code> with ssconvert&lt;/a>. Today, I wanted to do the reverse operation, so I looked up on the Internet and found &lt;a href="https://ubuntuforums.org/showthread.php?t=2263957">this answer on ubuntu forums&lt;/a>: assuming you need to merge &lt;code>file1.csv&lt;/code> and &lt;code>file2.csv&lt;/code> into &lt;code>all.xlsx&lt;/code> (in two separate sheets) then all you have to do is:&lt;/p>
-&lt;pre tabindex="0">&lt;code>ssconvert --merge-to=all.xlsx file1.csv file2.csv
-&lt;/code>&lt;/pre>&lt;p>The short option for &lt;code>--merge-to=&lt;/code> is &lt;code>-M&lt;/code> (see &lt;code>man ssconvert&lt;/code>), so what I did was:&lt;/p></description></item><item><title>.xlsx to .csv with ssconvert</title><link>https://kevcaz.github.io/notes/2018/10/2018-10-18_xlsx_to_csv/</link><pubDate>Thu, 18 Oct 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/10/2018-10-18_xlsx_to_csv/</guid><description>&lt;p>Even if I use &lt;a href="https://www.libreoffice.org/discover/calc/">Calc&lt;/a> more
-often than &lt;a href="http://www.gnumeric.org/">Gnumeric&lt;/a> (and actually I tried to
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ssconvert on KevCaz's Website</title><link>https://kevcaz.github.io/tags/ssconvert/</link><description>Recent content in Ssconvert on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Tue, 15 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/ssconvert/index.xml" rel="self" type="application/rss+xml"/><item><title>Merge .csv files into a single .xlsx file with ssconvert</title><link>https://kevcaz.github.io/notes/2019/01/2019-01-15_merge_csv_files/</link><pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2019/01/2019-01-15_merge_csv_files/</guid><description>&lt;p&gt;In a previous note, I explained &lt;a href="../../notes/gnu/xlsx2csv/"&gt;how to convert &lt;code&gt;.xlsx&lt;/code&gt; into &lt;code&gt;.csv&lt;/code&gt; with ssconvert&lt;/a&gt;. Today, I wanted to do the reverse operation, so I looked up on the Internet and found &lt;a href="https://ubuntuforums.org/showthread.php?t=2263957"&gt;this answer on ubuntu forums&lt;/a&gt;: assuming you need to merge &lt;code&gt;file1.csv&lt;/code&gt; and &lt;code&gt;file2.csv&lt;/code&gt; into &lt;code&gt;all.xlsx&lt;/code&gt; (in two separate sheets) then all you have to do is:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;ssconvert --merge-to=all.xlsx file1.csv file2.csv
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The short option for &lt;code&gt;--merge-to=&lt;/code&gt; is &lt;code&gt;-M&lt;/code&gt; (see &lt;code&gt;man ssconvert&lt;/code&gt;), so what I did was:&lt;/p&gt;</description></item><item><title>.xlsx to .csv with ssconvert</title><link>https://kevcaz.github.io/notes/2018/10/2018-10-18_xlsx_to_csv/</link><pubDate>Thu, 18 Oct 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/10/2018-10-18_xlsx_to_csv/</guid><description>&lt;p&gt;Even if I use &lt;a href="https://www.libreoffice.org/discover/calc/"&gt;Calc&lt;/a&gt; more
+often than &lt;a href="http://www.gnumeric.org/"&gt;Gnumeric&lt;/a&gt; (and actually I tried to
 spend as less time as possible on spreadsheet programs), the latter
 provides a tool I&amp;rsquo;m fond of,
-&lt;a href="http://manpages.ubuntu.com/manpages/bionic/man1/ssconvert.1.html">ssconvert&lt;/a>:&lt;/p>
-&lt;blockquote>
-&lt;p>ssconvert - a command line spreadsheet format converter&lt;/p>&lt;/blockquote>
-&lt;p>It offers a very efficient way to convert &lt;code>.xlsx&lt;/code> into &lt;code>.csv&lt;/code>,
-for instance:&lt;/p>
-&lt;div class="highlight">&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>mkdir csvFiles
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ssconvert -S spreadsheet.xlsx csvFiles/%s.csv
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>I the command lines above, I first create the folder &amp;lsquo;csvFiles&amp;rsquo; with &lt;code>mkdir&lt;/code> and then I use
-&lt;code>ssconvert&lt;/code> with option &lt;code>-S&lt;/code> that stands for &lt;code>--export-file-per-sheet&lt;/code>:&lt;/p></description></item></channel></rss>
+&lt;a href="http://manpages.ubuntu.com/manpages/bionic/man1/ssconvert.1.html"&gt;ssconvert&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ssconvert - a command line spreadsheet format converter&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It offers a very efficient way to convert &lt;code&gt;.xlsx&lt;/code&gt; into &lt;code&gt;.csv&lt;/code&gt;,
+for instance:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;mkdir csvFiles
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ssconvert -S spreadsheet.xlsx csvFiles/%s.csv
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;I the command lines above, I first create the folder &amp;lsquo;csvFiles&amp;rsquo; with &lt;code&gt;mkdir&lt;/code&gt; and then I use
+&lt;code&gt;ssconvert&lt;/code&gt; with option &lt;code&gt;-S&lt;/code&gt; that stands for &lt;code&gt;--export-file-per-sheet&lt;/code&gt;:&lt;/p&gt;</description></item></channel></rss>

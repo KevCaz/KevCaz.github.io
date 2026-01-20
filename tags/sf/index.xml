@@ -1,74 +1,74 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sf on KevCaz's Website</title><link>https://kevcaz.github.io/tags/sf/</link><description>Recent content in Sf on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Sat, 10 Nov 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/sf/index.xml" rel="self" type="application/rss+xml"/><item><title>Clip, but crop first!</title><link>https://kevcaz.github.io/notes/2018/11/2018-11-10_clip_but_crop/</link><pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/11/2018-11-10_clip_but_crop/</guid><description>&lt;p>I often clip raster in R, with &lt;a href="https://cran.r-project.org/web/packages/sf/index.html">sf&lt;/a>
-and &lt;a href="https://cran.r-project.org/web/packages/raster/index.html">raster&lt;/a> it
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sf on KevCaz's Website</title><link>https://kevcaz.github.io/tags/sf/</link><description>Recent content in Sf on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Sat, 10 Nov 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/sf/index.xml" rel="self" type="application/rss+xml"/><item><title>Clip, but crop first!</title><link>https://kevcaz.github.io/notes/2018/11/2018-11-10_clip_but_crop/</link><pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/11/2018-11-10_clip_but_crop/</guid><description>&lt;p&gt;I often clip raster in R, with &lt;a href="https://cran.r-project.org/web/packages/sf/index.html"&gt;sf&lt;/a&gt;
+and &lt;a href="https://cran.r-project.org/web/packages/raster/index.html"&gt;raster&lt;/a&gt; it
 is straightforward and efficient. That said, I&amp;rsquo;d like to mention one tip
 tip R users that clip should be aware of: cropping before clipping.
-It does significantly improve the performance, as shown in the R script below:&lt;/p>
-&lt;div class="highlight">&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-R" data-lang="R">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d7827e">library&lt;/span>&lt;span style="color:#797593">(&lt;/span>&lt;span style="color:#d7827e">sf&lt;/span>&lt;span style="color:#797593">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d7827e">library&lt;/span>&lt;span style="color:#797593">(&lt;/span>&lt;span style="color:#d7827e">raster&lt;/span>&lt;span style="color:#797593">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d7827e">library&lt;/span>&lt;span style="color:#797593">(&lt;/span>&lt;span style="color:#d7827e">tidyverse&lt;/span>&lt;span style="color:#797593">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#9893a5">## download Canada boundaries (level of the county)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d7827e">ont&lt;/span> &lt;span style="color:#797593">&amp;lt;-&lt;/span> &lt;span style="color:#d7827e">getData&lt;/span>&lt;span style="color:#797593">(&lt;/span>&lt;span style="color:#ea9d34">&amp;#34;GADM&amp;#34;&lt;/span>&lt;span style="color:#797593">,&lt;/span> &lt;span style="color:#d7827e">country&lt;/span> &lt;span style="color:#797593">=&lt;/span> &lt;span style="color:#ea9d34">&amp;#34;CAN&amp;#34;&lt;/span>&lt;span style="color:#797593">,&lt;/span> &lt;span style="color:#d7827e">level&lt;/span> &lt;span style="color:#797593">=&lt;/span> &lt;span style="color:#ea9d34">2&lt;/span>&lt;span style="color:#797593">)&lt;/span> &lt;span style="color:#797593">%&amp;gt;%&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#d7827e">st_as_sf&lt;/span> &lt;span style="color:#797593">%&amp;gt;%&lt;/span> &lt;span style="color:#d7827e">filter&lt;/span>&lt;span style="color:#797593">(&lt;/span>&lt;span style="color:#d7827e">NAME_1&lt;/span> &lt;span style="color:#797593">==&lt;/span> &lt;span style="color:#ea9d34">&amp;#34;Ontario&amp;#34;&lt;/span>&lt;span style="color:#797593">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#9893a5">## Download elevation raster (NB resolution is coarse)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d7827e">can_elv&lt;/span> &lt;span style="color:#797593">&amp;lt;-&lt;/span> &lt;span style="color:#d7827e">getData&lt;/span>&lt;span style="color:#797593">(&lt;/span>&lt;span style="color:#ea9d34">&amp;#34;alt&amp;#34;&lt;/span>&lt;span style="color:#797593">,&lt;/span> &lt;span style="color:#d7827e">country&lt;/span> &lt;span style="color:#797593">=&lt;/span> &lt;span style="color:#ea9d34">&amp;#34;CAN&amp;#34;&lt;/span>&lt;span style="color:#797593">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d7827e">R&lt;/span>&lt;span style="color:#797593">&amp;gt;&lt;/span> &lt;span style="color:#d7827e">system.time&lt;/span>&lt;span style="color:#797593">(&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ea9d34">+.&lt;/span>&lt;span style="color:#d7827e">..&lt;/span> &lt;span style="color:#d7827e">ont_elv&lt;/span> &lt;span style="color:#797593">&amp;lt;-&lt;/span> &lt;span style="color:#d7827e">rasterize&lt;/span>&lt;span style="color:#797593">(&lt;/span>&lt;span style="color:#d7827e">ont&lt;/span>&lt;span style="color:#797593">,&lt;/span> &lt;span style="color:#d7827e">can_elv&lt;/span>&lt;span style="color:#797593">,&lt;/span> &lt;span style="color:#d7827e">mask&lt;/span> &lt;span style="color:#797593">=&lt;/span> &lt;span style="color:#286983">TRUE&lt;/span>&lt;span style="color:#797593">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ea9d34">+.&lt;/span>&lt;span style="color:#d7827e">..&lt;/span> &lt;span style="color:#797593">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#d7827e">user&lt;/span> &lt;span style="color:#d7827e">system&lt;/span> &lt;span style="color:#d7827e">elapsed&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ea9d34">69.938&lt;/span> &lt;span style="color:#ea9d34">87.836&lt;/span> &lt;span style="color:#ea9d34">157.786&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#d7827e">R&lt;/span>&lt;span style="color:#797593">&amp;gt;&lt;/span> &lt;span style="color:#d7827e">system.time&lt;/span>&lt;span style="color:#797593">(&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ea9d34">+.&lt;/span>&lt;span style="color:#d7827e">..&lt;/span> &lt;span style="color:#d7827e">ont_elv&lt;/span> &lt;span style="color:#797593">&amp;lt;-&lt;/span> &lt;span style="color:#d7827e">rasterize&lt;/span>&lt;span style="color:#797593">(&lt;/span>&lt;span style="color:#d7827e">ont&lt;/span>&lt;span style="color:#797593">,&lt;/span> &lt;span style="color:#d7827e">crop&lt;/span>&lt;span style="color:#797593">(&lt;/span>&lt;span style="color:#d7827e">can_elv&lt;/span>&lt;span style="color:#797593">,&lt;/span> &lt;span style="color:#d7827e">ont&lt;/span>&lt;span style="color:#797593">),&lt;/span> &lt;span style="color:#d7827e">mask&lt;/span> &lt;span style="color:#797593">=&lt;/span> &lt;span style="color:#286983">TRUE&lt;/span>&lt;span style="color:#797593">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ea9d34">+.&lt;/span>&lt;span style="color:#d7827e">..&lt;/span> &lt;span style="color:#797593">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#d7827e">user&lt;/span> &lt;span style="color:#d7827e">system&lt;/span> &lt;span style="color:#d7827e">elapsed&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ea9d34">7.584&lt;/span> &lt;span style="color:#ea9d34">3.820&lt;/span> &lt;span style="color:#ea9d34">11.406&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div></description></item><item><title>`sf` is fast</title><link>https://kevcaz.github.io/notes/2018/11/2018-11-09_sf_is_fast/</link><pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/11/2018-11-09_sf_is_fast/</guid><description>&lt;p>&lt;a href="https://cran.r-project.org/web/packages/sf/index.html">&lt;code>sf&lt;/code>&lt;/a> have become the
+It does significantly improve the performance, as shown in the R script below:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;17
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;18
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;19
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;20
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;21
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-R" data-lang="R"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#d7827e"&gt;library&lt;/span&gt;&lt;span style="color:#797593"&gt;(&lt;/span&gt;&lt;span style="color:#d7827e"&gt;sf&lt;/span&gt;&lt;span style="color:#797593"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#d7827e"&gt;library&lt;/span&gt;&lt;span style="color:#797593"&gt;(&lt;/span&gt;&lt;span style="color:#d7827e"&gt;raster&lt;/span&gt;&lt;span style="color:#797593"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#d7827e"&gt;library&lt;/span&gt;&lt;span style="color:#797593"&gt;(&lt;/span&gt;&lt;span style="color:#d7827e"&gt;tidyverse&lt;/span&gt;&lt;span style="color:#797593"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#9893a5"&gt;## download Canada boundaries (level of the county)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#d7827e"&gt;ont&lt;/span&gt; &lt;span style="color:#797593"&gt;&amp;lt;-&lt;/span&gt; &lt;span style="color:#d7827e"&gt;getData&lt;/span&gt;&lt;span style="color:#797593"&gt;(&lt;/span&gt;&lt;span style="color:#ea9d34"&gt;&amp;#34;GADM&amp;#34;&lt;/span&gt;&lt;span style="color:#797593"&gt;,&lt;/span&gt; &lt;span style="color:#d7827e"&gt;country&lt;/span&gt; &lt;span style="color:#797593"&gt;=&lt;/span&gt; &lt;span style="color:#ea9d34"&gt;&amp;#34;CAN&amp;#34;&lt;/span&gt;&lt;span style="color:#797593"&gt;,&lt;/span&gt; &lt;span style="color:#d7827e"&gt;level&lt;/span&gt; &lt;span style="color:#797593"&gt;=&lt;/span&gt; &lt;span style="color:#ea9d34"&gt;2&lt;/span&gt;&lt;span style="color:#797593"&gt;)&lt;/span&gt; &lt;span style="color:#797593"&gt;%&amp;gt;%&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#d7827e"&gt;st_as_sf&lt;/span&gt; &lt;span style="color:#797593"&gt;%&amp;gt;%&lt;/span&gt; &lt;span style="color:#d7827e"&gt;filter&lt;/span&gt;&lt;span style="color:#797593"&gt;(&lt;/span&gt;&lt;span style="color:#d7827e"&gt;NAME_1&lt;/span&gt; &lt;span style="color:#797593"&gt;==&lt;/span&gt; &lt;span style="color:#ea9d34"&gt;&amp;#34;Ontario&amp;#34;&lt;/span&gt;&lt;span style="color:#797593"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#9893a5"&gt;## Download elevation raster (NB resolution is coarse)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#d7827e"&gt;can_elv&lt;/span&gt; &lt;span style="color:#797593"&gt;&amp;lt;-&lt;/span&gt; &lt;span style="color:#d7827e"&gt;getData&lt;/span&gt;&lt;span style="color:#797593"&gt;(&lt;/span&gt;&lt;span style="color:#ea9d34"&gt;&amp;#34;alt&amp;#34;&lt;/span&gt;&lt;span style="color:#797593"&gt;,&lt;/span&gt; &lt;span style="color:#d7827e"&gt;country&lt;/span&gt; &lt;span style="color:#797593"&gt;=&lt;/span&gt; &lt;span style="color:#ea9d34"&gt;&amp;#34;CAN&amp;#34;&lt;/span&gt;&lt;span style="color:#797593"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#d7827e"&gt;R&lt;/span&gt;&lt;span style="color:#797593"&gt;&amp;gt;&lt;/span&gt; &lt;span style="color:#d7827e"&gt;system.time&lt;/span&gt;&lt;span style="color:#797593"&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ea9d34"&gt;+.&lt;/span&gt;&lt;span style="color:#d7827e"&gt;..&lt;/span&gt; &lt;span style="color:#d7827e"&gt;ont_elv&lt;/span&gt; &lt;span style="color:#797593"&gt;&amp;lt;-&lt;/span&gt; &lt;span style="color:#d7827e"&gt;rasterize&lt;/span&gt;&lt;span style="color:#797593"&gt;(&lt;/span&gt;&lt;span style="color:#d7827e"&gt;ont&lt;/span&gt;&lt;span style="color:#797593"&gt;,&lt;/span&gt; &lt;span style="color:#d7827e"&gt;can_elv&lt;/span&gt;&lt;span style="color:#797593"&gt;,&lt;/span&gt; &lt;span style="color:#d7827e"&gt;mask&lt;/span&gt; &lt;span style="color:#797593"&gt;=&lt;/span&gt; &lt;span style="color:#286983"&gt;TRUE&lt;/span&gt;&lt;span style="color:#797593"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ea9d34"&gt;+.&lt;/span&gt;&lt;span style="color:#d7827e"&gt;..&lt;/span&gt; &lt;span style="color:#797593"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#d7827e"&gt;user&lt;/span&gt; &lt;span style="color:#d7827e"&gt;system&lt;/span&gt; &lt;span style="color:#d7827e"&gt;elapsed&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#ea9d34"&gt;69.938&lt;/span&gt; &lt;span style="color:#ea9d34"&gt;87.836&lt;/span&gt; &lt;span style="color:#ea9d34"&gt;157.786&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#d7827e"&gt;R&lt;/span&gt;&lt;span style="color:#797593"&gt;&amp;gt;&lt;/span&gt; &lt;span style="color:#d7827e"&gt;system.time&lt;/span&gt;&lt;span style="color:#797593"&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ea9d34"&gt;+.&lt;/span&gt;&lt;span style="color:#d7827e"&gt;..&lt;/span&gt; &lt;span style="color:#d7827e"&gt;ont_elv&lt;/span&gt; &lt;span style="color:#797593"&gt;&amp;lt;-&lt;/span&gt; &lt;span style="color:#d7827e"&gt;rasterize&lt;/span&gt;&lt;span style="color:#797593"&gt;(&lt;/span&gt;&lt;span style="color:#d7827e"&gt;ont&lt;/span&gt;&lt;span style="color:#797593"&gt;,&lt;/span&gt; &lt;span style="color:#d7827e"&gt;crop&lt;/span&gt;&lt;span style="color:#797593"&gt;(&lt;/span&gt;&lt;span style="color:#d7827e"&gt;can_elv&lt;/span&gt;&lt;span style="color:#797593"&gt;,&lt;/span&gt; &lt;span style="color:#d7827e"&gt;ont&lt;/span&gt;&lt;span style="color:#797593"&gt;),&lt;/span&gt; &lt;span style="color:#d7827e"&gt;mask&lt;/span&gt; &lt;span style="color:#797593"&gt;=&lt;/span&gt; &lt;span style="color:#286983"&gt;TRUE&lt;/span&gt;&lt;span style="color:#797593"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ea9d34"&gt;+.&lt;/span&gt;&lt;span style="color:#d7827e"&gt;..&lt;/span&gt; &lt;span style="color:#797593"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#d7827e"&gt;user&lt;/span&gt; &lt;span style="color:#d7827e"&gt;system&lt;/span&gt; &lt;span style="color:#d7827e"&gt;elapsed&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#ea9d34"&gt;7.584&lt;/span&gt; &lt;span style="color:#ea9d34"&gt;3.820&lt;/span&gt; &lt;span style="color:#ea9d34"&gt;11.406&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>`sf` is fast</title><link>https://kevcaz.github.io/notes/2018/11/2018-11-09_sf_is_fast/</link><pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/11/2018-11-09_sf_is_fast/</guid><description>&lt;p&gt;&lt;a href="https://cran.r-project.org/web/packages/sf/index.html"&gt;&lt;code&gt;sf&lt;/code&gt;&lt;/a&gt; have become the
 new standard to read, manipulate, write vector files in R. I recently had
-a 1.6GB shapefiles that I needed to open&lt;/p>
-&lt;div class="highlight">&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>$ du geodata/*
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>717M geodata/OHN_WATERBODY.dbf
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>4.0K geodata/OHN_WATERBODY.prj
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>1.6G geodata/OHN_WATERBODY.shp
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>11M geodata/OHN_WATERBODY.shx
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>and I was wondering about how much time it would take for &lt;code>sf&lt;/code> to open it, and
-it was pretty fast &amp;#x1f680;&lt;/p></description></item></channel></rss>
+a 1.6GB shapefiles that I needed to open&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ du geodata/*
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;717M geodata/OHN_WATERBODY.dbf
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;4.0K geodata/OHN_WATERBODY.prj
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;1.6G geodata/OHN_WATERBODY.shp
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;11M geodata/OHN_WATERBODY.shx
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;and I was wondering about how much time it would take for &lt;code&gt;sf&lt;/code&gt; to open it, and
+it was pretty fast &amp;#x1f680;&lt;/p&gt;</description></item></channel></rss>

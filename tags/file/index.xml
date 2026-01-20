@@ -1,25 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>File on KevCaz's Website</title><link>https://kevcaz.github.io/tags/file/</link><description>Recent content in File on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Tue, 16 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/file/index.xml" rel="self" type="application/rss+xml"/><item><title>From one character encoding to another</title><link>https://kevcaz.github.io/notes/2018/10/2018-10-16_from_one_character/</link><pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/10/2018-10-16_from_one_character/</guid><description>&lt;p>Today I needed to check the character encoding of a file, I found &lt;a href="https://www.tecmint.com/convert-files-to-utf-8-encoding-in-linux/">this page that explains how to do this&lt;/a>. Basically the command &lt;code>file&lt;/code> will give you the info, for instance:&lt;/p>
-&lt;div class="highlight">&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>$ file example.md
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>example.md: ASCII text
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>options &lt;code>-i&lt;/code> for &lt;code>--mime&lt;/code> and &lt;code>-b&lt;/code> for &lt;code>--brief&lt;/code> will give:&lt;/p>
-&lt;div class="highlight">&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>$ file -bi example.md
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>text/plain&lt;span style="color:#797593">;&lt;/span> &lt;span style="color:#d7827e">charset&lt;/span>&lt;span style="color:#797593">=&lt;/span>us-ascii
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>I figured out that I needed to convert my file from one character encoding to another and so I used &lt;code>iconv&lt;/code>. As mentioned in the link above,
-&lt;code>iconv -l&lt;/code> will give you the list of character encodings &lt;code>iconv&lt;/code> handles. In my case, I needed to convert the file from &lt;a href="https://en.wikipedia.org/wiki/ISO/IEC_8859-1">Latin1, aka iso8859-1&lt;/a>
-to &lt;a href="https://en.wikipedia.org/wiki/UTF-8">UTF-8&lt;/a>, so I used the following command line:&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>File on KevCaz's Website</title><link>https://kevcaz.github.io/tags/file/</link><description>Recent content in File on KevCaz's Website</description><generator>Hugo</generator><language>en-us</language><copyright>Content under CC0 1.0 Universal unless otherwise specified.</copyright><lastBuildDate>Tue, 16 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://kevcaz.github.io/tags/file/index.xml" rel="self" type="application/rss+xml"/><item><title>From one character encoding to another</title><link>https://kevcaz.github.io/notes/2018/10/2018-10-16_from_one_character/</link><pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/10/2018-10-16_from_one_character/</guid><description>&lt;p&gt;Today I needed to check the character encoding of a file, I found &lt;a href="https://www.tecmint.com/convert-files-to-utf-8-encoding-in-linux/"&gt;this page that explains how to do this&lt;/a&gt;. Basically the command &lt;code&gt;file&lt;/code&gt; will give you the info, for instance:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ file example.md
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;example.md: ASCII text
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;options &lt;code&gt;-i&lt;/code&gt; for &lt;code&gt;--mime&lt;/code&gt; and &lt;code&gt;-b&lt;/code&gt; for &lt;code&gt;--brief&lt;/code&gt; will give:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ file -bi example.md
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;text/plain&lt;span style="color:#797593"&gt;;&lt;/span&gt; &lt;span style="color:#d7827e"&gt;charset&lt;/span&gt;&lt;span style="color:#797593"&gt;=&lt;/span&gt;us-ascii
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;I figured out that I needed to convert my file from one character encoding to another and so I used &lt;code&gt;iconv&lt;/code&gt;. As mentioned in the link above,
+&lt;code&gt;iconv -l&lt;/code&gt; will give you the list of character encodings &lt;code&gt;iconv&lt;/code&gt; handles. In my case, I needed to convert the file from &lt;a href="https://en.wikipedia.org/wiki/ISO/IEC_8859-1"&gt;Latin1, aka iso8859-1&lt;/a&gt;
+to &lt;a href="https://en.wikipedia.org/wiki/UTF-8"&gt;UTF-8&lt;/a&gt;, so I used the following command line:&lt;/p&gt;</description></item></channel></rss>
