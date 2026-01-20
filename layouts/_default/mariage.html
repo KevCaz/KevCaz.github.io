@@ -1,25 +1,36 @@
 <head>
-
     <title>{{ .Site.Title }}</title>
-
     <link rel="stylesheet" href="../../../css/mariage.css" />
-
-
 </head>
 
 <body>
-
     <div class="container">
         <div>
             <h1 class="lovers-quarrel-regular">{{ .Title | markdownify }}</h1>
         </div>
         <div class = "container2">
-            <div class = "mariage-info">
-                {{ .Content | markdownify }}
+            <div class = "mariage-lettre">
+                <p>Montréal, le 19 Janvier 2026</p>
+
+                <p>Le 15 Novembre 2025, nous annoncions notre mariage <b>le 22 août 2026</b> au Baluchon Eco-villégiature</p>
+
+                <p>Ci-dessous, nous rassemblons l'ensemble des informations importantes relative à l'évènement.</p>
+
+                <p>Nous avons vraiment être de vous retrouvez pour cette belle journée.</p>
+
+                <p>Avec bonheur,</p>
+
+                <p>Marie-Hélène & Kevin</p>
             </div>
             <div class = "mariage-photo">
                 <img src="img/mariage.png" alt="Photo des doudoux au mariage de Hugo et Isabelle" width = "80%">
             </div>
+        </div>
+    </div>
+    
+    <div class="container-info">
+        <div class="mariage-info">
+            {{ .Content | markdownify }}
         </div>
     </div>
 </body>
