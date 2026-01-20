@@ -28,6 +28,10 @@ date: 2025-01-19
 - Samedi 22 août 2026, soirée: soirée festive
 
 
+## 🍴 Menu
+
+A Venir.
+
 
 ## Lieu 
 
