@@ -14,12 +14,12 @@ GitHub Octocat (&lt;code&gt;Octocat.png&lt;/code&gt;) available at &lt;a href="h
 &lt;/center&gt;
 
 &lt;p&gt;To fill &lt;code&gt;Octocat.png&lt;/code&gt; with black, I&amp;rsquo;ve used the following command line:&lt;/p&gt;</description></item><item><title>Memory issue with ImageMagick</title><link>https://kevcaz.github.io/notes/2019/08/2019-08-26_memory_issue_with/</link><pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2019/08/2019-08-26_memory_issue_with/</guid><description>&lt;p&gt;Today, I was &lt;a href="../../notes/imagemagick/combineimage/"&gt;combining a set of images&lt;/a&gt; like so:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;
+&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ convert -append figP*.png out.png
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ convert -append figP*.png out.png
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;when I got error stating that &lt;code&gt;cache resources exhausted&lt;/code&gt;. I was first surprised because it was the same set of images I combined a couple of days before EXCEPT that I significantly increased their resolution. So I googled the error message and found &lt;a href="https://github.com/ImageMagick/ImageMagick/issues/396"&gt;this issue&lt;/a&gt; on the GitHub repository of ImageMagick.&lt;/p&gt;
@@ -38,12 +38,12 @@ Bartley&lt;/a&gt; available on
 the same way with more):&lt;/p&gt;</description></item><item><title>Make an image your favorite icon (favicon)</title><link>https://kevcaz.github.io/notes/2018/10/2018-10-24_make_an_image/</link><pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/10/2018-10-24_make_an_image/</guid><description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Favicon"&gt;Favicon&lt;/a&gt; are every useful for visual
 grepping: we use them pretty much every day to quickly find a website in your
 bookmarks or to remember what a specific tab is about! Recently, I needed to convert a &lt;code&gt;.png&lt;/code&gt; into a favicon, I knew that &lt;a href="https://www.imagemagick.org/discourse-server/viewtopic.php?t=26252"&gt;ImageMagick could handle this&lt;/a&gt;, here is the command line I used:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;
+&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;convert McTrickle.png -define icon:auto-resize&lt;span style="color:#797593"&gt;=&lt;/span&gt;128,64,48,32,16 favicon.ico
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;convert McTrickle.png -define icon:auto-resize&lt;span style="color:#797593"&gt;=&lt;/span&gt;128,64,48,32,16 favicon.ico
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;ImageMagick &amp;#x27a1;&amp;#xfe0f; &amp;#x1f44d; &amp;#x1f3c6;!&lt;/p&gt;</description></item><item><title>Resize image with Imagemagick</title><link>https://kevcaz.github.io/notes/2018/10/2018-10-05_resize_image_with/</link><pubDate>Fri, 05 Oct 2018 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2018/10/2018-10-05_resize_image_with/</guid><description>&lt;p&gt;&lt;a href="https://www.imagemagick.org/script/index.php"&gt;ImageMagick&lt;/a&gt; is a time saver!
@@ -51,16 +51,16 @@ It&amp;rsquo;s designed and extremely powerful for manipulating images with a fe
 Few weeks ago, I had to &lt;a href="http://www.imagemagick.org/Usage/resize/#shrink"&gt;resize a bunch of &lt;code&gt;.png&lt;/code&gt; images&lt;/a&gt; and realize how helpful
 ImageMagick could be is such case! All I had to do was creating a short
 shell script very similar to the following lines:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;
+&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
 &lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2
 &lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3
 &lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4
 &lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;mkdir img_resized
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;mkdir img_resized
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#286983"&gt;for&lt;/span&gt; f in *.png
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#286983"&gt;do&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; convert &lt;span style="color:#d7827e"&gt;$f&lt;/span&gt; -resize 250x250&lt;span style="color:#286983"&gt;\&amp;gt;&lt;/span&gt; img_resized/&lt;span style="color:#ea9d34"&gt;${&lt;/span&gt;&lt;span style="color:#d7827e"&gt;f&lt;/span&gt;&lt;span style="color:#797593"&gt;%.png&lt;/span&gt;&lt;span style="color:#ea9d34"&gt;}&lt;/span&gt;_250.png

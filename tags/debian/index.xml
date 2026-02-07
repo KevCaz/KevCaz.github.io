@@ -10,9 +10,9 @@ light as I let several pieces of software be installed during the setup (e.g.
 LibreOffice, Inkscape). So here goes the 4th version of my bash script to
 install Debian on my Lenovo T470p &amp;#x2b07;&amp;#xfe0f;. It works well, as always!&lt;/p&gt;</description></item><item><title>From Bullseye to Bookworm</title><link>https://kevcaz.github.io/notes/2021/08/2021-08-29_from_bullseye_to/</link><pubDate>Sun, 29 Aug 2021 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2021/08/2021-08-29_from_bullseye_to/</guid><description>&lt;p&gt;Two weeks ago, &lt;a href="https://wiki.debian.org/DebianBullseye"&gt;Bullseye&lt;/a&gt; became the new stable Debian release. As I prefer using Debian testing, today, I jumped on Debian 12 codenamed &lt;a href="https://wiki.debian.org/DebianBookworm"&gt;&lt;strong&gt;Bookworm&lt;/strong&gt;&lt;/a&gt;. To do so, I simply updated my &lt;a href="https://wiki.debian.org/SourcesList"&gt;source list&lt;/a&gt; by replacing instances of &lt;code&gt;bullseye&lt;/code&gt; by &lt;code&gt;bookworm&lt;/code&gt;, and then I used the combo
 &lt;code&gt;apt update&lt;/code&gt;/ &lt;code&gt;apt upgrade&lt;/code&gt;.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;
+&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1
 &lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2
 &lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3
 &lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4
@@ -34,7 +34,7 @@ install Debian on my Lenovo T470p &amp;#x2b07;&amp;#xfe0f;. It works well, as al
 &lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;20
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ apt-get update
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ apt-get update
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#797593"&gt;[&lt;/span&gt;...&lt;span style="color:#797593"&gt;]&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ apt-get upgrade 
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Reading package lists... Done
@@ -57,9 +57,9 @@ install Debian on my Lenovo T470p &amp;#x2b07;&amp;#xfe0f;. It works well, as al
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;It took a few minutes, then I dealt with the &amp;ldquo;kept back&amp;rdquo; packages with the following:&lt;/p&gt;</description></item><item><title>The Thunderbird Debian package has already been patched!</title><link>https://kevcaz.github.io/notes/2021/06/2021-06-30_the_thunderbird_debian/</link><pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2021/06/2021-06-30_the_thunderbird_debian/</guid><description>&lt;p&gt;In my &lt;a href="../../notes/mozilla/thunderbird78-11-0-1"&gt;previous note&lt;/a&gt;, I reported major issues with Thunderbird 78.11.0-1. As it turned out, it was an actual bug that &lt;a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=989839"&gt;has been reported&lt;/a&gt;. Shortly after the report, a work around has been proposed, and the new patch uploaded last Sunday (2021/06/29) solves all the issues I encountered. So everything is back to normal!&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;
+&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
 &lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2
 &lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3
 &lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4
@@ -67,7 +67,7 @@ install Debian on my Lenovo T470p &amp;#x2b07;&amp;#xfe0f;. It works well, as al
 &lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ apt-cache show thunderbird &lt;span style="color:#797593"&gt;|&lt;/span&gt; head -n &lt;span style="color:#ea9d34"&gt;5&lt;/span&gt;
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ apt-cache show thunderbird &lt;span style="color:#797593"&gt;|&lt;/span&gt; head -n &lt;span style="color:#ea9d34"&gt;5&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Package: thunderbird
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Version: 1:78.11.0-2
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Installed-Size: &lt;span style="color:#ea9d34"&gt;168899&lt;/span&gt;
@@ -114,9 +114,9 @@ ceases to amaze me! The concept is awesome, the education goals are meaningful
 and timely and the community is great, just check out the official website
 &lt;a href="https://www.raspberrypi.org/"&gt;https://www.raspberrypi.org/&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Debian 10 *buster* released</title><link>https://kevcaz.github.io/notes/2019/07/2019-07-09_debian_10_buster/</link><pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2019/07/2019-07-09_debian_10_buster/</guid><description>&lt;p&gt;I have been on Debian &lt;em&gt;buster&lt;/em&gt; for more than a year while it was the Debian Testing. After a frozen period that lasted a few months, &lt;a href="https://www.debian.org/News/2019/20190706"&gt;&lt;em&gt;buster&lt;/em&gt; is the new stable Debian distribution since yesterday&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;What does this change on my end? Not much! Basically, as I was already using &lt;em&gt;buster&lt;/em&gt; in my &lt;code&gt;/etc/apt/sources.list.d/&lt;/code&gt; file, when I used &lt;code&gt;apt-get update&lt;/code&gt; I got the following message:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;
+&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
 &lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2
 &lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3
 &lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4
@@ -126,7 +126,7 @@ and timely and the community is great, just check out the official website
 &lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Get:1 http://security.debian.org/debian-security buster/updates InRelease &lt;span style="color:#797593"&gt;[&lt;/span&gt;39.1 kB&lt;span style="color:#797593"&gt;]&lt;/span&gt;
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Get:1 http://security.debian.org/debian-security buster/updates InRelease &lt;span style="color:#797593"&gt;[&lt;/span&gt;39.1 kB&lt;span style="color:#797593"&gt;]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Get:2 http://deb.debian.org/debian buster InRelease &lt;span style="color:#797593"&gt;[&lt;/span&gt;&lt;span style="color:#ea9d34"&gt;118&lt;/span&gt; kB&lt;span style="color:#797593"&gt;]&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#797593"&gt;[&lt;/span&gt;... NOT SHOWN FOR THE SAKE OF BRIVETY&lt;span style="color:#797593"&gt;]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Reading package lists... Done

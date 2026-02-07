@@ -10,9 +10,9 @@ light as I let several pieces of software be installed during the setup (e.g.
 LibreOffice, Inkscape). So here goes the 4th version of my bash script to
 install Debian on my Lenovo T470p &amp;#x2b07;&amp;#xfe0f;. It works well, as always!&lt;/p&gt;</description></item><item><title>From Bullseye to Bookworm</title><link>https://kevcaz.github.io/notes/2021/08/2021-08-29_from_bullseye_to/</link><pubDate>Sun, 29 Aug 2021 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2021/08/2021-08-29_from_bullseye_to/</guid><description>&lt;p&gt;Two weeks ago, &lt;a href="https://wiki.debian.org/DebianBullseye"&gt;Bullseye&lt;/a&gt; became the new stable Debian release. As I prefer using Debian testing, today, I jumped on Debian 12 codenamed &lt;a href="https://wiki.debian.org/DebianBookworm"&gt;&lt;strong&gt;Bookworm&lt;/strong&gt;&lt;/a&gt;. To do so, I simply updated my &lt;a href="https://wiki.debian.org/SourcesList"&gt;source list&lt;/a&gt; by replacing instances of &lt;code&gt;bullseye&lt;/code&gt; by &lt;code&gt;bookworm&lt;/code&gt;, and then I used the combo
 &lt;code&gt;apt update&lt;/code&gt;/ &lt;code&gt;apt upgrade&lt;/code&gt;.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;
+&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1
 &lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2
 &lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3
 &lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4
@@ -34,7 +34,7 @@ install Debian on my Lenovo T470p &amp;#x2b07;&amp;#xfe0f;. It works well, as al
 &lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;20
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ apt-get update
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ apt-get update
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#797593"&gt;[&lt;/span&gt;...&lt;span style="color:#797593"&gt;]&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ apt-get upgrade 
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Reading package lists... Done

@@ -6,12 +6,12 @@ key&lt;/a&gt;
 &lt;a href="https://github.com/peaceiris/actions-gh-pages"&gt;peaceiris/actions-gh-pages&lt;/a&gt;). As
 I am used to work with the Terminal, when I need such a key, I use the following
 command line:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;
+&lt;div class="highlight"&gt;&lt;div style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
-&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ ssh-keygen -t rsa -b &lt;span style="color:#ea9d34"&gt;4096&lt;/span&gt; -C &lt;span style="color:#ea9d34"&gt;&amp;#34;&lt;/span&gt;&lt;span style="color:#286983"&gt;$(&lt;/span&gt;git config user.email&lt;span style="color:#286983"&gt;)&lt;/span&gt;&lt;span style="color:#ea9d34"&gt;&amp;#34;&lt;/span&gt; -f gh-pages -N &lt;span style="color:#ea9d34"&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;pre tabindex="0" style="color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ ssh-keygen -t rsa -b &lt;span style="color:#ea9d34"&gt;4096&lt;/span&gt; -C &lt;span style="color:#ea9d34"&gt;&amp;#34;&lt;/span&gt;&lt;span style="color:#286983"&gt;$(&lt;/span&gt;git config user.email&lt;span style="color:#286983"&gt;)&lt;/span&gt;&lt;span style="color:#ea9d34"&gt;&amp;#34;&lt;/span&gt; -f gh-pages -N &lt;span style="color:#ea9d34"&gt;&amp;#34;&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;which generates two files:&lt;/p&gt;</description></item></channel></rss>
