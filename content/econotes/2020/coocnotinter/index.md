@@ -8,9 +8,6 @@ math: true
 
 This note is a short comment on the paper [Guillaume Blanchet](https://www.researchgate.net/profile/F_Guillaume_Blanchet), [Dominique Gravel](http://ielab.recherche.usherbrooke.ca/) and I recently published in [Ecology Letters](https://onlinelibrary.wiley.com/journal/14610248).
 
-{{< tweet user="KCazelles" id="1263081538004160514" >}}
-
-
 
 # What did we do?
 

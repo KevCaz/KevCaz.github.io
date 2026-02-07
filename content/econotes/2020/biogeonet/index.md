@@ -27,12 +27,8 @@ As I still had some of the original code in a good shape, in 2017, I created a
 GitHub repository, [biogeonet](https://github.com/KevCaz/biogeonet) to share
 this code. But I did not have the energy to complete the code so one could
 easily reproduce the analysis in the paper. Two years after the first commit, I
-finally found the energy thanks to one of  [Olivier
-Gimenez](https://oliviergimenez.wordpress.com/)'s tweets.
-
-{{< tweet user="oaggimenez" id="1250597732366143489" >}}
-
-He basically reminded me the importance of releasing numerical implementations,
+finally found the energy thanks to one of [Olivier
+Gimenez](https://oliviergimenez.wordpress.com/)'s tweets that reminded me the importance of releasing numerical implementations,
 even if they are >4 years old! I am aware that it is likely that nobody has ever
 tried to reproduce my study but it does not mean that I shouldn't help a
 potential somebody to do so, and I am also aware that this person may be future
