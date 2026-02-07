@@ -26,7 +26,5 @@ adds the internet radio to my list of internet radios that is actually stored in
 `.local/share/rhythmbox/rhythmdb.xml`.
 
 
-By the way, I also found this amazing website [radio.garden](http://radio.garden),
-as I said in a tweet:
-
-{{< x user="KCazelles" id="1058787657390551040" >}}
+By the way, I also found this amazing website [radio.garden](http://radio.garden), 
+which makes the discovery of new radio a fun activity! 

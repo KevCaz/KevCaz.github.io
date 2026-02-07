@@ -27,7 +27,7 @@ lineNos = true
 
 [params]
 authorname = "Kevin Cazelles"
-role = "Post-doctoral fellow in theoretical and computational ecology [@McCann Lab](https://mccannlab.ca/)"
+role = "Data Scientist, inSileco"
 organization = "Department of Integrated Biology, University of Guelph"
 organization_url = "https://www.uoguelph.ca/ib/"
 github = "KevCaz"
@@ -37,12 +37,9 @@ orcid = "0000-0001-6619-9874"
 researchgate = "Kevin_Cazelles"
 googlescholar = "xzvcu7cAAAAJ&hl"
 mastodon = "@KCazelles"
-address = "Department of Integrative Biology, Summerlee Science Complex, University of Guelph, Guelph, ON N1G 2W1"
+address = "inSileco, Québec"
 office_hours = "Send me an email for setting an appointment."
-email = "kcazelle@uoguelph.ca"
-phone = "+1 519 824 4120 (ext. 53700)"
-# Date format (refer to Go's date format: http://flippinggodateformat.com )
-# Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+email = "kevin.cazelles@insileco.io"
 date_format = "Mon, Jan 2, 2006"
 footer = "Website built with <a href='https://gohugo.io/'>Hugo</a>.<br><i class='fas fa-code'></i> available on <a href='https://github.com/KevCaz/KevCaz.github.io'><i class='fab fa-github'></i></a>."
 copyright = "<br>Content under <a href='https://creativecommons.org/publicdomain/zero/1.0'><i class='fab fa-creative-commons'></i><i class='fab fa-creative-commons-zero'></i></a> unless otherwise specified."

@@ -71,11 +71,6 @@ Briefly:
 If you want to see this config in action, [it is currently used for `inSilecoMisc`](https://travis-ci.org/github/inSileco/inSilecoMisc/builds/670772761/config) and so both the [release website](https://insileco.github.io/inSilecoMisc/) and the [development website](https://insileco.github.io/inSilecoMisc/dev) are available!
 
 
-## Template
-
-To conclude this note, below is the entire `.travis.yaml` template I intend to use for my future <i class="fab fa-r-project" aria-hidden="true"></i> packages.
-
-{{< gist KevCaz 622c92cc1f7b00e66f078418882ad407 >}}
 
 
 [^n1]: a static website builder for R packages.
