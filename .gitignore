@@ -11,3 +11,5 @@ _inprep
 _resources
 .hugo_build.lock
 TODO.md
+/.quarto/
+**/*.quarto_ipynb

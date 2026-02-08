@@ -118,8 +118,8 @@ url = "/notes/"
 weight = 2
 [[menu.main]]
 parent = "blog"
-name = "inSilecoBlog"
-url = "https://insileco.github.io/"
+name = "inSileco Blog"
+url = "https://insileco.github.io/en/blog/"
 weight = 3
 
 [[menu.main]]
