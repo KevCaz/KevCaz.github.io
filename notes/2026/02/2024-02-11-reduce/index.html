@@ -1,0 +1,113 @@
+<!doctype html><html lang=en-us><head><title>KevCaz's Website</title><link rel=stylesheet href=https://kevcaz.github.io/css/main.min.2cc66f72831b771030b7488e64de417d4448799ced34fa8724458a3f3044f9e8.css media=screen><link rel=stylesheet href=../../../../%20/css/perso.css><link rel=stylesheet href=../../../../%20/css/family.css><script src=../../../../js/funkyflex.js integrity></script><meta name=author content="Kevin Cazelles"><meta name=institution content="Department of Integrated Biology, University of Guelph"><meta name=news_keywords content="[R join Reduce]"><meta property="og:site_name" content="KevCaz's Website"><meta property="og:title" content="Joining a list of data frames with `Reduce()`"><meta property="og:image" content="https://kevcaz.github.io/img/imgOG/kevcaz_og.png"><meta property="og:description" content="Kevin Cazelles's website"></head><body><div class=page><div class=ctn-sidebar-primary><div class=ctt-sidebar-primary><h1>KevCaz's Website</h1><div class=primary-sidebar-premenu><h2><button onclick='toggle("p-s-menu")'> <i class='fas fa-align-center fa-3x'></i></button></h2></div><div class=primary-sidebar-menu id=p-s-menu><h2><a href=../../../../><i class='fas fa-home'></i> Home</a></h2><h2><a onclick='toggle("dropdown-research")' href=javascript:void(0)><i class='fas fa-microscope'></i> Research</a></h2><div class=dropdown id=dropdown-research><h3><a href=../../../../about_my_research/>About my research</a></h3><h3><a href=../../../../publications/>Publications</a></h3><h3><a href=../../../../software/>Software</a></h3><h3><a href=../../../../talks/>Talks & Posters</a></h3><h3><a href=../../../../teaching/>Teaching</a></h3></div><h2 id=current-dropdown><a onclick='toggle("dropdown-blog")' href=javascript:void(0)><i class='fas fa-blog'></i> Blog</a></h2><div class=dropdown-current id=dropdown-blog><h3><a href=../../../../econotes/>EcoNotes</a></h3><h3 id=current><a href=../../../../notes/>SilicoNotes</a></h3><h3><a href=https://insileco.github.io/en/blog/>inSileco Blog</a></h3></div><h2><a onclick='toggle("dropdown-perso")' href=javascript:void(0)><i class='fas fa-person-booth'></i> Miscelleneous</a></h2><div class=dropdown id=dropdown-perso><h3><a href=../../../../perso/books>Books</a></h3><h3><a href=../../../../perso/movies>Movies</a></h3><h3><a href=../../../../perso/opinions>Opinions</a></h3></div></div><div class=footer><hr id=hr-footer align=left><div class=social-media-banner><a href=https://github.com/KevCaz><i class='fab fab fa-github-square'></i></a>
+<a href=https://stackoverflow.com/users/8038778><i class='fab fa-stack-overflow'></i></a>
+<a href=https://mastodon.social/@KCazelles><i class='fab fa-mastodon'></i></a>
+<a href=http://orcid.org/0000-0001-6619-9874><i class='ai ai-orcid-square'></i></a>
+<a href="https://scholar.google.ca/citations?user=xzvcu7cAAAAJ%26hl"><i class='ai ai-google-scholar-square'></i></a>
+<a href=https://www.researchgate.net/profile/Kevin_Cazelles><i class='ai ai-researchgate-square'></i></a>
+<a href=https://kevcaz.github.io/index.xml><i class="fas fa-rss-square"></i></a></div><div class=footer-custom>Website built with <a href=https://gohugo.io/>Hugo</a>.<br><i class='fas fa-code'></i> available on <a href=https://github.com/KevCaz/KevCaz.github.io><i class='fab fa-github'></i></a>.<br>Content under <a href=https://creativecommons.org/publicdomain/zero/1.0><i class='fab fa-creative-commons'></i><i class='fab fa-creative-commons-zero'></i></a> unless otherwise specified.<br>Latest build: 11 Feb 2026 07:07 UTC</div></div></div></div><div class=ctn-main-content><div class=ctt-main-content><div class=article-meta><h1 class=title>Joining a list of data frames with <code>Reduce()</code></h1><h4 class=date><i class="fas fa-calendar"></i>&nbsp;February 11, 2026</h4><div class=tags><i class="fas fa-tags" aria-hidden=true></i>&nbsp;
+<a href=../../../../tags/r><kbd class=item-tag>R</kbd></a>
+<a href=../../../../tags/join><kbd class=item-tag>join</kbd></a>
+<a href=../../../../tags/reduce><kbd class=item-tag>Reduce</kbd></a></div></div><div class=article-main><p>Last week, I was working on an R script in which I generated a list of data
+frames and was looking for a way to join them quickly. I thought I would be able to leverage <code>do.call()</code> but I found this thread on <a href=https://stackoverflow.com/questions/66360589/how-to-recursively-join-nested-lists-that-share-one-column-name-in-r>StackOverflow</a> that suggested using <code>Reduce()</code> to do that and it worked very well.</p><p><code>Reduce()</code> is one of the <em>&ldquo;Common Higher-Order Functions in Functional Programming Languages&rdquo;</em>, a set of functions that are more advanced, maybe not super friendly to use at first, but very powerful!</p><blockquote><p>&lsquo;Reduce&rsquo; uses a binary function to successively combine the
+elements of a given vector and a possibly given initial value</p></blockquote><p>Here is a simple example, a simplified version of what I was working on:</p><div class=highlight><div style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">9
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-r data-lang=r><span style=display:flex><span><span style=color:#d7827e>vrbl</span> <span style=color:#797593>&lt;-</span> <span style=color:#d7827e>c</span><span style=color:#797593>(</span><span style=color:#ea9d34>&#34;pH&#34;</span><span style=color:#797593>,</span> <span style=color:#ea9d34>&#34;salinity&#34;</span><span style=color:#797593>,</span> <span style=color:#ea9d34>&#34;temperature&#34;</span><span style=color:#797593>)</span>
+</span></span><span style=display:flex><span><span style=color:#d7827e>site</span> <span style=color:#797593>&lt;-</span> <span style=color:#d7827e>paste0</span><span style=color:#797593>(</span><span style=color:#ea9d34>&#34;site&#34;</span><span style=color:#797593>,</span> <span style=color:#ea9d34>1</span><span style=color:#797593>:</span><span style=color:#ea9d34>6</span><span style=color:#797593>)</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#d7827e>ls_df</span> <span style=color:#797593>&lt;-</span> <span style=color:#d7827e>vrbl</span> <span style=color:#797593>|&gt;</span> <span style=color:#d7827e>lapply</span><span style=color:#797593>(</span><span style=color:#d7827e>\</span><span style=color:#797593>(</span><span style=color:#d7827e>x</span><span style=color:#797593>)</span> <span style=color:#797593>{</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>out</span> <span style=color:#797593>&lt;-</span> <span style=color:#d7827e>data.frame</span><span style=color:#797593>(</span><span style=color:#d7827e>site</span> <span style=color:#797593>=</span> <span style=color:#d7827e>site</span><span style=color:#797593>)</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>out[[x]]</span> <span style=color:#797593>&lt;-</span> <span style=color:#d7827e>runif</span><span style=color:#797593>(</span><span style=color:#ea9d34>6</span><span style=color:#797593>)</span>
+</span></span><span style=display:flex><span>    <span style=color:#d7827e>out</span>
+</span></span><span style=display:flex><span><span style=color:#797593>})</span>
+</span></span><span style=display:flex><span><span style=color:#d7827e>ls_df</span>
+</span></span></code></pre></td></tr></table></div></div><pre><code>[[1]]
+   site         pH
+1 site1 0.40696251
+2 site2 0.09590183
+3 site3 0.68285947
+4 site4 0.46012124
+5 site5 0.92826767
+6 site6 0.94730994
+
+[[2]]
+   site   salinity
+1 site1 0.93431986
+2 site2 0.75389578
+3 site3 0.89646509
+4 site4 0.31757034
+5 site5 0.84771590
+6 site6 0.03696824
+
+[[3]]
+   site temperature
+1 site1  0.95577654
+2 site2  0.06747292
+3 site3  0.49588110
+4 site4  0.03272121
+5 site5  0.76317572
+6 site6  0.33745719
+</code></pre><p>Note that I often work with lists and <code>lapply()</code>, this is very powerful and
+here it is again: to do the join of all data frames, I call <code>Reduce()</code> and <code>inner_join()</code>
+(from <code>dplyr</code>) to do the join:</p><div class=highlight><div style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-r data-lang=r><span style=display:flex><span><span style=color:#d7827e>ls_df</span> <span style=color:#797593>|&gt;</span> <span style=color:#d7827e>Reduce</span><span style=color:#797593>(</span><span style=color:#d7827e>f</span> <span style=color:#797593>=</span> <span style=color:#d7827e>dplyr</span><span style=color:#797593>::</span><span style=color:#d7827e>inner_join</span><span style=color:#797593>)</span>
+</span></span></code></pre></td></tr></table></div></div><pre><code>Joining with `by = join_by(site)`
+Joining with `by = join_by(site)`
+
+   site         pH   salinity temperature
+1 site1 0.40696251 0.93431986  0.95577654
+2 site2 0.09590183 0.75389578  0.06747292
+3 site3 0.68285947 0.89646509  0.49588110
+4 site4 0.46012124 0.31757034  0.03272121
+5 site5 0.92826767 0.84771590  0.76317572
+6 site6 0.94730994 0.03696824  0.33745719
+</code></pre><p>Done, I love this!</p><details><summary>Session Information</summary><div class=highlight><div style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#575279;background-color:#faf4ed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-r data-lang=r><span style=display:flex><span><span style=color:#d7827e>sessionInfo</span><span style=color:#797593>()</span>
+</span></span></code></pre></td></tr></table></div></div><pre><code>R version 4.5.1 (2025-06-13)
+Platform: x86_64-pc-linux-gnu
+Running under: Ubuntu 25.10
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.1 
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.12.1;  LAPACK version 3.12.0
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+ [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+
+time zone: America/Toronto
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+ [1] vctrs_0.7.1         cli_3.6.5           knitr_1.51         
+ [4] rlang_1.1.7         xfun_0.56           otel_0.2.0         
+ [7] processx_3.8.6      targets_1.11.4      generics_0.1.4     
+[10] jsonlite_2.0.0      data.table_1.18.2.1 glue_1.8.0         
+[13] prettyunits_1.2.0   backports_1.5.0     htmltools_0.5.9    
+[16] ps_1.9.1            rmarkdown_2.30      evaluate_1.0.5     
+[19] tibble_3.3.1        fastmap_1.2.0       base64url_1.4      
+[22] yaml_2.3.12         lifecycle_1.0.5     compiler_4.5.1     
+[25] dplyr_1.2.0         codetools_0.2-20    igraph_2.1.4       
+[28] pkgconfig_2.0.3     digest_0.6.39       R6_2.6.1           
+[31] tidyselect_1.2.1    pillar_1.11.1       callr_3.7.6        
+[34] magrittr_2.0.4      tools_4.5.1         secretbase_1.2.0   
+</code></pre></details></div></div><div class=footer2><hr id=hr-footer align=left><div class=social-media-banner><a href=https://github.com/KevCaz><i class='fab fab fa-github-square'></i></a>
+<a href=https://stackoverflow.com/users/8038778><i class='fab fa-stack-overflow'></i></a>
+<a href=https://mastodon.social/@KCazelles><i class='fab fa-mastodon'></i></a>
+<a href=http://orcid.org/0000-0001-6619-9874><i class='ai ai-orcid-square'></i></a>
+<a href="https://scholar.google.ca/citations?user=xzvcu7cAAAAJ%26hl"><i class='ai ai-google-scholar-square'></i></a>
+<a href=https://www.researchgate.net/profile/Kevin_Cazelles><i class='ai ai-researchgate-square'></i></a>
+<a href=https://kevcaz.github.io/index.xml><i class="fas fa-rss-square"></i></a></div><div class=footer-custom>Website built with <a href=https://gohugo.io/>Hugo</a>.<br><i class='fas fa-code'></i> available on <a href=https://github.com/KevCaz/KevCaz.github.io><i class='fab fa-github'></i></a>.<br>Content under <a href=https://creativecommons.org/publicdomain/zero/1.0><i class='fab fa-creative-commons'></i><i class='fab fa-creative-commons-zero'></i></a> unless otherwise specified.<br>Latest build: 11 Feb 2026 07:07 UTC</div></div></div><div class=ctn-sidebar-secondary><div class=ctt-sidebar-secondary id=sidebar-secondary><h1><a onclick=scrollToTop()><i class='far fas fa-chevron-up'></i></a></h1><script>collectTitles()</script><h1><a onclick=scrollToBottom()><i class='far fas fa-chevron-down'></i></a></h1></div></div></div></body></html>
