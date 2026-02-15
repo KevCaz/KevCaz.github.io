@@ -8,9 +8,9 @@ date: 2025-01-19
 ## Étapes 
 
 - ✔️ Annonce du mariage
-- ✔️ Selection du lieu du mariage 
+- ✔️ Sélection du lieu du mariage
 - ➡️ Réservation des chambres
-- Confirmation de présence
+- ➡️ Confirmation de présence
 - Choix du menu 
 - Arrivée au Baluchon
 - Mariage 
@@ -24,13 +24,13 @@ date: 2025-01-19
 - Samedi 22 août 2026, matin: activités variées pour les intéressés
 - Samedi 22 août 2026, midi: repas libre
 - Samedi 22 août 2026, 16h30: Cérémonie de mariage
-- Samedi 22 août 2026, diner: Repas du mariage
+- Samedi 22 août 2026, dîner: Repas du mariage
 - Samedi 22 août 2026, soirée: soirée festive
 
 
 ## 🍴 Menu
 
-A Venir.
+À venir.
 
 
 ## Lieu 
@@ -85,5 +85,5 @@ Si vous souhaitez dormir sur le site, merci de réserver avant le 10 juin. Aprè
 
 ### 🏡 Chalets
 
-Pour celles et ceux qui le souhaitent, il est aussi possible de louer un chalet en groupe plutôt que des chambres individuelles. Un chalet de groupe serait plus économique bien que la réservation n’inclu pas le déjeuner.
+Pour celles et ceux qui le souhaitent, il est aussi possible de louer un chalet en groupe plutôt que des chambres individuelles. Un chalet de groupe serait plus économique bien que la réservation n'inclue pas le déjeuner.
 Vous pouvez consulter le site du Baluchon pour plus d’information sur les chalets disponibles.
