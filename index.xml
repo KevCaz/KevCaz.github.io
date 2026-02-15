@@ -11,9 +11,9 @@ frames and was looking for a way to join them quickly. I thought I would be able
 &lt;p&gt;I have a Dell Precision 5530, which I really like, except for its storage capacity. I had been hesitating to take it to a service center for an SSD upgrade until a friend told me it was actually very easy because the SSD is easily accessible. So I bought a 2 TB SSD and did the upgrade myself, following this video: &lt;a href="https://www.youtube.com/watch?v=nGS9QDnsxP0"&gt;https://www.youtube.com/watch?v=nGS9QDnsxP0&lt;/a&gt;. It really was easy and took less than 10 minutes, even for someone inexperienced like me.&lt;/p&gt;</description></item><item><title>Le mariage des Doudoux</title><link>https://kevcaz.github.io/perso/famille/mariage/</link><pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/perso/famille/mariage/</guid><description>&lt;h2 id="étapes"&gt;Étapes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;✔️ Annonce du mariage&lt;/li&gt;
-&lt;li&gt;✔️ Selection du lieu du mariage&lt;/li&gt;
+&lt;li&gt;✔️ Sélection du lieu du mariage&lt;/li&gt;
 &lt;li&gt;➡️ Réservation des chambres&lt;/li&gt;
-&lt;li&gt;Confirmation de présence&lt;/li&gt;
+&lt;li&gt;➡️ Confirmation de présence&lt;/li&gt;
 &lt;li&gt;Choix du menu&lt;/li&gt;
 &lt;li&gt;Arrivée au Baluchon&lt;/li&gt;
 &lt;li&gt;Mariage&lt;/li&gt;
@@ -25,11 +25,11 @@ frames and was looking for a way to join them quickly. I thought I would be able
 &lt;li&gt;Samedi 22 août 2026, matin: activités variées pour les intéressés&lt;/li&gt;
 &lt;li&gt;Samedi 22 août 2026, midi: repas libre&lt;/li&gt;
 &lt;li&gt;Samedi 22 août 2026, 16h30: Cérémonie de mariage&lt;/li&gt;
-&lt;li&gt;Samedi 22 août 2026, diner: Repas du mariage&lt;/li&gt;
+&lt;li&gt;Samedi 22 août 2026, dîner: Repas du mariage&lt;/li&gt;
 &lt;li&gt;Samedi 22 août 2026, soirée: soirée festive&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-menu"&gt;🍴 Menu&lt;/h2&gt;
-&lt;p&gt;A Venir.&lt;/p&gt;</description></item><item><title>Generating subtitles with `auto_subtitle`</title><link>https://kevcaz.github.io/notes/2024/07/2024-07-25_autosubtitle/</link><pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2024/07/2024-07-25_autosubtitle/</guid><description>&lt;p&gt;I was recently trying to obtain subtitles for a video in Spanish.
+&lt;p&gt;À venir.&lt;/p&gt;</description></item><item><title>Generating subtitles with `auto_subtitle`</title><link>https://kevcaz.github.io/notes/2024/07/2024-07-25_autosubtitle/</link><pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2024/07/2024-07-25_autosubtitle/</guid><description>&lt;p&gt;I was recently trying to obtain subtitles for a video in Spanish.
 For numerous movies and TV shows, it is relatively easy to find subtitles files online (mainly as &lt;code&gt;.srt&lt;/code&gt; files, i.e. &lt;a href="https://sourceforge.net/projects/subrip/files/subrip/SubRip%201.57.1/"&gt;SubRip files&lt;/a&gt;), but that is not true for all contents!&lt;/p&gt;
 &lt;p&gt;When I thought about automating the generation of subtitles for a minute, I was convinced that with a tool to extract the audio from a movie file and a trained AI model that would generate the transcript, it should be doable to automate the process. My second thought was: &amp;ldquo;If I can envision it so clearly, somebody has done it!&amp;rdquo;. Well&amp;hellip; I was right!&lt;/p&gt;</description></item><item><title>From Mantic Minotaur to Noble Numbat</title><link>https://kevcaz.github.io/notes/2024/05/2024-05-30_noble_numbat/</link><pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate><guid>https://kevcaz.github.io/notes/2024/05/2024-05-30_noble_numbat/</guid><description>&lt;center&gt;
  &lt;figure&gt;
